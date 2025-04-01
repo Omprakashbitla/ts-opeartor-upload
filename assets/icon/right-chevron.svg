@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mdpi/Icon/24x/Arrow/Forward</title>
+    <defs>
+        <path d="M12.5094553,13.0857834 L8.20565034,8.79143977 C7.81432333,8.40171986 7.18115969,8.40302267 6.79143977,8.79434968 C6.40171986,9.1856767 6.40302267,9.81884034 6.79434968,10.2085603 L11.8067209,15.2085603 C12.1980502,15.5982825 12.8312185,15.596977 13.2209374,15.2056443 L18.2085663,10.2056443 C18.5982828,9.81431399 18.5969746,9.18115036 18.2056443,8.79143377 C17.814314,8.40171719 17.1811504,8.40302538 16.7914338,8.79435571 L12.5094553,13.0857834 Z" id="path-1"></path>
+    </defs>
+    <g id="Icon/24x/Arrow/Forward" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#00ADB5" transform="translate(12.500000, 12.000000) rotate(-90.000000) translate(-12.500000, -12.000000) " xlink:href="#path-1"></use>
+    </g>
+</svg>
