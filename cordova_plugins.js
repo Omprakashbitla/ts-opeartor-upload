@@ -317,6 +317,14 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/cordova-plugin-firebase-analytics/www/FirebaseAnalytics.js",
+        "id": "cordova-plugin-firebase-analytics.FirebaseAnalytics",
+        "pluginId": "cordova-plugin-firebase-analytics",
+        "merges": [
+            "cordova.plugins.firebase.analytics"
+        ]
+    },
+    {
         "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
         "id": "cordova-plugin-inappbrowser.inappbrowser",
         "pluginId": "cordova-plugin-inappbrowser",
@@ -439,6 +447,7 @@ module.exports.metadata =
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-file": "6.0.2",
     "cordova-plugin-filepath": "1.6.0",
+    "cordova-plugin-firebase-analytics": "8.0.0",
     "cordova-plugin-geolocation": "4.0.2",
     "cordova-plugin-inappbrowser": "4.1.0",
     "cordova-plugin-ionic-keyboard": "2.2.0",
