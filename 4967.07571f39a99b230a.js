@@ -9287,7 +9287,6 @@ class PaymentDetailsPage {
     });
   }
   startWebPayment(data) {
-    console.log("Starting Web Payment for CC Avenue");
     this.submitViaPopup(data.pay_gay_url, data.encRequest, data.access_code);
     // const form = document.createElement('form');
     // form.method = 'POST';
@@ -9326,11 +9325,6 @@ class PaymentDetailsPage {
     // form.submit();
   }
   submitViaPopup(url, encRequest, accessCode) {
-    // const popup = window.open('', '_blank');
-    // if (!popup) {
-    //   alert('Popup blocked. Please allow popups for this site.');
-    //   return;
-    // }
     const formHtml = `
       <html>
         <body onload="document.forms[0].submit()">
