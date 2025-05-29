@@ -9222,7 +9222,7 @@ class PaymentDetailsPage {
     console.log("CC Avenue Payment Data: ", data);
     if (this.appData.isIOS) {
       this.startIospayment(data);
-    } else {
+    } else if (this.appData.isWEBAPP) {
       this.startWebPayment(data);
     }
   }
@@ -9266,11 +9266,12 @@ class PaymentDetailsPage {
   }
   startWebPayment(data) {
     console.log("Starting Web Payment for CC Avenue");
+    alert(data.encRequest);
+    alert(data.access_code);
     const form = document.createElement('form');
     form.method = 'POST';
-    form.action = data.pay_gay_url || 'https://secure.ccavenue.com/transaction/transaction.do?command=initiateTransaction';
+    form.action = data.pay_gay_url;
     form.style.display = 'none';
-    form.target = '_self'; // Make sure this is set
     // const addHiddenField = (name: string, value: string) => {
     //   const input = document.createElement('input');
     //   input.type = 'hidden';
