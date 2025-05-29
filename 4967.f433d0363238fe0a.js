@@ -8807,6 +8807,7 @@ class PaymentDetailsPage {
           _this5.goToCCavenuePayment(result);
         } else if (result.pay_gay_url && !result.code || result.html_body_contents && !result.pay_gay_url && _this5.paymentType != '21') {
           if (result.pay_flow) {
+            alert("pay_flow --> ");
             const browser = _this5.iab.create(result.pay_flow, '_blank', {
               location: 'yes',
               toolbar: 'yes'
