@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8"/>
+  <base href="./"> <!-- For making www folder or mobweb build change href="/" to href="./" otherwise keep it href="/"-->
+
+  <meta name="color-scheme" content="light dark"/>
+  <!-- <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
+  <meta name="viewport" content="initial-scale=1,user-scalable=no, width=device-width, height=device-height, viewport-fit=cover">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"> -->
+
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="msapplication-tap-highlight" content="no"/>
+
+  <!-- Dynamic favicon -->
+  <link rel="icon" type="image/png" id="dynamic-favicon" href="assets/icon/favicon.png"/>
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <!-- iOS specific -->
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+
+  <!-- Firebase Scripts -->
+  <script type="module" src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics.js"></script>
+
+  <!-- Google Maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBs37-7lX9WStLueH8dGxlcS7O1eC1lNEo&amp;libraries=places,geometry" async="" defer="">
+  </script>
+<script src="https://unpkg.com/draggabilly@3/dist/draggabilly.pkgd.min.js"></script>
+  <!-- URL Parameter Processing -->
+  <script>
+    var result = {};
+    var query = window.location.href.split('?')[1];
+    if (query && query.split("&").length > 0) {
+      query.split("&").forEach(function(part) {
+        var item = part.split("=");
+        result[item[0]] = decodeURIComponent(item[1]);
+      });
+      localStorage.setItem("booked_now", JSON.stringify(result));
+    } else {
+      localStorage.setItem("booked_now", null);
+    }
+    localStorage.setItem("fromphonepe", window.location.href.split('?')[1] ? window.location.href.split('?')[1].split('=')[1] : 'false');
+  </script>
+
+  <!-- EaseBuzz Checkout -->
+  <script src="https://ebz-static.s3.ap-south-1.amazonaws.com/easecheckout/easebuzz-checkout.js"></script>
+
+  <!-- PWA Support -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+
+  <title></title>
+<link rel="stylesheet" href="styles.b261bfc091d313d5.css"></head>
+
+<body>
+  <app-root></app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script src="runtime.02f9d6a8305ea3ec.js" type="module"></script><script src="polyfills.8e8f462ed9fc7d25.js" type="module"></script><script src="main.7cdeab6cee0ea562.js" type="module"></script></body>
+
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Ionic App</title>
+
+  <base href="/" />
+
+  <meta name="color-scheme" content="light dark" />
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <link rel="icon" type="image/png" href="assets/icon/favicon.png" />
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <script
+  src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=geometry"
+  async
+  defer
+></script>
+</head>
+
+<body>
+  <app-root></app-root>
+</body>
+
+</html> -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>mdpi/Icon/24x/Flip</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon/24x/Flip" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        <g id="ic_double_arrow" transform="translate(3.000000, 5.000000)" stroke="#4A4A4A" stroke-linecap="round" stroke-linejoin="round">
+            <polyline id="Path-2-Copy-2" transform="translate(9.000000, 10.000000) scale(-1, -1) translate(-9.000000, -10.000000) " points="2 12 16 12 12.1132028 8"></polyline>
+            <polyline id="Path-2-Copy-3" points="2 6 16 6 12.1132028 2"></polyline>
+        </g>
+    </g>
+</svg>
