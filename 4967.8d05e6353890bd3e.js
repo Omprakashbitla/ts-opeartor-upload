@@ -9268,30 +9268,66 @@ class PaymentDetailsPage {
     console.log("Starting Web Payment for CC Avenue");
     alert(data.encRequest);
     alert(data.access_code);
-    const form = document.createElement('form');
-    form.method = 'POST';
-    form.action = data.pay_gay_url;
-    form.style.display = 'none';
-    // const addHiddenField = (name: string, value: string) => {
-    //   const input = document.createElement('input');
-    //   input.type = 'hidden';
-    //   input.name = name;
-    //   input.value = value;
-    //   form.appendChild(input);
+    // const form = document.createElement('form');
+    // form.method = 'POST';
+    // form.action = data.pay_gay_url;
+    // form.style.display = 'none';
+    // // const addHiddenField = (name: string, value: string) => {
+    // //   const input = document.createElement('input');
+    // //   input.type = 'hidden';
+    // //   input.name = name;
+    // //   input.value = value;
+    // //   form.appendChild(input);
+    // // };
+    // const fields:any = {
+    //     encRequest: data.encRequest,
+    //     access_code: data.access_code
     // };
-    const fields = {
-      encRequest: data.encRequest,
-      access_code: data.access_code
-    };
-    for (const key in fields) {
-      const input = document.createElement('input');
-      input.type = 'hidden';
-      input.name = key;
-      input.value = fields[key] || '';
-      form.appendChild(input);
-    }
-    document.body.appendChild(form);
-    form.submit();
+    // for (const key in fields) {
+    //     const input = document.createElement('input');
+    //     input.type = 'hidden';
+    //     input.name = key;
+    //     input.value = fields[key] || '';
+    //     form.appendChild(input);
+    // }
+    // document.body.appendChild(form);
+    // form.submit();
+    const htmlContent = `
+    <html>
+      <body onload="document.forms[0].submit();">
+        <form method="POST" action="${data.pay_gay_url}">
+          <input type="hidden" name="encRequest" value="${data.encRequest}" />
+          <input type="hidden" name="access_code" value="${data.access_code}" />
+          <!-- Add more hidden fields here if needed -->
+        </form>
+      </body>
+    </html>
+  `;
+    const browser = this.iab.create('data:text/html;base64,' + btoa(htmlContent), '_Self', {
+      location: 'no',
+      clearcache: 'yes',
+      clearsessioncache: 'yes'
+    });
+    console.log("Browser opened for CC Avenue Payment");
+    browser.on('loadstart').subscribe(event => {
+      const url = event.url;
+      // console.log('Page started loading: ', url);
+      if (url.includes('payment_success') || url.includes('ticket-confirm')) {
+        browser.close();
+        this.viewTicket = true;
+        this.paymentFailed = false;
+      } else if (url.includes('payment_failure') || url.includes('ticket-cancel') || url.includes('sessionTimeOut')) {
+        browser.close();
+        this.paymentFailed = true;
+        this.viewTicket = false;
+      }
+    });
+    browser.on('loadstop').subscribe(event => {
+      console.log('Page loaded: ', event.url);
+    });
+    browser.on('exit').subscribe(() => {
+      console.log('Browser closed');
+    });
   }
   gotoPaymentModal(url) {
     var _this6 = this;
