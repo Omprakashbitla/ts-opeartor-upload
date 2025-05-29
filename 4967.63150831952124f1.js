@@ -8803,9 +8803,11 @@ class PaymentDetailsPage {
               _this5.paymentFailureEvent();
             }
           });
-        } else if (_this5.paymentType == '21') {
-          _this5.goToCCavenuePayment(result);
-        } else if (result.pay_gay_url && !result.code || result.html_body_contents && !result.pay_gay_url && _this5.paymentType != '21') {
+        }
+        //   else if(this.paymentType == '21'){
+        //     this.goToCCavenuePayment(result);
+        //   }
+        else if (result.pay_gay_url && !result.code || result.html_body_contents && !result.pay_gay_url) {
           if (result.pay_flow) {
             alert("pay_flow --> ");
             const browser = _this5.iab.create(result.pay_flow, '_blank', {
