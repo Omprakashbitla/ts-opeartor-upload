@@ -1258,6 +1258,22 @@ module.exports = [
         "clobbers": [
             "SecureStorage"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-secure-storage-echo/www/securestorage.js",
+        "id": "cordova-plugin-secure-storage-echo.SecureStorage",
+        "pluginId": "cordova-plugin-secure-storage-echo",
+        "clobbers": [
+            "SecureStorage"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-secure-storage-echo/www/securestorage.js",
+        "id": "cordova-plugin-secure-storage-echo.SecureStorage",
+        "pluginId": "cordova-plugin-secure-storage-echo",
+        "clobbers": [
+            "SecureStorage"
+        ]
     }
 ];
 module.exports.metadata = 
