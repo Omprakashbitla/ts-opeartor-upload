@@ -102,6 +102,9 @@ MIT
 @ionic-native/network
 MIT
 
+@ionic-native/secure-storage-echo
+MIT
+
 @ionic-native/social-sharing
 MIT
 

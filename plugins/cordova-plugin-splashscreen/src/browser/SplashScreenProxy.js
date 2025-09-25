@@ -26,9 +26,9 @@ var position = { x: 0, y: 0, width: splashImageWidth, height: splashImageHeight 
 var localSplash; // the image to display
 var localSplashImage;
 var bgColor = '#464646';
-var imageSrc = '/img/logo.png';
+var imageSrc = 'splash.png';
 var splashScreenDelay = 3000; // in milliseconds
-var showSplashScreen = true; // show splashcreen by default
+var showSplashScreen = false; // show splashcreen by default
 var cordova = require('cordova');
 var configHelper = cordova.require('cordova/confighelper');
 var autoHideSplashScreen = true;

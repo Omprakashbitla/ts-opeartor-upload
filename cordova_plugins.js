@@ -317,14 +317,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-firebase-analytics/www/FirebaseAnalytics.js",
-        "id": "cordova-plugin-firebase-analytics.FirebaseAnalytics",
-        "pluginId": "cordova-plugin-firebase-analytics",
-        "merges": [
-            "cordova.plugins.firebase.analytics"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
         "id": "cordova-plugin-inappbrowser.inappbrowser",
         "pluginId": "cordova-plugin-inappbrowser",
@@ -367,6 +359,14 @@ module.exports = [
         "id": "cordova-plugin-network-information.NetworkInfoProxy",
         "pluginId": "cordova-plugin-network-information",
         "runs": true
+    },
+    {
+        "file": "plugins/cordova-plugin-secure-storage-echo/www/securestorage.js",
+        "id": "cordova-plugin-secure-storage-echo.SecureStorage",
+        "pluginId": "cordova-plugin-secure-storage-echo",
+        "clobbers": [
+            "SecureStorage"
+        ]
     },
     {
         "file": "plugins/cordova-plugin-splashscreen/src/browser/SplashScreenProxy.js",
@@ -426,6 +426,64 @@ module.exports = [
             "cordova.plugins.Keyboard"
         ],
         "runs": true
+    },
+    {
+        "file": "plugins/onesignal-cordova-plugin/dist/index.js",
+        "id": "onesignal-cordova-plugin.OneSignalPlugin",
+        "pluginId": "onesignal-cordova-plugin",
+        "clobbers": [
+            "OneSignal"
+        ]
+    },
+    {
+        "file": "plugins/onesignal-cordova-plugin/dist/NotificationReceivedEvent.js",
+        "id": "onesignal-cordova-plugin.NotificationReceivedEvent",
+        "pluginId": "onesignal-cordova-plugin"
+    },
+    {
+        "file": "plugins/onesignal-cordova-plugin/dist/OSNotification.js",
+        "id": "onesignal-cordova-plugin.OSNotification",
+        "pluginId": "onesignal-cordova-plugin"
+    },
+    {
+        "file": "plugins/onesignal-cordova-plugin/dist/UserNamespace.js",
+        "id": "onesignal-cordova-plugin.UserNamespace",
+        "pluginId": "onesignal-cordova-plugin"
+    },
+    {
+        "file": "plugins/onesignal-cordova-plugin/dist/PushSubscriptionNamespace.js",
+        "id": "onesignal-cordova-plugin.PushSubscriptionNamespace",
+        "pluginId": "onesignal-cordova-plugin"
+    },
+    {
+        "file": "plugins/onesignal-cordova-plugin/dist/DebugNamespace.js",
+        "id": "onesignal-cordova-plugin.DebugNamespace",
+        "pluginId": "onesignal-cordova-plugin"
+    },
+    {
+        "file": "plugins/onesignal-cordova-plugin/dist/InAppMessagesNamespace.js",
+        "id": "onesignal-cordova-plugin.InAppMessagesNamespace",
+        "pluginId": "onesignal-cordova-plugin"
+    },
+    {
+        "file": "plugins/onesignal-cordova-plugin/dist/SessionNamespace.js",
+        "id": "onesignal-cordova-plugin.SessionNamespace",
+        "pluginId": "onesignal-cordova-plugin"
+    },
+    {
+        "file": "plugins/onesignal-cordova-plugin/dist/LocationNamespace.js",
+        "id": "onesignal-cordova-plugin.LocationNamespace",
+        "pluginId": "onesignal-cordova-plugin"
+    },
+    {
+        "file": "plugins/onesignal-cordova-plugin/dist/NotificationsNamespace.js",
+        "id": "onesignal-cordova-plugin.NotificationsNamespace",
+        "pluginId": "onesignal-cordova-plugin"
+    },
+    {
+        "file": "plugins/onesignal-cordova-plugin/dist/LiveActivitiesNamespace.js",
+        "id": "onesignal-cordova-plugin.LiveActivitiesNamespace",
+        "pluginId": "onesignal-cordova-plugin"
     }
 ];
 module.exports.metadata = 
@@ -447,13 +505,13 @@ module.exports.metadata =
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-file": "6.0.2",
     "cordova-plugin-filepath": "1.6.0",
-    "cordova-plugin-firebase-analytics": "8.0.0",
     "cordova-plugin-geolocation": "4.0.2",
     "cordova-plugin-inappbrowser": "4.1.0",
     "cordova-plugin-ionic-keyboard": "2.2.0",
     "cordova-plugin-ionic-webview": "5.0.0",
     "cordova-plugin-network-information": "3.0.0",
     "cordova-plugin-request-location-accuracy": "2.3.0",
+    "cordova-plugin-secure-storage-echo": "5.1.1",
     "cordova-plugin-splashscreen": "6.0.1",
     "cordova-plugin-statusbar": "3.0.0",
     "cordova-plugin-transport-security": "0.1.2",
@@ -462,7 +520,8 @@ module.exports.metadata =
     "cordova-plugin-x-socialsharing": "5.6.8",
     "cordova-plugin-x-toast": "2.7.3",
     "cordova.plugins.diagnostic": "5.0.2",
-    "ionic-plugin-keyboard": "2.2.1"
+    "ionic-plugin-keyboard": "2.2.1",
+    "onesignal-cordova-plugin": "5.2.15"
 }
 // BOTTOM OF METADATA
 });
