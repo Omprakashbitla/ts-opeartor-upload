@@ -34,10 +34,6 @@
   <title>CargoSimply</title>
   <link rel="manifest" href="manifest.json">
 
-  <!-- Preload ZXing locally so mobile_scanner skips the unpkg CDN fetch.
-       The id must match BarcodeReader.scriptId = 'mobile-scanner-barcode-reader'. -->
-  <script id="mobile-scanner-barcode-reader" src="zxing.js"></script>
-
   <script>
     // mobile_scanner_web.dart creates video elements without 'muted' or
     // 'playsinline'. On mobile Chrome, calling play() on such an element is
