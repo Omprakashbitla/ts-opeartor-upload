@@ -80705,9 +80705,13 @@ return A.bf(s,A.cl(A.by(A.a([B.Xh,B.jW,new A.aq(B.l7,A.b3(a,s,s,s,s,B.Oh,B.aq,s,
 O(a){var s=this,r=null,q=A.v6(r,B.i,r,r,r,B.wT,r,r,r,r,A.b3(s.a.e,r,r,r,r,B.fP,r,r,r)),p=s.d
 p===$&&A.b()
 return A.dZ(q,B.i,A.l1(B.ct,A.a([new A.O4(p,s.gaFY(),new A.b5m(),new A.b5n(),r),new A.me(p,new A.b5o(s),r,r,t.i6)],t.p),B.H,B.cn,r),r,r,r,!1,r,r,r)},
-axq(a){switch(a.a.a){case 4:return"Camera permission denied.\nOpen browser settings and allow camera access,\nthen tap Start Camera."
+axq(a){var s,r,q=a.a
+switch(q.a){case 4:return"Camera permission denied.\nOpen browser settings and allow camera access,\nthen tap Start Camera."
 case 5:return"Camera not supported on this device."
-default:return"Camera error. Tap Start Camera to retry."}}}
+default:s=a.b
+r=s==null?null:s.c
+if(r==null)r=""
+return"Camera error. Tap Start Camera to retry.\n\nDetails: "+q.j(0)+" "+r}}}
 A.b5j.prototype={
 $0(){return this.a.f=null},
 $S:0}
