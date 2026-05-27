@@ -38,6 +38,22 @@
        The id must match BarcodeReader.scriptId = 'mobile-scanner-barcode-reader'. -->
   <script id="mobile-scanner-barcode-reader" src="zxing.js"></script>
 
+  <script>
+    // mobile_scanner_web.dart creates video elements without 'muted' or
+    // 'playsinline'. On mobile Chrome, calling play() on such an element is
+    // blocked by the autoplay policy → ZXing swallows the NotAllowedError →
+    // waits for the 'playing' event that never fires → hangs forever.
+    // Patch play() globally to add these attributes before every call.
+    (function () {
+      var _origPlay = HTMLVideoElement.prototype.play;
+      HTMLVideoElement.prototype.play = function () {
+        this.muted = true;
+        this.setAttribute('playsinline', 'true');
+        return _origPlay.apply(this, arguments);
+      };
+    })();
+  </script>
+
   <!-- Auto-detect base path script -->
   <script>
     // Auto-detect the base path from the current URL
