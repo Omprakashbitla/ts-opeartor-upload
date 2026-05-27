@@ -34,6 +34,10 @@
   <title>CargoSimply</title>
   <link rel="manifest" href="manifest.json">
 
+  <!-- Preload ZXing locally so mobile_scanner skips the unpkg CDN fetch.
+       The id must match BarcodeReader.scriptId = 'mobile-scanner-barcode-reader'. -->
+  <script id="mobile-scanner-barcode-reader" src="zxing.js"></script>
+
   <!-- Auto-detect base path script -->
   <script>
     // Auto-detect the base path from the current URL
