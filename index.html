@@ -1,72 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+  <meta charset="utf-8"/>
+  <base href="./"> <!-- For making www folder or mobweb build change href="/" to href="./" otherwise keep it href="/"-->
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
+  <meta name="color-scheme" content="light dark"/>
+  <!-- <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
+  <meta name="viewport" content="initial-scale=1,user-scalable=no, width=device-width, height=device-height, viewport-fit=cover">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /> -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"> -->
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="msapplication-tap-highlight" content="no"/>
 
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
-     <!-- <base href="./"> -->
+  <!-- Dynamic favicon -->
+  <link rel="icon" type="image/png" id="dynamic-favicon" href="assets/icon/favicon.png"/>
+  <link rel="manifest" href="manifest.webmanifest">
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
-  <meta name="version" content="1.0.0">
+  <!-- iOS specific -->
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
 
-  <!-- iOS meta tags & icons -->
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="cargosimply">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <!-- Firebase Scripts -->
+  <script type="module" src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js" defer=""></script>
+  <script type="module" src="https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics.js" defer=""></script>
 
-  <!-- Favicon — multiple sizes so browsers pick best resolution -->
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon.png"/>
-  <link rel="icon" type="image/png" sizes="192x192" href="icons/Icon-192.png"/>
-  <link rel="icon" type="image/png" sizes="512x512" href="icons/Icon-512.png"/>
-
-  <title>CargoSimply</title>
-  <link rel="manifest" href="manifest.json">
-
-  <script>
-    // mobile_scanner_web.dart creates video elements without 'muted' or
-    // 'playsinline'. On mobile Chrome, calling play() on such an element is
-    // blocked by the autoplay policy → ZXing swallows the NotAllowedError →
-    // waits for the 'playing' event that never fires → hangs forever.
-    // Patch play() globally to add these attributes before every call.
-    (function () {
-      var _origPlay = HTMLVideoElement.prototype.play;
-      HTMLVideoElement.prototype.play = function () {
-        this.muted = true;
-        this.setAttribute('playsinline', 'true');
-        return _origPlay.apply(this, arguments);
-      };
-    })();
+  <!-- Google Maps -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBs37-7lX9WStLueH8dGxlcS7O1eC1lNEo&amp;libraries=places,geometry" defer="">
   </script>
-
-  <!-- Auto-detect base path script -->
+<script src="https://unpkg.com/draggabilly@3/dist/draggabilly.pkgd.min.js" defer=""></script>
+  <!-- URL Parameter Processing -->
   <script>
-    // Auto-detect the base path from the current URL
-    if (document.querySelector('base').getAttribute('href') === '/') {
-      var currentPath = window.location.pathname;
-      var basePath = currentPath.substring(0, currentPath.lastIndexOf('/') + 1);
-      if (basePath === '/') {
-        basePath = './';
-      }
-      document.querySelector('base').setAttribute('href', basePath);
+    var result = {};
+    var query = window.location.href.split('?')[1];
+    if (query && query.split("&").length > 0) {
+      query.split("&").forEach(function(part) {
+        var item = part.split("=");
+        result[item[0]] = decodeURIComponent(item[1]);
+      });
+      localStorage.setItem("booked_now", JSON.stringify(result));
+    } else {
+      localStorage.setItem("booked_now", null);
     }
+    localStorage.setItem("fromphonepe", window.location.href.split('?')[1] ? window.location.href.split('?')[1].split('=')[1] : 'false');
   </script>
 
-</head>
+  <!-- EaseBuzz Checkout -->
+  <script src="https://ebz-static.s3.ap-south-1.amazonaws.com/easecheckout/easebuzz-checkout.js" defer=""></script>
+
+  <!-- PWA Support -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#1976d2">
+
+  <title></title>
+<link rel="stylesheet" href="styles.ca5174db21b37700.css"></head>
+
 <body>
-  <script src="flutter_bootstrap.js" async></script>
-</body>
+  <app-root></app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script src="runtime.7abfe4010e8203e4.js" type="module"></script><script src="polyfills.c2745a544fae60bc.js" type="module"></script><script src="main.7aa92622e5a6b9b2.js" type="module"></script></body>
+
 </html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Ionic App</title>
+
+  <base href="/" />
+
+  <meta name="color-scheme" content="light dark" />
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <link rel="icon" type="image/png" href="assets/icon/favicon.png" />
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <script
+  src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=geometry"
+  async
+  defer
+></script>
+</head>
+
+<body>
+  <app-root></app-root>
+</body>
+
+</html> -->

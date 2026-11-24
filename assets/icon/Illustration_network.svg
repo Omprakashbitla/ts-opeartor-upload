@@ -1,0 +1,7 @@
+<svg width="86" height="15" viewBox="0 0 86 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.5 7.5L81.5 7.49999" stroke="#DFDFDF" stroke-linejoin="round"/>
+<circle cx="7" cy="7" r="7" transform="matrix(-1 0 0 1 85.5 0.5)" fill="#3BAD69" fill-opacity="0.2"/>
+<circle cx="3.5" cy="3.5" r="3.5" transform="matrix(-1 0 0 1 82 4)" fill="#3BAD69"/>
+<circle cx="7" cy="7" r="7" transform="matrix(-1 0 0 1 14.5 0.5)" fill="#3BAD69" fill-opacity="0.2"/>
+<circle cx="3.5" cy="3.5" r="3.5" transform="matrix(-1 0 0 1 11 4)" fill="#3BAD69"/>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>mdpi/Navigation / Edit</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13.6363636,6 L18,10.3636364 L6.36363636,22 L2,22 L2,17.6363636 L13.6363636,6 Z M13.636,7.414 L3,18.05 L3,21 L5.948,21 L16.585,10.363 L13.636,7.414 Z M18.7430458,2.68574372 L21.3215474,5.27625009 C21.700454,5.6569208 21.7109767,6.26892177 21.3453806,6.66239339 L19.1733817,9 L15,4.85162917 L17.3525963,2.65957676 C17.7472706,2.29183556 18.3624872,2.30341337 18.7430458,2.68574372 Z M18.0342987,3.39120638 L16.441,4.875 L19.144,7.561 L20.6128003,5.98171275 L18.0342987,3.39120638 Z" id="path-1"></path>
+    </defs>
+    <g id="Navigation-/-Edit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+        <g id="color-/-black-copy-32" mask="url(#mask-2)">
+            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>
