@@ -751,6 +751,11 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
   border-color: var(--sb-color-navy);
   color: var(--sb-on-brand);
 }
+[data-theme=seabirdThemeNew] .sb-chip:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+  pointer-events: none;
+}
 [data-theme=seabirdThemeNew] .sb-chip--icon.sb-chip--selected img {
   filter: brightness(0) invert(1);
 }
@@ -3316,13 +3321,20 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
   flex: 1 1 auto;
   min-width: 0;
 }
-[data-theme=seabirdThemeNew] .sb-pay-offers .sb-offer-btn { /* Apply / Remove: same height as the 60px field next to it */
-  flex: 0 0 96px;
-  width: 96px;
-  height: auto;
-  min-height: 60px;
+[data-theme=seabirdThemeNew] .sb-pay-offers .sb-offer-row:has(.sb-offer-btn) {
+  flex-direction: column;
+}
+[data-theme=seabirdThemeNew] .sb-pay-offers .sb-offer-row:has(.sb-offer-btn) > .sb-pfield {
+  flex: unset;
+  width: 100%;
+}
+[data-theme=seabirdThemeNew] .sb-pay-offers .sb-offer-btn { /* Apply / Remove: full-width below email field */
+  flex: unset;
+  width: 100%;
+  height: 48px;
+  min-height: 48px;
   margin-top: 0;
-  padding: 0 8px;
+  padding: 0 16px;
   font-family: var(--sb-font);
   font-size: 15px;
   cursor: pointer;

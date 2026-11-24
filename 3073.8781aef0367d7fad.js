@@ -416,7 +416,7 @@ function AboutUsPage_ng_container_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "img", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "h1", 22);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7, "About us");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](7, "About Us");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]()()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "ion-content", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](9, AboutUsPage_ng_container_1_div_9_Template, 4, 4, "div", 24)(10, AboutUsPage_ng_container_1_div_10_Template, 4, 0, "div", 25)(11, AboutUsPage_ng_container_1_p_11_Template, 2, 0, "p", 26)(12, AboutUsPage_ng_container_1_div_12_Template, 2, 3, "div", 27)(13, AboutUsPage_ng_container_1_p_13_Template, 2, 1, "p", 28)(14, AboutUsPage_ng_container_1_p_14_Template, 2, 1, "p", 28)(15, AboutUsPage_ng_container_1_p_15_Template, 2, 1, "p", 28);

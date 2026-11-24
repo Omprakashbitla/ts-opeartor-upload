@@ -15998,7 +15998,7 @@ class AppData {
     this.androidVersion = "26.2";
     this.IsVideoSplash = false; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
     // this.BASE_URL = location.origin + '/';  // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
-    this.BASE_URL = "https://jpsb-qa1.ticketsimply.co.in/";
+    this.BASE_URL = "https://sppl-mob.ticketsimply.co.in/";
   }
   baseUrl() {
     return this.BASE_URL;

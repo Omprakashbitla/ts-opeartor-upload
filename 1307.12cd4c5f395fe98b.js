@@ -1361,7 +1361,7 @@ function LoginPage_ng_container_4_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](25, "Login with OTP");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](26, "p", 136);
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](27, "Forgot password? ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](27, "Forgot Password? ");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementStart"](28, "button", 137);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵlistener"]("click", function LoginPage_ng_container_4_Template_button_click_28_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵrestoreView"](_r30);
@@ -1378,7 +1378,7 @@ function LoginPage_ng_container_4_Template(rf, ctx) {
       const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵresetView"](ctx_r2.gotoSignup());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](33, "Sign up");
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtext"](33, "Sign Up");
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementEnd"]()()()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵtemplate"](34, LoginPage_ng_container_4_div_34_Template, 16, 0, "div", 138);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵelementContainerEnd"]();

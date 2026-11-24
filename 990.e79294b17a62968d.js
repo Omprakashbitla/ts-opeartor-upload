@@ -170,10 +170,13 @@ function CalendarModalPage_ion_content_11_Template(rf, ctx) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("sb-chip--selected", ctx_r1.sbIsQuickDateSelected(0));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("disabled", ctx_r1.sbIsQuickDateDisabled(0));
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("sb-chip--selected", ctx_r1.sbIsQuickDateSelected(1));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("disabled", ctx_r1.sbIsQuickDateDisabled(1));
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("sb-chip--selected", ctx_r1.sbIsQuickDateSelected(2));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("disabled", ctx_r1.sbIsQuickDateDisabled(2));
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r1.sbDayAfterLabel);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
@@ -315,7 +318,15 @@ class CalendarModalPage {
     this.sbPendingDate = event;
     this.departureDate = event;
   }
+  sbIsQuickDateDisabled(offset) {
+    if (this.type != 2 || !this.minDateSelection) return false;
+    const d = new Date();
+    d.setDate(d.getDate() + offset);
+    const min = new Date(this.minDateSelection.year, this.minDateSelection.month - 1, this.minDateSelection.day);
+    return d < min;
+  }
   sbPickQuickDate(offset) {
+    if (this.sbIsQuickDateDisabled(offset)) return;
     const d = new Date();
     d.setDate(d.getDate() + offset);
     const m = d.getMonth() + 1;
@@ -380,7 +391,7 @@ _CalendarModalPage.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0
   standalone: false,
   decls: 14,
   vars: 10,
-  consts: [["mode", "md", 3, "ngClass"], ["slot", "start", 4, "ngIf"], ["slot", "end", 4, "ngIf"], [1, "header-div-2", 2, "display", "flex"], ["style", "margin: 0px 16px;", "class", "head ", 3, "ngStyle", 4, "ngIf"], ["class", "sb-cal-header-text", 4, "ngIf"], [1, "back-btn", 3, "click"], ["slot", "end"], ["mode", "md", "class", "clear-date", 3, "click", 4, "ngIf"], [3, "ngClass", 4, "ngIf"], ["class", "sb-calendar", 4, "ngIf"], ["class", "sb-cal-footer ion-no-border", 4, "ngIf"], ["slot", "start"], ["mode", "md", 2, "font-size", "18px", 3, "click"], ["name", "arrow-back", "color", "default"], ["name", "close-outline", 2, "width", "24px", "color", "#ffffff"], [1, "head", 2, "margin", "0px 16px", 3, "ngStyle"], [1, "sb-cal-header-text"], [1, "sb-cal-header__title"], ["class", "sb-cal-header__subtitle", 4, "ngIf"], [1, "sb-cal-header__subtitle"], ["mode", "md", 1, "clear-date", 3, "click"], [3, "ngClass"], [3, "onDateSelect", "headerBackground", "headerText", "btnPrimary", "btnSecondary", "btnText", "deactivatePastDate", "dateSelected", "minDateSelection", "maxDateSelection", "deactivateFutureDate", "dateFormat"], [1, "sb-calendar"], [1, "sb-chips", "sb-chips--cal"], ["type", "button", 1, "sb-chip", 3, "click"], [1, "sb-cal-card"], [1, "sb-cal-footer", "ion-no-border"], [1, "sb-cal-footer__inner"], [1, "sb-cal-footer__info"], [1, "sb-cal-footer__label"], [1, "sb-cal-footer__value"], ["type", "button", 1, "sb-btn-primary", "sb-cal-footer__btn", 3, "click", "disabled"]],
+  consts: [["mode", "md", 3, "ngClass"], ["slot", "start", 4, "ngIf"], ["slot", "end", 4, "ngIf"], [1, "header-div-2", 2, "display", "flex"], ["style", "margin: 0px 16px;", "class", "head ", 3, "ngStyle", 4, "ngIf"], ["class", "sb-cal-header-text", 4, "ngIf"], [1, "back-btn", 3, "click"], ["slot", "end"], ["mode", "md", "class", "clear-date", 3, "click", 4, "ngIf"], [3, "ngClass", 4, "ngIf"], ["class", "sb-calendar", 4, "ngIf"], ["class", "sb-cal-footer ion-no-border", 4, "ngIf"], ["slot", "start"], ["mode", "md", 2, "font-size", "18px", 3, "click"], ["name", "arrow-back", "color", "default"], ["name", "close-outline", 2, "width", "24px", "color", "#ffffff"], [1, "head", 2, "margin", "0px 16px", 3, "ngStyle"], [1, "sb-cal-header-text"], [1, "sb-cal-header__title"], ["class", "sb-cal-header__subtitle", 4, "ngIf"], [1, "sb-cal-header__subtitle"], ["mode", "md", 1, "clear-date", 3, "click"], [3, "ngClass"], [3, "onDateSelect", "headerBackground", "headerText", "btnPrimary", "btnSecondary", "btnText", "deactivatePastDate", "dateSelected", "minDateSelection", "maxDateSelection", "deactivateFutureDate", "dateFormat"], [1, "sb-calendar"], [1, "sb-chips", "sb-chips--cal"], ["type", "button", 1, "sb-chip", 3, "click", "disabled"], [1, "sb-cal-card"], [1, "sb-cal-footer", "ion-no-border"], [1, "sb-cal-footer__inner"], [1, "sb-cal-footer__info"], [1, "sb-cal-footer__label"], [1, "sb-cal-footer__value"], ["type", "button", 1, "sb-btn-primary", "sb-cal-footer__btn", 3, "click", "disabled"]],
   template: function CalendarModalPage_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "ion-header")(1, "ion-toolbar", 0);
@@ -395,7 +406,7 @@ _CalendarModalPage.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_0
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "ion-buttons", 7);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, CalendarModalPage_ion_button_9_Template, 2, 0, "ion-button", 8);
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()();
-      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, CalendarModalPage_ion_content_10_Template, 2, 12, "ion-content", 9)(11, CalendarModalPage_ion_content_11_Template, 10, 18, "ion-content", 10)(12, CalendarModalPage_ion_footer_12_Template, 9, 4, "ion-footer", 11)(13, CalendarModalPage_ion_content_13_Template, 2, 12, "ion-content", 9);
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, CalendarModalPage_ion_content_10_Template, 2, 12, "ion-content", 9)(11, CalendarModalPage_ion_content_11_Template, 10, 21, "ion-content", 10)(12, CalendarModalPage_ion_footer_12_Template, 9, 4, "ion-footer", 11)(13, CalendarModalPage_ion_content_13_Template, 2, 12, "ion-content", 9);
     }
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"]();
