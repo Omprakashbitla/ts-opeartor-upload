@@ -14796,7 +14796,7 @@ class AppComponent {
         setTimeout(() => {
           target.scrollIntoView({
             behavior: 'smooth',
-            block: 'center'
+            block: 'end'
           });
         }, 350);
       }
