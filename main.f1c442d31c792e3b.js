@@ -14185,6 +14185,7 @@ class AppComponent {
       });
       _this2.removefalseimg();
       if (_this2.appData.isWEBAPP) _this2.setupBackButtonHandler();
+      _this2.setupKeyboardScrollFix();
       // Set theme attribute for typography
       _this2.theme.setThemeAttribute();
       _this2.router.events.subscribe(event => {
@@ -14787,6 +14788,19 @@ class AppComponent {
         console.log('User cancelled the update');
       }
     })();
+  }
+  setupKeyboardScrollFix() {
+    document.addEventListener('focusin', e => {
+      const target = e.target;
+      if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA')) {
+        setTimeout(() => {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+          });
+        }, 350);
+      }
+    });
   }
   setupBackButtonHandler() {
     window.addEventListener('popstate', event => {
