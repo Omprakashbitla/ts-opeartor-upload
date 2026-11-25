@@ -14788,22 +14788,54 @@ class AppComponent {
       }
     })();
   }
+  dismissOpenOverlays() {
+    var _this9 = this;
+    return (0,_Users_omprakash_Documents_officeWorkspace_ts_operator_ionic4_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      const action = yield _this9.actionSheetCtrl.getTop();
+      if (action) {
+        yield action.dismiss();
+        return;
+      }
+      const popover = yield _this9.popoverCtrl.getTop();
+      if (popover) {
+        yield popover.dismiss();
+        return;
+      }
+      const alert = yield _this9.alertCtrl.getTop();
+      if (alert) {
+        yield alert.dismiss();
+        return;
+      }
+      const modal = yield _this9.modalCtrl.getTop();
+      if (modal) {
+        yield modal.dismiss();
+        return;
+      }
+    })();
+  }
   setupBackButtonHandler() {
-    window.addEventListener('popstate', event => {
-      this.onBackButtonPressed();
-    }, {
+    var _this0 = this;
+    window.addEventListener('popstate', /*#__PURE__*/function () {
+      var _ref3 = (0,_Users_omprakash_Documents_officeWorkspace_ts_operator_ionic4_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* (event) {
+        yield _this0.dismissOpenOverlays();
+        _this0.onBackButtonPressed();
+      });
+      return function (_x) {
+        return _ref3.apply(this, arguments);
+      };
+    }(), {
       once: false
     });
   }
   onBackButtonPressed() {
-    var _this9 = this;
+    var _this1 = this;
     return (0,_Users_omprakash_Documents_officeWorkspace_ts_operator_ionic4_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
-      const currentUrl = _this9.router.url;
-      if (_this9.loaderService.isLoading) {
-        yield _this9.loaderService.hideLoadingDefault();
+      const currentUrl = _this1.router.url;
+      if (_this1.loaderService.isLoading) {
+        yield _this1.loaderService.hideLoadingDefault();
         return;
       }
-      const modal = yield _this9.modalCtrl.getTop();
+      const modal = yield _this1.modalCtrl.getTop();
       if (modal) {
         yield modal.dismiss();
         return;
