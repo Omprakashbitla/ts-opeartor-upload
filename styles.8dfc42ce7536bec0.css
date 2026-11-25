@@ -117,6 +117,7 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
   src: url('Inter-ExtraBold.6c7ae36fee7d1bbe.woff2') format("woff2");
 }
 [data-theme=seabirdThemeNew] {
+  color-scheme: light; /* force light — ignore device dark mode */
   /* ---- Colour tokens (FIGMA_DESIGN_SPEC.md "Consolidated design tokens") ---- */
   --sb-color-navy: var(--primary, #0B2540);
   --sb-color-sea: var(--iconsAndButtonsColor, #0A6E7F);
@@ -6428,8 +6429,8 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
     animation: none;
   }
 }
-/* Dark mode (seabirdThemeNew only, follows the device setting) */
-@media (prefers-color-scheme: dark) {
+/* Dark mode disabled — seabirdThemeNew always light */
+@media (prefers-color-scheme: __disabled__) {
   [data-theme=seabirdThemeNew] {
     color-scheme: dark;
     --sb-bg: #0B1520;
@@ -6682,18 +6683,7 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
     filter: brightness(1.75);
   }
 }
-/* Wait page (can render before data-theme is set) */
-@media (prefers-color-scheme: dark) {
-  .sb-wait {
-    --background: var(--sb-bg, #0B1520);
-  }
-  .sb-wait .sb-wait__text {
-    color: var(--sb-text, #E7EEF5);
-  }
-  .sb-wait .sb-wait__sub {
-    color: var(--sb-text-muted, #9DAEBF);
-  }
-}
+/* Wait page dark mode disabled */
 /**
  * Ionic Dark Mode
  * -----------------------------------------------------
