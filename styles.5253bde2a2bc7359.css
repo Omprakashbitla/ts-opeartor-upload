@@ -2167,6 +2167,13 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
   --background: var(--sb-bg);
   font-family: var(--sb-font);
 }
+[data-theme=seabirdThemeNew] .sb-seats::part(scroll) {
+  display: flex;
+  flex-direction: column;
+}
+[data-theme=seabirdThemeNew] .sb-seats > * {
+  flex: 0 0 auto;
+}
 [data-theme=seabirdThemeNew] .sb-seat-appbar .sb-appbar__subtitle {
   white-space: normal;
   overflow: visible;
@@ -2247,8 +2254,11 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
   gap: 8px;
 }
 [data-theme=seabirdThemeNew] .sb-deck-card { /* 4:49: white deck card, radius 16. Holds the engine's own scroll container */
-  margin: 12px var(--sb-gutter) 16px;
-  height: 85%;
+  margin: 12px var(--sb-gutter) calc(12px + var(--ion-safe-area-bottom, 0px));
+  flex: 1 1 0;
+  min-height: clamp(180px, 35vh, 300px);
+  display: flex;
+  flex-direction: column;
   background: var(--sb-surface);
   border-radius: var(--sb-radius-card);
   overflow: hidden;
@@ -2257,6 +2267,20 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
   margin-top: 0;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+[data-theme=seabirdThemeNew] .sb-deck-card app-grid-coach-using-table {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  min-height: 0;
+}
+[data-theme=seabirdThemeNew] .sb-deck-card app-grid-coach-using-table ion-content > div {
+  height: 100% !important;
+  padding-bottom: 16px;
+  box-sizing: border-box;
+}
+[data-theme=seabirdThemeNew] .sb-deck-card app-grid-coach-using-table ion-content > div > div[style*=margin-bottom] {
+  margin-bottom: 0 !important;
 }
 [data-theme=seabirdThemeNew] .sb-skel--chip {
   flex: 0 0 64px;
@@ -2322,9 +2346,6 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
   font-size: 12px;
   line-height: 15px;
   color: var(--sb-text-muted);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 [data-theme=seabirdThemeNew] .sb-seat-footer__total {
   margin-top: 2px;
