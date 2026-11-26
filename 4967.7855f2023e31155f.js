@@ -5135,7 +5135,7 @@ function PaymentDetailsPage_ng_container_2_ion_card_16_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngIf", ctx_r1.couponInvalidMsg && ctx_r1.haveCoupons);
   }
 }
-function PaymentDetailsPage_ng_container_2_ion_card_17_div_5_ion_select_option_1_Template(rf, ctx) {
+function PaymentDetailsPage_ng_container_2_ion_card_17_div_7_ion_select_option_1_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-select-option", 375);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1);
@@ -5148,10 +5148,10 @@ function PaymentDetailsPage_ng_container_2_ion_card_17_div_5_ion_select_option_1
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtextInterpolate1"](" ", offer_r111.name, " ");
   }
 }
-function PaymentDetailsPage_ng_container_2_ion_card_17_div_5_Template(rf, ctx) {
+function PaymentDetailsPage_ng_container_2_ion_card_17_div_7_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_2_ion_card_17_div_5_ion_select_option_1_Template, 2, 2, "ion-select-option", 374);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_2_ion_card_17_div_7_ion_select_option_1_Template, 2, 2, "ion-select-option", 374);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -5182,16 +5182,11 @@ function PaymentDetailsPage_ng_container_2_ion_card_17_Template(rf, ctx) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r110);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.offerTypeChange(ctx_r1.offerType));
-    })("click", function PaymentDetailsPage_ng_container_2_ion_card_17_Template_ion_select_click_4_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r110);
-      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.offerType == 7 ? ctx_r1.checkpromoCoupon(ctx_r1.promoCoupon = "", false) : "");
-    })("click", function PaymentDetailsPage_ng_container_2_ion_card_17_Template_ion_select_click_4_listener() {
-      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r110);
-      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.offerType == 5 ? ctx_r1.checkOfferCoupon(ctx_r1.offerCoupon = "", false) : "");
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](5, PaymentDetailsPage_ng_container_2_ion_card_17_div_5_Template, 2, 1, "div", 143);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-select-option", 520);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6, "Clear Offer Type");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](7, PaymentDetailsPage_ng_container_2_ion_card_17_div_7_Template, 2, 1, "div", 143);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -5200,6 +5195,8 @@ function PaymentDetailsPage_ng_container_2_ion_card_17_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayProperty"]("ngModel", ctx_r1.offerType);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("interfaceOptions", ctx_r1.offerSelectOptions);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("disabled", !ctx_r1.offerType || ctx_r1.offerType == "0");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngForOf", ctx_r1.offersDropDown);
   }
 }
@@ -5212,7 +5209,7 @@ function PaymentDetailsPage_ng_container_2_ion_card_18_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "div", 508)(5, "label", 509);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6, "Enter Card No.");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-input", 520);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-input", 521);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_2_ion_card_18_Template_ion_input_ngModelChange_7_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r113);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -5220,7 +5217,7 @@ function PaymentDetailsPage_ng_container_2_ion_card_18_Template(rf, ctx) {
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 521)(9, "button", 522);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 522)(9, "button", 523);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_ion_card_18_Template_button_click_9_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r113);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -5228,7 +5225,7 @@ function PaymentDetailsPage_ng_container_2_ion_card_18_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](10, "Use");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "button", 523);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "button", 524);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_ion_card_18_Template_button_click_11_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r113);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -5255,7 +5252,7 @@ function PaymentDetailsPage_ng_container_2_ion_card_19_div_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "span", 145);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](10, "ion-icon", 525);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](10, "ion-icon", 526);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_ion_card_19_div_3_Template_ion_icon_click_10_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r115);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -5274,30 +5271,30 @@ function PaymentDetailsPage_ng_container_2_ion_card_19_div_3_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_2_ion_card_19_div_4_button_10_Template(rf, ctx) {
   if (rf & 1) {
     const _r117 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "button", 530);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "button", 531);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_ion_card_19_div_4_button_10_Template_button_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r117);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](4);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.removeQuote());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "ion-icon", 531);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "ion-icon", 532);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
 }
 function PaymentDetailsPage_ng_container_2_ion_card_19_div_4_Template(rf, ctx) {
   if (rf & 1) {
     const _r116 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 507)(1, "div", 526)(2, "label", 509);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 507)(1, "div", 527)(2, "label", 509);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "PNR Number");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-input", 527);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-input", 528);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "div", 511)(6, "div", 508)(7, "label", 509);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](8, "Mobile Number");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](9, "ion-input", 528);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](9, "ion-input", 529);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_2_ion_card_19_div_4_button_10_Template, 2, 0, "button", 529);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_2_ion_card_19_div_4_button_10_Template, 2, 0, "button", 530);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "button", 515);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_ion_card_19_div_4_Template_button_click_11_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r116);
@@ -5333,7 +5330,7 @@ function PaymentDetailsPage_ng_container_2_ion_card_19_span_5_Template(rf, ctx) 
 function PaymentDetailsPage_ng_container_2_ion_card_19_Template(rf, ctx) {
   if (rf & 1) {
     const _r114 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 518)(1, "ion-checkbox", 524);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 518)(1, "ion-checkbox", 525);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_2_ion_card_19_Template_ion_checkbox_ngModelChange_1_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r114);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -5364,10 +5361,10 @@ function PaymentDetailsPage_ng_container_2_ion_card_19_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_2_ion_card_20_div_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 534)(1, "div")(2, "span", 144);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 535)(1, "div")(2, "span", 144);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "span", 535);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "span", 536);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5, "APPLIED");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
@@ -5379,10 +5376,10 @@ function PaymentDetailsPage_ng_container_2_ion_card_20_div_4_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_2_ion_card_20_ng_container_6_div_1_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 537)(1, "ion-radio", 538);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "span", 539);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 538)(1, "ion-radio", 539);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "span", 540);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "span", 540);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "span", 541);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -5398,7 +5395,7 @@ function PaymentDetailsPage_ng_container_2_ion_card_20_ng_container_6_div_1_Temp
 function PaymentDetailsPage_ng_container_2_ion_card_20_ng_container_6_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_2_ion_card_20_ng_container_6_div_1_Template, 4, 3, "div", 536);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_2_ion_card_20_ng_container_6_div_1_Template, 4, 3, "div", 537);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
@@ -5413,8 +5410,8 @@ function PaymentDetailsPage_ng_container_2_ion_card_20_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 518)(1, "div", 494)(2, "h3", 495);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "Select Offer Coupon");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](4, PaymentDetailsPage_ng_container_2_ion_card_20_div_4_Template, 6, 1, "div", 532);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-radio-group", 533);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](4, PaymentDetailsPage_ng_container_2_ion_card_20_div_4_Template, 6, 1, "div", 533);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-radio-group", 534);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_2_ion_card_20_Template_ion_radio_group_ngModelChange_5_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r118);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -5441,10 +5438,10 @@ function PaymentDetailsPage_ng_container_2_ion_card_20_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_2_ion_card_21_div_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 534)(1, "div")(2, "span", 144);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 535)(1, "div")(2, "span", 144);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "span", 535);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "span", 536);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5, "APPLIED");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
@@ -5457,7 +5454,7 @@ function PaymentDetailsPage_ng_container_2_ion_card_21_div_4_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_2_ion_card_21_ng_container_6_div_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r121 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 543);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 544);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_ion_card_21_ng_container_6_div_1_Template_div_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r121);
       const ctx_r121 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
@@ -5466,11 +5463,11 @@ function PaymentDetailsPage_ng_container_2_ion_card_21_ng_container_6_div_1_Temp
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.sbSelectPromoCoupon(pCoupon_r123, i_r124));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "div", 544);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "span", 545);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "div", 545);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "span", 546);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 546);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "span", 547)(5, "ion-radio", 548);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 547);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "span", 548)(5, "ion-radio", 549);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
@@ -5492,7 +5489,7 @@ function PaymentDetailsPage_ng_container_2_ion_card_21_ng_container_6_div_1_Temp
 function PaymentDetailsPage_ng_container_2_ion_card_21_ng_container_6_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_2_ion_card_21_ng_container_6_div_1_Template, 6, 11, "div", 542);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_2_ion_card_21_ng_container_6_div_1_Template, 6, 11, "div", 543);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
@@ -5507,8 +5504,8 @@ function PaymentDetailsPage_ng_container_2_ion_card_21_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 518)(1, "div", 494)(2, "h3", 495);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "Select Promo Coupon");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](4, PaymentDetailsPage_ng_container_2_ion_card_21_div_4_Template, 6, 1, "div", 532);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-radio-group", 541);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](4, PaymentDetailsPage_ng_container_2_ion_card_21_div_4_Template, 6, 1, "div", 533);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-radio-group", 542);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_2_ion_card_21_Template_ion_radio_group_ngModelChange_5_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r120);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -5535,8 +5532,8 @@ function PaymentDetailsPage_ng_container_2_ion_card_21_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_2_ion_card_22_ng_container_5_div_1_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 537)(1, "ion-radio", 538);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "span", 539);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 538)(1, "ion-radio", 539);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "span", 540);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
@@ -5550,7 +5547,7 @@ function PaymentDetailsPage_ng_container_2_ion_card_22_ng_container_5_div_1_Temp
 function PaymentDetailsPage_ng_container_2_ion_card_22_ng_container_5_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_2_ion_card_22_ng_container_5_div_1_Template, 3, 2, "div", 536);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_2_ion_card_22_ng_container_5_div_1_Template, 3, 2, "div", 537);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
@@ -5561,7 +5558,7 @@ function PaymentDetailsPage_ng_container_2_ion_card_22_ng_container_5_Template(r
 }
 function PaymentDetailsPage_ng_container_2_ion_card_22_span_6_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 551);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 552);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
@@ -5574,7 +5571,7 @@ function PaymentDetailsPage_ng_container_2_ion_card_22_span_6_Template(rf, ctx) 
 function PaymentDetailsPage_ng_container_2_ion_card_22_button_7_Template(rf, ctx) {
   if (rf & 1) {
     const _r127 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "button", 552);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "button", 553);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_ion_card_22_button_7_Template_button_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r127);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -5591,7 +5588,7 @@ function PaymentDetailsPage_ng_container_2_ion_card_22_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 518)(1, "div", 494)(2, "h3", 495);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "Select Smart Miles");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-radio-group", 541);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-radio-group", 542);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_2_ion_card_22_Template_ion_radio_group_ngModelChange_4_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r125);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -5605,7 +5602,7 @@ function PaymentDetailsPage_ng_container_2_ion_card_22_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](5, PaymentDetailsPage_ng_container_2_ion_card_22_ng_container_5_Template, 2, 1, "ng-container", 143);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](6, PaymentDetailsPage_ng_container_2_ion_card_22_span_6_Template, 2, 1, "span", 549)(7, PaymentDetailsPage_ng_container_2_ion_card_22_button_7_Template, 2, 0, "button", 550);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](6, PaymentDetailsPage_ng_container_2_ion_card_22_span_6_Template, 2, 1, "span", 550)(7, PaymentDetailsPage_ng_container_2_ion_card_22_button_7_Template, 2, 0, "button", 551);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -5622,7 +5619,7 @@ function PaymentDetailsPage_ng_container_2_ion_card_22_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_2_p_23_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "p", 553);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "p", 554);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1, "Pay with");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
@@ -5630,29 +5627,29 @@ function PaymentDetailsPage_ng_container_2_p_23_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_2_section_24_div_10_Template(rf, ctx) {
   if (rf & 1) {
     const _r129 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 563);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 564);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_section_24_div_10_Template_div_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r129);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
       ctx_r1.bookType = "2";
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.bookTypeChanged(ctx_r1.bookType));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "span", 556);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "ion-icon", 564);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "span", 557);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "ion-icon", 565);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "span", 558)(4, "span", 559);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "span", 559)(4, "span", 560);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5, "Phone booking");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "button", 565);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "button", 566);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_section_24_div_10_Template_button_click_6_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r129);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
       $event.stopPropagation();
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.showPhoneBookDets = !ctx_r1.showPhoneBookDets);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](7, "ion-icon", 566);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](7, "ion-icon", 567);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](8, "span", 561);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](8, "span", 562);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -5665,29 +5662,29 @@ function PaymentDetailsPage_ng_container_2_section_24_div_10_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_2_section_24_div_11_Template(rf, ctx) {
   if (rf & 1) {
     const _r130 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 563);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 564);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_section_24_div_11_Template_div_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r130);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
       ctx_r1.bookType = "3";
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.bookTypeChanged(ctx_r1.bookType));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "span", 556);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "img", 567);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "span", 557);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "img", 568);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "span", 558)(4, "span", 559);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "span", 559)(4, "span", 560);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5, "Pay from wallet");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "button", 568);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "button", 569);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_section_24_div_11_Template_button_click_6_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r130);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
       $event.stopPropagation();
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.showWalletDets = !ctx_r1.showWalletDets);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](7, "ion-icon", 566);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](7, "ion-icon", 567);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](8, "span", 561);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](8, "span", 562);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -5700,25 +5697,25 @@ function PaymentDetailsPage_ng_container_2_section_24_div_11_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_2_section_24_Template(rf, ctx) {
   if (rf & 1) {
     const _r128 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "section", 554)(1, "button", 555);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "section", 555)(1, "button", 556);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_section_24_Template_button_click_1_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r128);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
       ctx_r1.bookType = "1";
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.bookTypeChanged(ctx_r1.bookType));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "span", 556);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "img", 557);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "span", 557);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "img", 558);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "span", 558)(5, "span", 559);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "span", 559)(5, "span", 560);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6, "Book online");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "span", 560);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "span", 561);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](8, "Pay securely online");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](9, "span", 561);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](9, "span", 562);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_2_section_24_div_10_Template, 9, 3, "div", 562)(11, PaymentDetailsPage_ng_container_2_section_24_div_11_Template, 9, 3, "div", 562);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_2_section_24_div_10_Template, 9, 3, "div", 563)(11, PaymentDetailsPage_ng_container_2_section_24_div_11_Template, 9, 3, "div", 563);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -5735,12 +5732,12 @@ function PaymentDetailsPage_ng_container_2_section_24_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_2_section_25_ng_container_1_button_1_img_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](0, "img", 574);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](0, "img", 575);
   }
 }
 function PaymentDetailsPage_ng_container_2_section_25_ng_container_1_button_1_span_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 559);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 560);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
@@ -5753,7 +5750,7 @@ function PaymentDetailsPage_ng_container_2_section_25_ng_container_1_button_1_sp
 function PaymentDetailsPage_ng_container_2_section_25_ng_container_1_button_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r131 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "button", 555);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "button", 556);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_section_25_ng_container_1_button_1_Template_button_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r131);
       const payType_r132 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]().$implicit;
@@ -5761,13 +5758,13 @@ function PaymentDetailsPage_ng_container_2_section_25_ng_container_1_button_1_Te
       ctx_r1.paymentType = payType_r132.id;
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.calculatePgCharges(ctx_r1.paymentType));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "span", 556);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "img", 571);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "span", 557);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "img", 572);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "span", 558);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](4, PaymentDetailsPage_ng_container_2_section_25_ng_container_1_button_1_img_4_Template, 1, 0, "img", 572)(5, PaymentDetailsPage_ng_container_2_section_25_ng_container_1_button_1_span_5_Template, 2, 1, "span", 573);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "span", 559);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](4, PaymentDetailsPage_ng_container_2_section_25_ng_container_1_button_1_img_4_Template, 1, 0, "img", 573)(5, PaymentDetailsPage_ng_container_2_section_25_ng_container_1_button_1_span_5_Template, 2, 1, "span", 574);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](6, "span", 561);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](6, "span", 562);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -5785,7 +5782,7 @@ function PaymentDetailsPage_ng_container_2_section_25_ng_container_1_button_1_Te
 function PaymentDetailsPage_ng_container_2_section_25_ng_container_1_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_2_section_25_ng_container_1_button_1_Template, 7, 5, "button", 570);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_2_section_25_ng_container_1_button_1_Template, 7, 5, "button", 571);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
@@ -5796,7 +5793,7 @@ function PaymentDetailsPage_ng_container_2_section_25_ng_container_1_Template(rf
 }
 function PaymentDetailsPage_ng_container_2_section_25_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "section", 569);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "section", 570);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_2_section_25_ng_container_1_Template, 2, 1, "ng-container", 143);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
@@ -5855,7 +5852,7 @@ function PaymentDetailsPage_ng_container_2_ion_card_27_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_2_p_33_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "p", 575);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "p", 576);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
@@ -5893,7 +5890,7 @@ function PaymentDetailsPage_ng_container_2_ng_container_36_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_2_div_37_p_9_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "p", 586);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "p", 587);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1, "Note: You are proceeding to hold your booking on tentative blocking, Please confirm the ticket before the auto release, you will receive the details on your registered email id ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "strong");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3);
@@ -5913,7 +5910,7 @@ function PaymentDetailsPage_ng_container_2_div_37_p_9_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_2_div_37_p_10_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "p", 586);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "p", 587);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1, "Note: You have Selected Wallet as your payment mode, for more details refer to the wallet statement, you will receive the details on your registered email id ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "strong");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3);
@@ -5933,7 +5930,7 @@ function PaymentDetailsPage_ng_container_2_div_37_p_10_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_2_div_37_p_11_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "p", 586);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "p", 587);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "br")(3, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4, "On confirmation, you will receive the details on your registered email id ");
@@ -5958,33 +5955,33 @@ function PaymentDetailsPage_ng_container_2_div_37_p_11_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_2_div_37_Template(rf, ctx) {
   if (rf & 1) {
     const _r135 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 576);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 577);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_37_Template_div_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r135);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.sbConfirmOpen = false);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "div", 577);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "div", 578);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_37_Template_div_click_1_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r135);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event.stopPropagation());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "div", 578)(3, "button", 579);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "div", 579)(3, "button", 580);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_37_Template_button_click_3_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r135);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.sbConfirmOpen = false);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-icon", 580);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-icon", 581);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "span", 581);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](6, "ion-icon", 582);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "span", 582);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](6, "img", 583);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "h2", 583);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "h2", 584);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](9, PaymentDetailsPage_ng_container_2_div_37_p_9_Template, 7, 2, "p", 584)(10, PaymentDetailsPage_ng_container_2_div_37_p_10_Template, 7, 2, "p", 584)(11, PaymentDetailsPage_ng_container_2_div_37_p_11_Template, 10, 3, "p", 584);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](12, "div", 585)(13, "button", 522);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](9, PaymentDetailsPage_ng_container_2_div_37_p_9_Template, 7, 2, "p", 585)(10, PaymentDetailsPage_ng_container_2_div_37_p_10_Template, 7, 2, "p", 585)(11, PaymentDetailsPage_ng_container_2_div_37_p_11_Template, 10, 3, "p", 585);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](12, "div", 586)(13, "button", 523);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_37_Template_button_click_13_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r135);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -5992,7 +5989,7 @@ function PaymentDetailsPage_ng_container_2_div_37_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](14, "Cancel");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](15, "button", 523);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](15, "button", 524);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_37_Template_button_click_15_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r135);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -6003,9 +6000,7 @@ function PaymentDetailsPage_ng_container_2_div_37_Template(rf, ctx) {
   }
   if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](6);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("name", ctx_r1.sbConfirmMode === "phone" ? "call-outline" : ctx_r1.sbConfirmMode === "wallet" ? "wallet-outline" : "card-outline");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtextInterpolate"](ctx_r1.sbConfirmMode === "phone" ? "Confirm phone booking" : "Confirm booking");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵproperty"]("ngIf", ctx_r1.sbConfirmMode === "phone");
@@ -6030,16 +6025,16 @@ function PaymentDetailsPage_ng_container_2_div_38_span_11_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_2_div_38_Template(rf, ctx) {
   if (rf & 1) {
     const _r136 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 587)(1, "div", 588)(2, "span", 581);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-icon", 589);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 588)(1, "div", 589)(2, "span", 582);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-icon", 590);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "h2", 590);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "h2", 591);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5, "Payment pending");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "p", 586);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "p", 587);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7, "Your payment is pending with the payment gateway.Kindly wait while we confirm your payment.");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 585)(9, "button", 591);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 586)(9, "button", 592);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_38_Template_button_click_9_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r136);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -6060,16 +6055,16 @@ function PaymentDetailsPage_ng_container_2_div_38_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_2_div_39_Template(rf, ctx) {
   if (rf & 1) {
     const _r137 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 587)(1, "div", 588)(2, "span", 581);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-icon", 592);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 588)(1, "div", 589)(2, "span", 582);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-icon", 593);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "h2", 590);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "h2", 591);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5, "Booking confirmed");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "p", 586);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "p", 587);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7, " This ticket has been booked successfully. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 585)(9, "button", 523);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 586)(9, "button", 524);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_39_Template_button_click_9_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r137);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -6082,16 +6077,16 @@ function PaymentDetailsPage_ng_container_2_div_39_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_2_div_40_Template(rf, ctx) {
   if (rf & 1) {
     const _r138 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 587)(1, "div", 588)(2, "span", 581);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-icon", 593);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 588)(1, "div", 589)(2, "span", 582);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-icon", 594);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "h2", 590);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "h2", 591);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5, "Payment failed");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "p", 586);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "p", 587);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7, " Your payment could not be completed. Please try again. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 585)(9, "button", 523);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 586)(9, "button", 524);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_40_Template_button_click_9_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r138);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -6104,7 +6099,7 @@ function PaymentDetailsPage_ng_container_2_div_40_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_2_div_41_div_8_Template(rf, ctx) {
   if (rf & 1) {
     const _r139 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 585)(1, "button", 522);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 586)(1, "button", 523);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_41_div_8_Template_button_click_1_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r139);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -6112,7 +6107,7 @@ function PaymentDetailsPage_ng_container_2_div_41_div_8_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Add money ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "button", 523);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "button", 524);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_41_div_8_Template_button_click_3_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r139);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -6126,7 +6121,7 @@ function PaymentDetailsPage_ng_container_2_div_41_div_8_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_2_div_41_div_9_Template(rf, ctx) {
   if (rf & 1) {
     const _r140 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 585)(1, "button", 523);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 586)(1, "button", 524);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_41_div_9_Template_button_click_1_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r140);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -6138,16 +6133,16 @@ function PaymentDetailsPage_ng_container_2_div_41_div_9_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_2_div_41_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 587)(1, "div", 588)(2, "span", 581);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-icon", 594);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 588)(1, "div", 589)(2, "span", 582);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-icon", 595);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "h2", 590);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "h2", 591);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5, "Wallet booking");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "p", 586);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "p", 587);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](8, PaymentDetailsPage_ng_container_2_div_41_div_8_Template, 5, 0, "div", 595)(9, PaymentDetailsPage_ng_container_2_div_41_div_9_Template, 3, 0, "div", 595);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](8, PaymentDetailsPage_ng_container_2_div_41_div_8_Template, 5, 0, "div", 596)(9, PaymentDetailsPage_ng_container_2_div_41_div_9_Template, 3, 0, "div", 596);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
@@ -6163,16 +6158,16 @@ function PaymentDetailsPage_ng_container_2_div_41_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_2_div_42_Template(rf, ctx) {
   if (rf & 1) {
     const _r141 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 587)(1, "div", 588)(2, "h2", 590);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 588)(1, "div", 589)(2, "h2", 591);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "ID proof verification");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "p", 586);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "p", 587);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5, " Please enter your ID proof to apply this coupon. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "div", 508)(7, "span", 509);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](8, "ID proof");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-input", 596);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-input", 597);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_2_div_42_Template_ion_input_ngModelChange_9_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r141);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -6180,7 +6175,7 @@ function PaymentDetailsPage_ng_container_2_div_42_Template(rf, ctx) {
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](10, "div", 585)(11, "button", 522);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](10, "div", 586)(11, "button", 523);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_42_Template_button_click_11_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r141);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -6188,7 +6183,7 @@ function PaymentDetailsPage_ng_container_2_div_42_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](12, " Cancel ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](13, "button", 523);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](13, "button", 524);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_42_Template_button_click_13_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r141);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -6206,13 +6201,13 @@ function PaymentDetailsPage_ng_container_2_div_42_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_2_div_43_Template(rf, ctx) {
   if (rf & 1) {
     const _r142 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 587)(1, "div", 588)(2, "span", 581);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-icon", 597);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 588)(1, "div", 589)(2, "span", 582);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-icon", 598);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "h2", 590);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "h2", 591);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5, "OTP verification");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "p", 586);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "p", 587);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7, " An OTP has been sent to mobile number ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "strong");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](9);
@@ -6222,7 +6217,7 @@ function PaymentDetailsPage_ng_container_2_div_43_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "div", 508)(12, "span", 509);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](13, "Enter OTP");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](14, "ion-input", 598);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](14, "ion-input", 599);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_2_div_43_Template_ion_input_ngModelChange_14_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r142);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -6230,7 +6225,7 @@ function PaymentDetailsPage_ng_container_2_div_43_Template(rf, ctx) {
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](15, "div", 585)(16, "button", 522);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](15, "div", 586)(16, "button", 523);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_43_Template_button_click_16_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r142);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -6238,7 +6233,7 @@ function PaymentDetailsPage_ng_container_2_div_43_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](17, " Cancel ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](18, "button", 522);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](18, "button", 523);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_43_Template_button_click_18_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r142);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -6246,7 +6241,7 @@ function PaymentDetailsPage_ng_container_2_div_43_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](19, " Resend OTP ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](20, "button", 523);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](20, "button", 524);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_43_Template_button_click_20_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r142);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -6265,13 +6260,13 @@ function PaymentDetailsPage_ng_container_2_div_43_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_2_div_44_div_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 603)(1, "span", 556);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "ion-icon", 605);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 604)(1, "span", 557);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "ion-icon", 606);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div")(4, "strong");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5, "Promotional balance");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "p", 604);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "p", 605);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "span");
@@ -6287,13 +6282,13 @@ function PaymentDetailsPage_ng_container_2_div_44_div_7_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_2_div_44_Template(rf, ctx) {
   if (rf & 1) {
     const _r143 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 599);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 600);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_44_Template_div_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r143);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.showWalletDets = false);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "div", 600);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "div", 601);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_44_Template_div_click_1_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r143);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event.stopPropagation());
@@ -6301,7 +6296,7 @@ function PaymentDetailsPage_ng_container_2_div_44_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "div", 494)(3, "h2", 495);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4, "Wallet details");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "button", 601);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "button", 602);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_44_Template_button_click_5_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r143);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -6309,14 +6304,14 @@ function PaymentDetailsPage_ng_container_2_div_44_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6, " Close ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](7, PaymentDetailsPage_ng_container_2_div_44_div_7_Template, 10, 2, "div", 602);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 603)(9, "span", 556);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](10, "ion-icon", 594);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](7, PaymentDetailsPage_ng_container_2_div_44_div_7_Template, 10, 2, "div", 603);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 604)(9, "span", 557);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](10, "ion-icon", 595);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "div")(12, "strong");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](13, "Non-promotional balance");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](14, "p", 604);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](14, "p", 605);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](15);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](16, "span");
@@ -6333,8 +6328,8 @@ function PaymentDetailsPage_ng_container_2_div_44_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_2_div_45_swiper_slide_9_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "swiper-slide", 609);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "img", 610);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "swiper-slide", 610);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "img", 611);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
@@ -6349,7 +6344,7 @@ function PaymentDetailsPage_ng_container_2_div_45_swiper_slide_9_Template(rf, ct
 }
 function PaymentDetailsPage_ng_container_2_div_45_div_13_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 586)(1, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 587)(1, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, "1. Phone booking feature is available for paying through wallet only.");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "p");
@@ -6366,13 +6361,13 @@ function PaymentDetailsPage_ng_container_2_div_45_div_13_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_2_div_45_Template(rf, ctx) {
   if (rf & 1) {
     const _r144 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 599);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 600);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_45_Template_div_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r144);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.showPhoneBookDets = false);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "div", 606);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "div", 607);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_45_Template_div_click_1_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r144);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event.stopPropagation());
@@ -6380,7 +6375,7 @@ function PaymentDetailsPage_ng_container_2_div_45_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "div", 494)(3, "h2", 495);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4, "How it works");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "button", 601);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "button", 602);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_2_div_45_Template_button_click_5_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r144);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -6388,14 +6383,14 @@ function PaymentDetailsPage_ng_container_2_div_45_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6, " Close ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "swiper-container", 607, 0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](9, PaymentDetailsPage_ng_container_2_div_45_swiper_slide_9_Template, 4, 2, "swiper-slide", 608);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "swiper-container", 608, 0);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](9, PaymentDetailsPage_ng_container_2_div_45_swiper_slide_9_Template, 4, 2, "swiper-slide", 609);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpipe"](10, "filterOculto");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "h3", 495);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](12, "Terms & Conditions");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](13, PaymentDetailsPage_ng_container_2_div_45_div_13_Template, 9, 0, "div", 584);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](13, PaymentDetailsPage_ng_container_2_div_45_div_13_Template, 9, 0, "div", 585);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
@@ -6426,7 +6421,7 @@ function PaymentDetailsPage_ng_container_2_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-content", 457)(10, "div", 458);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](11, PaymentDetailsPage_ng_container_2_section_11_Template, 24, 22, "section", 459)(12, PaymentDetailsPage_ng_container_2_div_12_Template, 6, 6, "div", 460);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](13, "div", 461, 1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](15, PaymentDetailsPage_ng_container_2_ion_card_15_Template, 6, 2, "ion-card", 334)(16, PaymentDetailsPage_ng_container_2_ion_card_16_Template, 10, 5, "ion-card", 462)(17, PaymentDetailsPage_ng_container_2_ion_card_17_Template, 6, 3, "ion-card", 463)(18, PaymentDetailsPage_ng_container_2_ion_card_18_Template, 13, 1, "ion-card", 463)(19, PaymentDetailsPage_ng_container_2_ion_card_19_Template, 6, 4, "ion-card", 463)(20, PaymentDetailsPage_ng_container_2_ion_card_20_Template, 7, 3, "ion-card", 463)(21, PaymentDetailsPage_ng_container_2_ion_card_21_Template, 7, 3, "ion-card", 463)(22, PaymentDetailsPage_ng_container_2_ion_card_22_Template, 8, 4, "ion-card", 463);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](15, PaymentDetailsPage_ng_container_2_ion_card_15_Template, 6, 2, "ion-card", 334)(16, PaymentDetailsPage_ng_container_2_ion_card_16_Template, 10, 5, "ion-card", 462)(17, PaymentDetailsPage_ng_container_2_ion_card_17_Template, 8, 4, "ion-card", 463)(18, PaymentDetailsPage_ng_container_2_ion_card_18_Template, 13, 1, "ion-card", 463)(19, PaymentDetailsPage_ng_container_2_ion_card_19_Template, 6, 4, "ion-card", 463)(20, PaymentDetailsPage_ng_container_2_ion_card_20_Template, 7, 3, "ion-card", 463)(21, PaymentDetailsPage_ng_container_2_ion_card_21_Template, 7, 3, "ion-card", 463)(22, PaymentDetailsPage_ng_container_2_ion_card_22_Template, 8, 4, "ion-card", 463);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](23, PaymentDetailsPage_ng_container_2_p_23_Template, 2, 0, "p", 464)(24, PaymentDetailsPage_ng_container_2_section_24_Template, 12, 5, "section", 465)(25, PaymentDetailsPage_ng_container_2_section_25_Template, 2, 1, "section", 466);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](26, "div", 461);
@@ -6448,7 +6443,7 @@ function PaymentDetailsPage_ng_container_2_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](35, PaymentDetailsPage_ng_container_2_ng_container_35_Template, 3, 5, "ng-container", 4)(36, PaymentDetailsPage_ng_container_2_ng_container_36_Template, 3, 5, "ng-container", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](37, PaymentDetailsPage_ng_container_2_div_37_Template, 17, 5, "div", 472)(38, PaymentDetailsPage_ng_container_2_div_38_Template, 12, 2, "div", 473)(39, PaymentDetailsPage_ng_container_2_div_39_Template, 11, 0, "div", 473)(40, PaymentDetailsPage_ng_container_2_div_40_Template, 11, 0, "div", 473)(41, PaymentDetailsPage_ng_container_2_div_41_Template, 10, 3, "div", 473)(42, PaymentDetailsPage_ng_container_2_div_42_Template, 15, 1, "div", 473)(43, PaymentDetailsPage_ng_container_2_div_43_Template, 22, 2, "div", 473)(44, PaymentDetailsPage_ng_container_2_div_44_Template, 18, 3, "div", 474)(45, PaymentDetailsPage_ng_container_2_div_45_Template, 14, 5, "div", 474);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](37, PaymentDetailsPage_ng_container_2_div_37_Template, 17, 4, "div", 472)(38, PaymentDetailsPage_ng_container_2_div_38_Template, 12, 2, "div", 473)(39, PaymentDetailsPage_ng_container_2_div_39_Template, 11, 0, "div", 473)(40, PaymentDetailsPage_ng_container_2_div_40_Template, 11, 0, "div", 473)(41, PaymentDetailsPage_ng_container_2_div_41_Template, 10, 3, "div", 473)(42, PaymentDetailsPage_ng_container_2_div_42_Template, 15, 1, "div", 473)(43, PaymentDetailsPage_ng_container_2_div_43_Template, 22, 2, "div", 473)(44, PaymentDetailsPage_ng_container_2_div_44_Template, 18, 3, "div", 474)(45, PaymentDetailsPage_ng_container_2_div_45_Template, 14, 5, "div", 474);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
@@ -6509,22 +6504,22 @@ function PaymentDetailsPage_ng_container_2_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_3_ion_row_25_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 613)(1, "ion-col", 614)(2, "div", 613);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 614)(1, "ion-col", 615)(2, "div", 614);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "div", 615);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "div", 616);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "ion-col", 616)(7, "div", 617);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "ion-col", 617)(7, "div", 618);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](8, "ion-icon", 321);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](10);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "ion-col", 618)(12, "div", 613);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "ion-col", 619)(12, "div", 614);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](13);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](14, "div", 613);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](14, "div", 614);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](15);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -6585,7 +6580,7 @@ function PaymentDetailsPage_ng_container_3_div_26_ion_row_28_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-row")(6, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "span", 643);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "span", 644);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](10, "div");
@@ -6609,7 +6604,7 @@ function PaymentDetailsPage_ng_container_3_div_26_ng_container_29_ion_row_1_Temp
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-row")(6, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "span", 643);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "span", 644);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](10, "div");
@@ -6685,7 +6680,7 @@ function PaymentDetailsPage_ng_container_3_div_26_div_35_ion_row_4_Template(rf, 
 function PaymentDetailsPage_ng_container_3_div_26_div_35_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_3_div_26_div_35_ion_row_1_Template, 5, 1, "ion-row", 641)(2, PaymentDetailsPage_ng_container_3_div_26_div_35_ng_template_2_Template, 5, 1, "ng-template", null, 3, _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplateRefExtractor"])(4, PaymentDetailsPage_ng_container_3_div_26_div_35_ion_row_4_Template, 5, 1, "ion-row", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_3_div_26_div_35_ion_row_1_Template, 5, 1, "ion-row", 642)(2, PaymentDetailsPage_ng_container_3_div_26_div_35_ng_template_2_Template, 5, 1, "ng-template", null, 3, _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplateRefExtractor"])(4, PaymentDetailsPage_ng_container_3_div_26_div_35_ion_row_4_Template, 5, 1, "ion-row", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-row")(6, "div", 353);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7, " Net Fare ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -6887,7 +6882,7 @@ function PaymentDetailsPage_ng_container_3_div_26_ion_row_48_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_3_div_26_ion_row_55_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row")(1, "div", 644);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row")(1, "div", 645);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, "Net Payable Phonebook (10%)");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "span", 246);
@@ -6902,7 +6897,7 @@ function PaymentDetailsPage_ng_container_3_div_26_ion_row_55_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_3_div_26_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 639)(1, "div", 640)(2, "span", 350);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 640)(1, "div", 641)(2, "span", 350);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "BUS DETAILS");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "hr", 351);
@@ -6934,9 +6929,9 @@ function PaymentDetailsPage_ng_container_3_div_26_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](33, "FARE BREAKUP");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](34, "hr", 240);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](35, PaymentDetailsPage_ng_container_3_div_26_div_35_Template, 10, 4, "div", 641)(36, PaymentDetailsPage_ng_container_3_div_26_ng_template_36_Template, 5, 1, "ng-template", null, 2, _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplateRefExtractor"])(38, PaymentDetailsPage_ng_container_3_div_26_ion_row_38_Template, 5, 2, "ion-row", 4)(39, PaymentDetailsPage_ng_container_3_div_26_ion_row_39_Template, 5, 1, "ion-row", 4)(40, PaymentDetailsPage_ng_container_3_div_26_ion_row_40_Template, 5, 1, "ion-row", 4)(41, PaymentDetailsPage_ng_container_3_div_26_ion_row_41_Template, 5, 1, "ion-row", 4)(42, PaymentDetailsPage_ng_container_3_div_26_ion_row_42_Template, 5, 1, "ion-row", 4)(43, PaymentDetailsPage_ng_container_3_div_26_ion_row_43_Template, 5, 1, "ion-row", 4)(44, PaymentDetailsPage_ng_container_3_div_26_ion_row_44_Template, 5, 1, "ion-row", 4)(45, PaymentDetailsPage_ng_container_3_div_26_ion_row_45_Template, 5, 1, "ion-row", 4)(46, PaymentDetailsPage_ng_container_3_div_26_ion_row_46_Template, 5, 1, "ion-row", 4)(47, PaymentDetailsPage_ng_container_3_div_26_ion_row_47_Template, 5, 1, "ion-row", 4)(48, PaymentDetailsPage_ng_container_3_div_26_ion_row_48_Template, 6, 5, "ion-row", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](35, PaymentDetailsPage_ng_container_3_div_26_div_35_Template, 10, 4, "div", 642)(36, PaymentDetailsPage_ng_container_3_div_26_ng_template_36_Template, 5, 1, "ng-template", null, 2, _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplateRefExtractor"])(38, PaymentDetailsPage_ng_container_3_div_26_ion_row_38_Template, 5, 2, "ion-row", 4)(39, PaymentDetailsPage_ng_container_3_div_26_ion_row_39_Template, 5, 1, "ion-row", 4)(40, PaymentDetailsPage_ng_container_3_div_26_ion_row_40_Template, 5, 1, "ion-row", 4)(41, PaymentDetailsPage_ng_container_3_div_26_ion_row_41_Template, 5, 1, "ion-row", 4)(42, PaymentDetailsPage_ng_container_3_div_26_ion_row_42_Template, 5, 1, "ion-row", 4)(43, PaymentDetailsPage_ng_container_3_div_26_ion_row_43_Template, 5, 1, "ion-row", 4)(44, PaymentDetailsPage_ng_container_3_div_26_ion_row_44_Template, 5, 1, "ion-row", 4)(45, PaymentDetailsPage_ng_container_3_div_26_ion_row_45_Template, 5, 1, "ion-row", 4)(46, PaymentDetailsPage_ng_container_3_div_26_ion_row_46_Template, 5, 1, "ion-row", 4)(47, PaymentDetailsPage_ng_container_3_div_26_ion_row_47_Template, 5, 1, "ion-row", 4)(48, PaymentDetailsPage_ng_container_3_div_26_ion_row_48_Template, 6, 5, "ion-row", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](49, "hr", 240);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](50, "ion-row")(51, "div", 642);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](50, "ion-row")(51, "div", 643);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](52, "TOTAL PAYABLE");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](53, "span", 246);
@@ -6997,7 +6992,7 @@ function PaymentDetailsPage_ng_container_3_div_26_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_3_ion_col_28_span_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 648);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 649);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
@@ -7009,7 +7004,7 @@ function PaymentDetailsPage_ng_container_3_ion_col_28_span_4_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_3_ion_col_28_span_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 648);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 649);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
@@ -7021,10 +7016,10 @@ function PaymentDetailsPage_ng_container_3_ion_col_28_span_5_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_3_ion_col_28_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-col", 355)(1, "div", 645)(2, "span", 646);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-col", 355)(1, "div", 646)(2, "span", 647);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "Pay\u00A0");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](4, PaymentDetailsPage_ng_container_3_ion_col_28_span_4_Template, 2, 2, "span", 647)(5, PaymentDetailsPage_ng_container_3_ion_col_28_span_5_Template, 2, 1, "span", 647);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](4, PaymentDetailsPage_ng_container_3_ion_col_28_span_4_Template, 2, 2, "span", 648)(5, PaymentDetailsPage_ng_container_3_ion_col_28_span_5_Template, 2, 1, "span", 648);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
@@ -7186,7 +7181,7 @@ function PaymentDetailsPage_ng_container_3_ion_card_38_div_12_Template(rf, ctx) 
 function PaymentDetailsPage_ng_container_3_ion_card_38_ion_radio_group_13_Template(rf, ctx) {
   if (rf & 1) {
     const _r157 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-radio-group", 652);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-radio-group", 653);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_3_ion_card_38_ion_radio_group_13_Template_ion_radio_group_ngModelChange_0_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r157);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -7198,13 +7193,13 @@ function PaymentDetailsPage_ng_container_3_ion_card_38_ion_radio_group_13_Templa
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.specialCashDiscount());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "ion-row")(2, "ion-col")(3, "ion-item", 653);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-radio", 654);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "ion-row")(2, "ion-col")(3, "ion-item", 654);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-radio", 655);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-label");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-col")(8, "ion-item", 655);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](9, "ion-radio", 656);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-col")(8, "ion-item", 656);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](9, "ion-radio", 657);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](10, "ion-label");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](11);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()()()();
@@ -7236,7 +7231,7 @@ function PaymentDetailsPage_ng_container_3_ion_card_38_div_14_Template(rf, ctx) 
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 157)(1, "ion-item", 57);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "ion-input", 370);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-row")(4, "ion-col", 161)(5, "ion-item", 657)(6, "ion-input", 658);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-row")(4, "ion-col", 161)(5, "ion-item", 658)(6, "ion-input", 659);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_3_ion_card_38_div_14_Template_ion_input_ngModelChange_6_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r158);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -7244,7 +7239,7 @@ function PaymentDetailsPage_ng_container_3_ion_card_38_div_14_Template(rf, ctx) 
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-col", 659);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-col", 660);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](8, PaymentDetailsPage_ng_container_3_ion_card_38_div_14_a_8_Template, 2, 0, "a", 166);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-button", 165);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_3_ion_card_38_div_14_Template_ion_button_click_9_listener() {
@@ -7284,13 +7279,13 @@ function PaymentDetailsPage_ng_container_3_ion_card_38_span_15_Template(rf, ctx)
 function PaymentDetailsPage_ng_container_3_ion_card_38_Template(rf, ctx) {
   if (rf & 1) {
     const _r152 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 130)(1, "div", 649);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 130)(1, "div", 650);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Coupon Details");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 132)(4, "ion-item", 133)(5, "ion-label");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6, "Have Cash Coupons");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-checkbox", 650);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-checkbox", 651);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_3_ion_card_38_Template_ion_checkbox_ngModelChange_7_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r152);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -7306,7 +7301,7 @@ function PaymentDetailsPage_ng_container_3_ion_card_38_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 135);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](9, PaymentDetailsPage_ng_container_3_ion_card_38_p_9_Template, 2, 0, "p", 136)(10, PaymentDetailsPage_ng_container_3_ion_card_38_p_10_Template, 2, 0, "p", 136)(11, PaymentDetailsPage_ng_container_3_ion_card_38_div_11_Template, 2, 1, "div", 137);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](12, PaymentDetailsPage_ng_container_3_ion_card_38_div_12_Template, 5, 0, "div", 138)(13, PaymentDetailsPage_ng_container_3_ion_card_38_ion_radio_group_13_Template, 12, 3, "ion-radio-group", 651)(14, PaymentDetailsPage_ng_container_3_ion_card_38_div_14_Template, 11, 8, "div", 140)(15, PaymentDetailsPage_ng_container_3_ion_card_38_span_15_Template, 2, 1, "span", 73);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](12, PaymentDetailsPage_ng_container_3_ion_card_38_div_12_Template, 5, 0, "div", 138)(13, PaymentDetailsPage_ng_container_3_ion_card_38_ion_radio_group_13_Template, 12, 3, "ion-radio-group", 652)(14, PaymentDetailsPage_ng_container_3_ion_card_38_div_14_Template, 11, 8, "div", 140)(15, PaymentDetailsPage_ng_container_3_ion_card_38_span_15_Template, 2, 1, "span", 73);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
@@ -7333,21 +7328,21 @@ function PaymentDetailsPage_ng_container_3_ion_card_38_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_3_span_51_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 660);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 661);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1, "Apply");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
 }
 function PaymentDetailsPage_ng_container_3_span_52_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 660);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 661);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1, "Remove");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
 }
 function PaymentDetailsPage_ng_container_3_div_53_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 661);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 662);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
@@ -7387,7 +7382,7 @@ function PaymentDetailsPage_ng_container_3_ion_card_57_div_4_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_3_ion_card_57_Template(rf, ctx) {
   if (rf & 1) {
     const _r160 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 662)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 663)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, "Offer type");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-select", 373);
@@ -7416,7 +7411,7 @@ function PaymentDetailsPage_ng_container_3_ion_card_57_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](4, PaymentDetailsPage_ng_container_3_ion_card_57_div_4_Template, 2, 1, "div", 143);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](5, "ion-icon", 663);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](5, "ion-icon", 664);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -7431,7 +7426,7 @@ function PaymentDetailsPage_ng_container_3_ion_card_57_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_3_ion_card_58_Template(rf, ctx) {
   if (rf & 1) {
     const _r163 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 664)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 665)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Privilege Card");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-row")(4, "ion-col", 192)(5, "ion-item")(6, "ion-input", 377);
@@ -7659,7 +7654,7 @@ function PaymentDetailsPage_ng_container_3_ion_card_60_div_5_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_3_ion_card_60_Template(rf, ctx) {
   if (rf & 1) {
     const _r168 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 664)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 665)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Select Offer Coupon");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](3, PaymentDetailsPage_ng_container_3_ion_card_60_div_3_Template, 10, 1, "div", 385);
@@ -7767,7 +7762,7 @@ function PaymentDetailsPage_ng_container_3_ion_card_61_div_5_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_3_ion_card_61_Template(rf, ctx) {
   if (rf & 1) {
     const _r170 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 664)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 665)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Select Offer Coupon ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](3, PaymentDetailsPage_ng_container_3_ion_card_61_div_3_Template, 10, 1, "div", 385);
@@ -7803,7 +7798,7 @@ function PaymentDetailsPage_ng_container_3_ion_card_62_div_6_ion_item_1_Template
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-item", 133)(1, "ion-label");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-radio", 665);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-radio", 666);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -7843,7 +7838,7 @@ function PaymentDetailsPage_ng_container_3_ion_card_62_a_10_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_3_ion_card_62_Template(rf, ctx) {
   if (rf & 1) {
     const _r175 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 664)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 665)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Select Offer Coupon");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-row")(4, "ion-col", 355)(5, "ion-radio-group", 228);
@@ -7901,7 +7896,7 @@ function PaymentDetailsPage_ng_container_3_ion_card_63_ion_item_9_Template(rf, c
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.showPhoneBookDets = !ctx_r1.showPhoneBookDets);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-radio", 667);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-radio", 668);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
 }
@@ -7925,14 +7920,14 @@ function PaymentDetailsPage_ng_container_3_ion_card_63_ion_item_10_Template(rf, 
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.showWalletDets = !ctx_r1.showWalletDets);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-radio", 668);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-radio", 669);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
 }
 function PaymentDetailsPage_ng_container_3_ion_card_63_Template(rf, ctx) {
   if (rf & 1) {
     const _r178 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 664)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 665)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, "Select Payment Method");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-list", 133)(4, "ion-radio-group", 228);
@@ -7957,7 +7952,7 @@ function PaymentDetailsPage_ng_container_3_ion_card_63_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "ion-label");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7, "Book Online");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](8, "ion-radio", 666);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](8, "ion-radio", 667);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](9, PaymentDetailsPage_ng_container_3_ion_card_63_ion_item_9_Template, 5, 0, "ion-item", 217)(10, PaymentDetailsPage_ng_container_3_ion_card_63_ion_item_10_Template, 5, 0, "ion-item", 217);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
@@ -7975,7 +7970,7 @@ function PaymentDetailsPage_ng_container_3_ion_card_63_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_3_div_64_ion_card_1_div_5_ion_item_1_ion_label_1_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-label");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "img", 669);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "img", 670);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
 }
@@ -8031,7 +8026,7 @@ function PaymentDetailsPage_ng_container_3_div_64_ion_card_1_div_5_Template(rf, 
 function PaymentDetailsPage_ng_container_3_div_64_ion_card_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r181 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 664)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 665)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, "Payment options ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-list", 133)(4, "ion-radio-group", 421);
@@ -8060,7 +8055,7 @@ function PaymentDetailsPage_ng_container_3_div_64_ion_card_1_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_3_div_64_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_3_div_64_ion_card_1_Template, 6, 2, "ion-card", 636);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_3_div_64_ion_card_1_Template, 6, 2, "ion-card", 637);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -8090,7 +8085,7 @@ function PaymentDetailsPage_ng_container_3_ion_card_65_div_5_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_3_ion_card_65_Template(rf, ctx) {
   if (rf & 1) {
     const _r184 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 670)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 671)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Virtual account transfer");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-list", 133)(4, "ion-radio-group", 386);
@@ -8139,7 +8134,7 @@ function PaymentDetailsPage_ng_container_3_div_71_Template(rf, ctx) {
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.pay());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 671);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 672);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4, "Continue");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -8158,7 +8153,7 @@ function PaymentDetailsPage_ng_container_3_div_72_Template(rf, ctx) {
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.pay());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "div", 672);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "div", 673);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "Proceed to payment");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -8206,7 +8201,7 @@ function PaymentDetailsPage_ng_container_3_div_74_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_3_div_75_Template(rf, ctx) {
   if (rf & 1) {
     const _r189 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 233)(1, "div", 284)(2, "ion-row")(3, "div", 673);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 233)(1, "div", 284)(2, "ion-row")(3, "div", 674);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4, "\u2714");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "div", 286);
@@ -8333,7 +8328,7 @@ function PaymentDetailsPage_ng_container_3_div_78_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7, "CANCEL");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "ion-col", 674);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "ion-col", 675);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_3_div_78_Template_ion_col_click_8_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r194);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -8384,7 +8379,7 @@ function PaymentDetailsPage_ng_container_3_div_79_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](16, "Resend OTP");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](17, "ion-col", 675);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](17, "ion-col", 676);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_3_div_79_Template_ion_col_click_17_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r195);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -8529,34 +8524,34 @@ function PaymentDetailsPage_ng_container_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-title", 310);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6, "Select a payment options");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-content", 611)(8, "ion-card", 612);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-content", 612)(8, "ion-card", 613);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_3_Template_ion_card_click_8_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r146);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.moreLessOpt == true ? ctx_r1.moreLessOpt = false : ctx_r1.moreLessOpt = true);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-row", 613)(10, "ion-col", 614)(11, "div", 613);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-row", 614)(10, "ion-col", 615)(11, "div", 614);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](12);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](13, "div", 615);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](13, "div", 616);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](14);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](15, "ion-col", 616)(16, "div", 617);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](15, "ion-col", 617)(16, "div", 618);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](17, "ion-icon", 321);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](18, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](19);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](20, "ion-col", 618)(21, "div", 613);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](20, "ion-col", 619)(21, "div", 614);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](22);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](23, "div", 615);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](23, "div", 616);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](24);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](25, PaymentDetailsPage_ng_container_3_ion_row_25_Template, 16, 5, "ion-row", 619)(26, PaymentDetailsPage_ng_container_3_div_26_Template, 56, 29, "div", 620);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](25, PaymentDetailsPage_ng_container_3_ion_row_25_Template, 16, 5, "ion-row", 620)(26, PaymentDetailsPage_ng_container_3_div_26_Template, 56, 29, "div", 621);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](27, "ion-row");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](28, PaymentDetailsPage_ng_container_3_ion_col_28_Template, 6, 2, "ion-col", 621);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](29, "ion-col", 622);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](28, PaymentDetailsPage_ng_container_3_ion_col_28_Template, 6, 2, "ion-col", 622);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](29, "ion-col", 623);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_3_Template_ion_col_click_29_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r146);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
@@ -8571,15 +8566,15 @@ function PaymentDetailsPage_ng_container_3_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](36, "div", 187);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](37, PaymentDetailsPage_ng_container_3_ion_card_37_Template, 6, 2, "ion-card", 71)(38, PaymentDetailsPage_ng_container_3_ion_card_38_Template, 16, 11, "ion-card", 71);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](39, "ion-card", 623)(40, "ion-card-content")(41, "div", 624);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](42, "ion-icon", 625);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](43, "span", 626);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](39, "ion-card", 624)(40, "ion-card-content")(41, "div", 625);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](42, "ion-icon", 626);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](43, "span", 627);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](44, "Coupon");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](45, "div", 627);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](45, "div", 628);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](46, "Enter Coupon Code");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](47, "div", 628)(48, "div", 629)(49, "ion-input", 630);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](47, "div", 629)(48, "div", 630)(49, "ion-input", 631);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_3_Template_ion_input_ngModelChange_49_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r146);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
@@ -8587,21 +8582,21 @@ function PaymentDetailsPage_ng_container_3_Template(rf, ctx) {
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](50, "ion-button", 631);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](50, "ion-button", 632);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_3_Template_ion_button_click_50_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r146);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.applyCoupon());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](51, PaymentDetailsPage_ng_container_3_span_51_Template, 2, 0, "span", 632)(52, PaymentDetailsPage_ng_container_3_span_52_Template, 2, 0, "span", 632);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](51, PaymentDetailsPage_ng_container_3_span_51_Template, 2, 0, "span", 633)(52, PaymentDetailsPage_ng_container_3_span_52_Template, 2, 0, "span", 633);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](53, PaymentDetailsPage_ng_container_3_div_53_Template, 2, 5, "div", 633);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](53, PaymentDetailsPage_ng_container_3_div_53_Template, 2, 5, "div", 634);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](54, "div", 634)(55, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](54, "div", 635)(55, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](56, "Or");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](57, PaymentDetailsPage_ng_container_3_ion_card_57_Template, 6, 3, "ion-card", 635)(58, PaymentDetailsPage_ng_container_3_ion_card_58_Template, 13, 1, "ion-card", 636)(59, PaymentDetailsPage_ng_container_3_ion_card_59_Template, 13, 5, "ion-card", 71)(60, PaymentDetailsPage_ng_container_3_ion_card_60_Template, 7, 3, "ion-card", 636)(61, PaymentDetailsPage_ng_container_3_ion_card_61_Template, 7, 3, "ion-card", 636)(62, PaymentDetailsPage_ng_container_3_ion_card_62_Template, 12, 4, "ion-card", 636)(63, PaymentDetailsPage_ng_container_3_ion_card_63_Template, 11, 3, "ion-card", 636)(64, PaymentDetailsPage_ng_container_3_div_64_Template, 2, 1, "div", 4)(65, PaymentDetailsPage_ng_container_3_ion_card_65_Template, 6, 2, "ion-card", 637);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](66, "ion-card", 638)(67, "div", 341);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](57, PaymentDetailsPage_ng_container_3_ion_card_57_Template, 6, 3, "ion-card", 636)(58, PaymentDetailsPage_ng_container_3_ion_card_58_Template, 13, 1, "ion-card", 637)(59, PaymentDetailsPage_ng_container_3_ion_card_59_Template, 13, 5, "ion-card", 71)(60, PaymentDetailsPage_ng_container_3_ion_card_60_Template, 7, 3, "ion-card", 637)(61, PaymentDetailsPage_ng_container_3_ion_card_61_Template, 7, 3, "ion-card", 637)(62, PaymentDetailsPage_ng_container_3_ion_card_62_Template, 12, 4, "ion-card", 637)(63, PaymentDetailsPage_ng_container_3_ion_card_63_Template, 11, 3, "ion-card", 637)(64, PaymentDetailsPage_ng_container_3_div_64_Template, 2, 1, "div", 4)(65, PaymentDetailsPage_ng_container_3_ion_card_65_Template, 6, 2, "ion-card", 638);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](66, "ion-card", 639)(67, "div", 341);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](68, "By clicking on continue you agree to all our ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](69, "span", 342);
@@ -8706,22 +8701,22 @@ function PaymentDetailsPage_ng_container_3_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_4_ion_header_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r199 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-header", 681)(1, "ion-toolbar", 8)(2, "ion-row")(3, "ion-col", 253)(4, "ion-buttons")(5, "ion-back-button", 682);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-header", 682)(1, "ion-toolbar", 8)(2, "ion-row")(3, "ion-col", 253)(4, "ion-buttons")(5, "ion-back-button", 683);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_ion_header_1_Template_ion_back_button_click_5_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r199);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.goBack());
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "ion-col", 683)(7, "div", 684);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "ion-col", 684)(7, "div", 685);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](8, " Payment Options ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()()()();
   }
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_div_1_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 709);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "ion-img", 710);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 710);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "ion-img", 711);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -8733,7 +8728,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_1_Template(rf, ctx)
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_2_Template(rf, ctx) {
   if (rf & 1) {
     const _r201 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 688)(1, "div", 132)(2, "ion-item", 133)(3, "ion-label");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 689)(1, "div", 132)(2, "ion-item", 133)(3, "ion-label");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4, "Refund Protect");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-checkbox", 365);
@@ -8760,7 +8755,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_2_Template(rf,
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_div_6_Template(rf, ctx) {
   if (rf & 1) {
     const _r202 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 716);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 717);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_div_6_Template_div_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r202);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](4);
@@ -8773,7 +8768,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_div_6_Templa
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_icon_12_Template(rf, ctx) {
   if (rf & 1) {
     const _r203 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-icon", 717);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-icon", 718);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_icon_12_Template_ion_icon_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r203);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](4);
@@ -8785,7 +8780,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_icon_12_
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_icon_13_Template(rf, ctx) {
   if (rf & 1) {
     const _r204 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-icon", 718);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-icon", 719);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_icon_13_Template_ion_icon_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r204);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](4);
@@ -8796,9 +8791,9 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_icon_13_
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_radio_group_14_div_1_ion_item_1_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-item")(1, "ion-row")(2, "ion-col", 720);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-radio", 721);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "span", 722);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-item")(1, "ion-row")(2, "ion-col", 721);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-radio", 722);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "span", 723);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()()();
   }
@@ -8828,7 +8823,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_radio_gr
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_radio_group_14_Template(rf, ctx) {
   if (rf & 1) {
     const _r205 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-radio-group", 719);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-radio-group", 720);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_radio_group_14_Template_ion_radio_group_ngModelChange_0_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r205);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](4);
@@ -8868,18 +8863,18 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_radio_gr
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 688)(1, "ion-row")(2, "ion-col", 38)(3, "div", 711)(4, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 689)(1, "ion-row")(2, "ion-col", 38)(3, "div", 712)(4, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5, "Offer Type");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](6, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_div_6_Template, 2, 0, "div", 712);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](6, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_div_6_Template, 2, 0, "div", 713);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-row")(8, "ion-col", 355)(9, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](10, "Select offer Type");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "ion-col", 698);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](12, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_icon_12_Template, 1, 0, "ion-icon", 713)(13, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_icon_13_Template, 1, 0, "ion-icon", 714);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "ion-col", 699);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](12, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_icon_12_Template, 1, 0, "ion-icon", 714)(13, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_icon_13_Template, 1, 0, "ion-icon", 715);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](14, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_radio_group_14_Template, 2, 2, "ion-radio-group", 715);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](14, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_ion_radio_group_14_Template, 2, 2, "ion-radio-group", 716);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -8897,10 +8892,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_Template(rf,
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_4_Template(rf, ctx) {
   if (rf & 1) {
     const _r208 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 688)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 689)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Privilege Card");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-row")(4, "ion-col", 192)(5, "ion-item", 723)(6, "ion-input", 724);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-row")(4, "ion-col", 192)(5, "ion-item", 724)(6, "ion-input", 725);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_4_Template_ion_input_ngModelChange_6_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r208);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -8908,7 +8903,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_4_Template(rf,
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-row")(8, "ion-col", 192)(9, "ion-button", 725);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-row")(8, "ion-col", 192)(9, "ion-button", 726);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_4_Template_ion_button_click_9_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r208);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -8916,7 +8911,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_4_Template(rf,
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](10, "use ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "ion-button", 726);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "ion-button", 727);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_4_Template_ion_button_click_11_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r208);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -8978,11 +8973,11 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_5_div_11_a_9_T
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_5_div_11_Template(rf, ctx) {
   if (rf & 1) {
     const _r211 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 157)(1, "ion-row")(2, "ion-item", 728);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-input", 729);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 157)(1, "ion-row")(2, "ion-item", 729);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-input", 730);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-row")(5, "ion-col", 204)(6, "ion-item", 723);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](7, "ion-input", 730);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-row")(5, "ion-col", 204)(6, "ion-item", 724);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](7, "ion-input", 731);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "ion-col", 206);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](9, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_5_div_11_a_9_Template, 2, 0, "a", 166);
@@ -9023,10 +9018,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_5_span_12_Temp
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_5_Template(rf, ctx) {
   if (rf & 1) {
     const _r209 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 688)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 689)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Quote for Previous PNR");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 197)(4, "ion-item", 727)(5, "ion-label");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 197)(4, "ion-item", 728)(5, "ion-label");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6, "Quote for Previous PNR");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-checkbox", 380);
@@ -9064,7 +9059,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_5_Template(rf,
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_6_div_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 388)(1, "ion-row")(2, "ion-col", 389)(3, "ion-item", 731)(4, "ion-label", 391);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 388)(1, "ion-row")(2, "ion-col", 389)(3, "ion-item", 732)(4, "ion-label", 391);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "ion-col", 392)(7, "ion-item", 404)(8, "ion-label");
@@ -9082,7 +9077,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_6_div_5_ion_ro
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row")(1, "ion-col", 394);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "ion-radio", 395);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-col", 396)(4, "ion-item", 732)(5, "div", 398);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-col", 396)(4, "ion-item", 733)(5, "div", 398);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](6, "ion-label", 399);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()()();
   }
@@ -9125,7 +9120,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_6_div_5_Templa
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_6_Template(rf, ctx) {
   if (rf & 1) {
     const _r213 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 688)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 689)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Select Offer Coupon");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](3, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_6_div_3_Template, 10, 1, "div", 385);
@@ -9158,10 +9153,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_6_Template(rf,
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_div_7_ion_card_1_div_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 734)(1, "ion-row")(2, "ion-col", 389)(3, "ion-item", 735)(4, "ion-label", 391);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 735)(1, "ion-row")(2, "ion-col", 389)(3, "ion-item", 736)(4, "ion-label", 391);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "ion-col", 392)(7, "ion-item", 736)(8, "ion-label");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "ion-col", 392)(7, "ion-item", 737)(8, "ion-label");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](9, "APPLIED");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()()()();
   }
@@ -9174,7 +9169,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_7_ion_card_1_div_3_
 function PaymentDetailsPage_ng_container_4_ion_content_2_div_7_ion_card_1_div_5_ion_row_1_ion_col_7_Template(rf, ctx) {
   if (rf & 1) {
     const _r220 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-col", 740)(1, "button", 741);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-col", 741)(1, "button", 742);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_ion_content_2_div_7_ion_card_1_div_5_ion_row_1_ion_col_7_Template_button_click_1_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r220);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](7);
@@ -9199,10 +9194,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_7_ion_card_1_div_5_
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "ion-col", 394);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "ion-radio", 407);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-col", 737)(4, "ion-item", 738)(5, "div", 398);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-col", 738)(4, "ion-item", 739)(5, "div", 398);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](6, "ion-label", 399);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](7, PaymentDetailsPage_ng_container_4_ion_content_2_div_7_ion_card_1_div_5_ion_row_1_ion_col_7_Template, 3, 0, "ion-col", 739);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](7, PaymentDetailsPage_ng_container_4_ion_content_2_div_7_ion_card_1_div_5_ion_row_1_ion_col_7_Template, 3, 0, "ion-col", 740);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -9223,7 +9218,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_7_ion_card_1_div_5_
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "ion-col", 394);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "ion-col", 742);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "ion-col", 743);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-label", 399);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
@@ -9250,10 +9245,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_7_ion_card_1_div_5_
 function PaymentDetailsPage_ng_container_4_ion_content_2_div_7_ion_card_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r215 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 688)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 689)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Select Offer Coupon ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](3, PaymentDetailsPage_ng_container_4_ion_content_2_div_7_ion_card_1_div_3_Template, 10, 1, "div", 733);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](3, PaymentDetailsPage_ng_container_4_ion_content_2_div_7_ion_card_1_div_3_Template, 10, 1, "div", 734);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-radio-group", 228);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_4_ion_content_2_div_7_ion_card_1_Template_ion_radio_group_ngModelChange_4_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r215);
@@ -9284,7 +9279,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_7_ion_card_1_Templa
 function PaymentDetailsPage_ng_container_4_ion_content_2_div_7_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_4_ion_content_2_div_7_ion_card_1_Template, 7, 3, "ion-card", 687);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_4_ion_content_2_div_7_ion_card_1_Template, 7, 3, "ion-card", 688);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -9295,10 +9290,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_7_Template(rf, ctx)
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_36_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 698)(5, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 699)(5, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -9312,10 +9307,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_36_Template(rf,
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_37_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "Total snack price");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 698)(5, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 699)(5, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -9327,10 +9322,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_37_Template(rf,
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_38_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "Cash coupon");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 698)(5, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 699)(5, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -9342,10 +9337,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_38_Template(rf,
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_39_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "GST");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 698)(5, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 699)(5, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -9357,10 +9352,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_39_Template(rf,
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_40_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "Transaction Charge");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 698)(5, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 699)(5, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -9372,10 +9367,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_40_Template(rf,
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_41_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "Convenience Charge");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 698)(5, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 699)(5, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -9387,10 +9382,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_41_Template(rf,
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_42_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "Promotional Balance");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 698)(5, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 699)(5, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -9402,10 +9397,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_42_Template(rf,
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_43_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "Wallet Balance");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 698)(5, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 699)(5, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -9417,10 +9412,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_43_Template(rf,
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_44_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "Refundable Booking Charges");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 698)(5, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 699)(5, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -9432,10 +9427,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_44_Template(rf,
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_45_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 39)(1, "ion-col", 355)(2, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "Total Fare");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 698)(5, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 699)(5, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -9447,10 +9442,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_45_Template(rf,
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_54_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 701)(1, "ion-col", 355)(2, "span", 702);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 702)(1, "ion-col", 355)(2, "span", 703);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "Net Payable Phonebook (10%)");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 698)(5, "span", 703);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 699)(5, "span", 704);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -9463,7 +9458,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_54_Template(rf,
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_55_div_6_ion_item_1_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-item", 133);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "ion-label", 399)(2, "ion-radio", 665);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "ion-label", 399)(2, "ion-radio", 666);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -9503,7 +9498,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_55_a_10_Templa
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_55_Template(rf, ctx) {
   if (rf & 1) {
     const _r221 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 688)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 689)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Select Offer Coupon");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-row")(4, "ion-col", 355)(5, "ion-radio-group", 228);
@@ -9544,17 +9539,17 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_55_Template(rf
 function PaymentDetailsPage_ng_container_4_ion_content_2_div_56_ion_card_10_Template(rf, ctx) {
   if (rf & 1) {
     const _r225 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 745)(1, "ion-item", 750)(2, "div", 751);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 746)(1, "ion-item", 751)(2, "div", 752);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "Phone Booking ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-icon", 752);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-icon", 753);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_ion_content_2_div_56_ion_card_10_Template_ion_icon_click_4_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r225);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](4);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.showPhoneBookDets = !ctx_r1.showPhoneBookDets);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](5, "ion-radio", 753);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](5, "ion-radio", 754);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
@@ -9565,27 +9560,27 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_56_ion_card_10_Temp
 function PaymentDetailsPage_ng_container_4_ion_content_2_div_56_ion_item_12_Template(rf, ctx) {
   if (rf & 1) {
     const _r226 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-item", 750)(1, "div", 751);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-item", 751)(1, "div", 752);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, "Pay From Wallet ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-icon", 752);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-icon", 753);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_ion_content_2_div_56_ion_item_12_Template_ion_icon_click_3_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r226);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](4);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.showWalletDets = !ctx_r1.showWalletDets);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-radio", 754);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-radio", 755);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_div_56_Template(rf, ctx) {
   if (rf & 1) {
     const _r224 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 743)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 744)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, "Select Payment Method");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-list", 8)(4, "ion-radio-group", 744);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-list", 8)(4, "ion-radio-group", 745);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_4_ion_content_2_div_56_Template_ion_radio_group_ngModelChange_4_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r224);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -9597,14 +9592,14 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_56_Template(rf, ctx
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.bookTypeChanged(ctx_r1.bookType));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-card", 745)(6, "ion-item", 746)(7, "ion-label");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-card", 746)(6, "ion-item", 747)(7, "ion-label");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](8, "Book Online");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](9, "ion-radio", 747);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](9, "ion-radio", 748);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_4_ion_content_2_div_56_ion_card_10_Template, 6, 3, "ion-card", 748);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "ion-card", 745);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](12, PaymentDetailsPage_ng_container_4_ion_content_2_div_56_ion_item_12_Template, 5, 0, "ion-item", 749);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_4_ion_content_2_div_56_ion_card_10_Template, 6, 3, "ion-card", 749);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "ion-card", 746);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](12, PaymentDetailsPage_ng_container_4_ion_content_2_div_56_ion_item_12_Template, 5, 0, "ion-item", 750);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()()();
   }
   if (rf & 2) {
@@ -9643,7 +9638,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_57_div_1_div_5_ion_
 function PaymentDetailsPage_ng_container_4_ion_content_2_div_57_div_1_div_5_ion_item_2_Template(rf, ctx) {
   if (rf & 1) {
     const _r228 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-item", 756);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-item", 757);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_ion_content_2_div_57_div_1_div_5_ion_item_2_Template_ion_item_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r228);
       const payType_r229 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]().$implicit;
@@ -9652,7 +9647,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_57_div_1_div_5_ion_
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.calculatePgCharges(ctx_r1.paymentType));
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_4_ion_content_2_div_57_div_1_div_5_ion_item_2_ion_label_1_Template, 2, 0, "ion-label", 4)(2, PaymentDetailsPage_ng_container_4_ion_content_2_div_57_div_1_div_5_ion_item_2_ion_label_2_Template, 2, 1, "ion-label", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-radio", 757);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-radio", 758);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -9667,8 +9662,8 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_57_div_1_div_5_ion_
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_div_57_div_1_div_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div")(1, "ion-card", 745);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](2, PaymentDetailsPage_ng_container_4_ion_content_2_div_57_div_1_div_5_ion_item_2_Template, 4, 3, "ion-item", 755);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div")(1, "ion-card", 746);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](2, PaymentDetailsPage_ng_container_4_ion_content_2_div_57_div_1_div_5_ion_item_2_Template, 4, 3, "ion-item", 756);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
@@ -9683,7 +9678,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_57_div_1_div_5_Temp
 function PaymentDetailsPage_ng_container_4_ion_content_2_div_57_div_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r227 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 743)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 744)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, "Select a payment option: ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-list")(4, "ion-radio-group", 386);
@@ -9712,7 +9707,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_57_div_1_Template(r
 function PaymentDetailsPage_ng_container_4_ion_content_2_div_57_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_4_ion_content_2_div_57_div_1_Template, 6, 2, "div", 705);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_4_ion_content_2_div_57_div_1_Template, 6, 2, "div", 706);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -9723,7 +9718,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_57_Template(rf, ctx
 }
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_58_div_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div")(1, "ion-item", 727)(2, "ion-label");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div")(1, "ion-item", 728)(2, "ion-label");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-radio", 425)(5, "ion-img", 426);
@@ -9742,7 +9737,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_58_div_5_Templ
 function PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_58_Template(rf, ctx) {
   if (rf & 1) {
     const _r230 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 758)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 759)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Virtual account transfer");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-list", 133)(4, "ion-radio-group", 386);
@@ -9783,15 +9778,15 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_60_ion_card_1_Templ
 function PaymentDetailsPage_ng_container_4_ion_content_2_div_60_Template(rf, ctx) {
   if (rf & 1) {
     const _r232 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 759);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 760);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_4_ion_content_2_div_60_ion_card_1_Template, 4, 1, "ion-card", 31);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "ion-button", 760);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "ion-button", 761);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_ion_content_2_div_60_Template_ion_button_click_2_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r232);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.pay());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 761);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 762);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4, "Continue to Payment");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -9812,7 +9807,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_61_Template(rf, ctx
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.pay());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "div", 762);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "div", 763);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "Proceed to payment");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -9820,9 +9815,9 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_div_61_Template(rf, ctx
 function PaymentDetailsPage_ng_container_4_ion_content_2_Template(rf, ctx) {
   if (rf & 1) {
     const _r200 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-content", 685);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_4_ion_content_2_div_1_Template, 2, 1, "div", 686)(2, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_2_Template, 6, 2, "ion-card", 687)(3, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_Template, 15, 4, "ion-card", 687)(4, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_4_Template, 13, 1, "ion-card", 687)(5, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_5_Template, 13, 5, "ion-card", 687)(6, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_6_Template, 7, 3, "ion-card", 687)(7, PaymentDetailsPage_ng_container_4_ion_content_2_div_7_Template, 2, 1, "div", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "ion-card", 688)(9, "ion-row", 689)(10, "ion-col", 394)(11, "ion-checkbox", 690);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-content", 686);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_4_ion_content_2_div_1_Template, 2, 1, "div", 687)(2, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_2_Template, 6, 2, "ion-card", 688)(3, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_3_Template, 15, 4, "ion-card", 688)(4, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_4_Template, 13, 1, "ion-card", 688)(5, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_5_Template, 13, 5, "ion-card", 688)(6, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_6_Template, 7, 3, "ion-card", 688)(7, PaymentDetailsPage_ng_container_4_ion_content_2_div_7_Template, 2, 1, "div", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "ion-card", 689)(9, "ion-row", 690)(10, "ion-col", 394)(11, "ion-checkbox", 691);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("ionChange", function PaymentDetailsPage_ng_container_4_ion_content_2_Template_ion_checkbox_ionChange_11_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r200);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -9835,10 +9830,10 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_Template(rf, ctx) {
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](12, "ion-col", 396)(13, "div", 691);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](12, "ion-col", 396)(13, "div", 692);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](14, "By providing your details you agree to OurBus ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](15, "span", 692);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](15, "span", 693);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_ion_content_2_Template_span_click_15_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r200);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -9846,7 +9841,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](16, "Terms of Service ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](17, "span", 692);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](17, "span", 693);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_ion_content_2_Template_span_click_17_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r200);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -9855,7 +9850,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](18, ", Cancellation Policy");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](19, " and ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](20, "span", 692);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](20, "span", 693);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_ion_content_2_Template_span_click_20_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r200);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -9863,31 +9858,31 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](21, " Privacy Policy");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](22, "ion-card", 693)(23, "ion-row", 694)(24, "ion-col", 394);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](25, "ion-icon", 695);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](22, "ion-card", 694)(23, "ion-row", 695)(24, "ion-col", 394);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](25, "ion-icon", 696);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](26, "ion-col", 396)(27, "span", 696);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](26, "ion-col", 396)(27, "span", 697);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](28, "Order Details");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](29, "ion-row", 39)(30, "ion-col", 355)(31, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](29, "ion-row", 39)(30, "ion-col", 355)(31, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](32, "Base Fare");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](33, "ion-col", 698)(34, "span", 697);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](33, "ion-col", 699)(34, "span", 698);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](35);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](36, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_36_Template, 7, 3, "ion-row", 699)(37, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_37_Template, 7, 1, "ion-row", 699)(38, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_38_Template, 7, 1, "ion-row", 699)(39, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_39_Template, 7, 1, "ion-row", 699)(40, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_40_Template, 7, 1, "ion-row", 699)(41, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_41_Template, 7, 1, "ion-row", 699)(42, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_42_Template, 7, 1, "ion-row", 699)(43, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_43_Template, 7, 1, "ion-row", 699)(44, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_44_Template, 7, 1, "ion-row", 699)(45, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_45_Template, 7, 2, "ion-row", 699);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](46, "div", 700);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](47, "ion-row", 701)(48, "ion-col", 355)(49, "span", 702);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](36, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_36_Template, 7, 3, "ion-row", 700)(37, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_37_Template, 7, 1, "ion-row", 700)(38, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_38_Template, 7, 1, "ion-row", 700)(39, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_39_Template, 7, 1, "ion-row", 700)(40, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_40_Template, 7, 1, "ion-row", 700)(41, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_41_Template, 7, 1, "ion-row", 700)(42, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_42_Template, 7, 1, "ion-row", 700)(43, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_43_Template, 7, 1, "ion-row", 700)(44, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_44_Template, 7, 1, "ion-row", 700)(45, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_45_Template, 7, 2, "ion-row", 700);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](46, "div", 701);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](47, "ion-row", 702)(48, "ion-col", 355)(49, "span", 703);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](50, "Amount Payable");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](51, "ion-col", 698)(52, "span", 703);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](51, "ion-col", 699)(52, "span", 704);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](53);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](54, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_54_Template, 7, 1, "ion-row", 704);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](54, PaymentDetailsPage_ng_container_4_ion_content_2_ion_row_54_Template, 7, 1, "ion-row", 705);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](55, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_55_Template, 12, 4, "ion-card", 687)(56, PaymentDetailsPage_ng_container_4_ion_content_2_div_56_Template, 13, 9, "div", 705)(57, PaymentDetailsPage_ng_container_4_ion_content_2_div_57_Template, 2, 1, "div", 4)(58, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_58_Template, 6, 2, "ion-card", 706);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](59, "div", 707);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](60, PaymentDetailsPage_ng_container_4_ion_content_2_div_60_Template, 5, 2, "div", 708)(61, PaymentDetailsPage_ng_container_4_ion_content_2_div_61_Template, 4, 0, "div", 344);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](55, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_55_Template, 12, 4, "ion-card", 688)(56, PaymentDetailsPage_ng_container_4_ion_content_2_div_56_Template, 13, 9, "div", 706)(57, PaymentDetailsPage_ng_container_4_ion_content_2_div_57_Template, 2, 1, "div", 4)(58, PaymentDetailsPage_ng_container_4_ion_content_2_ion_card_58_Template, 6, 2, "ion-card", 707);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](59, "div", 708);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](60, PaymentDetailsPage_ng_container_4_ion_content_2_div_60_Template, 5, 2, "div", 709)(61, PaymentDetailsPage_ng_container_4_ion_content_2_div_61_Template, 4, 0, "div", 344);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](62, "form", 84);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
@@ -9954,12 +9949,12 @@ function PaymentDetailsPage_ng_container_4_ion_content_2_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_4_ion_content_3_Template(rf, ctx) {
   if (rf & 1) {
     const _r234 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-content", 763)(1, "div", 764);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "ion-icon", 765);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 766);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-content", 764)(1, "div", 765);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "ion-icon", 766);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 767);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4, "Transaction Failed");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-button", 767);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-button", 768);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_ion_content_3_Template_ion_button_click_5_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r234);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -9967,7 +9962,7 @@ function PaymentDetailsPage_ng_container_4_ion_content_3_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6, "Try Again");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-button", 768);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-button", 769);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_ion_content_3_Template_ion_button_click_7_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r234);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -9982,7 +9977,7 @@ function PaymentDetailsPage_ng_container_4_div_4_ion_row_6_Template(rf, ctx) {
     const _r236 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "ion-col", 253);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "ion-col", 771);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "ion-col", 772);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_div_4_ion_row_6_Template_ion_col_click_2_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r236);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -9990,7 +9985,7 @@ function PaymentDetailsPage_ng_container_4_div_4_ion_row_6_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "ADD MONEY");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 772);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 773);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_div_4_ion_row_6_Template_ion_col_click_4_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r236);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -10006,7 +10001,7 @@ function PaymentDetailsPage_ng_container_4_div_4_ion_row_7_Template(rf, ctx) {
     const _r237 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "ion-col", 253)(2, "ion-col", 296);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-col", 771);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-col", 772);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_div_4_ion_row_7_Template_ion_col_click_3_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r237);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -10019,13 +10014,13 @@ function PaymentDetailsPage_ng_container_4_div_4_ion_row_7_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_4_div_4_Template(rf, ctx) {
   if (rf & 1) {
     const _r235 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 769);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 770);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_div_4_Template_div_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r235);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.walletNoteModal = !ctx_r1.walletNoteModal);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "div", 770)(2, "div", 294);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "div", 771)(2, "div", 294);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, " Wallet Booking ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "div", 286);
@@ -10047,7 +10042,7 @@ function PaymentDetailsPage_ng_container_4_div_4_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_4_div_5_Template(rf, ctx) {
   if (rf & 1) {
     const _r238 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 773)(1, "div", 774)(2, "ion-item", 723)(3, "ion-input", 775);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 774)(1, "div", 775)(2, "ion-item", 724)(3, "ion-input", 776);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_4_div_5_Template_ion_input_ngModelChange_3_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r238);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -10065,7 +10060,7 @@ function PaymentDetailsPage_ng_container_4_div_5_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7, "CANCEL");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "ion-col", 674);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "ion-col", 675);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_div_5_Template_ion_col_click_8_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r238);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -10083,13 +10078,13 @@ function PaymentDetailsPage_ng_container_4_div_5_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_4_div_6_Template(rf, ctx) {
   if (rf & 1) {
     const _r239 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 773)(1, "div", 774)(2, "h6", 442);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 774)(1, "div", 775)(2, "h6", 442);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](3, "OTP Verification");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-row")(5, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "div")(8, "ion-item", 723)(9, "ion-input", 776);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "div")(8, "ion-item", 724)(9, "ion-input", 777);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_4_div_6_Template_ion_input_ngModelChange_9_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r239);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -10118,7 +10113,7 @@ function PaymentDetailsPage_ng_container_4_div_6_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](14, "Resend OTP");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](15, "ion-col", 675);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](15, "ion-col", 676);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_div_6_Template_ion_col_click_15_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r239);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -10137,8 +10132,8 @@ function PaymentDetailsPage_ng_container_4_div_6_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_4_div_7_div_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 781)(1, "ion-row")(2, "ion-col", 253);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "img", 783);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 782)(1, "ion-row")(2, "ion-col", 253);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "img", 784);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 256);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5);
@@ -10156,10 +10151,10 @@ function PaymentDetailsPage_ng_container_4_div_7_div_7_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_4_div_7_Template(rf, ctx) {
   if (rf & 1) {
     const _r240 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 773)(1, "div", 777)(2, "ion-row")(3, "ion-col", 778);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 774)(1, "div", 778)(2, "ion-row")(3, "ion-col", 779);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4, "Wallet");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-col", 779);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-col", 780);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_4_div_7_Template_ion_col_click_5_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r240);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -10167,9 +10162,9 @@ function PaymentDetailsPage_ng_container_4_div_7_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6, "Close");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](7, PaymentDetailsPage_ng_container_4_div_7_div_7_Template, 9, 1, "div", 780);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 781)(9, "ion-row")(10, "ion-col", 253);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](11, "img", 782);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](7, PaymentDetailsPage_ng_container_4_div_7_div_7_Template, 9, 1, "div", 781);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 782)(9, "ion-row")(10, "ion-col", 253);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](11, "img", 783);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](12, "ion-col", 256);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](13);
@@ -10218,7 +10213,7 @@ function PaymentDetailsPage_ng_container_4_div_8_div_13_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_4_div_8_Template(rf, ctx) {
   if (rf & 1) {
     const _r241 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 773)(1, "div", 777)(2, "ion-row")(3, "ion-col", 266);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 774)(1, "div", 778)(2, "ion-row")(3, "ion-col", 266);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4, "How it Works");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-col", 267);
@@ -10252,7 +10247,7 @@ function PaymentDetailsPage_ng_container_4_div_8_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_4_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_4_ion_header_1_Template, 9, 0, "ion-header", 676)(2, PaymentDetailsPage_ng_container_4_ion_content_2_Template, 63, 31, "ion-content", 677)(3, PaymentDetailsPage_ng_container_4_ion_content_3_Template, 9, 0, "ion-content", 678)(4, PaymentDetailsPage_ng_container_4_div_4_Template, 8, 3, "div", 679)(5, PaymentDetailsPage_ng_container_4_div_5_Template, 10, 1, "div", 680)(6, PaymentDetailsPage_ng_container_4_div_6_Template, 17, 2, "div", 680)(7, PaymentDetailsPage_ng_container_4_div_7_Template, 17, 2, "div", 680)(8, PaymentDetailsPage_ng_container_4_div_8_Template, 14, 5, "div", 680);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_4_ion_header_1_Template, 9, 0, "ion-header", 677)(2, PaymentDetailsPage_ng_container_4_ion_content_2_Template, 63, 31, "ion-content", 678)(3, PaymentDetailsPage_ng_container_4_ion_content_3_Template, 9, 0, "ion-content", 679)(4, PaymentDetailsPage_ng_container_4_div_4_Template, 8, 3, "div", 680)(5, PaymentDetailsPage_ng_container_4_div_5_Template, 10, 1, "div", 681)(6, PaymentDetailsPage_ng_container_4_div_6_Template, 17, 2, "div", 681)(7, PaymentDetailsPage_ng_container_4_div_7_Template, 17, 2, "div", 681)(8, PaymentDetailsPage_ng_container_4_div_8_Template, 14, 5, "div", 681);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
@@ -10277,26 +10272,26 @@ function PaymentDetailsPage_ng_container_4_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_5_span_13_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 814);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 815);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1, "Onward Trip Details ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
 }
 function PaymentDetailsPage_ng_container_5_div_59_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div")(1, "ion-row", 815)(2, "ion-col", 816);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "img", 817);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div")(1, "ion-row", 816)(2, "ion-col", 817);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "img", 818);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 818)(5, "h2", 819);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 819)(5, "h2", 820);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "p", 820);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "p", 821);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-row", 108)(10, "ion-col", 821);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-row", 108)(10, "ion-col", 822);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](11, "ion-icon", 110);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](12, "ion-col", 822)(13, "h4", 823);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](12, "ion-col", 823)(13, "h4", 824);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](14, "Pickup Point");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](15, "p")(16, "span", 114);
@@ -10305,10 +10300,10 @@ function PaymentDetailsPage_ng_container_5_div_59_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](18, "span", 114);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](19);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](20, "ion-col", 824);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](20, "ion-col", 825);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](21, "ion-icon", 117);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](22, "ion-col", 825)(23, "h4", 823);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](22, "ion-col", 826)(23, "h4", 824);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](24, "Drop Point");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](25, "p")(26, "span", 114);
@@ -10336,20 +10331,20 @@ function PaymentDetailsPage_ng_container_5_div_59_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_5_ion_icon_64_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](0, "ion-icon", 826);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](0, "ion-icon", 827);
   }
 }
 function PaymentDetailsPage_ng_container_5_ion_icon_65_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](0, "ion-icon", 827);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](0, "ion-icon", 828);
   }
 }
 function PaymentDetailsPage_ng_container_5_div_66_div_10_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 834)(1, "span", 835);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 835)(1, "span", 836);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "span", 836);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "span", 837);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
@@ -10363,16 +10358,16 @@ function PaymentDetailsPage_ng_container_5_div_66_div_10_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_5_div_66_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div")(1, "ion-card", 828)(2, "ion-card-content", 829)(3, "h2", 830);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div")(1, "ion-card", 829)(2, "ion-card-content", 830)(3, "h2", 831);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "div", 831)(6, "span", 832);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "div", 832)(6, "span", 833);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "span", 832);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "span", 833);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](9, "Seat");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_5_div_66_div_10_Template, 5, 3, "div", 833);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_5_div_66_div_10_Template, 5, 3, "div", 834);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -10387,19 +10382,19 @@ function PaymentDetailsPage_ng_container_5_div_66_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_5_ion_row_67_div_50_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div")(1, "ion-row", 839)(2, "ion-col", 816);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "img", 817);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div")(1, "ion-row", 840)(2, "ion-col", 817);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "img", 818);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 818)(5, "h2", 819);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "ion-col", 819)(5, "h2", 820);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "p", 820);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "p", 821);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-row", 108)(10, "ion-col", 821);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-row", 108)(10, "ion-col", 822);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](11, "ion-icon", 110);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](12, "ion-col", 822)(13, "h4", 823);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](12, "ion-col", 823)(13, "h4", 824);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](14, "Pickup Point");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](15, "p")(16, "span", 114);
@@ -10408,10 +10403,10 @@ function PaymentDetailsPage_ng_container_5_ion_row_67_div_50_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](18, "span", 114);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](19);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](20, "ion-col", 824);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](20, "ion-col", 825);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](21, "ion-icon", 117);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](22, "ion-col", 825)(23, "h4", 823);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](22, "ion-col", 826)(23, "h4", 824);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](24, "Drop Point");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](25, "p")(26, "span", 114);
@@ -10439,22 +10434,22 @@ function PaymentDetailsPage_ng_container_5_ion_row_67_div_50_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_5_ion_row_67_ion_icon_55_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](0, "ion-icon", 826);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](0, "ion-icon", 827);
   }
 }
 function PaymentDetailsPage_ng_container_5_ion_row_67_ion_icon_56_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](0, "ion-icon", 827);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](0, "ion-icon", 828);
   }
 }
 function PaymentDetailsPage_ng_container_5_ion_row_67_Template(rf, ctx) {
   if (rf & 1) {
     const _r245 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 346)(1, "ion-col", 63)(2, "div", 837)(3, "span", 814);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 346)(1, "ion-col", 63)(2, "div", 838)(3, "span", 815);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4, "Return Trip Details ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-row", 789)(6, "ion-col", 790);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](7, "img", 838);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-row", 790)(6, "ion-col", 791);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](7, "img", 839);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "ion-col", 46)(9, "h1");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](10);
@@ -10462,53 +10457,53 @@ function PaymentDetailsPage_ng_container_5_ion_row_67_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "h1");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](12);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](13, "ion-row", 792)(14, "ion-col", 48)(15, "h2", 793);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](13, "ion-row", 793)(14, "ion-col", 48)(15, "h2", 794);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](16);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpipe"](17, "uppercase");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](18, "ion-col", 48);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](19, "h2", 51);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](20, "ion-col", 52)(21, "h2", 793);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](20, "ion-col", 52)(21, "h2", 794);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](22);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpipe"](23, "uppercase");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](24, "ion-col", 48)(25, "p", 794);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](24, "ion-col", 48)(25, "p", 795);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](26);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](27, "ion-col", 56);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](28, "ion-col", 48)(29, "p", 794);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](28, "ion-col", 48)(29, "p", 795);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](30);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](31, "ion-col", 48)(32, "h2", 795);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](31, "ion-col", 48)(32, "h2", 796);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](33);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](34, "ion-col", 796)(35, "div", 797);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](36, "ion-icon", 798);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](37, "h3", 799);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](34, "ion-col", 797)(35, "div", 798);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](36, "ion-icon", 799);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](37, "h3", 800);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](38);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](39, "ion-col", 52)(40, "h2", 795);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](39, "ion-col", 52)(40, "h2", 796);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](41);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](42, "ion-col", 48)(43, "p", 800);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](42, "ion-col", 48)(43, "p", 801);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](44, "Depart");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](45, "ion-col", 48);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](46, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](47, "ion-col", 48)(48, "p", 800);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](47, "ion-col", 48)(48, "p", 801);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](49, "Arrive");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](50, PaymentDetailsPage_ng_container_5_ion_row_67_div_50_Template, 30, 6, "div", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](51, "ion-row", 66)(52, "ion-col", 801)(53, "h2", 802);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](51, "ion-row", 66)(52, "ion-col", 802)(53, "h2", 803);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_ion_row_67_Template_h2_click_53_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r245);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.viewreturnDetails());
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](54);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](55, PaymentDetailsPage_ng_container_5_ion_row_67_ion_icon_55_Template, 1, 0, "ion-icon", 803)(56, PaymentDetailsPage_ng_container_5_ion_row_67_ion_icon_56_Template, 1, 0, "ion-icon", 804);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](55, PaymentDetailsPage_ng_container_5_ion_row_67_ion_icon_55_Template, 1, 0, "ion-icon", 804)(56, PaymentDetailsPage_ng_container_5_ion_row_67_ion_icon_56_Template, 1, 0, "ion-icon", 805);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()()()()();
   }
   if (rf & 2) {
@@ -10543,10 +10538,10 @@ function PaymentDetailsPage_ng_container_5_ion_row_67_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_5_div_68_div_10_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 834)(1, "span", 835);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 835)(1, "span", 836);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "span", 836);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "span", 837);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
@@ -10560,16 +10555,16 @@ function PaymentDetailsPage_ng_container_5_div_68_div_10_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_5_div_68_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 840)(1, "ion-card", 841)(2, "ion-card-content", 829)(3, "h2", 830);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 841)(1, "ion-card", 842)(2, "ion-card-content", 830)(3, "h2", 831);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "div", 831)(6, "span", 842);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "div", 832)(6, "span", 843);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "span", 842);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "span", 843);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](9, "Seat");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_5_div_68_div_10_Template, 5, 3, "div", 833);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_5_div_68_div_10_Template, 5, 3, "div", 834);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -10584,10 +10579,10 @@ function PaymentDetailsPage_ng_container_5_div_68_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_5_div_69_div_10_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 834)(1, "span", 835);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 835)(1, "span", 836);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "span", 836);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "span", 837);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
@@ -10601,16 +10596,16 @@ function PaymentDetailsPage_ng_container_5_div_69_div_10_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_5_div_69_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 840)(1, "ion-card", 843)(2, "ion-card-content", 829)(3, "h2", 844);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 841)(1, "ion-card", 844)(2, "ion-card-content", 830)(3, "h2", 845);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "div", 831)(6, "span", 842);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "div", 832)(6, "span", 843);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "span", 842);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "span", 843);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](9, "Seat");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_5_div_69_div_10_Template, 5, 3, "div", 833);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_5_div_69_div_10_Template, 5, 3, "div", 834);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -10714,15 +10709,15 @@ function PaymentDetailsPage_ng_container_5_ion_card_72_div_12_Template(rf, ctx) 
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "span", 149);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Add More Coupons ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "a", 851);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-icon", 852);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "a", 852);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-icon", 853);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
 }
 function PaymentDetailsPage_ng_container_5_ion_card_72_ion_radio_group_13_Template(rf, ctx) {
   if (rf & 1) {
     const _r254 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-radio-group", 652);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-radio-group", 653);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_5_ion_card_72_ion_radio_group_13_Template_ion_radio_group_ngModelChange_0_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r254);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -10734,14 +10729,14 @@ function PaymentDetailsPage_ng_container_5_ion_card_72_ion_radio_group_13_Templa
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.specialCashDiscount());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "ion-row")(2, "ion-col", 853)(3, "ion-item", 653);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-radio", 654);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-label", 854);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "ion-row")(2, "ion-col", 854)(3, "ion-item", 654);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-radio", 655);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-label", 855);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-col", 855)(8, "ion-item", 655);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](9, "ion-radio", 656);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](10, "ion-label", 854);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-col", 856)(8, "ion-item", 656);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](9, "ion-radio", 657);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](10, "ion-label", 855);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](11);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()()()();
   }
@@ -10757,7 +10752,7 @@ function PaymentDetailsPage_ng_container_5_ion_card_72_ion_radio_group_13_Templa
 function PaymentDetailsPage_ng_container_5_ion_card_72_div_14_a_8_Template(rf, ctx) {
   if (rf & 1) {
     const _r256 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "a", 167)(1, "ion-icon", 864);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "a", 167)(1, "ion-icon", 865);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_ion_card_72_div_14_a_8_Template_ion_icon_click_1_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r256);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](4);
@@ -10769,10 +10764,10 @@ function PaymentDetailsPage_ng_container_5_ion_card_72_div_14_a_8_Template(rf, c
 function PaymentDetailsPage_ng_container_5_ion_card_72_div_14_Template(rf, ctx) {
   if (rf & 1) {
     const _r255 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 856)(1, "ion-item", 857);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "ion-input", 858);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 857)(1, "ion-item", 858);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "ion-input", 859);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-row")(4, "ion-col", 859)(5, "ion-item", 860)(6, "ion-input", 861);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-row")(4, "ion-col", 860)(5, "ion-item", 861)(6, "ion-input", 862);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_5_ion_card_72_div_14_Template_ion_input_ngModelChange_6_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r255);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -10780,9 +10775,9 @@ function PaymentDetailsPage_ng_container_5_ion_card_72_div_14_Template(rf, ctx) 
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-col", 862);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-col", 863);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](8, PaymentDetailsPage_ng_container_5_ion_card_72_div_14_a_8_Template, 2, 0, "a", 166);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-button", 863);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-button", 864);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_ion_card_72_div_14_Template_ion_button_click_9_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r255);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -10820,10 +10815,10 @@ function PaymentDetailsPage_ng_container_5_ion_card_72_span_15_Template(rf, ctx)
 function PaymentDetailsPage_ng_container_5_ion_card_72_Template(rf, ctx) {
   if (rf & 1) {
     const _r249 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 845)(1, "div", 846);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 846)(1, "div", 847);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Coupon Details");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 847)(4, "ion-item", 408)(5, "ion-label", 848);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 848)(4, "ion-item", 408)(5, "ion-label", 849);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_ion_card_72_Template_ion_label_click_5_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r249);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -10831,7 +10826,7 @@ function PaymentDetailsPage_ng_container_5_ion_card_72_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6, "Have a coupon");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-checkbox", 849);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-checkbox", 850);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_5_ion_card_72_Template_ion_checkbox_ngModelChange_7_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r249);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -10847,7 +10842,7 @@ function PaymentDetailsPage_ng_container_5_ion_card_72_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 135);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](9, PaymentDetailsPage_ng_container_5_ion_card_72_p_9_Template, 2, 0, "p", 136)(10, PaymentDetailsPage_ng_container_5_ion_card_72_p_10_Template, 2, 0, "p", 136)(11, PaymentDetailsPage_ng_container_5_ion_card_72_div_11_Template, 2, 1, "div", 137);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](12, PaymentDetailsPage_ng_container_5_ion_card_72_div_12_Template, 5, 0, "div", 138)(13, PaymentDetailsPage_ng_container_5_ion_card_72_ion_radio_group_13_Template, 12, 3, "ion-radio-group", 651)(14, PaymentDetailsPage_ng_container_5_ion_card_72_div_14_Template, 11, 8, "div", 850)(15, PaymentDetailsPage_ng_container_5_ion_card_72_span_15_Template, 2, 1, "span", 73);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](12, PaymentDetailsPage_ng_container_5_ion_card_72_div_12_Template, 5, 0, "div", 138)(13, PaymentDetailsPage_ng_container_5_ion_card_72_ion_radio_group_13_Template, 12, 3, "ion-radio-group", 652)(14, PaymentDetailsPage_ng_container_5_ion_card_72_div_14_Template, 11, 8, "div", 851)(15, PaymentDetailsPage_ng_container_5_ion_card_72_span_15_Template, 2, 1, "span", 73);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
@@ -10872,21 +10867,21 @@ function PaymentDetailsPage_ng_container_5_ion_card_72_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_5_ion_card_73_span_10_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 660);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 661);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1, "Apply");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
 }
 function PaymentDetailsPage_ng_container_5_ion_card_73_span_11_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 660);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "span", 661);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1, "Remove");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
 }
 function PaymentDetailsPage_ng_container_5_ion_card_73_div_12_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 661);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 662);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
@@ -10926,15 +10921,15 @@ function PaymentDetailsPage_ng_container_5_ion_card_73_div_19_Template(rf, ctx) 
 function PaymentDetailsPage_ng_container_5_ion_card_73_Template(rf, ctx) {
   if (rf & 1) {
     const _r257 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 845)(1, "div", 624);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "ion-icon", 625);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "span", 865);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 846)(1, "div", 625);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "ion-icon", 626);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "span", 866);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4, "Coupon");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "div", 627);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "div", 628);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6, "Enter Coupon Code");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "div", 628)(8, "ion-input", 866);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "div", 629)(8, "ion-input", 867);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_5_ion_card_73_Template_ion_input_ngModelChange_8_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r257);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -10942,22 +10937,22 @@ function PaymentDetailsPage_ng_container_5_ion_card_73_Template(rf, ctx) {
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-button", 867);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-button", 868);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_ion_card_73_Template_ion_button_click_9_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r257);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.applyCoupon());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_5_ion_card_73_span_10_Template, 2, 0, "span", 632)(11, PaymentDetailsPage_ng_container_5_ion_card_73_span_11_Template, 2, 0, "span", 632);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_5_ion_card_73_span_10_Template, 2, 0, "span", 633)(11, PaymentDetailsPage_ng_container_5_ion_card_73_span_11_Template, 2, 0, "span", 633);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](12, PaymentDetailsPage_ng_container_5_ion_card_73_div_12_Template, 2, 5, "div", 633);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](13, "div", 634)(14, "span");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](12, PaymentDetailsPage_ng_container_5_ion_card_73_div_12_Template, 2, 5, "div", 634);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](13, "div", 635)(14, "span");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](15, "Or");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](16, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](17, "Offer type");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](18, "ion-select", 868);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](18, "ion-select", 869);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_5_ion_card_73_Template_ion_select_ngModelChange_18_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r257);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -10983,7 +10978,7 @@ function PaymentDetailsPage_ng_container_5_ion_card_73_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](19, PaymentDetailsPage_ng_container_5_ion_card_73_div_19_Template, 2, 1, "div", 143);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](20, "ion-icon", 663);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](20, "ion-icon", 664);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -11007,10 +11002,10 @@ function PaymentDetailsPage_ng_container_5_ion_card_73_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_5_ion_card_74_Template(rf, ctx) {
   if (rf & 1) {
     const _r260 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 845)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 846)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Privilege Card");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-row")(4, "ion-col", 869)(5, "ion-item", 870)(6, "ion-input", 871);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-row")(4, "ion-col", 870)(5, "ion-item", 871)(6, "ion-input", 872);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_5_ion_card_74_Template_ion_input_ngModelChange_6_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r260);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -11018,7 +11013,7 @@ function PaymentDetailsPage_ng_container_5_ion_card_74_Template(rf, ctx) {
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"]($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-row")(8, "ion-col", 869)(9, "ion-button", 378);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-row")(8, "ion-col", 870)(9, "ion-button", 378);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_ion_card_74_Template_ion_button_click_9_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r260);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -11088,15 +11083,15 @@ function PaymentDetailsPage_ng_container_5_ion_card_75_div_11_a_10_Template(rf, 
 function PaymentDetailsPage_ng_container_5_ion_card_75_div_11_Template(rf, ctx) {
   if (rf & 1) {
     const _r263 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 856)(1, "ion-row")(2, "ion-col", 63)(3, "ion-item", 873);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-input", 874);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 857)(1, "ion-row")(2, "ion-col", 63)(3, "ion-item", 874);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-input", 875);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-row")(6, "ion-col", 875)(7, "ion-item", 408);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](8, "ion-input", 876);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-row")(6, "ion-col", 876)(7, "ion-item", 408);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](8, "ion-input", 877);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-col", 862);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-col", 863);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_5_ion_card_75_div_11_a_10_Template, 2, 0, "a", 166);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "ion-button", 877);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](11, "ion-button", 878);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_ion_card_75_div_11_Template_ion_button_click_11_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r263);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -11133,13 +11128,13 @@ function PaymentDetailsPage_ng_container_5_ion_card_75_span_12_Template(rf, ctx)
 function PaymentDetailsPage_ng_container_5_ion_card_75_Template(rf, ctx) {
   if (rf & 1) {
     const _r261 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 845)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 846)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Quote for Previous PNR");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 197)(4, "ion-item", 408)(5, "ion-label", 872);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "div", 197)(4, "ion-item", 408)(5, "ion-label", 873);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6, "Quote for Previous PNR");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-checkbox", 849);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-checkbox", 850);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_5_ion_card_75_Template_ion_checkbox_ngModelChange_7_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r261);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -11155,7 +11150,7 @@ function PaymentDetailsPage_ng_container_5_ion_card_75_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 135);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](9, PaymentDetailsPage_ng_container_5_ion_card_75_p_9_Template, 2, 0, "p", 136)(10, PaymentDetailsPage_ng_container_5_ion_card_75_div_10_Template, 8, 3, "div", 137);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](11, PaymentDetailsPage_ng_container_5_ion_card_75_div_11_Template, 13, 6, "div", 850)(12, PaymentDetailsPage_ng_container_5_ion_card_75_span_12_Template, 2, 1, "span", 73);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](11, PaymentDetailsPage_ng_container_5_ion_card_75_div_11_Template, 13, 6, "div", 851)(12, PaymentDetailsPage_ng_container_5_ion_card_75_span_12_Template, 2, 1, "span", 73);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
   if (rf & 2) {
@@ -11189,10 +11184,10 @@ function PaymentDetailsPage_ng_container_5_ion_card_76_div_3_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_5_ion_card_76_div_5_ion_row_1_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row")(1, "ion-col", 878);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row")(1, "ion-col", 879);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "ion-radio", 395);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-col", 879)(4, "ion-item", 880)(5, "div", 881);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-col", 880)(4, "ion-item", 881)(5, "div", 882);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](6, "ion-label", 399);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()()();
   }
@@ -11208,7 +11203,7 @@ function PaymentDetailsPage_ng_container_5_ion_card_76_div_5_ion_row_2_Template(
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "ion-col", 394);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "ion-col", 879);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "ion-col", 880);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-label", 399);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
@@ -11235,7 +11230,7 @@ function PaymentDetailsPage_ng_container_5_ion_card_76_div_5_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_5_ion_card_76_Template(rf, ctx) {
   if (rf & 1) {
     const _r265 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 845)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 846)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Select Offer Coupon");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](3, PaymentDetailsPage_ng_container_5_ion_card_76_div_3_Template, 10, 1, "div", 385);
@@ -11293,10 +11288,10 @@ function PaymentDetailsPage_ng_container_5_ion_card_77_div_5_ion_row_1_Template(
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.handleCouponSelection(pCoupon_r270, i_r271));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "ion-col", 878);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "ion-col", 879);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](2, "ion-radio", 407);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-col", 879)(4, "ion-item", 880)(5, "div", 881)(6, "ion-label");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-col", 880)(4, "ion-item", 881)(5, "div", 882)(6, "ion-label");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()()()();
   }
@@ -11316,7 +11311,7 @@ function PaymentDetailsPage_ng_container_5_ion_card_77_div_5_ion_row_2_Template(
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "ion-col", 394);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "ion-col", 879)(3, "ion-label");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](2, "ion-col", 880)(3, "ion-label");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
@@ -11343,7 +11338,7 @@ function PaymentDetailsPage_ng_container_5_ion_card_77_div_5_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_5_ion_card_77_Template(rf, ctx) {
   if (rf & 1) {
     const _r267 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 845)(1, "div", 882);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 846)(1, "div", 883);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Select Offer Coupon ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](3, PaymentDetailsPage_ng_container_5_ion_card_77_div_3_Template, 10, 1, "div", 385);
@@ -11379,7 +11374,7 @@ function PaymentDetailsPage_ng_container_5_ion_card_78_div_6_ion_item_1_Template
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-item", 133)(1, "ion-label");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-radio", 665);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](3, "ion-radio", 666);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -11404,7 +11399,7 @@ function PaymentDetailsPage_ng_container_5_ion_card_78_div_6_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_5_ion_card_78_a_10_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "a", 884);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "a", 885);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1, "Offer coupon Applied");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
@@ -11412,7 +11407,7 @@ function PaymentDetailsPage_ng_container_5_ion_card_78_a_10_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_5_ion_card_78_Template(rf, ctx) {
   if (rf & 1) {
     const _r272 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 845)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 846)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Select Offer Coupon");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-row")(4, "ion-col", 355)(5, "ion-radio-group", 228);
@@ -11433,7 +11428,7 @@ function PaymentDetailsPage_ng_container_5_ion_card_78_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](8);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-col", 410);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_5_ion_card_78_a_10_Template, 2, 0, "a", 883);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_5_ion_card_78_a_10_Template, 2, 0, "a", 884);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](11, "div", 387);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -11453,26 +11448,26 @@ function PaymentDetailsPage_ng_container_5_ion_card_78_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_5_ion_card_79_ion_item_5_Template(rf, ctx) {
   if (rf & 1) {
     const _r275 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-item", 887);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-item", 888);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_ion_card_79_ion_item_5_Template_ion_item_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r275);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
       ctx_r1.bookType = "3";
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.bookTypeChanged(ctx_r1.bookType));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "ion-label", 888);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "ion-label", 889);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, "Pay From Wallet ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-icon", 889);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-icon", 890);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_ion_card_79_ion_item_5_Template_ion_icon_click_3_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r275);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.showWalletDets = !ctx_r1.showWalletDets);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "span", 890);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "span", 891);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](6, "ion-radio", 668);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](6, "ion-radio", 669);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -11484,14 +11479,14 @@ function PaymentDetailsPage_ng_container_5_ion_card_79_ion_item_5_Template(rf, c
 function PaymentDetailsPage_ng_container_5_ion_card_79_ion_item_10_Template(rf, ctx) {
   if (rf & 1) {
     const _r276 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-item", 887);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-item", 888);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_ion_card_79_ion_item_10_Template_ion_item_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r276);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
       ctx_r1.bookType = "2";
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.bookTypeChanged(ctx_r1.bookType));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "ion-label", 888);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "ion-label", 889);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, "Phone Booking");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-icon", 418);
@@ -11501,17 +11496,17 @@ function PaymentDetailsPage_ng_container_5_ion_card_79_ion_item_10_Template(rf, 
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.showPhoneBookDets = !ctx_r1.showPhoneBookDets);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-radio", 667);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](4, "ion-radio", 668);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
 }
 function PaymentDetailsPage_ng_container_5_ion_card_79_Template(rf, ctx) {
   if (rf & 1) {
     const _r274 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 845)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 846)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, "Select Payment Method");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-list", 885)(4, "ion-radio-group", 228);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-list", 886)(4, "ion-radio-group", 228);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_5_ion_card_79_Template_ion_radio_group_ngModelChange_4_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r274);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -11523,20 +11518,20 @@ function PaymentDetailsPage_ng_container_5_ion_card_79_Template(rf, ctx) {
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.bookTypeChanged(ctx_r1.bookType));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](5, PaymentDetailsPage_ng_container_5_ion_card_79_ion_item_5_Template, 7, 2, "ion-item", 886);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "ion-item", 887);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](5, PaymentDetailsPage_ng_container_5_ion_card_79_ion_item_5_Template, 7, 2, "ion-item", 887);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "ion-item", 888);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_ion_card_79_Template_ion_item_click_6_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r274);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
       ctx_r1.bookType = "1";
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.bookTypeChanged(ctx_r1.bookType));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-label", 888);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-label", 889);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](8, "Book Online");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](9, "ion-radio", 666);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](9, "ion-radio", 667);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_5_ion_card_79_ion_item_10_Template, 5, 0, "ion-item", 886);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](10, PaymentDetailsPage_ng_container_5_ion_card_79_ion_item_10_Template, 5, 0, "ion-item", 887);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -11552,7 +11547,7 @@ function PaymentDetailsPage_ng_container_5_ion_card_79_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_5_div_80_ion_card_1_div_5_ion_item_1_ion_label_1_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-label");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "img", 669);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](1, "img", 670);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
 }
@@ -11571,7 +11566,7 @@ function PaymentDetailsPage_ng_container_5_div_80_ion_card_1_div_5_ion_item_1_io
 function PaymentDetailsPage_ng_container_5_div_80_ion_card_1_div_5_ion_item_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r278 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-item", 893);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-item", 894);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_div_80_ion_card_1_div_5_ion_item_1_Template_ion_item_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r278);
       const payType_r279 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]().$implicit;
@@ -11596,7 +11591,7 @@ function PaymentDetailsPage_ng_container_5_div_80_ion_card_1_div_5_ion_item_1_Te
 function PaymentDetailsPage_ng_container_5_div_80_ion_card_1_div_5_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_5_div_80_ion_card_1_div_5_ion_item_1_Template, 4, 3, "ion-item", 892);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_5_div_80_ion_card_1_div_5_ion_item_1_Template, 4, 3, "ion-item", 893);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -11608,10 +11603,10 @@ function PaymentDetailsPage_ng_container_5_div_80_ion_card_1_div_5_Template(rf, 
 function PaymentDetailsPage_ng_container_5_div_80_ion_card_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r277 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 845)(1, "div", 891);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 846)(1, "div", 892);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, "Payment options ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-list", 885)(4, "ion-radio-group", 421);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-list", 886)(4, "ion-radio-group", 421);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtwoWayListener"]("ngModelChange", function PaymentDetailsPage_ng_container_5_div_80_ion_card_1_Template_ion_radio_group_ngModelChange_4_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r277);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
@@ -11637,7 +11632,7 @@ function PaymentDetailsPage_ng_container_5_div_80_ion_card_1_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_5_div_80_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_5_div_80_ion_card_1_Template, 6, 2, "ion-card", 807);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](1, PaymentDetailsPage_ng_container_5_div_80_ion_card_1_Template, 6, 2, "ion-card", 808);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -11667,7 +11662,7 @@ function PaymentDetailsPage_ng_container_5_ion_card_81_div_5_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_5_ion_card_81_Template(rf, ctx) {
   if (rf & 1) {
     const _r280 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 894)(1, "div", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-card", 895)(1, "div", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, " Virtual account transfer");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-list", 133)(4, "ion-radio-group", 386);
@@ -11707,7 +11702,7 @@ function PaymentDetailsPage_ng_container_5_ion_row_96_ion_card_2_Template(rf, ct
 }
 function PaymentDetailsPage_ng_container_5_ion_row_96_h2_4_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "h2", 902);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "h2", 903);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpipe"](2, "number");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -11720,7 +11715,7 @@ function PaymentDetailsPage_ng_container_5_ion_row_96_h2_4_Template(rf, ctx) {
 }
 function PaymentDetailsPage_ng_container_5_ion_row_96_h2_5_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "h2", 903);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "h2", 904);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpipe"](2, "number");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -11734,12 +11729,12 @@ function PaymentDetailsPage_ng_container_5_ion_row_96_h2_5_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_5_ion_row_96_Template(rf, ctx) {
   if (rf & 1) {
     const _r282 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 895)(1, "ion-col", 38);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "ion-row", 896)(1, "ion-col", 38);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](2, PaymentDetailsPage_ng_container_5_ion_row_96_ion_card_2_Template, 4, 1, "ion-card", 31);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-col", 896);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](4, PaymentDetailsPage_ng_container_5_ion_row_96_h2_4_Template, 3, 5, "h2", 897)(5, PaymentDetailsPage_ng_container_5_ion_row_96_h2_5_Template, 3, 5, "h2", 898);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "p", 899);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "ion-col", 897);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](4, PaymentDetailsPage_ng_container_5_ion_row_96_h2_4_Template, 3, 5, "h2", 898)(5, PaymentDetailsPage_ng_container_5_ion_row_96_h2_5_Template, 3, 5, "h2", 899);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "p", 900);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_ion_row_96_Template_p_click_6_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r282);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -11747,7 +11742,7 @@ function PaymentDetailsPage_ng_container_5_ion_row_96_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7, " View Breakup ");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "ion-col", 900)(9, "ion-button", 901);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "ion-col", 901)(9, "ion-button", 902);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_ion_row_96_Template_ion_button_click_9_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r282);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -11963,7 +11958,7 @@ function PaymentDetailsPage_ng_container_5_div_97_ion_row_33_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_5_div_97_Template(rf, ctx) {
   if (rf & 1) {
     const _r283 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 233)(1, "div", 904)(2, "ion-row", 235)(3, "ion-col", 236)(4, "span", 237);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 233)(1, "div", 905)(2, "ion-row", 235)(3, "ion-col", 236)(4, "span", 237);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5, "Price Breakup");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](6, "ion-col", 238)(7, "ion-icon", 239);
@@ -11981,7 +11976,7 @@ function PaymentDetailsPage_ng_container_5_div_97_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpipe"](14, "number");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](15, PaymentDetailsPage_ng_container_5_div_97_ion_row_15_Template, 6, 6, "ion-row", 244)(16, PaymentDetailsPage_ng_container_5_div_97_ion_row_16_Template, 6, 5, "ion-row", 244)(17, PaymentDetailsPage_ng_container_5_div_97_ion_row_17_Template, 6, 5, "ion-row", 244)(18, PaymentDetailsPage_ng_container_5_div_97_ion_row_18_Template, 6, 5, "ion-row", 4)(19, PaymentDetailsPage_ng_container_5_div_97_ion_row_19_Template, 6, 5, "ion-row", 244)(20, PaymentDetailsPage_ng_container_5_div_97_ion_row_20_Template, 6, 5, "ion-row", 244)(21, PaymentDetailsPage_ng_container_5_div_97_ion_row_21_Template, 6, 5, "ion-row", 244)(22, PaymentDetailsPage_ng_container_5_div_97_ion_row_22_Template, 6, 5, "ion-row", 244)(23, PaymentDetailsPage_ng_container_5_div_97_ion_row_23_Template, 6, 5, "ion-row", 244)(24, PaymentDetailsPage_ng_container_5_div_97_ion_row_24_Template, 6, 5, "ion-row", 244)(25, PaymentDetailsPage_ng_container_5_div_97_ion_row_25_Template, 6, 4, "ion-row", 244);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](26, "hr", 905);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](26, "hr", 906);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](27, "ion-row")(28, "div", 245);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](29, "Total Amount Payable");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -12027,7 +12022,7 @@ function PaymentDetailsPage_ng_container_5_div_97_Template(rf, ctx) {
 function PaymentDetailsPage_ng_container_5_div_98_Template(rf, ctx) {
   if (rf & 1) {
     const _r284 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 233)(1, "div", 284)(2, "ion-row")(3, "div", 673);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](0, "div", 233)(1, "div", 284)(2, "ion-row")(3, "div", 674);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4, "\u2714");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "div", 286);
@@ -12035,7 +12030,7 @@ function PaymentDetailsPage_ng_container_5_div_98_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-row");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](8, "ion-col", 355);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-col", 906);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](9, "ion-col", 907);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_div_98_Template_ion_col_click_9_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r284);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -12181,7 +12176,7 @@ function PaymentDetailsPage_ng_container_5_div_102_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](7, "CANCEL");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "ion-col", 674);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "ion-col", 675);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_div_102_Template_ion_col_click_8_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r290);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -12232,7 +12227,7 @@ function PaymentDetailsPage_ng_container_5_div_103_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](16, "Resend OTP");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](17, "ion-col", 675);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](17, "ion-col", 676);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_div_103_Template_ion_col_click_17_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r291);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](2);
@@ -12367,7 +12362,7 @@ function PaymentDetailsPage_ng_container_5_Template(rf, ctx) {
   if (rf & 1) {
     const _r243 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "ion-header", 784)(2, "ion-toolbar", 307)(3, "ion-buttons", 785);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](1, "ion-header", 785)(2, "ion-toolbar", 307)(3, "ion-buttons", 786);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_Template_ion_buttons_click_3_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r243);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
@@ -12383,10 +12378,10 @@ function PaymentDetailsPage_ng_container_5_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](5, "ion-title", 310);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](6, " Review Bookings");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-content", 786)(8, "ion-grid")(9, "ion-row")(10, "ion-col", 63)(11, "div")(12, "div", 787);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](13, PaymentDetailsPage_ng_container_5_span_13_Template, 2, 0, "span", 788);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](14, "ion-row", 789)(15, "ion-col", 790);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](16, "img", 791);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](7, "ion-content", 787)(8, "ion-grid")(9, "ion-row")(10, "ion-col", 63)(11, "div")(12, "div", 788);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](13, PaymentDetailsPage_ng_container_5_span_13_Template, 2, 0, "span", 789);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](14, "ion-row", 790)(15, "ion-col", 791);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](16, "img", 792);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](17, "ion-col", 46)(18, "h1");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](19);
@@ -12394,60 +12389,60 @@ function PaymentDetailsPage_ng_container_5_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](20, "h1");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](21);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](22, "ion-row", 792)(23, "ion-col", 48)(24, "h2", 793);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](22, "ion-row", 793)(23, "ion-col", 48)(24, "h2", 794);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](25);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpipe"](26, "uppercase");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](27, "ion-col", 48);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](28, "h2", 51);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](29, "ion-col", 52)(30, "h2", 793);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](29, "ion-col", 52)(30, "h2", 794);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](31);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵpipe"](32, "uppercase");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](33, "ion-col", 48)(34, "p", 794);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](33, "ion-col", 48)(34, "p", 795);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](35);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](36, "ion-col", 56);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](37, "ion-col", 48)(38, "p", 794);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](37, "ion-col", 48)(38, "p", 795);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](39);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](40, "ion-col", 48)(41, "h2", 795);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](40, "ion-col", 48)(41, "h2", 796);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](42);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](43, "ion-col", 796)(44, "div", 797);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](45, "ion-icon", 798);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](46, "h3", 799);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](43, "ion-col", 797)(44, "div", 798);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](45, "ion-icon", 799);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](46, "h3", 800);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](47);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](48, "ion-col", 52)(49, "h2", 795);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](48, "ion-col", 52)(49, "h2", 796);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](50);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](51, "ion-col", 48)(52, "p", 800);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](51, "ion-col", 48)(52, "p", 801);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](53, "Depart");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](54, "ion-col", 48);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](55, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](56, "ion-col", 48)(57, "p", 800);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](56, "ion-col", 48)(57, "p", 801);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](58, "Arrive");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](59, PaymentDetailsPage_ng_container_5_div_59_Template, 30, 6, "div", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](60, "ion-row", 66)(61, "ion-col", 801)(62, "h2", 802);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](60, "ion-row", 66)(61, "ion-col", 802)(62, "h2", 803);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_Template_h2_click_62_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r243);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.viewDetails());
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](63);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](64, PaymentDetailsPage_ng_container_5_ion_icon_64_Template, 1, 0, "ion-icon", 803)(65, PaymentDetailsPage_ng_container_5_ion_icon_65_Template, 1, 0, "ion-icon", 804);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](64, PaymentDetailsPage_ng_container_5_ion_icon_64_Template, 1, 0, "ion-icon", 804)(65, PaymentDetailsPage_ng_container_5_ion_icon_65_Template, 1, 0, "ion-icon", 805);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()()()()()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](66, PaymentDetailsPage_ng_container_5_div_66_Template, 11, 3, "div", 4)(67, PaymentDetailsPage_ng_container_5_ion_row_67_Template, 57, 17, "ion-row", 327);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](68, PaymentDetailsPage_ng_container_5_div_68_Template, 11, 3, "div", 805)(69, PaymentDetailsPage_ng_container_5_div_69_Template, 11, 3, "div", 805);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](70, "div", 806);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](71, PaymentDetailsPage_ng_container_5_ion_card_71_Template, 6, 2, "ion-card", 71)(72, PaymentDetailsPage_ng_container_5_ion_card_72_Template, 16, 8, "ion-card", 807)(73, PaymentDetailsPage_ng_container_5_ion_card_73_Template, 21, 8, "ion-card", 807)(74, PaymentDetailsPage_ng_container_5_ion_card_74_Template, 13, 1, "ion-card", 807)(75, PaymentDetailsPage_ng_container_5_ion_card_75_Template, 13, 5, "ion-card", 807)(76, PaymentDetailsPage_ng_container_5_ion_card_76_Template, 7, 3, "ion-card", 807)(77, PaymentDetailsPage_ng_container_5_ion_card_77_Template, 7, 3, "ion-card", 807)(78, PaymentDetailsPage_ng_container_5_ion_card_78_Template, 12, 4, "ion-card", 807)(79, PaymentDetailsPage_ng_container_5_ion_card_79_Template, 11, 3, "ion-card", 807)(80, PaymentDetailsPage_ng_container_5_div_80_Template, 2, 1, "div", 4)(81, PaymentDetailsPage_ng_container_5_ion_card_81_Template, 6, 2, "ion-card", 808);
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](82, "ion-row", 809);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](68, PaymentDetailsPage_ng_container_5_div_68_Template, 11, 3, "div", 806)(69, PaymentDetailsPage_ng_container_5_div_69_Template, 11, 3, "div", 806);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](70, "div", 807);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](71, PaymentDetailsPage_ng_container_5_ion_card_71_Template, 6, 2, "ion-card", 71)(72, PaymentDetailsPage_ng_container_5_ion_card_72_Template, 16, 8, "ion-card", 808)(73, PaymentDetailsPage_ng_container_5_ion_card_73_Template, 21, 8, "ion-card", 808)(74, PaymentDetailsPage_ng_container_5_ion_card_74_Template, 13, 1, "ion-card", 808)(75, PaymentDetailsPage_ng_container_5_ion_card_75_Template, 13, 5, "ion-card", 808)(76, PaymentDetailsPage_ng_container_5_ion_card_76_Template, 7, 3, "ion-card", 808)(77, PaymentDetailsPage_ng_container_5_ion_card_77_Template, 7, 3, "ion-card", 808)(78, PaymentDetailsPage_ng_container_5_ion_card_78_Template, 12, 4, "ion-card", 808)(79, PaymentDetailsPage_ng_container_5_ion_card_79_Template, 11, 3, "ion-card", 808)(80, PaymentDetailsPage_ng_container_5_div_80_Template, 2, 1, "div", 4)(81, PaymentDetailsPage_ng_container_5_ion_card_81_Template, 6, 2, "ion-card", 809);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](82, "ion-row", 810);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_Template_ion_row_click_82_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r243);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
@@ -12457,11 +12452,11 @@ function PaymentDetailsPage_ng_container_5_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](85, "Cancellation Policy");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](86, "ion-col", 79)(87, "h2");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](88, "ion-icon", 810);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](88, "ion-icon", 811);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](89, "ion-card", 811)(90, "div", 341);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](89, "ion-card", 812)(90, "div", 341);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](91, "By clicking on continue you agree to all our ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](92, "span", 812);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](92, "span", 813);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PaymentDetailsPage_ng_container_5_Template_span_click_92_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r243);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"]();
@@ -12472,7 +12467,7 @@ function PaymentDetailsPage_ng_container_5_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelement"](94, "form", 84);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](95, "ion-footer");
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](96, PaymentDetailsPage_ng_container_5_ion_row_96_Template, 11, 3, "ion-row", 813);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](96, PaymentDetailsPage_ng_container_5_ion_row_96_Template, 11, 3, "ion-row", 814);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](97, PaymentDetailsPage_ng_container_5_div_97_Template, 34, 22, "div", 14)(98, PaymentDetailsPage_ng_container_5_div_98_Template, 11, 0, "div", 14)(99, PaymentDetailsPage_ng_container_5_div_99_Template, 11, 0, "div", 14)(100, PaymentDetailsPage_ng_container_5_div_100_Template, 11, 5, "div", 14)(101, PaymentDetailsPage_ng_container_5_div_101_Template, 8, 3, "div", 345)(102, PaymentDetailsPage_ng_container_5_div_102_Template, 10, 1, "div", 14)(103, PaymentDetailsPage_ng_container_5_div_103_Template, 19, 2, "div", 14)(104, PaymentDetailsPage_ng_container_5_div_104_Template, 17, 2, "div", 14)(105, PaymentDetailsPage_ng_container_5_div_105_Template, 14, 5, "div", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementContainerEnd"]();
@@ -12747,6 +12742,7 @@ class PaymentDetailsPage {
     this.isIos = false;
     this.seatDetails_gender_age = [];
     this.inProgress = false;
+    this.sbClearingOffer = false; // seabirdThemeNew clearOfferType(): batches resets so getFare() runs once, after all state is cleared
     this.cbusPreviousPnrDiscount = 0;
     this.showCustomHeader = false;
     this.browser = null;
@@ -17096,6 +17092,11 @@ class PaymentDetailsPage {
     }
   }
   offerTypeChange(offerType) {
+    var _this$metaData3;
+    if (offerType === '' && !this.sbClearingOffer && ((_this$metaData3 = this.metaData) === null || _this$metaData3 === void 0 ? void 0 : _this$metaData3.msiteFolder) === 'seabirdThemeNew') {
+      this.clearOfferType();
+      return;
+    }
     // Clear editext box and set apply button to normal when different option selected (not Promotion coupons)
     if (offerType != '7') {
       // '7' appears to be Promotion coupons
@@ -17202,7 +17203,7 @@ class PaymentDetailsPage {
   }
   getFare() {
     var _this$reservationData3, _this$reservationData4, _this$reservationData5, _this$commonStorage$l2;
-    if (this.inProgress) return;
+    if (this.inProgress || this.sbClearingOffer) return;
     // this.inProgress = true;
     let pathForBooking = "res_id=" + this.reservationId;
     if (this.bookType == '1') {
@@ -18595,16 +18596,16 @@ class PaymentDetailsPage {
     this.handleCouponSelection(pCoupon, index);
   }
   autoApplyCoupon() {
-    var _this$metaData3, _this$metaData4;
+    var _this$metaData4, _this$metaData5;
     if (this.manuallyRemovedCoupon) {
       return;
     }
-    if (this.offerCoupons && this.offerCoupons.length > 0 && (_this$metaData3 = this.metaData) !== null && _this$metaData3 !== void 0 && _this$metaData3.display_offer_coupon_discount_in_public_side && ((_this$metaData4 = this.metaData) === null || _this$metaData4 === void 0 ? void 0 : _this$metaData4.msiteFolder) === 'networktheme') {
-      var _firstCoupon$is_round, _this$metaData5;
+    if (this.offerCoupons && this.offerCoupons.length > 0 && (_this$metaData4 = this.metaData) !== null && _this$metaData4 !== void 0 && _this$metaData4.display_offer_coupon_discount_in_public_side && ((_this$metaData5 = this.metaData) === null || _this$metaData5 === void 0 ? void 0 : _this$metaData5.msiteFolder) === 'networktheme') {
+      var _firstCoupon$is_round, _this$metaData6;
       const firstCoupon = this.offerCoupons[0];
       const isRoundTripForOffer = (_firstCoupon$is_round = firstCoupon.is_round_trip) === null || _firstCoupon$is_round === void 0 ? void 0 : _firstCoupon$is_round.toString();
       const firstCouponCode = firstCoupon.coupon_code;
-      if ((_this$metaData5 = this.metaData) !== null && _this$metaData5 !== void 0 && _this$metaData5.isRoundTrip && this.isReturn) {
+      if ((_this$metaData6 = this.metaData) !== null && _this$metaData6 !== void 0 && _this$metaData6.isRoundTrip && this.isReturn) {
         if (isRoundTripForOffer == "true") {
           this.applyFirstOfferCoupon(firstCouponCode);
         }
@@ -18636,6 +18637,24 @@ class PaymentDetailsPage {
       hasPromoCoupon && offer.id === 8);
     }
     // return this.offersDropDown.filter((offer: any) => typeof offer === 'object');
+  }
+  clearOfferType() {
+    if (this.sbClearingOffer) return;
+    this.sbClearingOffer = true;
+    try {
+      this.checkpromoCoupon(this.promoCoupon = '', false);
+      this.checkOfferCoupon(this.offerCoupon = '', false);
+      this.privCardNumber = '';
+      if (this.passengerDetails) {
+        this.passengerDetails['priv_card_number'] = null;
+        delete this.passengerDetails['privilege_card_details'];
+      }
+      this.offerTypeChange('');
+    } finally {
+      this.sbClearingOffer = false;
+    }
+    this.offerType = null;
+    this.getFare();
   }
   onOfferCancel() {
     this.offerType = '';
@@ -18728,7 +18747,7 @@ _PaymentDetailsPage.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_
   standalone: false,
   decls: 6,
   vars: 6,
-  consts: [["myslider", ""], ["sbOffers", ""], ["nogstrc", ""], ["noRoundTripDiscount", ""], [4, "ngIf"], [1, "theme1", 3, "ngStyle"], [1, "ion-margin-start", "ion-margin-end", "ion-margin-top", 2, "margin-left", "11px", "margin-right", "11px"], ["size", "1", 2, "display", "flex", "justify-content", "center", "align-items", "center", "padding-left", "0px"], ["mode", "md"], ["defaultHref", "", 2, "color", "#000", 3, "click"], ["size", "10", 2, "display", "flex", "justify-content", "center", "align-items", "center"], [1, "header-text"], ["size", "1", 2, "display", "flex", "justify-content", "center", "align-items", "center"], ["style", "--background: #fff;", "class", "theme1", 4, "ngIf"], ["class", "whole center", 4, "ngIf"], [1, "theme1", 2, "box-shadow", "0px 0px 14px 0px rgba(38, 38, 38, 0.10)", "padding-bottom", "8px"], [2, "padding", "0"], [1, "footer-coupen-row", "ion-padding-start", "ion-padding-end", 2, "background", "#3bad6926", "padding", "0px 7px"], ["size", "8", 2, "display", "flex", "align-items", "center"], ["width", "24", "height", "24", "viewBox", "0 0 24 24", "fill", "none", "xmlns", "http://www.w3.org/2000/svg"], ["clip-path", "url(#clip0_142_3929)"], ["d", "M9 15L15 9", "stroke", "#3BAD69", "stroke-width", "1.75", "stroke-linecap", "round", "stroke-linejoin", "round"], ["d", "M9.5 10C9.77614 10 10 9.77614 10 9.5C10 9.22386 9.77614 9 9.5 9C9.22386 9 9 9.22386 9 9.5C9 9.77614 9.22386 10 9.5 10Z", "stroke", "#3BAD69", "stroke-width", "1.75", "stroke-linecap", "round", "stroke-linejoin", "round"], ["d", "M14.5 15C14.7761 15 15 14.7761 15 14.5C15 14.2239 14.7761 14 14.5 14C14.2239 14 14 14.2239 14 14.5C14 14.7761 14.2239 15 14.5 15Z", "stroke", "#3BAD69", "stroke-width", "1.75", "stroke-linecap", "round", "stroke-linejoin", "round"], ["d", "M5.00046 7.2C5.00046 6.61653 5.23225 6.05695 5.64483 5.64437C6.05741 5.23179 6.61698 5 7.20046 5H8.20046C8.78136 4.99967 9.33855 4.76961 9.75046 4.36L10.4505 3.66C10.6549 3.4544 10.898 3.29125 11.1657 3.17991C11.4334 3.06858 11.7205 3.01126 12.0105 3.01126C12.3004 3.01126 12.5875 3.06858 12.8552 3.17991C13.1229 3.29125 13.366 3.4544 13.5705 3.66L14.2705 4.36C14.6824 4.76961 15.2396 4.99967 15.8205 5H16.8205C17.4039 5 17.9635 5.23179 18.3761 5.64437C18.7887 6.05695 19.0205 6.61653 19.0205 7.2V8.2C19.0208 8.7809 19.2509 9.33809 19.6605 9.75L20.3605 10.45C20.5661 10.6545 20.7292 10.8975 20.8406 11.1652C20.9519 11.433 21.0092 11.7201 21.0092 12.01C21.0092 12.3 20.9519 12.587 20.8406 12.8548C20.7292 13.1225 20.5661 13.3656 20.3605 13.57L19.6605 14.27C19.2509 14.6819 19.0208 15.2391 19.0205 15.82V16.82C19.0205 17.4035 18.7887 17.9631 18.3761 18.3756C17.9635 18.7882 17.4039 19.02 16.8205 19.02H15.8205C15.2396 19.0203 14.6824 19.2504 14.2705 19.66L13.5705 20.36C13.366 20.5656 13.1229 20.7288 12.8552 20.8401C12.5875 20.9514 12.3004 21.0087 12.0105 21.0087C11.7205 21.0087 11.4334 20.9514 11.1657 20.8401C10.898 20.7288 10.6549 20.5656 10.4505 20.36L9.75046 19.66C9.33855 19.2504 8.78136 19.0203 8.20046 19.02H7.20046C6.61698 19.02 6.05741 18.7882 5.64483 18.3756C5.23225 17.9631 5.00046 17.4035 5.00046 16.82V15.82C5.00013 15.2391 4.77006 14.6819 4.36046 14.27L3.66046 13.57C3.45486 13.3656 3.2917 13.1225 3.18037 12.8548C3.06903 12.587 3.01172 12.3 3.01172 12.01C3.01172 11.7201 3.06903 11.433 3.18037 11.1652C3.2917 10.8975 3.45486 10.6545 3.66046 10.45L4.36046 9.75C4.77006 9.33809 5.00013 8.7809 5.00046 8.2V7.2Z", "stroke", "#3BAD69", "stroke-width", "1.75", "stroke-linecap", "round", "stroke-linejoin", "round"], ["id", "clip0_142_3929"], ["width", "24", "height", "24", "fill", "white"], ["style", "font-weight: 500;padding-left: 5px;", 3, "click", 4, "ngIf"], ["size", "4", 2, "display", "flex", "align-items", "center", "justify-content", "end"], ["name", "chevron-forward-outline", 3, "click", 4, "ngIf"], ["style", "color: #191966;text-align: right; font-family: Roboto;font-size: 14px;font-style: normal;font-weight: 500;line-height: 14px;text-decoration-line: underline;", 3, "click", 4, "ngIf"], ["class", "default-custom-text-pg-description", 4, "ngIf"], [1, "ion-padding", 2, "padding", "16px", 3, "ngClass"], ["size", "4.5", 2, "display", "flex", "flex-direction", "column", "justify-content", "center"], ["id", "breakup-modal", 2, "margin-top", "4px", "font-weight", "500", 3, "click"], ["size", "7.5", 2, "display", "flex", "justify-content", "end", "align-items", "center"], [3, "click", "ngClass"], [1, "theme1", 2, "--background", "#fff"], ["size", "12"], [2, "margin", "4px 8px"], [1, "review-booking-card", 2, "overflow", "inherit", "margin", "0", "border", "1px solid #dfdfdf"], [1, "ion-padding", 2, "padding", "7px", 3, "ngClass"], ["size", "2", 2, "display", "flex", "justify-content", "center", "align-items", "center"], ["width", "33", "height", "34", "viewBox", "0 0 33 34", "fill", "none", "xmlns", "http://www.w3.org/2000/svg", 4, "ngIf"], ["style", "display: inline-block; height: 30px; width: 30px; top: 23%;", 3, "src", 4, "ngIf"], ["size", "8", 2, "display", "flex", "justify-content", "center", "align-items", "start", "flex-direction", "column"], ["size", "2", 2, "display", "flex", "justify-content", "center", "align-items", "center", "flex-direction", "column"], [1, "ion-padding-top", 2, "padding-bottom", "10px"], ["size", "4", 1, "ion-no-padding"], ["style", "margin: 0;font-weight: bold;color: #191966 !important", 4, "ngIf"], ["style", "margin: 0;font-weight: bold;color: #000 !important", 4, "ngIf"], [2, "margin-bottom", "0"], ["size", "4 ", 1, "ion-no-padding"], ["style", "margin: 0;font-weight: bold; color: #F2C21A !important", 4, "ngIf"], ["style", "margin: 0;font-weight: bold; color: #000 !important", 4, "ngIf"], [2, "color", "#A0A0A0"], ["size", "4", 2, "display", "flex", "align-items", "center", "padding", "0"], [3, "ngClass"], ["width", "24", "height", "8", "viewBox", "0 0 24 8", "fill", "none", "xmlns", "http://www.w3.org/2000/svg", 4, "ngIf"], ["style", "font-size: 12px;", 4, "ngIf"], [1, "", 2, "margin", "0", "color", "#333 !important", "font-size", "16px", "margin-top", "10px", "font-weight", "600"], ["style", "\n                    margin: 0;\n                    position: absolute;\n                    left: 30%;\n                    top: 10px;\n                    font-size: 12px;\n                  ", 4, "ngIf"], [1, "devider_set"], ["size", "12", 2, "padding", "0px"], ["style", "display:contents ;", "src", "./assets/icon/devider.svg", 4, "ngIf"], ["style", "display:contents ;", "src", "./assets/icon/network_devider.svg", 4, "ngIf"], [1, "ion-margin-vertical", 2, "margin", "0"], ["size", "12", 3, "ngStyle"], [2, "font-weight", "bold", 3, "click", "ngClass"], ["name", "chevron-down-outline", "class", "ion-margin-start", "style", "height: 18px;width: 18px;margin-left: 4px;", 4, "ngIf"], ["name", "chevron-up-outline", "class", "ion-margin-start", "style", "height: 18px;width: 18px;margin-left: 4px;", 4, "ngIf"], ["style", "padding-bottom:0px", "class", "card-1 mr-tp-16", 4, "ngIf"], ["style", "min-height: 4px;", 4, "ngIf"], ["class", "invalid-coupon ", 4, "ngIf"], ["class", "ion-margin select-method-row", "style", "margin-left: 5px;margin-bottom: 0;", 4, "ngIf"], ["class", "card-1", "style", "padding: 16px 11px;", 4, "ngIf"], ["class", "ion-margin select-method-row", "style", "margin-left: 5px;", 4, "ngIf"], [1, "ion-margin", 2, "margin-left", "5px", 3, "click", "ngClass"], ["size", "11", 2, "display", "flex", "align-items", "center"], ["size", "1", 2, "display", "flex", "align-items", "center", "justify-content", "end"], ["name", "chevron-forward-outline"], [2, "min-height", "4px"], [1, "terms-row", "ion-margin", 2, "margin-left", "5px"], [3, "click"], ["id", "payMentGateWayForm", "name", "payMentGateWayForm"], ["width", "33", "height", "34", "viewBox", "0 0 33 34", "fill", "none", "xmlns", "http://www.w3.org/2000/svg"], ["x", "0.5", "y", "1", "width", "32", "height", "32", "rx", "16", "fill", "white", "stroke", "#DFDFDF"], ["d", "M10.9697 12.0437L8.16703 9.24097C4.21776 13.5087 4.21776 20.1333 8.16703 24.4648L10.9697 21.662C8.54921 18.923 8.54921 14.7827 10.9697 12.0437Z", "fill", "#FBAE17"], ["d", "M11.5429 22.2354L8.74023 25.0381C13.008 28.9873 19.6326 28.9873 23.964 25.0381L21.1613 22.2354C18.4223 24.6559 14.2819 24.6559 11.5429 22.2354Z", "fill", "#FBAE17"], ["d", "M21.7344 21.662L24.5371 24.4648C28.4863 20.197 28.4863 13.5724 24.5371 9.24097L21.7344 12.0437C24.1549 14.7827 24.1549 18.923 21.7344 21.662Z", "fill", "#BBBDBF"], ["d", "M21.1613 11.4704L23.964 8.6677C19.6963 4.71843 13.0717 4.71843 8.74023 8.6677L11.5429 11.4704C14.2819 9.04989 18.4223 9.04989 21.1613 11.4704Z", "fill", "#FBAE17"], ["fill-rule", "evenodd", "clip-rule", "evenodd", "d", "M13.8362 18.4135C13.8999 18.0313 13.7725 17.7765 13.454 17.5854C13.1992 17.458 12.8807 17.458 12.6259 17.6491C12.3711 17.8402 12.2437 18.095 12.3074 18.4135H12.2437C11.7341 18.4135 11.2246 18.4135 10.6513 18.4135C10.4602 18.4135 10.3965 18.3498 10.3965 18.1587C10.3965 17.7765 10.3965 17.3306 10.3965 16.9484C10.3965 16.8847 10.3965 16.821 10.4602 16.821C10.5239 16.7573 10.5239 16.7573 10.5239 16.6936C10.5239 16.184 10.5876 15.7382 10.5876 15.2286C10.5876 15.1012 10.6513 15.0375 10.7787 15.0375C11.2246 15.0375 11.6704 15.0375 12.1163 15.0375C14.1547 15.0375 16.1293 15.0375 18.1676 15.0375C19.3142 15.0375 20.5244 15.0375 21.671 15.0375C21.9258 15.0375 22.1806 15.2286 22.2443 15.4834V15.5471C22.2443 16.3114 22.2443 17.0758 22.2443 17.9039C22.2443 17.9676 22.1806 18.0313 22.1169 18.0313C21.8621 18.095 21.5436 18.1587 21.2888 18.2224C20.9703 18.2861 20.5881 18.3498 20.2696 18.4135C20.1423 18.4135 19.9512 18.4772 19.7601 18.4772C19.7601 18.1587 19.6964 17.8402 19.3779 17.6491C19.2505 17.5854 19.0594 17.5217 18.932 17.5217C18.4861 17.5854 18.1676 17.9676 18.2313 18.4135C16.83 18.4135 15.3649 18.4135 13.8362 18.4135ZM15.9382 15.4834C15.6834 15.4834 15.3649 15.4834 15.1101 15.4834C14.9827 15.4834 14.8553 15.5471 14.8553 15.7382C14.8553 15.9292 14.8553 16.1203 14.8553 16.3751C14.8553 16.5662 14.919 16.6299 15.1101 16.6299C15.6834 16.6299 16.193 16.6299 16.7663 16.6299C16.8937 16.6299 17.0211 16.5662 17.0211 16.3751C17.0211 16.184 17.0211 15.9292 17.0211 15.7382C17.0211 15.6108 16.9574 15.4834 16.7663 15.4834C16.5115 15.4834 16.193 15.4834 15.9382 15.4834ZM13.454 15.4834C13.1992 15.4834 12.8807 15.4834 12.6259 15.4834C12.4985 15.4834 12.4348 15.5471 12.3711 15.6745C12.3711 15.8655 12.3711 16.1203 12.3711 16.3114C12.3711 16.4388 12.4348 16.5025 12.5622 16.5025C13.1355 16.5025 13.7088 16.5025 14.2821 16.5025C14.4094 16.5025 14.4731 16.4388 14.4731 16.3114C14.4731 16.1203 14.4731 15.8655 14.4731 15.6745C14.4731 15.4834 14.4094 15.4197 14.2184 15.4197C13.9636 15.4834 13.7088 15.4834 13.454 15.4834ZM18.4224 15.4834C18.1676 15.4834 17.8491 15.4834 17.5943 15.4834C17.4669 15.4834 17.4032 15.5471 17.4032 15.6745C17.4032 15.8655 17.4032 16.1203 17.4032 16.3114C17.4032 16.4388 17.4669 16.5025 17.5943 16.5025C18.1676 16.5025 18.7409 16.5025 19.3142 16.5025C19.4416 16.5025 19.5053 16.4388 19.5053 16.3114C19.5053 16.1203 19.5053 15.8655 19.5053 15.6745C19.5053 15.4834 19.4416 15.4197 19.2505 15.4197C18.9957 15.4834 18.6772 15.4834 18.4224 15.4834ZM20.9066 16.5662C21.1614 16.5662 21.4799 16.5662 21.7347 16.5662C21.8621 16.5662 21.9258 16.5025 21.9258 16.3751C21.9258 16.2477 21.9258 16.1203 21.9258 15.9292C21.9258 15.7382 21.8621 15.6108 21.671 15.5471C21.6073 15.4834 21.4799 15.4834 21.3525 15.4834C20.9066 15.4834 20.4607 15.4834 20.0149 15.4834C19.8238 15.4834 19.7601 15.5471 19.7601 15.7382C19.7601 15.9292 19.7601 16.1203 19.7601 16.3114C19.7601 16.5025 19.8238 16.5662 20.0149 16.5662C20.3333 16.5662 20.6518 16.5662 20.9066 16.5662ZM11.0972 16.7573C11.0972 17.0758 11.0972 17.458 11.0972 17.7765C11.0972 17.9039 11.1609 17.9676 11.2883 17.9676C11.4157 17.9676 11.543 17.9676 11.6704 17.9676C11.7978 17.9676 11.9252 17.9039 11.9252 17.7128C11.9252 17.0121 11.9252 16.3114 11.9252 15.6745C11.9252 15.5471 11.8615 15.4834 11.7341 15.4197C11.6067 15.4197 11.4793 15.4197 11.4156 15.4197C11.2246 15.4197 11.1609 15.4834 11.1609 15.6745C11.0972 16.1203 11.0972 16.4388 11.0972 16.7573Z", "fill", "#BBBDBF"], ["fill-rule", "evenodd", "clip-rule", "evenodd", "d", "M12.498 18.2224C12.498 17.9039 12.8165 17.6491 13.135 17.6491C13.4535 17.6491 13.7083 17.9039 13.7083 18.2861C13.7083 18.6045 13.4535 18.8593 13.135 18.8593C12.7528 18.8593 12.498 18.6045 12.498 18.2224ZM13.3898 18.2861C13.3898 18.1587 13.2624 17.9676 13.135 17.9676C13.0076 17.9676 12.8802 18.095 12.8165 18.2224C12.8165 18.3498 12.9439 18.5408 13.0713 18.5408C13.2624 18.5408 13.3898 18.4135 13.3898 18.2861Z", "fill", "#BBBDBF"], ["fill-rule", "evenodd", "clip-rule", "evenodd", "d", "M19.059 18.8593C18.7405 18.8593 18.422 18.6045 18.4857 18.2224C18.4857 17.9039 18.7405 17.6491 19.059 17.6491C19.3775 17.6491 19.6323 17.9039 19.6323 18.2861C19.696 18.6045 19.4412 18.8593 19.059 18.8593ZM19.3775 18.2224C19.3775 18.095 19.2501 17.9676 19.1227 17.9676C18.9953 17.9676 18.8679 18.095 18.8679 18.2861C18.8679 18.4135 18.9953 18.5408 19.1864 18.5408C19.2501 18.5408 19.3775 18.4135 19.3775 18.2224Z", "fill", "#BBBDBF"], [2, "display", "inline-block", "height", "30px", "width", "30px", "top", "23%", 3, "src"], [2, "margin", "0", "font-weight", "bold", "color", "#191966 !important"], [2, "margin", "0", "font-weight", "bold", "color", "#000 !important"], [2, "margin", "0", "font-weight", "bold", "color", "#F2C21A !important"], ["width", "24", "height", "8", "viewBox", "0 0 24 8", "fill", "none", "xmlns", "http://www.w3.org/2000/svg"], ["fill-rule", "evenodd", "clip-rule", "evenodd", "d", "M16.5085 6.42781C16.3873 5.70013 16.6298 5.21501 17.2362 4.85117C17.7213 4.60862 18.3277 4.60861 18.8128 4.97245C19.298 5.33629 19.5405 5.82141 19.4192 6.42781H19.5405C20.5108 6.42781 21.481 6.42781 22.5725 6.42781C22.9363 6.42781 23.0576 6.30653 23.0576 5.94269C23.0576 5.21501 23.0576 4.36606 23.0576 3.63838C23.0576 3.5171 23.0576 3.39582 22.9363 3.39582C22.8151 3.27454 22.8151 3.27454 22.8151 3.15326C22.8151 2.18303 22.6938 1.33407 22.6938 0.363838C22.6938 0.12128 22.5725 0 22.3299 0C21.481 0 20.632 0 19.7831 0C15.9021 0 12.1425 0 8.26154 0C6.07851 0 3.7742 0 1.59117 0C1.10605 0 0.620937 0.363838 0.499659 0.848955V0.970235C0.499659 2.42559 0.499659 3.88094 0.499659 5.45757C0.499659 5.57885 0.620934 5.70013 0.742214 5.70013C1.22733 5.82141 1.83373 5.94269 2.31885 6.06397C2.92525 6.18525 3.65292 6.30653 4.25932 6.42781C4.50187 6.42781 4.86571 6.54909 5.22955 6.54909C5.22955 5.94269 5.35083 5.33629 5.95723 4.97245C6.19979 4.85117 6.56362 4.7299 6.80618 4.7299C7.65514 4.85117 8.26154 5.57885 8.14026 6.42781C10.8084 6.42781 13.5978 6.42781 16.5085 6.42781ZM12.5063 0.848955C12.9914 0.848955 13.5978 0.848955 14.0829 0.848955C14.3255 0.848955 14.5681 0.970235 14.5681 1.33407C14.5681 1.69791 14.5681 2.06175 14.5681 2.54687C14.5681 2.9107 14.4468 3.03198 14.0829 3.03198C12.9914 3.03198 12.0212 3.03198 10.9297 3.03198C10.6871 3.03198 10.4446 2.9107 10.4446 2.54687C10.4446 2.18303 10.4446 1.69791 10.4446 1.33407C10.4446 1.09151 10.5658 0.848955 10.9297 0.848955C11.4148 0.848955 12.0212 0.848955 12.5063 0.848955ZM17.2362 0.848955C17.7213 0.848955 18.3277 0.848955 18.8128 0.848955C19.0554 0.848955 19.1767 0.970235 19.298 1.21279C19.298 1.57663 19.298 2.06175 19.298 2.42559C19.298 2.66815 19.1767 2.78943 18.9341 2.78943C17.8426 2.78943 16.7511 2.78943 15.6596 2.78943C15.417 2.78943 15.2957 2.66815 15.2957 2.42559C15.2957 2.06175 15.2957 1.57663 15.2957 1.21279C15.2957 0.848955 15.417 0.727677 15.7809 0.727677C16.266 0.848956 16.7511 0.848955 17.2362 0.848955ZM7.77642 0.848955C8.26154 0.848955 8.86793 0.848955 9.35305 0.848955C9.59561 0.848955 9.71689 0.970235 9.71689 1.21279C9.71689 1.57663 9.71689 2.06175 9.71689 2.42559C9.71689 2.66815 9.59561 2.78943 9.35305 2.78943C8.26154 2.78943 7.17002 2.78943 6.07851 2.78943C5.83595 2.78943 5.71467 2.66815 5.71467 2.42559C5.71467 2.06175 5.71467 1.57663 5.71467 1.21279C5.71467 0.848955 5.83595 0.727677 6.19979 0.727677C6.6849 0.848956 7.2913 0.848955 7.77642 0.848955ZM3.04652 2.91071C2.56141 2.91071 1.95501 2.91071 1.46989 2.91071C1.22733 2.91071 1.10605 2.78942 1.10605 2.54687C1.10605 2.30431 1.10605 2.06175 1.10605 1.69791C1.10605 1.33407 1.22733 1.09151 1.59117 0.970235C1.71245 0.848956 1.95501 0.848955 2.19757 0.848955C3.04652 0.848955 3.89548 0.848955 4.74443 0.848955C5.10827 0.848955 5.22955 0.970235 5.22955 1.33407C5.22955 1.69791 5.22955 2.06175 5.22955 2.42559C5.22955 2.78943 5.10827 2.91071 4.74443 2.91071C4.13804 2.91071 3.53164 2.91071 3.04652 2.91071ZM21.7235 3.27454C21.7235 3.88094 21.7235 4.60862 21.7235 5.21501C21.7235 5.45757 21.6023 5.57885 21.3597 5.57885C21.1171 5.57885 20.8746 5.57885 20.632 5.57885C20.3895 5.57885 20.1469 5.45757 20.1469 5.09373C20.1469 3.75966 20.1469 2.42559 20.1469 1.21279C20.1469 0.970235 20.2682 0.848956 20.5108 0.727677C20.7533 0.727677 20.9959 0.727677 21.1171 0.727677C21.481 0.727677 21.6023 0.848955 21.6023 1.21279C21.7235 2.06175 21.7235 2.66815 21.7235 3.27454Z", "fill", "#191966"], ["fill-rule", "evenodd", "clip-rule", "evenodd", "d", "M19.0557 6.06396C19.0557 5.45756 18.4493 4.97244 17.8429 4.97244C17.2365 4.97244 16.7514 5.45756 16.7514 6.18524C16.7514 6.79163 17.2365 7.27675 17.8429 7.27675C18.5705 7.27675 19.0557 6.79163 19.0557 6.06396ZM17.3578 6.18524C17.3578 5.94268 17.6003 5.57884 17.8429 5.57884C18.0854 5.57884 18.328 5.8214 18.4493 6.06396C18.4493 6.30652 18.2067 6.67036 17.9642 6.67036C17.6003 6.67036 17.3578 6.42779 17.3578 6.18524Z", "fill", "#191966"], ["fill-rule", "evenodd", "clip-rule", "evenodd", "d", "M6.56377 7.27675C7.17017 7.27675 7.77657 6.79163 7.65529 6.06396C7.65529 5.45756 7.17017 4.97244 6.56377 4.97244C5.95738 4.97244 5.47226 5.45756 5.47226 6.18524C5.35098 6.79163 5.8361 7.27675 6.56377 7.27675ZM5.95738 6.06396C5.95738 5.8214 6.19994 5.57884 6.4425 5.57884C6.68505 5.57884 6.92761 5.8214 6.92761 6.18524C6.92761 6.42779 6.68505 6.67036 6.32122 6.67036C6.19994 6.67036 5.95738 6.4278 5.95738 6.06396Z", "fill", "#191966"], [2, "font-size", "12px"], [2, "margin", "0", "position", "absolute", "left", "30%", "top", "10px", "font-size", "12px"], ["src", "./assets/icon/devider.svg", 2, "display", "contents"], ["src", "./assets/icon/network_devider.svg", 2, "display", "contents"], [1, "passanger-details", "ion-margin", 2, "margin-bottom", "10px", "margin-top", "10px"], ["class", "passanger-details ion-margin", "style", "margin-bottom: 10px; margin-top: 10px;", 4, "ngFor", "ngForOf"], [1, "passanger-details", "ion-margin", 2, "margin-top", "0px"], ["size", "1.5", 1, "ion-margin-top"], ["src", "./assets/icon/themeone_location.svg", "name", "navigate-circle-outline", "size", "large", 2, "height", "24px", "width", "24px"], ["size", "10.5", 1, "ion-margin-top"], [2, "line-height", "22px"], [2, "margin-top", "5px"], [1, "drop_board_address"], ["class", "drop_board_address", 4, "ngIf"], ["size", "1.5", 3, "ngClass"], ["src", "./assets/icon/theme1_dropicon.svg", "name", "navigate-circle-outline", "size", "large", 2, "height", "24px", "width", "24px"], ["size", "10.5", 3, "ngClass"], ["size", "6", 2, "padding", "0px 5px"], [2, "padding-bottom", "5px"], [2, "text-align", "right", "padding-bottom", "5px"], [2, "text-align", "right"], ["name", "chevron-down-outline", 1, "ion-margin-start", 2, "height", "18px", "width", "18px", "margin-left", "4px"], ["name", "chevron-up-outline", 1, "ion-margin-start", 2, "height", "18px", "width", "18px", "margin-left", "4px"], [1, "review-booking-card", 2, "margin", "3px"], ["name", "chevron-down-outline", "class", "ion-margin-start", "style", "height: 18px;width: 18px;", 4, "ngIf"], ["name", "chevron-up-outline", "class", "ion-margin-start", "style", "height: 18px;width: 18px;", 4, "ngIf"], ["name", "chevron-down-outline", 1, "ion-margin-start", 2, "height", "18px", "width", "18px"], ["name", "chevron-up-outline", 1, "ion-margin-start", 2, "height", "18px", "width", "18px"], [1, "card-1", "mr-tp-16", 2, "padding-bottom", "0px"], [1, "Contact-details", 2, "color", "#333333"], [1, "pay-box"], ["lines", "none"], ["slot", "start", 2, "margin", "-11px 15px -12px -13px", "--color", "var(--iconsAndButtonsColor)", 3, "ngModelChange", "ionChange", "ngStyle", "ngModel"], [1, "added-coupons"], ["class", "text-success applied-coupons-title ", 4, "ngIf"], ["class", "applied-coupons", 4, "ngIf"], ["class", "add-coupon text-success", 3, "click", 4, "ngIf"], ["class", "cash_couponcoupon_radio_cbus", "mode", "md", 3, "ngModel", "ngModelChange", "ionChange", 4, "ngIf"], ["class", "coupon-form", 3, "formGroup", "ngClass", 4, "ngIf"], [1, "text-success", "applied-coupons-title"], [1, "applied-coupons"], [4, "ngFor", "ngForOf"], [1, "code"], [1, "amount"], [1, "cancel-coupon"], ["color", "danger", "name", "trash", 3, "click"], [1, "add-coupon", "text-success", 3, "click"], [1, "label"], [1, "text-success"], ["name", "add", 1, "success-text"], ["mode", "md", 1, "cash_couponcoupon_radio_cbus", 3, "ngModelChange", "ionChange", "ngModel"], ["size", "7.2"], ["slot", "start", "value", "special", 3, "ngStyle"], ["size", "4.8"], ["slot", "start", "value", "normal", 3, "ngStyle"], [1, "coupon-form", 3, "formGroup", "ngClass"], [2, "--padding-start", "0px", 3, "ngClass"], ["position", "floating"], ["required", "", "formControlName", "couponCode", "type", "text"], ["size", "9", 2, "padding-left", "0"], ["no-padding", "", 2, "--padding-start", "0px"], ["type", "text", 3, "ngModelChange", "ngModelOptions", "ngModel"], ["size", "3", 2, "padding", "24px 0 0 0px", 3, "ngClass"], ["mode", "md", "expand", "block", 2, "--background", "var(--iconsAndButtonsColor)", "--color", "var(--primaryText)", 3, "click"], ["class", "remove-coupon text-danger", 4, "ngIf"], [1, "remove-coupon", "text-danger"], [1, "invalid-coupon"], [1, "ion-margin", "select-method-row", 2, "margin-left", "5px", "margin-bottom", "0"], ["size", "12", 1, "ion-margin-bottom"], ["size", "6", 2, "padding", "0px"], [2, "font-size", "16px", "font-weight", "bold"], ["size", "6", 2, "text-align", "end", "padding", "0px"], ["style", "font-size: 14px;color: var(--Type-Title, #333);font-weight: 500;", 3, "click", 4, "ngIf"], [1, "ion-margin-vertical", 2, "margin-bottom", "12px", "margin-top", "10px", 3, "click"], ["size", "10", 2, "padding", "0px 0px 5px 0px"], [1, "show-details", 2, "color", "var(--Type-Title, #333)", "font-weight", "500"], ["size", "2", 2, "padding", "0px"], ["name", "chevron-down-outline", "class", "ion-margin-start", "style", "float: right;", 4, "ngIf"], ["name", "chevron-up-outline", "class", "ion-margin-start", "style", "float: right;", 4, "ngIf"], ["style", "padding:0px;margin-top: -14px;", "class", "card-1 mr-tp-16", 4, "ngIf"], [2, "font-size", "14px", "color", "var(--Type-Title, #333)", "font-weight", "500", 3, "click"], ["name", "chevron-down-outline", 1, "ion-margin-start", 2, "float", "right"], ["name", "chevron-up-outline", 1, "ion-margin-start", 2, "float", "right"], [1, "card-1", "mr-tp-16", 2, "padding", "0px", "margin-top", "-14px"], ["mode", "md", 3, "ngModelChange", "ionCancel", "ionChange", "click", "ngModel"], [3, "ngStyle"], ["slot", "start", 3, "ngStyle", "value", 4, "ngIf"], ["slot", "start", 3, "ngStyle", "value"], [1, "card-1", 2, "padding", "16px 11px"], [2, "color", "#191966", 3, "ngClass"], ["col-12", ""], [2, "--padding-start", "0px"], ["type", "text", "label", "Card Number", "labelPlacement", "floating", 1, "txt-lbl", 3, "ngModelChange", "ngModel"], ["mode", "md", 1, "btn_outline", 2, "width", "48%", "color", "#191966", "font-weight", "600", 3, "click"], ["mode", "md", 2, "width", "48%", "--background", "#191966", "font-weight", "600", 3, "click"], [1, "pay-box", "qoute-pnr"], ["mode", "md", "style", "margin: -11px 15px -12px -13px;", "slot", "start", 3, "ngModel", "ngModelChange", "ionChange", 4, "ngIf"], ["mode", "md", "style", "margin: -11px 15px -12px -13px; --checkbox-background-checked : var(--bottomBarColor);", "slot", "start", 3, "ngModel", "ngModelChange", "ionChange", 4, "ngIf"], ["mode", "md", "slot", "start", 2, "margin", "-11px 15px -12px -13px", 3, "ngModelChange", "ionChange", "ngModel"], ["mode", "md", "slot", "start", 2, "margin", "-11px 15px -12px -13px", "--checkbox-background-checked", "var(--bottomBarColor)", 3, "ngModelChange", "ionChange", "ngModel"], [2, "width", "100%", 3, "ngClass"], ["required", "", "formControlName", "pnrnumber", "type", "text", "label", "PNR Number", "labelPlacement", "floating"], ["size", "9", 2, "padding", "6px 1px"], ["required", "", "formControlName", "mobileno", "type", "number", "label", "Mobile Number", "labelPlacement", "floating", 3, "readonly"], ["size", "3", 2, "padding", "24px 0px 0px 0px", 3, "ngClass"], ["mode", "md", "style", "    color: #191966;--background: var(--iconsAndButtonsColor); position:absolute; bottom: 4px; ", "expand", "block", 3, "click", 4, "ngIf"], ["mode", "md", "style", "    color: var(--primaryText);--background: var(--iconsAndButtonsColor);", "expand", "block", 3, "click", 4, "ngIf"], ["mode", "md", "expand", "block", 2, "color", "#191966", "--background", "var(--iconsAndButtonsColor)", "position", "absolute", "bottom", "4px", 3, "click"], ["mode", "md", "expand", "block", 2, "color", "var(--primaryText)", "--background", "var(--iconsAndButtonsColor)", 3, "click"], [1, "ion-margin", "select-method-row", 2, "margin-left", "5px"], ["class", "radio-btn-position", "mode", "md", 3, "ngModel", "ngModelChange", "ionChange", 4, "ngIf"], ["mode", "md", 1, "radio-btn-position", 3, "ngModelChange", "ionChange", "ngModel"], ["class", "wall_item", "button", "", 3, "click", 4, "ngIf"], ["button", "", 3, "click"], ["slot", "start", "value", "1", 3, "ngStyle"], ["button", "", 3, "click", 4, "ngIf"], ["button", "", 1, "wall_item", 3, "click"], ["style", "  justify-content: start;", 4, "ngIf"], [1, "chartered_wall", 3, "ngStyle"], ["slot", "start", "value", "3", 3, "ngStyle"], [2, "justify-content", "start"], ["name", "information-circle-outline", 2, "z-index", "50", "height", "18px", "width", "18px", "padding-left", "14px", 3, "click"], ["slot", "start", "value", "2", "checked", "true", 3, "ngStyle"], ["size", "12", "class", "ion-margin-bottom", 4, "ngIf"], [1, "Contact-details"], ["lines", "none", 1, "radio-btn-position"], ["mode", "md", 3, "ngModelChange", "ionChange", "ngModel"], ["lines", "full", "button", "", 3, "click", 4, "ngIf"], ["lines", "full", "button", "", 3, "click"], ["slot", "start", 3, "value", "ngStyle"], ["src", "././assets/icon/Razorpay_Secure_Payment-1.png", "alt", "", 1, "razorpayImage"], [1, "whole", "center"], [1, "legend-box", 2, "position", "absolute", "bottom", "0", "width", "100% !important", "padding", "7px 16px 20px 16px"], [1, "ion-margin", "ion-padding-bottom", 2, "padding", "0px", "margin", "0px"], ["size", "10", 2, "display", "flex", "justify-content", "start", "align-items", "center", "padding-left", "0px"], [2, "color", "#333", "font-size", "18px", "font-weight", "600"], ["size", "2", 2, "display", "flex", "justify-content", "end", "align-items", "center", "color", "rgba(173, 173, 173, 1)"], ["name", "close-outline", "size", "large", 3, "click"], [1, "hr-border"], [2, "padding", "5px 0px"], [1, "cbusbold"], [1, "fare-txt", "txt-c22", 2, "color", "#333"], ["style", "padding: 5px 0px;", 4, "ngIf"], [2, "font-size", "16px", "font-weight", "bolder", "color", "#333"], [1, "fare-txt", "txt-c1"], [1, "fare-txt", "txt-c22"], [1, "legend-box", 2, "position", "absolute", "bottom", "0", "width", "100% !important", "padding", "12px"], ["size", "6", "style", "margin:0;font-size: 14px;font-weight: 600;", "class", "brws-txt", 4, "ngIf"], ["size", "6", 1, "dwn-txt", 2, "margin", "0", "font-size", "14px", "font-weight", "600", 3, "click", "ngStyle"], ["class", "container-m", 4, "ngIf"], [1, "container-m"], ["size", "2"], ["style", "height: 40px;", "src", "./assets/icon/rupee-indian.png", "alt", "", 4, "ngIf"], ["style", "height: 40px;filter: invert(100%) sepia(80%) saturate(4133%) hue-rotate(338deg) brightness(97%) contrast(94%);", "src", "./assets/icon/rupee-indian.png", "alt", "", 4, "ngIf"], ["size", "10", 1, "promo-txt-m"], [2, "font-size", "11px"], ["size", "6", 1, "brws-txt", 2, "margin", "0", "font-size", "14px", "font-weight", "600"], ["style", "height: 40px;", "src", "./assets/icon/calculator.png", "alt", "", 4, "ngIf"], ["style", "height: 40px;filter: invert(100%) sepia(80%) saturate(4133%) hue-rotate(338deg) brightness(97%) contrast(94%);", "src", "./assets/icon/calculator.png", "alt", "", 4, "ngIf"], ["src", "./assets/icon/calculator.png", "alt", "", 2, "height", "40px"], ["src", "./assets/icon/calculator.png", "alt", "", 2, "height", "40px", "filter", "invert(100%) sepia(80%) saturate(4133%) hue-rotate(338deg) brightness(97%) contrast(94%)"], ["src", "./assets/icon/rupee-indian.png", "alt", "", 2, "height", "40px"], ["src", "./assets/icon/rupee-indian.png", "alt", "", 2, "height", "40px", "filter", "invert(100%) sepia(80%) saturate(4133%) hue-rotate(338deg) brightness(97%) contrast(94%)"], [1, "legend-box", 2, "position", "absolute", "bottom", "0", "width", "100% !important"], ["size", "6", 1, "brws-txt", 2, "margin", "0"], ["size", "6", 1, "dwn-txt", 2, "margin", "0", 3, "click"], ["zoom", "", "pager", "false", 2, "height", "45%", 3, "options"], ["style", "background: #e4e5e6;", "class", " slide-card center", 4, "ngFor", "ngForOf"], ["size", "6", 1, "brws-txt"], ["style", "background: #e4e5e6;color:grey;font-size: 11px;font-weight: bold;border: none; margin:0;width:100%", "class", "container-m ", 4, "ngIf"], [1, "slide-card", "center", 2, "background", "#e4e5e6"], ["alt", "", 2, "width", "50%", 3, "src"], [2, "color", "grey", "font-size", "11px", "font-weight", "bold", "height", "50px"], [1, "container-m", 2, "background", "#e4e5e6", "color", "grey", "font-size", "11px", "font-weight", "bold", "border", "none", "margin", "0", "width", "100%"], [1, "theme-1-legend-box", 2, "padding-top", "0px"], [2, "height", "105px"], [1, "success_book", 2, "text-align", "center"], ["src", "./assets/icon/joy.gif", "alt", ""], ["size", "12", 2, "margin", "10px 0px"], [1, "cancel-txt-msg-hd"], ["size", "12", 3, "click"], ["fill", "clear", 1, "text-center", 3, "ngClass"], [1, "legend-box"], [1, "circle1"], [1, "txt-msg"], ["size", "7"], ["size", "5", 1, "dwn-txt", 3, "click"], [1, "legend-box", 2, "width", "300px !important"], [2, "color", "grey", "font-weight", "bold"], [1, "txt-msg", 2, "font-size", "14px"], ["size", "12", 1, "dwn-txt", 2, "text-align", "center", "margin-top", "0px", 3, "click"], ["expand", "block"], [1, "txt-msg-hd"], ["size", "5", 1, "brws-txt", 3, "click"], ["size", "5", 1, "brws-txt"], ["size", "5", 1, "seabird_dwn-txt", 3, "click"], [2, "font-weight", "500", "padding-left", "5px", 3, "click"], ["name", "chevron-forward-outline", 3, "click"], [2, "color", "#191966", "text-align", "right", "font-family", "Roboto", "font-size", "14px", "font-style", "normal", "font-weight", "500", "line-height", "14px", "text-decoration-line", "underline", 3, "click"], [1, "default-custom-text-pg-description"], [1, "payment-item"], [1, "payment-gateway-txt"], [1, "original-fare"], [1, "discounted-fare"], [2, "z-index", "0"], ["mode", "md", 1, "bg-cl"], ["slot", "start"], [2, "color", "var(--placeholderColor)", 3, "click"], [1, "head"], [2, "--background", "#F1F7FA !important"], [1, "box-common", 3, "ngClass"], [1, "card-2", 2, "background", "#D1E6FF", "border-radius", "10px", "border-bottom", "1px solid #626262", 3, "ngClass"], [1, "wrap"], [1, "left", 2, "width", "40%"], [1, "txt-c1"], [2, "margin", "0px 0px 8px 0px", "width", "125px", "color", "var(--sectionHeaderTextColor) !important"], [1, "right", 2, "width", "40%"], [1, "txt-c1", 2, "color", "var(--sectionHeaderTextColor) !important"], [2, "align-items", "center"], ["name", "arrow-forward-outline", 1, "mr-md", 2, "font-size", "20px"], [2, "clear", "both"], [1, "wrap", 2, "padding-bottom", "30px"], [1, "left", 2, "width", "35%"], [1, "right", 2, "width", "35%"], [1, "center1"], ["style", "padding-top: 10px;", 4, "ngIf"], ["style", "color: #000 !important;", 4, "ngIf"], ["class", "Contact-details", 4, "ngIf"], ["class", "Contact-details pay-amt-value-sb", 4, "ngIf"], [1, "pos", "center-hr", 2, "margin-top", "0px", 3, "click"], ["name", "chevron-down-outline", 4, "ngIf"], ["name", "chevron-up-outline", 4, "ngIf"], ["style", "padding-bottom:0px;", "class", "card-1", 4, "ngIf"], ["style", "padding-bottom:0px; background: white;", "class", "card-1", 4, "ngIf"], ["style", "background: white;", "class", "card-1", 4, "ngIf"], ["class", "card-1", "style", "background: white;", 4, "ngIf"], ["class", "card-1", 4, "ngIf"], ["style", "background: white;", "id", "", "class", "card-1", 4, "ngIf"], [1, "card-1", 2, "margin-bottom", "5px", "background", "white"], [1, "terms-txt"], [1, "terms-click", 3, "click"], ["style", "position: fixed;bottom: 10px;width: 100%;", 4, "ngIf"], ["style", "position: fixed;bottom: 0;width: 100%;", 4, "ngIf"], ["class", "whole center", 3, "click", 4, "ngIf"], [2, "padding-top", "10px"], [2, "margin", "0px 0px 8px 0px"], [2, "color", "#000 !important"], [1, "pd-10"], [1, "txt-c4"], [2, "background-color", "gray"], [1, "txt-c11"], [1, "bold"], [2, "font-size", "16px", "font-weight", "bolder", "color", "var(--sectionHeaderTextColor)"], ["size", "6"], [2, "display", "flex", "align-items", "center", "justify-content", "end", "font-weight", "bold", "-webkit-text-fill-color", "var(--iconsAndButtonsColor)"], [2, "display", "flex", "align-items", "center", "font-weight", "bold", "justify-content", "end", "-webkit-text-fill-color", "var(--iconsAndButtonsColor)"], [2, "font-size", "14px", "font-weight", "bolder", "color", "var(--sectionHeaderTextColor)"], [1, "Contact-details", "pay-amt-value-sb"], ["name", "chevron-down-outline"], ["name", "chevron-up-outline"], ["style", "font-size:10px", 4, "ngIf"], [2, "font-size", "10px"], [1, "card-1", 2, "padding-bottom", "0px"], ["checked", "", "slot", "start", 2, "--color", "var(--iconsAndButtonsColor)", 3, "ionChange", "ngModelChange", "disabled", "ngModel"], [1, "card-1", 2, "padding-bottom", "0px", "background", "white"], ["lines", "none", 2, "--background", "white"], ["slot", "start", 1, "seabird-theme-checkbox", 2, "margin", "-11px 15px -12px -13px", 3, "ngModelChange", "ionChange", "ngModel"], [2, "--background", "white", 3, "ngClass"], ["required", "", "formControlName", "couponCode", "label", "Coupon Code", "labelPlacement", "floating", "type", "text"], [2, "--background", "white"], ["type", "text", "labelPlacement", "floating", 3, "ngModelChange", "ngModel", "label", "ngModelOptions"], ["color", "red", "mode", "md", "cancelText", "Clear offer type", "interface", "action-sheet", "placeholder", "Select offer type", 1, "coupon-txt", 3, "ngModelChange", "ionCancel", "ionChange", "click", "ngModel", "interfaceOptions"], ["class", "rmv-icn", 3, "value", 4, "ngIf"], [1, "rmv-icn", 3, "value"], [1, "card-1", 2, "background", "white"], ["type", "text", "label", "Enter Card No.", "labelPlacement", "floating", 1, "txt-lbl", 3, "ngModelChange", "ngModel"], ["mode", "md", "fill", "outline", "color", "red", 2, "width", "48%", 3, "click"], ["mode", "md", "color", "red", 2, "width", "48%", 3, "click"], ["slot", "start", "color", "red", 2, "margin", "-11px 15px -12px -13px", 3, "ngModelChange", "ionChange", "ngModel"], [2, "width", "100%", "--background", "white", 3, "ngClass"], ["required", "", "formControlName", "pnrnumber", "label", "PNR Number", "labelPlacement", "floating", "type", "text"], ["required", "", "formControlName", "mobileno", "label", "Mobile Number", "labelPlacement", "floating", "type", "number", 3, "readonly"], ["mode", "md", "expand", "block", "color", "red", 3, "click"], ["class", "newOffer", 4, "ngIf"], ["mode", "md", "color", "red", 3, "ngModelChange", "ionChange", "ngModel"], [1, "clear"], [1, "newOffer"], ["size", "8", 2, "padding", "0px"], ["lines", "none", 1, "appliedBox", 2, "--background", "white"], [2, "font-family", "NotoSans", "font-weight", "bold"], ["size", "4", 2, "padding", "0px"], ["lines", "none", 1, "new-label", 2, "--background", "white"], ["size", "1"], [2, "margin", "12px 0px 8px 0px", 3, "value"], ["size", "11"], ["lines", "none", 2, "--padding-start", "0px", "--background", "white"], [1, "offerDesign"], [3, "innerHTML"], ["size", "11", 2, "padding-left", "10px"], [1, "card-1"], ["class", "offersBox", 4, "ngFor", "ngForOf"], ["lines", "none", 1, "appliedBox"], ["lines", "none", 1, "new-label"], [1, "offersBox"], [3, "click", 4, "ngIf"], [2, "margin", "12px 0px 8px 0px", 3, "disabled", "value"], ["lines", "none", 2, "--padding-start", "0px"], [1, "small", "text-danger"], ["size", "6", 1, "center", 2, "text-align", "right"], ["tappable", "", "class", "select-coupon right", 3, "click", 4, "ngIf"], ["lines", "none", 4, "ngIf"], ["color", "red", "slot", "start", 2, "--ion-color-base", "var(--iconsAndButtonsColor) !important", 3, "value"], ["tappable", "", 1, "select-coupon", "right", 3, "click"], ["button", "", 2, "--background", "white", 3, "click"], ["color", "red", "slot", "start", "value", "1", 2, "--ion-color-base", "var(--iconsAndButtonsColor) !important"], ["style", "--background: white;", "button", "", 3, "click", 4, "ngIf"], ["name", "information-circle-outline", 2, "z-index", "50", 3, "click"], ["color", "red", "slot", "start", "value", "2", "checked", "true", 2, "--ion-color-base", "var(--iconsAndButtonsColor) !important"], ["color", "red", "slot", "start", "value", "3", 2, "--ion-color-base", "var(--iconsAndButtonsColor) !important"], ["mode", "md", "mode", "md", "color", "red", 3, "ngModelChange", "ionChange", "ngModel"], ["slot", "start", "color", "red", 2, "--ion-color-base", "#2B28CE !important", 3, "value"], ["src", "./assets/icon/Razorpay_Secure_Payment-1.png", 1, "razorpayImage"], ["id", "", 1, "card-1", 2, "background", "white"], ["slot", "start", "color", "red", 3, "value"], ["slot", "end", 1, "paymentOptLogo", 3, "src"], [2, "position", "fixed", "bottom", "10px", "width", "100%"], ["class", "seabird-custom-text-pg-description", 4, "ngIf"], ["mode", "md", "expand", "block", 1, "seabird_routes-footer", "mr-tp-16", 2, "--border-radius", "50px", 3, "click"], [1, ""], [1, "seabird-custom-text-pg-description"], [2, "position", "fixed", "bottom", "0", "width", "100%"], ["mode", "md", "mode", "md", "expand", "full", 1, "routes-footer", "mr-tp-16", 2, "border-radius", "0px", 3, "click"], [1, "center", "pay-txt-1"], ["src", "assets/icon/ic_right_icon.svg", "alt", "right icon", 1, "right-icon"], ["size", "12", 1, "dwn-txt", 3, "click"], [1, "whole", "center", 3, "click"], ["placeholder", "Enter ID Proof", "type", "text", 3, "ngModelChange", "ngModel"], ["size", "4"], ["size", "4", 1, "brws-txt", 3, "click"], ["size", "4", 1, "seabird_dwn-txt", 3, "click"], [2, "text-align", "center", "font-size", "20px", "font-weight", "bold"], ["floating", ""], ["type", "text", "name", "otp", 3, "ngModelChange", "ngModel"], ["size", "3", 1, "brws-txt", 2, "text-align", "justify", 3, "click"], ["size", "5", 1, "brws-txt", 2, "text-align", "justify", 3, "click"], ["size", "4", 1, "seabird_dwn-txt", 2, "text-align", "justify", 3, "click"], ["size", "6", 1, "seabird_dwn-txt", 2, "margin", "0", 3, "click"], [2, "width", "50%", 3, "src"], [1, "sb-page-header"], [1, "sb-toolbar"], [1, "sb-results-appbar", "sb-pax-appbar"], ["type", "button", "aria-label", "Back", 1, "sb-icon-btn", 3, "click"], ["src", "./assets/seabird-new/back-arrow-navy.svg", "alt", "", "width", "20", "height", "20"], [1, "sb-appbar__text"], [1, "sb-appbar__title"], [1, "sb-pay"], [1, "sb-pay__body"], ["class", "sb-pay-card sb-fare", 4, "ngIf"], ["class", "sb-savings", 4, "ngIf"], [1, "sb-pay-offers"], ["class", "sb-pax-card sb-offer-card", 4, "ngIf"], ["class", "card-1 sb-pax-card sb-offer-card", 4, "ngIf"], ["class", "sb-pay-label", 4, "ngIf"], ["class", "sb-pay-card sb-methods", "role", "radiogroup", "aria-label", "Payment method", 4, "ngIf"], ["class", "sb-pay-card sb-methods", "role", "radiogroup", "aria-label", "Payment gateway", 4, "ngIf"], [1, "sb-secure"], ["src", "./assets/seabird-new/pay-secure.svg", "alt", "", "width", "14", "height", "14"], [1, "sb-pay-footer"], ["class", "sb-pay-footer__note", 4, "ngIf"], ["type", "button", 1, "sb-btn-primary", "sb-pay-footer__btn", 3, "click"], ["class", "sb-dialog-backdrop", 3, "click", 4, "ngIf"], ["class", "sb-dialog-backdrop", 4, "ngIf"], ["class", "sb-pax-sheet-backdrop", 3, "click", 4, "ngIf"], [1, "sb-pay-card", "sb-fare"], [1, "sb-fare__row"], [1, "sb-fare__label"], [1, "sb-fare__value"], ["class", "sb-fare__row", 4, "ngIf"], ["class", "sb-fare__row sb-fare__row--offer", 4, "ngIf"], [1, "sb-fare__hr"], [1, "sb-fare__total"], [1, "sb-fare__total-label"], [1, "sb-fare__total-value"], ["class", "sb-fare__row sb-fare__row--sub", 4, "ngIf"], [1, "sb-fare__row", "sb-fare__row--offer"], [1, "sb-fare__row", "sb-fare__row--sub"], [1, "sb-savings"], ["src", "./assets/seabird-new/pay-savings.svg", "alt", "", "width", "16", "height", "16"], [1, "sb-savings__text"], ["type", "button", "class", "sb-savings__change", 3, "click", 4, "ngIf"], ["type", "button", 1, "sb-savings__change", 3, "click"], [1, "sb-pax-card", "sb-offer-card"], [1, "sb-pax-card__head"], [1, "sb-pax-card__title"], ["mode", "md", "labelPlacement", "end", "justify", "start", 1, "sb-pax-check", "sb-offer-check", 3, "ngModelChange", "ionChange", "ngModel"], ["class", "sb-coupon-add", 3, "click", 4, "ngIf"], ["class", "sb-coupon-form", 3, "formGroup", "ngClass", 4, "ngIf"], ["class", "invalid-coupon", 4, "ngIf"], [1, "applied-coupons-title"], [1, "sb-coupon-list"], ["class", "sb-coupon-row", 4, "ngFor", "ngForOf"], [1, "sb-coupon-row"], ["name", "trash-outline", "color", "danger", 3, "click"], [1, "sb-coupon-add", 3, "click"], ["name", "add-circle-outline"], [1, "sb-coupon-form", 3, "formGroup", "ngClass"], [1, "sb-pfield"], [1, "sb-pfield__label"], ["required", "", "formControlName", "couponCode", "type", "text", "placeholder", "Enter coupon code", 1, "sb-pfield__input"], [1, "sb-offer-row"], ["type", "text", "placeholder", "Enter email or phone number", 1, "sb-pfield__input", 3, "ngModelChange", "ngModel", "ngModelOptions"], ["type", "button", "class", "sb-btn-primary sb-offer-btn", 3, "click", 4, "ngIf"], ["type", "button", "class", "sb-offer-btn sb-offer-btn--danger", 3, "click", 4, "ngIf"], ["type", "button", 1, "sb-btn-primary", "sb-offer-btn", 3, "click"], ["type", "button", 1, "sb-offer-btn", "sb-offer-btn--danger", 3, "click"], ["name", "trash-outline", "aria-hidden", "true"], [1, "card-1", "sb-pax-card", "sb-offer-card"], ["color", "red", "mode", "md", "cancelText", "Clear offer type", "interface", "popover", "placeholder", "Select offer type", "aria-label", "Offer type", 1, "sb-pfield__select", 3, "ngModelChange", "ionCancel", "ionChange", "click", "ngModel", "interfaceOptions"], ["type", "text", "placeholder", "Enter card number", "aria-label", "Card number", 1, "sb-pfield__input", 3, "ngModelChange", "ngModel"], [1, "sb-offer-actions"], ["type", "button", 1, "sb-btn-secondary", 3, "click"], ["type", "button", 1, "sb-btn-primary", 3, "click"], ["mode", "md", "labelPlacement", "end", "justify", "start", 1, "sb-pax-check", "sb-offer-check", "sb-offer-check--title", 3, "ngModelChange", "ionChange", "ngModel"], ["color", "danger", "name", "trash-outline", 3, "click"], [1, "sb-pfield", 3, "ngClass"], ["required", "", "formControlName", "pnrnumber", "type", "text", "placeholder", "Enter PNR number", "aria-label", "PNR Number", 1, "sb-pfield__input"], ["required", "", "formControlName", "mobileno", "type", "number", "aria-label", "Mobile Number", 1, "sb-pfield__input", 3, "readonly"], ["type", "button", "class", "sb-offer-icon-btn", "aria-label", "Remove PNR", 3, "click", 4, "ngIf"], ["type", "button", "aria-label", "Remove PNR", 1, "sb-offer-icon-btn", 3, "click"], ["color", "danger", "name", "trash-outline", "aria-hidden", "true"], ["class", "sb-coupon-row sb-offer-applied", 4, "ngIf"], ["mode", "md", "color", "red", 1, "sb-offer-radios", 3, "ngModelChange", "ionChange", "ngModel"], [1, "sb-coupon-row", "sb-offer-applied"], [1, "sb-offer-badge"], ["class", "sb-offer-tile", 4, "ngIf"], [1, "sb-offer-tile"], ["mode", "md", "labelPlacement", "end", "justify", "start", 3, "value"], [1, "sb-coupon-text", "sb-offer-tile__code", 3, "innerHTML"], [1, "sb-coupon-text", "sb-offer-tile__desc", 3, "innerHTML"], ["mode", "md", 1, "sb-offer-radios", 3, "ngModelChange", "ionChange", "ngModel"], ["class", "sb-promo-card", 3, "sb-promo-card--disabled", "sb-promo-card--selected", "click", 4, "ngIf"], [1, "sb-promo-card", 3, "click"], [1, "sb-promo-card__head"], [1, "sb-promo-card__code", 3, "innerHTML"], [1, "sb-promo-card__body"], [1, "sb-promo-card__desc", 3, "innerHTML"], ["mode", "md", 3, "disabled", "value"], ["class", "sb-offer-error", 4, "ngIf"], ["type", "button", "class", "sb-offer-link", 3, "click", 4, "ngIf"], [1, "sb-offer-error"], ["type", "button", 1, "sb-offer-link", 3, "click"], [1, "sb-pay-label"], ["role", "radiogroup", "aria-label", "Payment method", 1, "sb-pay-card", "sb-methods"], ["type", "button", "role", "radio", 1, "sb-method", 3, "click"], [1, "sb-method__icon"], ["src", "./assets/seabird-new/pay-card.svg", "alt", "", "width", "20", "height", "20"], [1, "sb-method__text"], [1, "sb-method__title"], [1, "sb-method__sub"], [1, "sb-radio"], ["class", "sb-method", "role", "radio", "tabindex", "0", 3, "click", 4, "ngIf"], ["role", "radio", "tabindex", "0", 1, "sb-method", 3, "click"], ["name", "call-outline", "aria-hidden", "true"], ["type", "button", "aria-label", "About phone booking", 1, "sb-method__info", 3, "click"], ["name", "information-circle-outline", "aria-hidden", "true"], ["src", "./assets/seabird-new/pay-wallet.svg", "alt", "", "width", "20", "height", "20"], ["type", "button", "aria-label", "About wallet payment", 1, "sb-method__info", 3, "click"], ["role", "radiogroup", "aria-label", "Payment gateway", 1, "sb-pay-card", "sb-methods"], ["type", "button", "class", "sb-method", "role", "radio", 3, "click", 4, "ngIf"], ["src", "./assets/seabird-new/pay-bank.svg", "alt", "", "width", "20", "height", "20"], ["class", "sb-method__logo", "src", "./assets/icon/Razorpay_Secure_Payment-1.png", "alt", "Razorpay", 4, "ngIf"], ["class", "sb-method__title", 4, "ngIf"], ["src", "./assets/icon/Razorpay_Secure_Payment-1.png", "alt", "Razorpay", 1, "sb-method__logo"], [1, "sb-pay-footer__note"], [1, "sb-dialog-backdrop", 3, "click"], ["role", "dialog", "aria-modal", "true", "aria-labelledby", "sbConfirmTitle", 1, "sb-dialog", "sb-confirm", 3, "click"], [1, "sb-dialog__head", "sb-confirm__head"], ["type", "button", "aria-label", "Close", 1, "sb-icon-btn", "sb-dialog__close", 3, "click"], ["name", "close-outline", "aria-hidden", "true"], [1, "sb-confirm__icon"], ["aria-hidden", "true", 3, "name"], ["id", "sbConfirmTitle", 1, "sb-confirm__title"], ["class", "sb-confirm__text", 4, "ngIf"], [1, "sb-confirm__actions"], [1, "sb-confirm__text"], [1, "sb-dialog-backdrop"], ["role", "dialog", "aria-modal", "true", 1, "sb-dialog", "sb-confirm"], ["name", "time-outline"], [1, "sb-confirm__title"], ["type", "button", 1, "sb-btn-primary", 3, "click", "disabled"], ["name", "checkmark"], ["name", "close-circle-outline"], ["name", "wallet-outline"], ["class", "sb-confirm__actions", 4, "ngIf"], ["type", "text", "placeholder", "Enter ID proof", "aria-label", "ID proof", 1, "sb-pfield__input", 3, "ngModelChange", "ngModel"], ["name", "shield-checkmark-outline"], ["type", "text", "name", "otp", "placeholder", "Enter OTP", "maxlength", "6", "aria-label", "OTP", 1, "sb-pfield__input", 3, "ngModelChange", "ngModel"], [1, "sb-pax-sheet-backdrop", 3, "click"], ["role", "dialog", "aria-label", "Wallet details", 1, "sb-pax-sheet", 3, "click"], ["type", "button", 1, "sb-pax-sheet__close", 3, "click"], ["class", "sb-wallet-balance", 4, "ngIf"], [1, "sb-wallet-balance"], [2, "margin", "0px"], ["name", "gift-outline"], ["role", "dialog", "aria-label", "How phone booking works", 1, "sb-pax-sheet", "sb-phone-confirm__details", 3, "click"], ["zoom", "", "pager", "false", 3, "options"], ["class", "slide-card sb-slide", 4, "ngFor", "ngForOf"], [1, "slide-card", "sb-slide"], ["alt", "Phone booking information", 3, "src"], [1, "bg-content"], [1, "card-2", "fixed-card", 2, "background", "var(--bookingDetailsBgColor) !important", 3, "click", "ngClass"], [2, "color", "var(--primaryText)"], ["size", "4", 1, "boardingTime"], [2, "font-weight", "500 !important"], ["size", "4", 1, "droppingTime"], [1, "center1", 2, "color", "var(--primaryText)"], ["size", "4", 1, "timeDuration"], ["style", " color:var(--primaryText);", 4, "ngIf"], ["style", "color: black !important; height: 70%; max-height: 70vh; overflow-y: auto;", 3, "ngClass", 4, "ngIf"], ["size", "6", 4, "ngIf"], ["size", "6", 1, "pos", "viewBottom", 2, "text-align", "right", 3, "click"], [1, "coupon-card"], [1, "coupon-header"], ["src", "assets/icon/promo_coupon_icon.svg", 1, "coupon-icon"], [1, "coupon-title"], [1, "coupon-label"], [1, "coupon-row"], [1, "native-input-wrapper"], ["type", "text", "placeholder", "e.g., SAVE200", 1, "native-input", 3, "ngModelChange", "ngModel", "disabled"], [1, "apply-btn", 3, "click"], ["class", "btn-text", 4, "ngIf"], ["class", "coupon-message", 3, "success", "error", 4, "ngIf"], [1, "or-divider"], ["style", "padding-bottom:0px;  margin-top:0px", "class", "card-1", 4, "ngIf"], ["class", "card-1 mr-tp-16", 4, "ngIf"], ["id", "", "class", "card-1 mr-tp-16", 4, "ngIf"], [1, "card-1", "mr-tp-16", 2, "margin-bottom", "16px"], [2, "color", "black !important", "height", "70%", "max-height", "70vh", "overflow-y", "auto", 3, "ngClass"], [1, "pd-10", 3, "ngClass"], [4, "ngIf", "ngIfElse"], [2, "font-size", "20px", "font-weight", "bolder", "color", "black"], [1, "fare-txt", "txt-c3"], [2, "font-size", "14px", "font-weight", "bolder", "color", "#3e3e52"], [1, "sPayment"], [1, "pay-amt-title"], ["class", "Contact-details pay-amt-value", 4, "ngIf"], [1, "Contact-details", "pay-amt-value"], [1, "Contact-details", 3, "ngStyle"], ["slot", "start", 2, "--color", "var(--iconsAndButtonsColor)", 3, "ngModelChange", "ionChange", "ngModel"], ["class", "cash_couponcoupon_radio", "mode", "md", 3, "ngModel", "ngModelChange", "ionChange", 4, "ngIf"], ["mode", "md", 1, "cash_couponcoupon_radio", 3, "ngModelChange", "ionChange", "ngModel"], ["lines", "none", "size", "7.2"], ["value", "special", "slot", "start"], ["lines", "none", "size", "4.8"], ["value", "normal", "slot", "start"], ["no-padding", ""], ["type", "text", "label", "Email/Phone Number", "labelPlacement", "floating", 3, "ngModelChange", "ngModelOptions", "ngModel"], ["size", "3", 2, "padding", "16px 0 0 0px", 3, "ngClass"], [1, "btn-text"], [1, "coupon-message"], [1, "card-1", 2, "padding-bottom", "0px", "margin-top", "0px"], ["name", "chevron-down-outline", 1, "selectIcon"], [1, "card-1", "mr-tp-16"], ["color", "red", "slot", "start", 3, "value"], ["color", "red", "slot", "start", "value", "1"], ["color", "red", "slot", "start", "value", "2", "checked", "true"], ["color", "red", "slot", "start", "value", "3"], ["src", "./assets/icon/Razorpay_Secure_Payment-1.png", "alt", "", 1, "razorpayImage"], ["id", "", 1, "card-1", "mr-tp-16"], [1, ".continue-default", "pay-txt-1"], [1, "center", "pay-txt-1", 2, "padding-bottom", "0px !important"], [1, "circle"], ["size", "4", 1, "dwn-txt", 3, "click"], ["size", "4", 1, "dwn-txt", 2, "text-align", "justify", 3, "click"], ["class", "ourbustheme", "style", "border-bottom: 1px solid #92949c", 4, "ngIf"], ["class", "ourbustheme", 4, "ngIf"], ["class", "ourbustheme ourbus-center-content", 4, "ngIf"], ["class", "whole center ourbustheme", 3, "click", 4, "ngIf"], ["class", "whole center ourbustheme", 4, "ngIf"], [1, "ourbustheme", 2, "border-bottom", "1px solid #92949c"], ["defaultHref", "passenger-details", 2, "color", "#000", 3, "click"], ["size", "8", 2, "display", "flex", "align-items", "center", "justify-content", "center"], [1, "ourbus_header_text"], [1, "ourbustheme"], ["style", "margin: 16px;", 4, "ngIf"], ["class", "ourbusCardSet", 4, "ngIf"], [1, "ourbusCardSet"], [2, "display", "flex", "align-items", "center"], [2, "--background-checked", "var(--sectionHeaderTextColor)", "--size", "18px", "--checkbox-background-checked", "var(--sectionHeaderTextColor)", 3, "ionChange", "ngModelChange", "ngModel"], [1, "ourbus_terms_text"], [1, "ourbus_terms_click", 2, "text-decoration", "underline", "color", "#0972EB", 3, "click"], [2, "margin-bottom", "16px"], [1, "ourbus_rowBg"], ["src", "././assets/icon/ourbus_tag.svg", 2, "width", "24px", "height", "24px"], [1, "ourbus_order_details"], [1, "ourbus_farebreakup_curr"], ["size", "6", 2, "text-align", "end"], ["style", "margin: 4px 8px;", 4, "ngIf"], [2, "border", "1px solid #D9D9D9", "margin-top", "8px"], [2, "padding", "8px"], [1, "ourbus_amount_payble"], [1, "ourbus_amount_paybl_amount"], ["style", "padding: 8px;", 4, "ngIf"], ["class", "ourbusCardSet", "style", "padding: 0px; margin: 10px 20px;", 4, "ngIf"], ["id", "", "class", "ourbusCardSet", 4, "ngIf"], [1, "divider-lines", 3, "ngStyle"], ["style", "position: fixed;bottom: 0;width: 100%;padding: 10px;background: white;", 4, "ngIf"], [2, "margin", "16px"], ["alt", "", 3, "src"], [2, "display", "flex", "justify-content", "space-between"], ["class", "Contact-details", 3, "click", 4, "ngIf"], ["name", "chevron-down-outline", "style", "font-size:18px;", 3, "click", 4, "ngIf"], ["name", "chevron-up-outline", "style", "font-size:18px;", 3, "click", 4, "ngIf"], ["mode", "md", "color", "red", 3, "ngModel", "ngModelChange", "ionChange", "ionCancel", "click", 4, "ngIf"], [1, "Contact-details", 3, "click"], ["name", "chevron-down-outline", 2, "font-size", "18px", 3, "click"], ["name", "chevron-up-outline", 2, "font-size", "18px", 3, "click"], ["mode", "md", "color", "red", 3, "ngModelChange", "ionChange", "ionCancel", "click", "ngModel"], ["size", "12", 2, "display", "flex", "align-items", "center"], [3, "value"], [2, "margin-left", "8px", "color", "#3e3e52", 3, "id"], ["mode", "md", 1, "ourbus_custom_input", 2, "margin", "8px 0px"], ["fill", "outline", "type", "text", "label", "Enter Card No.", "labelPlacement", "floating", 1, "txt-lbl", 3, "ngModelChange", "ngModel"], ["mode", "md", "fill", "outline", 2, "width", "48%", "--background", "var(--primaryText)", "color", "var(--iconsAndButtonsColor)", "--border-color", "var(--iconsAndButtonsColor)", 3, "click"], ["mode", "md", 2, "width", "48%", "--background", "var(--iconsAndButtonsColor)", "color", "var(--primaryText)", 3, "click"], ["fill", "outline", "mode", "md", 1, "ourbus_custom_input", 2, "margin", "8px 0px"], ["mode", "md", 1, "ourbus_custom_input", 2, "width", "100%", "margin", "8px 0px", 3, "ngClass"], ["fill", "outline", "required", "", "formControlName", "pnrnumber", "type", "number", "label", "PNR Number", "labelPlacement", "floating"], ["fill", "outline", "required", "", "formControlName", "mobileno", "type", "number", "label", "Mobile Number", "labelPlacement", "floating", 3, "readonly"], ["fill", "outline", "mode", "md", 1, "appliedBox", "ourbus_custom_input", 2, "margin", "8px 0px"], ["fill", "outline", "mode", "md", 1, "ourbus_custom_input", 2, "margin", "8px 0px", "--padding-start", "0px"], ["style", "margin: 12px 0px 10px 0px;", 4, "ngIf"], [2, "margin", "12px 0px 10px 0px"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input", 2, "--border-width", "0px", "--background", "#f8f8ff"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input", "new-label", 2, "--background", "#f8f8ff", "--border-width", "0px"], ["size", "8", 2, "padding-left", "10px", "padding-bottom", "0px"], ["mode", "md", "lines", "none", 1, "ourbus_custom_input", 2, "--padding-start", "0px"], ["style", "margin: auto 0px;", 4, "ngIf"], [2, "margin", "auto 0px"], ["ion-button", "", 1, "removeText_ourbus", 3, "click"], ["size", "11", 2, "padding-left", "10px", "padding-top", "0px"], [1, "ourbusCardSet", 2, "padding", "0px", "margin", "10px 20px"], [3, "ngModelChange", "ionChange", "ngModel"], [1, "ourbusCardSet", "ourbus-payment-card", 3, "ngStyle"], ["lines", "none", "fill", "outline", "mode", "md", 1, "ourbus_custom_input", 2, "margin", "4px 0px", "--border-color", "#ffffff !important"], ["slot", "end", "value", "1", 2, "--color-checked", "var(--iconsAndButtonsColor)"], ["class", "ourbusCardSet ourbus-payment-card", 3, "ngStyle", 4, "ngIf"], ["fill", "outline", "mode", "md", "class", "ourbus_custom_input", "style", "margin: 4px 0px;--border-color: #ffffff !important;", "lines", "none", 4, "ngIf"], ["fill", "outline", "mode", "md", "lines", "none", 1, "ourbus_custom_input", 2, "margin", "4px 0px", "--border-color", "#ffffff !important"], [1, "ourbus-div-payment"], ["name", "information-circle", 2, "z-index", "50", "padding", "2px 0px 0px 5px", "color", "#acacac", 3, "click"], ["slot", "end", "value", "2", "checked", "true", 2, "--color-checked", "var(--iconsAndButtonsColor)"], ["slot", "end", "value", "3", 2, "--color-checked", "var(--iconsAndButtonsColor)"], ["fill", "outline", "mode", "md", "class", "ourbus_custom_input", "style", "margin: 4px 0px;--border-color: #ffffff !important;", "lines", "none", "button", "", 3, "click", 4, "ngIf"], ["fill", "outline", "mode", "md", "lines", "none", "button", "", 1, "ourbus_custom_input", 2, "margin", "4px 0px", "--border-color", "#ffffff !important", 3, "click"], ["slot", "end", 2, "--color-checked", "var(--iconsAndButtonsColor)", 3, "value"], ["id", "", 1, "ourbusCardSet"], [2, "position", "fixed", "bottom", "0", "width", "100%", "padding", "10px", "background", "white"], ["mode", "md", "mode", "md", "expand", "full", 1, "routes-footer", "mr-tp-16", 2, "height", "55px", "border-radius", "6px", "overflow", "hidden", 3, "click", "disabled"], [1, "pay-txt-1", 2, "font-size", "18px", "font-weight", "bold"], [1, "pay-txt-1"], [1, "ourbustheme", "ourbus-center-content"], [1, "content-container"], ["src", "././assets/icon/transaction-failed-ourbus.svg", 2, "width", "105.62px", "height", "80px"], [1, "ourbus_transaction_failed"], ["mode", "md", "expand", "block", 1, "ourbus-tryagain-btn", 3, "click"], ["mode", "md", "expand", "block", 1, "ourbus-bcktohome-btn", 3, "click"], [1, "whole", "center", "ourbustheme", 3, "click"], [1, "seabird-legend-box", 2, "width", "350px !important"], ["size", "5", 1, "ourbus_dwn-txt", 3, "click"], ["size", "5", 1, "ourbus_brws-txt", 3, "click"], [1, "whole", "center", "ourbustheme"], [1, "seabird-legend-box"], ["fill", "outline", "placeholder", "Enter ID Proof", "type", "text", 3, "ngModelChange", "ngModel"], ["fill", "outline", "inputmode", "numeric", "type", "tel", "label", "Enter OTP", "labelPlacement", "floating", "name", "otp", "maxlength", "6", 3, "ngModelChange", "ionChange", "ngModel"], [1, "seabird-legend-box", 2, "position", "absolute", "bottom", "0", "width", "100% !important"], ["size", "6", 1, "ourbus-brws-txt"], ["size", "6", 1, "ourbus-dwn-txt", 3, "click"], ["class", "ourbus-container-m", 4, "ngIf"], [1, "ourbus-container-m"], ["src", "./assets/icon/rupee-indian.png", "alt", "", 1, "img"], ["src", "./assets/icon/calculator.png", "alt", "", 1, "img"], [1, "shyamoli_header", 2, "z-index", "0"], ["slot", "start", 3, "click"], [1, "shyamoli-bg-content"], ["id", "reviewBookingCardShyamoli", 1, "shyamoli-review-booking-card", 2, "overflow", "inherit", "margin", "0", "border", "1px solid #dfdfdf"], ["class", "journey-type-label", 4, "ngIf"], [1, "ion-padding", "review-booking-card-first-row_2", 2, "padding", "7px"], ["size", "10", 2, "align-content", "center"], ["src", "./assets/icon/Shyamoliwhite.svg", "alt", "Shyamoli", 1, "shyamoli-logo"], [1, "ion-padding-top", 2, "padding-bottom", "10px", "padding-top", "10px"], [1, "shyamoli-city-short-name"], [2, "color", "#000000", "font-size", "12px", "font-weight", "600"], [1, "shyamoli-service-time"], ["size", "4", 1, "ion-no-padding", 2, "display", "flex", "align-items", "center", "padding", "0"], [1, "location-bus_2"], ["src", "./assets/icon/shyamoli_arrow.svg", 2, "height", "18px", "width", "48px"], [2, "margin-top", "0px", "font-size", "12px", "font-weight", "600", "color", "#333333", "text-align", "center"], [2, "color", "#999999"], ["size", "12", 2, "padding-bottom", "12px", "padding-top", "0px"], [1, "show-details_2", 2, "font-weight", "bold", "color", "#5F5F5F", 3, "click"], ["name", "chevron-down-circle-outline", "class", "ion-margin-start", "style", "height: 18px;width: 18px;margin-left: 4px;", 4, "ngIf"], ["name", "chevron-up-circle-outline", "class", "ion-margin-start", "style", "height: 18px;width: 18px;margin-left: 4px;", 4, "ngIf"], ["style", "padding: 0px 12px;", 4, "ngIf"], [2, "margin-top", "0px", "margin-bottom", "10px"], ["class", "shyamoli-card-1", 4, "ngIf"], ["id", "", "class", "shyamoli-card-1", 4, "ngIf"], [1, "shyamoli-cancellation-block", 3, "click"], ["name", "chevron-forward-outline", 2, "height", "21px", "width", "20px"], [1, "shyamoli-card-1", 2, "text-align", "center", "font-size", "12px", "padding", "20px", "border", "none"], [1, "terms-click", 2, "color", "#FF4545", 3, "click"], ["class", "ion-padding shyamoli-footer-row", "style", "background: #fff; border-top: 1px solid #e0e0e0;", 4, "ngIf"], [1, "journey-type-label"], [1, "bustype", 2, "margin-top", "5px", "margin-bottom", "5px"], ["size", "1.3", 2, "align-content", "center"], ["src", "./assets/icon/shyamoliVector.svg"], ["size", "10.7", 2, "display", "flex", "justify-content", "center", "align-items", "start", "flex-direction", "column"], [2, "margin", "0px", "font-size", "14px", "color", "#333333", "font-weight", "600"], [2, "color", "#333333", "font-size", "10px"], ["size", "1.5"], ["size", "10.5", 2, "padding", "5px 0px 0px 0px"], [2, "line-height", "22px", "color", "#999999", "font-weight", "600"], ["size", "1.5", 1, ""], ["size", "10.5", 1, "", 2, "padding", "5px 0px 0px 0px"], ["name", "chevron-down-circle-outline", 1, "ion-margin-start", 2, "height", "18px", "width", "18px", "margin-left", "4px"], ["name", "chevron-up-circle-outline", 1, "ion-margin-start", 2, "height", "18px", "width", "18px", "margin-left", "4px"], [1, "shyamoli-passenger-block", 2, "margin", "16px 0px"], [2, "padding", "0px"], [1, "title"], [1, "header-row"], [1, "header-text-row"], ["class", "passenger-row", 4, "ngFor", "ngForOf"], [1, "passenger-row"], [1, "name"], [1, "seat", 2, "font-size", "15px"], [1, "shyamoli-review-booking-card", 2, "margin", "0px"], ["src", "./assets/icon/Shyamoliwhite.svg"], [1, "bustype", 2, "margin-bottom", "5px", "margin-bottom", "5px"], [2, "padding", "0px 12px"], [1, "shyamoli-passenger-block", 2, "margin", "12px 0px"], [1, "header-text-row", 2, "font-size", "15px"], [1, "shyamoli-passenger-block", 2, "margin", "8px 0px"], [1, "passenger-title"], [1, "shyamoli-card-1"], [1, "Contact-details", "title", 2, "margin-bottom", "0px"], [1, "pay-box", 2, "padding", "0px"], [2, "color", "#5F5F5F", 3, "click"], ["slot", "start", 2, "--color", "var(--iconsAndButtonsColor)", "--background-checked", "var(--iconsAndButtonsColor)", "--checkbox-background-checked", "var(--iconsAndButtonsColor)", "margin-right", "10px", 3, "ngModelChange", "ionChange", "ngModel"], ["class", "coupon-form", "style", "border: none;padding: 0px;", 3, "formGroup", "ngClass", 4, "ngIf"], [1, "text-success", 2, "text-align", "center", "align-content", "center"], ["name", "add", 1, "success-text", 2, "padding", "2px"], ["size", "7.2", 2, "padding", "0px"], [2, "font-size", "12px", "color", "#333333"], ["size", "4.8", 2, "padding", "0px"], [1, "coupon-form", 2, "border", "none", "padding", "0px", 3, "formGroup", "ngClass"], ["lines", "none", 2, "--padding-start", "0px", 3, "ngClass"], ["required", "", "formControlName", "couponCode", "type", "text", "placeholder", "Enter coupon code", 1, "email-input"], ["size", "8.5", 2, "padding-left", "0", "padding-right", "0px", "padding-bottom", "0px"], ["no-padding", "", "lines", "none", 2, "--padding-start", "0px"], ["type", "text", "placeholder", "Email/Phone number", 1, "email-input", 3, "ngModelChange", "ngModelOptions", "ngModel"], ["size", "3.5", 2, "align-content", "center", "padding-left", "0", "padding-bottom", "0px", "padding-right", "0px", 3, "ngClass"], ["mode", "md", "expand", "block", 1, "apply-btn-shyamoli", 2, "--background", "var(--iconsAndButtonsColor)", "--color", "var(--primaryText)", "margin-bottom", "0px", "font-weight", "600", 3, "click"], ["color", "danger", "name", "trash", 2, "font-size", "25px", 3, "click"], [1, "coupon-title-shyamoli"], ["type", "text", "placeholder", " e.g., SAVE200", 1, "coupon-txt-shymoli", "shyamoli-select", 3, "ngModelChange", "ngModel", "disabled"], [1, "apply-btn-shyamoli", 3, "click"], ["color", "red", "mode", "md", "cancelText", "Clear offer type", "interface", "action-sheet", "placeholder", "Select offer type", 1, "coupon-txt", "shyamoli-select", 2, "margin", "10px 0px", 3, "ngModelChange", "ionCancel", "ionChange", "click", "ngModel", "interfaceOptions"], ["col-12", "", 2, "padding-left", "0", "padding-right", "0px"], ["lines", "none", 2, "--padding-start", "0px", "--inner-padding-end", "0px"], ["type", "text", "placeholder", "Enter Card No.", 1, "email-input", 3, "ngModelChange", "ngModel"], [2, "color", "#5F5F5F"], ["lines", "none", 2, "--padding-start", "0px", "--inner-padding-end", "0px", 3, "ngClass"], ["required", "", "formControlName", "pnrnumber", "type", "text", "placeholder", "PNR Number", 1, "email-input"], ["size", "8.5", 2, "padding-left", "0px", "padding-right", "0px"], ["required", "", "formControlName", "mobileno", "type", "number", "placeholder", "Mobile Number", 1, "email-input", 3, "readonly"], ["mode", "md", "expand", "block", "color", "red", 1, "apply-btn-shyamoli", 2, "margin", "0px", "height", "49px", 3, "click"], ["size", "1", 2, "padding-left", "0px"], ["size", "11", 2, "padding-left", "5px"], ["lines", "none", 1, "offersItem-border", 2, "--padding-start", "0px"], [1, "shyamoli-offerDesign"], [1, "Contact-details", 2, "margin-bottom", "10px"], ["class", "select-coupon right", "style", "color:green", 4, "ngIf"], [1, "select-coupon", "right", 2, "color", "green"], ["lines", "none", 2, "padding", "0px"], ["class", "shyamoli-payment-item", "button", "", 3, "click", 4, "ngIf"], ["button", "", 1, "shyamoli-payment-item", 3, "click"], [1, "shyamoli-payment-label"], ["name", "information-circle-outline", 2, "z-index", "50", "height", "18px", "width", "23px", "vertical-align", "text-bottom", 3, "click"], [1, "chartered_wall", 2, "color", "#000000", "font-weight", "600"], [1, "Contact-details", 2, "margin-bottom", "5px"], ["style", "--padding-start: 0px;", "button", "", 3, "click", 4, "ngIf"], ["button", "", 2, "--padding-start", "0px", 3, "click"], ["id", "", 1, "shyamoli-card-1"], [1, "ion-padding", "shyamoli-footer-row", 2, "background", "#fff", "border-top", "1px solid #e0e0e0"], ["size", "5", 2, "display", "flex", "flex-direction", "column", "justify-content", "center"], ["style", "color: #000000; font-weight: 700; margin-bottom: 4px;    margin-top: 0px;font-size: 16px !important;", 4, "ngIf"], ["style", "color: #000000; font-weight: 700; margin-bottom: 4px;font-size: 16px !important;", 4, "ngIf"], ["id", "breakup-modal", 2, "margin-top", "4px", "color", "#000000", "cursor", "pointer", "font-size", "12px !important", "font-weight", "600 !important", "margin-bottom", "4px !important", 3, "click"], ["size", "7", 2, "display", "flex", "justify-content", "center", "align-items", "center"], [1, "shyamoli-pay-btn", 2, "--background", "var(--iconsAndButtonsColor)", "--color", "#fff", "font-weight", "700", "border-radius", "5px", "display", "contents", 3, "click"], [2, "color", "#000000", "font-weight", "700", "margin-bottom", "4px", "margin-top", "0px", "font-size", "16px !important"], [2, "color", "#000000", "font-weight", "700", "margin-bottom", "4px", "font-size", "16px !important"], [1, "legend-box", 2, "position", "absolute", "bottom", "0", "width", "100% !important", "padding", "7px 16px 20px 16px", "border-radius", "10px 10px 0px 0px"], [1, "hr-border", 2, "height", "auto"], ["size", "6", 1, "dwn-txt", 3, "click"]],
+  consts: [["myslider", ""], ["sbOffers", ""], ["nogstrc", ""], ["noRoundTripDiscount", ""], [4, "ngIf"], [1, "theme1", 3, "ngStyle"], [1, "ion-margin-start", "ion-margin-end", "ion-margin-top", 2, "margin-left", "11px", "margin-right", "11px"], ["size", "1", 2, "display", "flex", "justify-content", "center", "align-items", "center", "padding-left", "0px"], ["mode", "md"], ["defaultHref", "", 2, "color", "#000", 3, "click"], ["size", "10", 2, "display", "flex", "justify-content", "center", "align-items", "center"], [1, "header-text"], ["size", "1", 2, "display", "flex", "justify-content", "center", "align-items", "center"], ["style", "--background: #fff;", "class", "theme1", 4, "ngIf"], ["class", "whole center", 4, "ngIf"], [1, "theme1", 2, "box-shadow", "0px 0px 14px 0px rgba(38, 38, 38, 0.10)", "padding-bottom", "8px"], [2, "padding", "0"], [1, "footer-coupen-row", "ion-padding-start", "ion-padding-end", 2, "background", "#3bad6926", "padding", "0px 7px"], ["size", "8", 2, "display", "flex", "align-items", "center"], ["width", "24", "height", "24", "viewBox", "0 0 24 24", "fill", "none", "xmlns", "http://www.w3.org/2000/svg"], ["clip-path", "url(#clip0_142_3929)"], ["d", "M9 15L15 9", "stroke", "#3BAD69", "stroke-width", "1.75", "stroke-linecap", "round", "stroke-linejoin", "round"], ["d", "M9.5 10C9.77614 10 10 9.77614 10 9.5C10 9.22386 9.77614 9 9.5 9C9.22386 9 9 9.22386 9 9.5C9 9.77614 9.22386 10 9.5 10Z", "stroke", "#3BAD69", "stroke-width", "1.75", "stroke-linecap", "round", "stroke-linejoin", "round"], ["d", "M14.5 15C14.7761 15 15 14.7761 15 14.5C15 14.2239 14.7761 14 14.5 14C14.2239 14 14 14.2239 14 14.5C14 14.7761 14.2239 15 14.5 15Z", "stroke", "#3BAD69", "stroke-width", "1.75", "stroke-linecap", "round", "stroke-linejoin", "round"], ["d", "M5.00046 7.2C5.00046 6.61653 5.23225 6.05695 5.64483 5.64437C6.05741 5.23179 6.61698 5 7.20046 5H8.20046C8.78136 4.99967 9.33855 4.76961 9.75046 4.36L10.4505 3.66C10.6549 3.4544 10.898 3.29125 11.1657 3.17991C11.4334 3.06858 11.7205 3.01126 12.0105 3.01126C12.3004 3.01126 12.5875 3.06858 12.8552 3.17991C13.1229 3.29125 13.366 3.4544 13.5705 3.66L14.2705 4.36C14.6824 4.76961 15.2396 4.99967 15.8205 5H16.8205C17.4039 5 17.9635 5.23179 18.3761 5.64437C18.7887 6.05695 19.0205 6.61653 19.0205 7.2V8.2C19.0208 8.7809 19.2509 9.33809 19.6605 9.75L20.3605 10.45C20.5661 10.6545 20.7292 10.8975 20.8406 11.1652C20.9519 11.433 21.0092 11.7201 21.0092 12.01C21.0092 12.3 20.9519 12.587 20.8406 12.8548C20.7292 13.1225 20.5661 13.3656 20.3605 13.57L19.6605 14.27C19.2509 14.6819 19.0208 15.2391 19.0205 15.82V16.82C19.0205 17.4035 18.7887 17.9631 18.3761 18.3756C17.9635 18.7882 17.4039 19.02 16.8205 19.02H15.8205C15.2396 19.0203 14.6824 19.2504 14.2705 19.66L13.5705 20.36C13.366 20.5656 13.1229 20.7288 12.8552 20.8401C12.5875 20.9514 12.3004 21.0087 12.0105 21.0087C11.7205 21.0087 11.4334 20.9514 11.1657 20.8401C10.898 20.7288 10.6549 20.5656 10.4505 20.36L9.75046 19.66C9.33855 19.2504 8.78136 19.0203 8.20046 19.02H7.20046C6.61698 19.02 6.05741 18.7882 5.64483 18.3756C5.23225 17.9631 5.00046 17.4035 5.00046 16.82V15.82C5.00013 15.2391 4.77006 14.6819 4.36046 14.27L3.66046 13.57C3.45486 13.3656 3.2917 13.1225 3.18037 12.8548C3.06903 12.587 3.01172 12.3 3.01172 12.01C3.01172 11.7201 3.06903 11.433 3.18037 11.1652C3.2917 10.8975 3.45486 10.6545 3.66046 10.45L4.36046 9.75C4.77006 9.33809 5.00013 8.7809 5.00046 8.2V7.2Z", "stroke", "#3BAD69", "stroke-width", "1.75", "stroke-linecap", "round", "stroke-linejoin", "round"], ["id", "clip0_142_3929"], ["width", "24", "height", "24", "fill", "white"], ["style", "font-weight: 500;padding-left: 5px;", 3, "click", 4, "ngIf"], ["size", "4", 2, "display", "flex", "align-items", "center", "justify-content", "end"], ["name", "chevron-forward-outline", 3, "click", 4, "ngIf"], ["style", "color: #191966;text-align: right; font-family: Roboto;font-size: 14px;font-style: normal;font-weight: 500;line-height: 14px;text-decoration-line: underline;", 3, "click", 4, "ngIf"], ["class", "default-custom-text-pg-description", 4, "ngIf"], [1, "ion-padding", 2, "padding", "16px", 3, "ngClass"], ["size", "4.5", 2, "display", "flex", "flex-direction", "column", "justify-content", "center"], ["id", "breakup-modal", 2, "margin-top", "4px", "font-weight", "500", 3, "click"], ["size", "7.5", 2, "display", "flex", "justify-content", "end", "align-items", "center"], [3, "click", "ngClass"], [1, "theme1", 2, "--background", "#fff"], ["size", "12"], [2, "margin", "4px 8px"], [1, "review-booking-card", 2, "overflow", "inherit", "margin", "0", "border", "1px solid #dfdfdf"], [1, "ion-padding", 2, "padding", "7px", 3, "ngClass"], ["size", "2", 2, "display", "flex", "justify-content", "center", "align-items", "center"], ["width", "33", "height", "34", "viewBox", "0 0 33 34", "fill", "none", "xmlns", "http://www.w3.org/2000/svg", 4, "ngIf"], ["style", "display: inline-block; height: 30px; width: 30px; top: 23%;", 3, "src", 4, "ngIf"], ["size", "8", 2, "display", "flex", "justify-content", "center", "align-items", "start", "flex-direction", "column"], ["size", "2", 2, "display", "flex", "justify-content", "center", "align-items", "center", "flex-direction", "column"], [1, "ion-padding-top", 2, "padding-bottom", "10px"], ["size", "4", 1, "ion-no-padding"], ["style", "margin: 0;font-weight: bold;color: #191966 !important", 4, "ngIf"], ["style", "margin: 0;font-weight: bold;color: #000 !important", 4, "ngIf"], [2, "margin-bottom", "0"], ["size", "4 ", 1, "ion-no-padding"], ["style", "margin: 0;font-weight: bold; color: #F2C21A !important", 4, "ngIf"], ["style", "margin: 0;font-weight: bold; color: #000 !important", 4, "ngIf"], [2, "color", "#A0A0A0"], ["size", "4", 2, "display", "flex", "align-items", "center", "padding", "0"], [3, "ngClass"], ["width", "24", "height", "8", "viewBox", "0 0 24 8", "fill", "none", "xmlns", "http://www.w3.org/2000/svg", 4, "ngIf"], ["style", "font-size: 12px;", 4, "ngIf"], [1, "", 2, "margin", "0", "color", "#333 !important", "font-size", "16px", "margin-top", "10px", "font-weight", "600"], ["style", "\n                    margin: 0;\n                    position: absolute;\n                    left: 30%;\n                    top: 10px;\n                    font-size: 12px;\n                  ", 4, "ngIf"], [1, "devider_set"], ["size", "12", 2, "padding", "0px"], ["style", "display:contents ;", "src", "./assets/icon/devider.svg", 4, "ngIf"], ["style", "display:contents ;", "src", "./assets/icon/network_devider.svg", 4, "ngIf"], [1, "ion-margin-vertical", 2, "margin", "0"], ["size", "12", 3, "ngStyle"], [2, "font-weight", "bold", 3, "click", "ngClass"], ["name", "chevron-down-outline", "class", "ion-margin-start", "style", "height: 18px;width: 18px;margin-left: 4px;", 4, "ngIf"], ["name", "chevron-up-outline", "class", "ion-margin-start", "style", "height: 18px;width: 18px;margin-left: 4px;", 4, "ngIf"], ["style", "padding-bottom:0px", "class", "card-1 mr-tp-16", 4, "ngIf"], ["style", "min-height: 4px;", 4, "ngIf"], ["class", "invalid-coupon ", 4, "ngIf"], ["class", "ion-margin select-method-row", "style", "margin-left: 5px;margin-bottom: 0;", 4, "ngIf"], ["class", "card-1", "style", "padding: 16px 11px;", 4, "ngIf"], ["class", "ion-margin select-method-row", "style", "margin-left: 5px;", 4, "ngIf"], [1, "ion-margin", 2, "margin-left", "5px", 3, "click", "ngClass"], ["size", "11", 2, "display", "flex", "align-items", "center"], ["size", "1", 2, "display", "flex", "align-items", "center", "justify-content", "end"], ["name", "chevron-forward-outline"], [2, "min-height", "4px"], [1, "terms-row", "ion-margin", 2, "margin-left", "5px"], [3, "click"], ["id", "payMentGateWayForm", "name", "payMentGateWayForm"], ["width", "33", "height", "34", "viewBox", "0 0 33 34", "fill", "none", "xmlns", "http://www.w3.org/2000/svg"], ["x", "0.5", "y", "1", "width", "32", "height", "32", "rx", "16", "fill", "white", "stroke", "#DFDFDF"], ["d", "M10.9697 12.0437L8.16703 9.24097C4.21776 13.5087 4.21776 20.1333 8.16703 24.4648L10.9697 21.662C8.54921 18.923 8.54921 14.7827 10.9697 12.0437Z", "fill", "#FBAE17"], ["d", "M11.5429 22.2354L8.74023 25.0381C13.008 28.9873 19.6326 28.9873 23.964 25.0381L21.1613 22.2354C18.4223 24.6559 14.2819 24.6559 11.5429 22.2354Z", "fill", "#FBAE17"], ["d", "M21.7344 21.662L24.5371 24.4648C28.4863 20.197 28.4863 13.5724 24.5371 9.24097L21.7344 12.0437C24.1549 14.7827 24.1549 18.923 21.7344 21.662Z", "fill", "#BBBDBF"], ["d", "M21.1613 11.4704L23.964 8.6677C19.6963 4.71843 13.0717 4.71843 8.74023 8.6677L11.5429 11.4704C14.2819 9.04989 18.4223 9.04989 21.1613 11.4704Z", "fill", "#FBAE17"], ["fill-rule", "evenodd", "clip-rule", "evenodd", "d", "M13.8362 18.4135C13.8999 18.0313 13.7725 17.7765 13.454 17.5854C13.1992 17.458 12.8807 17.458 12.6259 17.6491C12.3711 17.8402 12.2437 18.095 12.3074 18.4135H12.2437C11.7341 18.4135 11.2246 18.4135 10.6513 18.4135C10.4602 18.4135 10.3965 18.3498 10.3965 18.1587C10.3965 17.7765 10.3965 17.3306 10.3965 16.9484C10.3965 16.8847 10.3965 16.821 10.4602 16.821C10.5239 16.7573 10.5239 16.7573 10.5239 16.6936C10.5239 16.184 10.5876 15.7382 10.5876 15.2286C10.5876 15.1012 10.6513 15.0375 10.7787 15.0375C11.2246 15.0375 11.6704 15.0375 12.1163 15.0375C14.1547 15.0375 16.1293 15.0375 18.1676 15.0375C19.3142 15.0375 20.5244 15.0375 21.671 15.0375C21.9258 15.0375 22.1806 15.2286 22.2443 15.4834V15.5471C22.2443 16.3114 22.2443 17.0758 22.2443 17.9039C22.2443 17.9676 22.1806 18.0313 22.1169 18.0313C21.8621 18.095 21.5436 18.1587 21.2888 18.2224C20.9703 18.2861 20.5881 18.3498 20.2696 18.4135C20.1423 18.4135 19.9512 18.4772 19.7601 18.4772C19.7601 18.1587 19.6964 17.8402 19.3779 17.6491C19.2505 17.5854 19.0594 17.5217 18.932 17.5217C18.4861 17.5854 18.1676 17.9676 18.2313 18.4135C16.83 18.4135 15.3649 18.4135 13.8362 18.4135ZM15.9382 15.4834C15.6834 15.4834 15.3649 15.4834 15.1101 15.4834C14.9827 15.4834 14.8553 15.5471 14.8553 15.7382C14.8553 15.9292 14.8553 16.1203 14.8553 16.3751C14.8553 16.5662 14.919 16.6299 15.1101 16.6299C15.6834 16.6299 16.193 16.6299 16.7663 16.6299C16.8937 16.6299 17.0211 16.5662 17.0211 16.3751C17.0211 16.184 17.0211 15.9292 17.0211 15.7382C17.0211 15.6108 16.9574 15.4834 16.7663 15.4834C16.5115 15.4834 16.193 15.4834 15.9382 15.4834ZM13.454 15.4834C13.1992 15.4834 12.8807 15.4834 12.6259 15.4834C12.4985 15.4834 12.4348 15.5471 12.3711 15.6745C12.3711 15.8655 12.3711 16.1203 12.3711 16.3114C12.3711 16.4388 12.4348 16.5025 12.5622 16.5025C13.1355 16.5025 13.7088 16.5025 14.2821 16.5025C14.4094 16.5025 14.4731 16.4388 14.4731 16.3114C14.4731 16.1203 14.4731 15.8655 14.4731 15.6745C14.4731 15.4834 14.4094 15.4197 14.2184 15.4197C13.9636 15.4834 13.7088 15.4834 13.454 15.4834ZM18.4224 15.4834C18.1676 15.4834 17.8491 15.4834 17.5943 15.4834C17.4669 15.4834 17.4032 15.5471 17.4032 15.6745C17.4032 15.8655 17.4032 16.1203 17.4032 16.3114C17.4032 16.4388 17.4669 16.5025 17.5943 16.5025C18.1676 16.5025 18.7409 16.5025 19.3142 16.5025C19.4416 16.5025 19.5053 16.4388 19.5053 16.3114C19.5053 16.1203 19.5053 15.8655 19.5053 15.6745C19.5053 15.4834 19.4416 15.4197 19.2505 15.4197C18.9957 15.4834 18.6772 15.4834 18.4224 15.4834ZM20.9066 16.5662C21.1614 16.5662 21.4799 16.5662 21.7347 16.5662C21.8621 16.5662 21.9258 16.5025 21.9258 16.3751C21.9258 16.2477 21.9258 16.1203 21.9258 15.9292C21.9258 15.7382 21.8621 15.6108 21.671 15.5471C21.6073 15.4834 21.4799 15.4834 21.3525 15.4834C20.9066 15.4834 20.4607 15.4834 20.0149 15.4834C19.8238 15.4834 19.7601 15.5471 19.7601 15.7382C19.7601 15.9292 19.7601 16.1203 19.7601 16.3114C19.7601 16.5025 19.8238 16.5662 20.0149 16.5662C20.3333 16.5662 20.6518 16.5662 20.9066 16.5662ZM11.0972 16.7573C11.0972 17.0758 11.0972 17.458 11.0972 17.7765C11.0972 17.9039 11.1609 17.9676 11.2883 17.9676C11.4157 17.9676 11.543 17.9676 11.6704 17.9676C11.7978 17.9676 11.9252 17.9039 11.9252 17.7128C11.9252 17.0121 11.9252 16.3114 11.9252 15.6745C11.9252 15.5471 11.8615 15.4834 11.7341 15.4197C11.6067 15.4197 11.4793 15.4197 11.4156 15.4197C11.2246 15.4197 11.1609 15.4834 11.1609 15.6745C11.0972 16.1203 11.0972 16.4388 11.0972 16.7573Z", "fill", "#BBBDBF"], ["fill-rule", "evenodd", "clip-rule", "evenodd", "d", "M12.498 18.2224C12.498 17.9039 12.8165 17.6491 13.135 17.6491C13.4535 17.6491 13.7083 17.9039 13.7083 18.2861C13.7083 18.6045 13.4535 18.8593 13.135 18.8593C12.7528 18.8593 12.498 18.6045 12.498 18.2224ZM13.3898 18.2861C13.3898 18.1587 13.2624 17.9676 13.135 17.9676C13.0076 17.9676 12.8802 18.095 12.8165 18.2224C12.8165 18.3498 12.9439 18.5408 13.0713 18.5408C13.2624 18.5408 13.3898 18.4135 13.3898 18.2861Z", "fill", "#BBBDBF"], ["fill-rule", "evenodd", "clip-rule", "evenodd", "d", "M19.059 18.8593C18.7405 18.8593 18.422 18.6045 18.4857 18.2224C18.4857 17.9039 18.7405 17.6491 19.059 17.6491C19.3775 17.6491 19.6323 17.9039 19.6323 18.2861C19.696 18.6045 19.4412 18.8593 19.059 18.8593ZM19.3775 18.2224C19.3775 18.095 19.2501 17.9676 19.1227 17.9676C18.9953 17.9676 18.8679 18.095 18.8679 18.2861C18.8679 18.4135 18.9953 18.5408 19.1864 18.5408C19.2501 18.5408 19.3775 18.4135 19.3775 18.2224Z", "fill", "#BBBDBF"], [2, "display", "inline-block", "height", "30px", "width", "30px", "top", "23%", 3, "src"], [2, "margin", "0", "font-weight", "bold", "color", "#191966 !important"], [2, "margin", "0", "font-weight", "bold", "color", "#000 !important"], [2, "margin", "0", "font-weight", "bold", "color", "#F2C21A !important"], ["width", "24", "height", "8", "viewBox", "0 0 24 8", "fill", "none", "xmlns", "http://www.w3.org/2000/svg"], ["fill-rule", "evenodd", "clip-rule", "evenodd", "d", "M16.5085 6.42781C16.3873 5.70013 16.6298 5.21501 17.2362 4.85117C17.7213 4.60862 18.3277 4.60861 18.8128 4.97245C19.298 5.33629 19.5405 5.82141 19.4192 6.42781H19.5405C20.5108 6.42781 21.481 6.42781 22.5725 6.42781C22.9363 6.42781 23.0576 6.30653 23.0576 5.94269C23.0576 5.21501 23.0576 4.36606 23.0576 3.63838C23.0576 3.5171 23.0576 3.39582 22.9363 3.39582C22.8151 3.27454 22.8151 3.27454 22.8151 3.15326C22.8151 2.18303 22.6938 1.33407 22.6938 0.363838C22.6938 0.12128 22.5725 0 22.3299 0C21.481 0 20.632 0 19.7831 0C15.9021 0 12.1425 0 8.26154 0C6.07851 0 3.7742 0 1.59117 0C1.10605 0 0.620937 0.363838 0.499659 0.848955V0.970235C0.499659 2.42559 0.499659 3.88094 0.499659 5.45757C0.499659 5.57885 0.620934 5.70013 0.742214 5.70013C1.22733 5.82141 1.83373 5.94269 2.31885 6.06397C2.92525 6.18525 3.65292 6.30653 4.25932 6.42781C4.50187 6.42781 4.86571 6.54909 5.22955 6.54909C5.22955 5.94269 5.35083 5.33629 5.95723 4.97245C6.19979 4.85117 6.56362 4.7299 6.80618 4.7299C7.65514 4.85117 8.26154 5.57885 8.14026 6.42781C10.8084 6.42781 13.5978 6.42781 16.5085 6.42781ZM12.5063 0.848955C12.9914 0.848955 13.5978 0.848955 14.0829 0.848955C14.3255 0.848955 14.5681 0.970235 14.5681 1.33407C14.5681 1.69791 14.5681 2.06175 14.5681 2.54687C14.5681 2.9107 14.4468 3.03198 14.0829 3.03198C12.9914 3.03198 12.0212 3.03198 10.9297 3.03198C10.6871 3.03198 10.4446 2.9107 10.4446 2.54687C10.4446 2.18303 10.4446 1.69791 10.4446 1.33407C10.4446 1.09151 10.5658 0.848955 10.9297 0.848955C11.4148 0.848955 12.0212 0.848955 12.5063 0.848955ZM17.2362 0.848955C17.7213 0.848955 18.3277 0.848955 18.8128 0.848955C19.0554 0.848955 19.1767 0.970235 19.298 1.21279C19.298 1.57663 19.298 2.06175 19.298 2.42559C19.298 2.66815 19.1767 2.78943 18.9341 2.78943C17.8426 2.78943 16.7511 2.78943 15.6596 2.78943C15.417 2.78943 15.2957 2.66815 15.2957 2.42559C15.2957 2.06175 15.2957 1.57663 15.2957 1.21279C15.2957 0.848955 15.417 0.727677 15.7809 0.727677C16.266 0.848956 16.7511 0.848955 17.2362 0.848955ZM7.77642 0.848955C8.26154 0.848955 8.86793 0.848955 9.35305 0.848955C9.59561 0.848955 9.71689 0.970235 9.71689 1.21279C9.71689 1.57663 9.71689 2.06175 9.71689 2.42559C9.71689 2.66815 9.59561 2.78943 9.35305 2.78943C8.26154 2.78943 7.17002 2.78943 6.07851 2.78943C5.83595 2.78943 5.71467 2.66815 5.71467 2.42559C5.71467 2.06175 5.71467 1.57663 5.71467 1.21279C5.71467 0.848955 5.83595 0.727677 6.19979 0.727677C6.6849 0.848956 7.2913 0.848955 7.77642 0.848955ZM3.04652 2.91071C2.56141 2.91071 1.95501 2.91071 1.46989 2.91071C1.22733 2.91071 1.10605 2.78942 1.10605 2.54687C1.10605 2.30431 1.10605 2.06175 1.10605 1.69791C1.10605 1.33407 1.22733 1.09151 1.59117 0.970235C1.71245 0.848956 1.95501 0.848955 2.19757 0.848955C3.04652 0.848955 3.89548 0.848955 4.74443 0.848955C5.10827 0.848955 5.22955 0.970235 5.22955 1.33407C5.22955 1.69791 5.22955 2.06175 5.22955 2.42559C5.22955 2.78943 5.10827 2.91071 4.74443 2.91071C4.13804 2.91071 3.53164 2.91071 3.04652 2.91071ZM21.7235 3.27454C21.7235 3.88094 21.7235 4.60862 21.7235 5.21501C21.7235 5.45757 21.6023 5.57885 21.3597 5.57885C21.1171 5.57885 20.8746 5.57885 20.632 5.57885C20.3895 5.57885 20.1469 5.45757 20.1469 5.09373C20.1469 3.75966 20.1469 2.42559 20.1469 1.21279C20.1469 0.970235 20.2682 0.848956 20.5108 0.727677C20.7533 0.727677 20.9959 0.727677 21.1171 0.727677C21.481 0.727677 21.6023 0.848955 21.6023 1.21279C21.7235 2.06175 21.7235 2.66815 21.7235 3.27454Z", "fill", "#191966"], ["fill-rule", "evenodd", "clip-rule", "evenodd", "d", "M19.0557 6.06396C19.0557 5.45756 18.4493 4.97244 17.8429 4.97244C17.2365 4.97244 16.7514 5.45756 16.7514 6.18524C16.7514 6.79163 17.2365 7.27675 17.8429 7.27675C18.5705 7.27675 19.0557 6.79163 19.0557 6.06396ZM17.3578 6.18524C17.3578 5.94268 17.6003 5.57884 17.8429 5.57884C18.0854 5.57884 18.328 5.8214 18.4493 6.06396C18.4493 6.30652 18.2067 6.67036 17.9642 6.67036C17.6003 6.67036 17.3578 6.42779 17.3578 6.18524Z", "fill", "#191966"], ["fill-rule", "evenodd", "clip-rule", "evenodd", "d", "M6.56377 7.27675C7.17017 7.27675 7.77657 6.79163 7.65529 6.06396C7.65529 5.45756 7.17017 4.97244 6.56377 4.97244C5.95738 4.97244 5.47226 5.45756 5.47226 6.18524C5.35098 6.79163 5.8361 7.27675 6.56377 7.27675ZM5.95738 6.06396C5.95738 5.8214 6.19994 5.57884 6.4425 5.57884C6.68505 5.57884 6.92761 5.8214 6.92761 6.18524C6.92761 6.42779 6.68505 6.67036 6.32122 6.67036C6.19994 6.67036 5.95738 6.4278 5.95738 6.06396Z", "fill", "#191966"], [2, "font-size", "12px"], [2, "margin", "0", "position", "absolute", "left", "30%", "top", "10px", "font-size", "12px"], ["src", "./assets/icon/devider.svg", 2, "display", "contents"], ["src", "./assets/icon/network_devider.svg", 2, "display", "contents"], [1, "passanger-details", "ion-margin", 2, "margin-bottom", "10px", "margin-top", "10px"], ["class", "passanger-details ion-margin", "style", "margin-bottom: 10px; margin-top: 10px;", 4, "ngFor", "ngForOf"], [1, "passanger-details", "ion-margin", 2, "margin-top", "0px"], ["size", "1.5", 1, "ion-margin-top"], ["src", "./assets/icon/themeone_location.svg", "name", "navigate-circle-outline", "size", "large", 2, "height", "24px", "width", "24px"], ["size", "10.5", 1, "ion-margin-top"], [2, "line-height", "22px"], [2, "margin-top", "5px"], [1, "drop_board_address"], ["class", "drop_board_address", 4, "ngIf"], ["size", "1.5", 3, "ngClass"], ["src", "./assets/icon/theme1_dropicon.svg", "name", "navigate-circle-outline", "size", "large", 2, "height", "24px", "width", "24px"], ["size", "10.5", 3, "ngClass"], ["size", "6", 2, "padding", "0px 5px"], [2, "padding-bottom", "5px"], [2, "text-align", "right", "padding-bottom", "5px"], [2, "text-align", "right"], ["name", "chevron-down-outline", 1, "ion-margin-start", 2, "height", "18px", "width", "18px", "margin-left", "4px"], ["name", "chevron-up-outline", 1, "ion-margin-start", 2, "height", "18px", "width", "18px", "margin-left", "4px"], [1, "review-booking-card", 2, "margin", "3px"], ["name", "chevron-down-outline", "class", "ion-margin-start", "style", "height: 18px;width: 18px;", 4, "ngIf"], ["name", "chevron-up-outline", "class", "ion-margin-start", "style", "height: 18px;width: 18px;", 4, "ngIf"], ["name", "chevron-down-outline", 1, "ion-margin-start", 2, "height", "18px", "width", "18px"], ["name", "chevron-up-outline", 1, "ion-margin-start", 2, "height", "18px", "width", "18px"], [1, "card-1", "mr-tp-16", 2, "padding-bottom", "0px"], [1, "Contact-details", 2, "color", "#333333"], [1, "pay-box"], ["lines", "none"], ["slot", "start", 2, "margin", "-11px 15px -12px -13px", "--color", "var(--iconsAndButtonsColor)", 3, "ngModelChange", "ionChange", "ngStyle", "ngModel"], [1, "added-coupons"], ["class", "text-success applied-coupons-title ", 4, "ngIf"], ["class", "applied-coupons", 4, "ngIf"], ["class", "add-coupon text-success", 3, "click", 4, "ngIf"], ["class", "cash_couponcoupon_radio_cbus", "mode", "md", 3, "ngModel", "ngModelChange", "ionChange", 4, "ngIf"], ["class", "coupon-form", 3, "formGroup", "ngClass", 4, "ngIf"], [1, "text-success", "applied-coupons-title"], [1, "applied-coupons"], [4, "ngFor", "ngForOf"], [1, "code"], [1, "amount"], [1, "cancel-coupon"], ["color", "danger", "name", "trash", 3, "click"], [1, "add-coupon", "text-success", 3, "click"], [1, "label"], [1, "text-success"], ["name", "add", 1, "success-text"], ["mode", "md", 1, "cash_couponcoupon_radio_cbus", 3, "ngModelChange", "ionChange", "ngModel"], ["size", "7.2"], ["slot", "start", "value", "special", 3, "ngStyle"], ["size", "4.8"], ["slot", "start", "value", "normal", 3, "ngStyle"], [1, "coupon-form", 3, "formGroup", "ngClass"], [2, "--padding-start", "0px", 3, "ngClass"], ["position", "floating"], ["required", "", "formControlName", "couponCode", "type", "text"], ["size", "9", 2, "padding-left", "0"], ["no-padding", "", 2, "--padding-start", "0px"], ["type", "text", 3, "ngModelChange", "ngModelOptions", "ngModel"], ["size", "3", 2, "padding", "24px 0 0 0px", 3, "ngClass"], ["mode", "md", "expand", "block", 2, "--background", "var(--iconsAndButtonsColor)", "--color", "var(--primaryText)", 3, "click"], ["class", "remove-coupon text-danger", 4, "ngIf"], [1, "remove-coupon", "text-danger"], [1, "invalid-coupon"], [1, "ion-margin", "select-method-row", 2, "margin-left", "5px", "margin-bottom", "0"], ["size", "12", 1, "ion-margin-bottom"], ["size", "6", 2, "padding", "0px"], [2, "font-size", "16px", "font-weight", "bold"], ["size", "6", 2, "text-align", "end", "padding", "0px"], ["style", "font-size: 14px;color: var(--Type-Title, #333);font-weight: 500;", 3, "click", 4, "ngIf"], [1, "ion-margin-vertical", 2, "margin-bottom", "12px", "margin-top", "10px", 3, "click"], ["size", "10", 2, "padding", "0px 0px 5px 0px"], [1, "show-details", 2, "color", "var(--Type-Title, #333)", "font-weight", "500"], ["size", "2", 2, "padding", "0px"], ["name", "chevron-down-outline", "class", "ion-margin-start", "style", "float: right;", 4, "ngIf"], ["name", "chevron-up-outline", "class", "ion-margin-start", "style", "float: right;", 4, "ngIf"], ["style", "padding:0px;margin-top: -14px;", "class", "card-1 mr-tp-16", 4, "ngIf"], [2, "font-size", "14px", "color", "var(--Type-Title, #333)", "font-weight", "500", 3, "click"], ["name", "chevron-down-outline", 1, "ion-margin-start", 2, "float", "right"], ["name", "chevron-up-outline", 1, "ion-margin-start", 2, "float", "right"], [1, "card-1", "mr-tp-16", 2, "padding", "0px", "margin-top", "-14px"], ["mode", "md", 3, "ngModelChange", "ionCancel", "ionChange", "click", "ngModel"], [3, "ngStyle"], ["slot", "start", 3, "ngStyle", "value", 4, "ngIf"], ["slot", "start", 3, "ngStyle", "value"], [1, "card-1", 2, "padding", "16px 11px"], [2, "color", "#191966", 3, "ngClass"], ["col-12", ""], [2, "--padding-start", "0px"], ["type", "text", "label", "Card Number", "labelPlacement", "floating", 1, "txt-lbl", 3, "ngModelChange", "ngModel"], ["mode", "md", 1, "btn_outline", 2, "width", "48%", "color", "#191966", "font-weight", "600", 3, "click"], ["mode", "md", 2, "width", "48%", "--background", "#191966", "font-weight", "600", 3, "click"], [1, "pay-box", "qoute-pnr"], ["mode", "md", "style", "margin: -11px 15px -12px -13px;", "slot", "start", 3, "ngModel", "ngModelChange", "ionChange", 4, "ngIf"], ["mode", "md", "style", "margin: -11px 15px -12px -13px; --checkbox-background-checked : var(--bottomBarColor);", "slot", "start", 3, "ngModel", "ngModelChange", "ionChange", 4, "ngIf"], ["mode", "md", "slot", "start", 2, "margin", "-11px 15px -12px -13px", 3, "ngModelChange", "ionChange", "ngModel"], ["mode", "md", "slot", "start", 2, "margin", "-11px 15px -12px -13px", "--checkbox-background-checked", "var(--bottomBarColor)", 3, "ngModelChange", "ionChange", "ngModel"], [2, "width", "100%", 3, "ngClass"], ["required", "", "formControlName", "pnrnumber", "type", "text", "label", "PNR Number", "labelPlacement", "floating"], ["size", "9", 2, "padding", "6px 1px"], ["required", "", "formControlName", "mobileno", "type", "number", "label", "Mobile Number", "labelPlacement", "floating", 3, "readonly"], ["size", "3", 2, "padding", "24px 0px 0px 0px", 3, "ngClass"], ["mode", "md", "style", "    color: #191966;--background: var(--iconsAndButtonsColor); position:absolute; bottom: 4px; ", "expand", "block", 3, "click", 4, "ngIf"], ["mode", "md", "style", "    color: var(--primaryText);--background: var(--iconsAndButtonsColor);", "expand", "block", 3, "click", 4, "ngIf"], ["mode", "md", "expand", "block", 2, "color", "#191966", "--background", "var(--iconsAndButtonsColor)", "position", "absolute", "bottom", "4px", 3, "click"], ["mode", "md", "expand", "block", 2, "color", "var(--primaryText)", "--background", "var(--iconsAndButtonsColor)", 3, "click"], [1, "ion-margin", "select-method-row", 2, "margin-left", "5px"], ["class", "radio-btn-position", "mode", "md", 3, "ngModel", "ngModelChange", "ionChange", 4, "ngIf"], ["mode", "md", 1, "radio-btn-position", 3, "ngModelChange", "ionChange", "ngModel"], ["class", "wall_item", "button", "", 3, "click", 4, "ngIf"], ["button", "", 3, "click"], ["slot", "start", "value", "1", 3, "ngStyle"], ["button", "", 3, "click", 4, "ngIf"], ["button", "", 1, "wall_item", 3, "click"], ["style", "  justify-content: start;", 4, "ngIf"], [1, "chartered_wall", 3, "ngStyle"], ["slot", "start", "value", "3", 3, "ngStyle"], [2, "justify-content", "start"], ["name", "information-circle-outline", 2, "z-index", "50", "height", "18px", "width", "18px", "padding-left", "14px", 3, "click"], ["slot", "start", "value", "2", "checked", "true", 3, "ngStyle"], ["size", "12", "class", "ion-margin-bottom", 4, "ngIf"], [1, "Contact-details"], ["lines", "none", 1, "radio-btn-position"], ["mode", "md", 3, "ngModelChange", "ionChange", "ngModel"], ["lines", "full", "button", "", 3, "click", 4, "ngIf"], ["lines", "full", "button", "", 3, "click"], ["slot", "start", 3, "value", "ngStyle"], ["src", "././assets/icon/Razorpay_Secure_Payment-1.png", "alt", "", 1, "razorpayImage"], [1, "whole", "center"], [1, "legend-box", 2, "position", "absolute", "bottom", "0", "width", "100% !important", "padding", "7px 16px 20px 16px"], [1, "ion-margin", "ion-padding-bottom", 2, "padding", "0px", "margin", "0px"], ["size", "10", 2, "display", "flex", "justify-content", "start", "align-items", "center", "padding-left", "0px"], [2, "color", "#333", "font-size", "18px", "font-weight", "600"], ["size", "2", 2, "display", "flex", "justify-content", "end", "align-items", "center", "color", "rgba(173, 173, 173, 1)"], ["name", "close-outline", "size", "large", 3, "click"], [1, "hr-border"], [2, "padding", "5px 0px"], [1, "cbusbold"], [1, "fare-txt", "txt-c22", 2, "color", "#333"], ["style", "padding: 5px 0px;", 4, "ngIf"], [2, "font-size", "16px", "font-weight", "bolder", "color", "#333"], [1, "fare-txt", "txt-c1"], [1, "fare-txt", "txt-c22"], [1, "legend-box", 2, "position", "absolute", "bottom", "0", "width", "100% !important", "padding", "12px"], ["size", "6", "style", "margin:0;font-size: 14px;font-weight: 600;", "class", "brws-txt", 4, "ngIf"], ["size", "6", 1, "dwn-txt", 2, "margin", "0", "font-size", "14px", "font-weight", "600", 3, "click", "ngStyle"], ["class", "container-m", 4, "ngIf"], [1, "container-m"], ["size", "2"], ["style", "height: 40px;", "src", "./assets/icon/rupee-indian.png", "alt", "", 4, "ngIf"], ["style", "height: 40px;filter: invert(100%) sepia(80%) saturate(4133%) hue-rotate(338deg) brightness(97%) contrast(94%);", "src", "./assets/icon/rupee-indian.png", "alt", "", 4, "ngIf"], ["size", "10", 1, "promo-txt-m"], [2, "font-size", "11px"], ["size", "6", 1, "brws-txt", 2, "margin", "0", "font-size", "14px", "font-weight", "600"], ["style", "height: 40px;", "src", "./assets/icon/calculator.png", "alt", "", 4, "ngIf"], ["style", "height: 40px;filter: invert(100%) sepia(80%) saturate(4133%) hue-rotate(338deg) brightness(97%) contrast(94%);", "src", "./assets/icon/calculator.png", "alt", "", 4, "ngIf"], ["src", "./assets/icon/calculator.png", "alt", "", 2, "height", "40px"], ["src", "./assets/icon/calculator.png", "alt", "", 2, "height", "40px", "filter", "invert(100%) sepia(80%) saturate(4133%) hue-rotate(338deg) brightness(97%) contrast(94%)"], ["src", "./assets/icon/rupee-indian.png", "alt", "", 2, "height", "40px"], ["src", "./assets/icon/rupee-indian.png", "alt", "", 2, "height", "40px", "filter", "invert(100%) sepia(80%) saturate(4133%) hue-rotate(338deg) brightness(97%) contrast(94%)"], [1, "legend-box", 2, "position", "absolute", "bottom", "0", "width", "100% !important"], ["size", "6", 1, "brws-txt", 2, "margin", "0"], ["size", "6", 1, "dwn-txt", 2, "margin", "0", 3, "click"], ["zoom", "", "pager", "false", 2, "height", "45%", 3, "options"], ["style", "background: #e4e5e6;", "class", " slide-card center", 4, "ngFor", "ngForOf"], ["size", "6", 1, "brws-txt"], ["style", "background: #e4e5e6;color:grey;font-size: 11px;font-weight: bold;border: none; margin:0;width:100%", "class", "container-m ", 4, "ngIf"], [1, "slide-card", "center", 2, "background", "#e4e5e6"], ["alt", "", 2, "width", "50%", 3, "src"], [2, "color", "grey", "font-size", "11px", "font-weight", "bold", "height", "50px"], [1, "container-m", 2, "background", "#e4e5e6", "color", "grey", "font-size", "11px", "font-weight", "bold", "border", "none", "margin", "0", "width", "100%"], [1, "theme-1-legend-box", 2, "padding-top", "0px"], [2, "height", "105px"], [1, "success_book", 2, "text-align", "center"], ["src", "./assets/icon/joy.gif", "alt", ""], ["size", "12", 2, "margin", "10px 0px"], [1, "cancel-txt-msg-hd"], ["size", "12", 3, "click"], ["fill", "clear", 1, "text-center", 3, "ngClass"], [1, "legend-box"], [1, "circle1"], [1, "txt-msg"], ["size", "7"], ["size", "5", 1, "dwn-txt", 3, "click"], [1, "legend-box", 2, "width", "300px !important"], [2, "color", "grey", "font-weight", "bold"], [1, "txt-msg", 2, "font-size", "14px"], ["size", "12", 1, "dwn-txt", 2, "text-align", "center", "margin-top", "0px", 3, "click"], ["expand", "block"], [1, "txt-msg-hd"], ["size", "5", 1, "brws-txt", 3, "click"], ["size", "5", 1, "brws-txt"], ["size", "5", 1, "seabird_dwn-txt", 3, "click"], [2, "font-weight", "500", "padding-left", "5px", 3, "click"], ["name", "chevron-forward-outline", 3, "click"], [2, "color", "#191966", "text-align", "right", "font-family", "Roboto", "font-size", "14px", "font-style", "normal", "font-weight", "500", "line-height", "14px", "text-decoration-line", "underline", 3, "click"], [1, "default-custom-text-pg-description"], [1, "payment-item"], [1, "payment-gateway-txt"], [1, "original-fare"], [1, "discounted-fare"], [2, "z-index", "0"], ["mode", "md", 1, "bg-cl"], ["slot", "start"], [2, "color", "var(--placeholderColor)", 3, "click"], [1, "head"], [2, "--background", "#F1F7FA !important"], [1, "box-common", 3, "ngClass"], [1, "card-2", 2, "background", "#D1E6FF", "border-radius", "10px", "border-bottom", "1px solid #626262", 3, "ngClass"], [1, "wrap"], [1, "left", 2, "width", "40%"], [1, "txt-c1"], [2, "margin", "0px 0px 8px 0px", "width", "125px", "color", "var(--sectionHeaderTextColor) !important"], [1, "right", 2, "width", "40%"], [1, "txt-c1", 2, "color", "var(--sectionHeaderTextColor) !important"], [2, "align-items", "center"], ["name", "arrow-forward-outline", 1, "mr-md", 2, "font-size", "20px"], [2, "clear", "both"], [1, "wrap", 2, "padding-bottom", "30px"], [1, "left", 2, "width", "35%"], [1, "right", 2, "width", "35%"], [1, "center1"], ["style", "padding-top: 10px;", 4, "ngIf"], ["style", "color: #000 !important;", 4, "ngIf"], ["class", "Contact-details", 4, "ngIf"], ["class", "Contact-details pay-amt-value-sb", 4, "ngIf"], [1, "pos", "center-hr", 2, "margin-top", "0px", 3, "click"], ["name", "chevron-down-outline", 4, "ngIf"], ["name", "chevron-up-outline", 4, "ngIf"], ["style", "padding-bottom:0px;", "class", "card-1", 4, "ngIf"], ["style", "padding-bottom:0px; background: white;", "class", "card-1", 4, "ngIf"], ["style", "background: white;", "class", "card-1", 4, "ngIf"], ["class", "card-1", "style", "background: white;", 4, "ngIf"], ["class", "card-1", 4, "ngIf"], ["style", "background: white;", "id", "", "class", "card-1", 4, "ngIf"], [1, "card-1", 2, "margin-bottom", "5px", "background", "white"], [1, "terms-txt"], [1, "terms-click", 3, "click"], ["style", "position: fixed;bottom: 10px;width: 100%;", 4, "ngIf"], ["style", "position: fixed;bottom: 0;width: 100%;", 4, "ngIf"], ["class", "whole center", 3, "click", 4, "ngIf"], [2, "padding-top", "10px"], [2, "margin", "0px 0px 8px 0px"], [2, "color", "#000 !important"], [1, "pd-10"], [1, "txt-c4"], [2, "background-color", "gray"], [1, "txt-c11"], [1, "bold"], [2, "font-size", "16px", "font-weight", "bolder", "color", "var(--sectionHeaderTextColor)"], ["size", "6"], [2, "display", "flex", "align-items", "center", "justify-content", "end", "font-weight", "bold", "-webkit-text-fill-color", "var(--iconsAndButtonsColor)"], [2, "display", "flex", "align-items", "center", "font-weight", "bold", "justify-content", "end", "-webkit-text-fill-color", "var(--iconsAndButtonsColor)"], [2, "font-size", "14px", "font-weight", "bolder", "color", "var(--sectionHeaderTextColor)"], [1, "Contact-details", "pay-amt-value-sb"], ["name", "chevron-down-outline"], ["name", "chevron-up-outline"], ["style", "font-size:10px", 4, "ngIf"], [2, "font-size", "10px"], [1, "card-1", 2, "padding-bottom", "0px"], ["checked", "", "slot", "start", 2, "--color", "var(--iconsAndButtonsColor)", 3, "ionChange", "ngModelChange", "disabled", "ngModel"], [1, "card-1", 2, "padding-bottom", "0px", "background", "white"], ["lines", "none", 2, "--background", "white"], ["slot", "start", 1, "seabird-theme-checkbox", 2, "margin", "-11px 15px -12px -13px", 3, "ngModelChange", "ionChange", "ngModel"], [2, "--background", "white", 3, "ngClass"], ["required", "", "formControlName", "couponCode", "label", "Coupon Code", "labelPlacement", "floating", "type", "text"], [2, "--background", "white"], ["type", "text", "labelPlacement", "floating", 3, "ngModelChange", "ngModel", "label", "ngModelOptions"], ["color", "red", "mode", "md", "cancelText", "Clear offer type", "interface", "action-sheet", "placeholder", "Select offer type", 1, "coupon-txt", 3, "ngModelChange", "ionCancel", "ionChange", "click", "ngModel", "interfaceOptions"], ["class", "rmv-icn", 3, "value", 4, "ngIf"], [1, "rmv-icn", 3, "value"], [1, "card-1", 2, "background", "white"], ["type", "text", "label", "Enter Card No.", "labelPlacement", "floating", 1, "txt-lbl", 3, "ngModelChange", "ngModel"], ["mode", "md", "fill", "outline", "color", "red", 2, "width", "48%", 3, "click"], ["mode", "md", "color", "red", 2, "width", "48%", 3, "click"], ["slot", "start", "color", "red", 2, "margin", "-11px 15px -12px -13px", 3, "ngModelChange", "ionChange", "ngModel"], [2, "width", "100%", "--background", "white", 3, "ngClass"], ["required", "", "formControlName", "pnrnumber", "label", "PNR Number", "labelPlacement", "floating", "type", "text"], ["required", "", "formControlName", "mobileno", "label", "Mobile Number", "labelPlacement", "floating", "type", "number", 3, "readonly"], ["mode", "md", "expand", "block", "color", "red", 3, "click"], ["class", "newOffer", 4, "ngIf"], ["mode", "md", "color", "red", 3, "ngModelChange", "ionChange", "ngModel"], [1, "clear"], [1, "newOffer"], ["size", "8", 2, "padding", "0px"], ["lines", "none", 1, "appliedBox", 2, "--background", "white"], [2, "font-family", "NotoSans", "font-weight", "bold"], ["size", "4", 2, "padding", "0px"], ["lines", "none", 1, "new-label", 2, "--background", "white"], ["size", "1"], [2, "margin", "12px 0px 8px 0px", 3, "value"], ["size", "11"], ["lines", "none", 2, "--padding-start", "0px", "--background", "white"], [1, "offerDesign"], [3, "innerHTML"], ["size", "11", 2, "padding-left", "10px"], [1, "card-1"], ["class", "offersBox", 4, "ngFor", "ngForOf"], ["lines", "none", 1, "appliedBox"], ["lines", "none", 1, "new-label"], [1, "offersBox"], [3, "click", 4, "ngIf"], [2, "margin", "12px 0px 8px 0px", 3, "disabled", "value"], ["lines", "none", 2, "--padding-start", "0px"], [1, "small", "text-danger"], ["size", "6", 1, "center", 2, "text-align", "right"], ["tappable", "", "class", "select-coupon right", 3, "click", 4, "ngIf"], ["lines", "none", 4, "ngIf"], ["color", "red", "slot", "start", 2, "--ion-color-base", "var(--iconsAndButtonsColor) !important", 3, "value"], ["tappable", "", 1, "select-coupon", "right", 3, "click"], ["button", "", 2, "--background", "white", 3, "click"], ["color", "red", "slot", "start", "value", "1", 2, "--ion-color-base", "var(--iconsAndButtonsColor) !important"], ["style", "--background: white;", "button", "", 3, "click", 4, "ngIf"], ["name", "information-circle-outline", 2, "z-index", "50", 3, "click"], ["color", "red", "slot", "start", "value", "2", "checked", "true", 2, "--ion-color-base", "var(--iconsAndButtonsColor) !important"], ["color", "red", "slot", "start", "value", "3", 2, "--ion-color-base", "var(--iconsAndButtonsColor) !important"], ["mode", "md", "mode", "md", "color", "red", 3, "ngModelChange", "ionChange", "ngModel"], ["slot", "start", "color", "red", 2, "--ion-color-base", "#2B28CE !important", 3, "value"], ["src", "./assets/icon/Razorpay_Secure_Payment-1.png", 1, "razorpayImage"], ["id", "", 1, "card-1", 2, "background", "white"], ["slot", "start", "color", "red", 3, "value"], ["slot", "end", 1, "paymentOptLogo", 3, "src"], [2, "position", "fixed", "bottom", "10px", "width", "100%"], ["class", "seabird-custom-text-pg-description", 4, "ngIf"], ["mode", "md", "expand", "block", 1, "seabird_routes-footer", "mr-tp-16", 2, "--border-radius", "50px", 3, "click"], [1, ""], [1, "seabird-custom-text-pg-description"], [2, "position", "fixed", "bottom", "0", "width", "100%"], ["mode", "md", "mode", "md", "expand", "full", 1, "routes-footer", "mr-tp-16", 2, "border-radius", "0px", 3, "click"], [1, "center", "pay-txt-1"], ["src", "assets/icon/ic_right_icon.svg", "alt", "right icon", 1, "right-icon"], ["size", "12", 1, "dwn-txt", 3, "click"], [1, "whole", "center", 3, "click"], ["placeholder", "Enter ID Proof", "type", "text", 3, "ngModelChange", "ngModel"], ["size", "4"], ["size", "4", 1, "brws-txt", 3, "click"], ["size", "4", 1, "seabird_dwn-txt", 3, "click"], [2, "text-align", "center", "font-size", "20px", "font-weight", "bold"], ["floating", ""], ["type", "text", "name", "otp", 3, "ngModelChange", "ngModel"], ["size", "3", 1, "brws-txt", 2, "text-align", "justify", 3, "click"], ["size", "5", 1, "brws-txt", 2, "text-align", "justify", 3, "click"], ["size", "4", 1, "seabird_dwn-txt", 2, "text-align", "justify", 3, "click"], ["size", "6", 1, "seabird_dwn-txt", 2, "margin", "0", 3, "click"], [2, "width", "50%", 3, "src"], [1, "sb-page-header"], [1, "sb-toolbar"], [1, "sb-results-appbar", "sb-pax-appbar"], ["type", "button", "aria-label", "Back", 1, "sb-icon-btn", 3, "click"], ["src", "./assets/seabird-new/back-arrow-navy.svg", "alt", "", "width", "20", "height", "20"], [1, "sb-appbar__text"], [1, "sb-appbar__title"], [1, "sb-pay"], [1, "sb-pay__body"], ["class", "sb-pay-card sb-fare", 4, "ngIf"], ["class", "sb-savings", 4, "ngIf"], [1, "sb-pay-offers"], ["class", "sb-pax-card sb-offer-card", 4, "ngIf"], ["class", "card-1 sb-pax-card sb-offer-card", 4, "ngIf"], ["class", "sb-pay-label", 4, "ngIf"], ["class", "sb-pay-card sb-methods", "role", "radiogroup", "aria-label", "Payment method", 4, "ngIf"], ["class", "sb-pay-card sb-methods", "role", "radiogroup", "aria-label", "Payment gateway", 4, "ngIf"], [1, "sb-secure"], ["src", "./assets/seabird-new/pay-secure.svg", "alt", "", "width", "14", "height", "14"], [1, "sb-pay-footer"], ["class", "sb-pay-footer__note", 4, "ngIf"], ["type", "button", 1, "sb-btn-primary", "sb-pay-footer__btn", 3, "click"], ["class", "sb-dialog-backdrop", 3, "click", 4, "ngIf"], ["class", "sb-dialog-backdrop", 4, "ngIf"], ["class", "sb-pax-sheet-backdrop", 3, "click", 4, "ngIf"], [1, "sb-pay-card", "sb-fare"], [1, "sb-fare__row"], [1, "sb-fare__label"], [1, "sb-fare__value"], ["class", "sb-fare__row", 4, "ngIf"], ["class", "sb-fare__row sb-fare__row--offer", 4, "ngIf"], [1, "sb-fare__hr"], [1, "sb-fare__total"], [1, "sb-fare__total-label"], [1, "sb-fare__total-value"], ["class", "sb-fare__row sb-fare__row--sub", 4, "ngIf"], [1, "sb-fare__row", "sb-fare__row--offer"], [1, "sb-fare__row", "sb-fare__row--sub"], [1, "sb-savings"], ["src", "./assets/seabird-new/pay-savings.svg", "alt", "", "width", "16", "height", "16"], [1, "sb-savings__text"], ["type", "button", "class", "sb-savings__change", 3, "click", 4, "ngIf"], ["type", "button", 1, "sb-savings__change", 3, "click"], [1, "sb-pax-card", "sb-offer-card"], [1, "sb-pax-card__head"], [1, "sb-pax-card__title"], ["mode", "md", "labelPlacement", "end", "justify", "start", 1, "sb-pax-check", "sb-offer-check", 3, "ngModelChange", "ionChange", "ngModel"], ["class", "sb-coupon-add", 3, "click", 4, "ngIf"], ["class", "sb-coupon-form", 3, "formGroup", "ngClass", 4, "ngIf"], ["class", "invalid-coupon", 4, "ngIf"], [1, "applied-coupons-title"], [1, "sb-coupon-list"], ["class", "sb-coupon-row", 4, "ngFor", "ngForOf"], [1, "sb-coupon-row"], ["name", "trash-outline", "color", "danger", 3, "click"], [1, "sb-coupon-add", 3, "click"], ["name", "add-circle-outline"], [1, "sb-coupon-form", 3, "formGroup", "ngClass"], [1, "sb-pfield"], [1, "sb-pfield__label"], ["required", "", "formControlName", "couponCode", "type", "text", "placeholder", "Enter coupon code", 1, "sb-pfield__input"], [1, "sb-offer-row"], ["type", "text", "placeholder", "Enter email or phone number", 1, "sb-pfield__input", 3, "ngModelChange", "ngModel", "ngModelOptions"], ["type", "button", "class", "sb-btn-primary sb-offer-btn", 3, "click", 4, "ngIf"], ["type", "button", "class", "sb-offer-btn sb-offer-btn--danger", 3, "click", 4, "ngIf"], ["type", "button", 1, "sb-btn-primary", "sb-offer-btn", 3, "click"], ["type", "button", 1, "sb-offer-btn", "sb-offer-btn--danger", 3, "click"], ["name", "trash-outline", "aria-hidden", "true"], [1, "card-1", "sb-pax-card", "sb-offer-card"], ["color", "red", "mode", "md", "cancelText", "", "interface", "popover", "placeholder", "Select offer type", "aria-label", "Offer type", 1, "sb-pfield__select", 3, "ngModelChange", "ionCancel", "ionChange", "ngModel", "interfaceOptions"], ["value", "", 1, "rmv-icn", 3, "disabled"], ["type", "text", "placeholder", "Enter card number", "aria-label", "Card number", 1, "sb-pfield__input", 3, "ngModelChange", "ngModel"], [1, "sb-offer-actions"], ["type", "button", 1, "sb-btn-secondary", 3, "click"], ["type", "button", 1, "sb-btn-primary", 3, "click"], ["mode", "md", "labelPlacement", "end", "justify", "start", 1, "sb-pax-check", "sb-offer-check", "sb-offer-check--title", 3, "ngModelChange", "ionChange", "ngModel"], ["color", "danger", "name", "trash-outline", 3, "click"], [1, "sb-pfield", 3, "ngClass"], ["required", "", "formControlName", "pnrnumber", "type", "text", "placeholder", "Enter PNR number", "aria-label", "PNR Number", 1, "sb-pfield__input"], ["required", "", "formControlName", "mobileno", "type", "number", "aria-label", "Mobile Number", 1, "sb-pfield__input", 3, "readonly"], ["type", "button", "class", "sb-offer-icon-btn", "aria-label", "Remove PNR", 3, "click", 4, "ngIf"], ["type", "button", "aria-label", "Remove PNR", 1, "sb-offer-icon-btn", 3, "click"], ["color", "danger", "name", "trash-outline", "aria-hidden", "true"], ["class", "sb-coupon-row sb-offer-applied", 4, "ngIf"], ["mode", "md", "color", "red", 1, "sb-offer-radios", 3, "ngModelChange", "ionChange", "ngModel"], [1, "sb-coupon-row", "sb-offer-applied"], [1, "sb-offer-badge"], ["class", "sb-offer-tile", 4, "ngIf"], [1, "sb-offer-tile"], ["mode", "md", "labelPlacement", "end", "justify", "start", 3, "value"], [1, "sb-coupon-text", "sb-offer-tile__code", 3, "innerHTML"], [1, "sb-coupon-text", "sb-offer-tile__desc", 3, "innerHTML"], ["mode", "md", 1, "sb-offer-radios", 3, "ngModelChange", "ionChange", "ngModel"], ["class", "sb-promo-card", 3, "sb-promo-card--disabled", "sb-promo-card--selected", "click", 4, "ngIf"], [1, "sb-promo-card", 3, "click"], [1, "sb-promo-card__head"], [1, "sb-promo-card__code", 3, "innerHTML"], [1, "sb-promo-card__body"], [1, "sb-promo-card__desc", 3, "innerHTML"], ["mode", "md", 3, "disabled", "value"], ["class", "sb-offer-error", 4, "ngIf"], ["type", "button", "class", "sb-offer-link", 3, "click", 4, "ngIf"], [1, "sb-offer-error"], ["type", "button", 1, "sb-offer-link", 3, "click"], [1, "sb-pay-label"], ["role", "radiogroup", "aria-label", "Payment method", 1, "sb-pay-card", "sb-methods"], ["type", "button", "role", "radio", 1, "sb-method", 3, "click"], [1, "sb-method__icon"], ["src", "./assets/seabird-new/pay-card.svg", "alt", "", "width", "20", "height", "20"], [1, "sb-method__text"], [1, "sb-method__title"], [1, "sb-method__sub"], [1, "sb-radio"], ["class", "sb-method", "role", "radio", "tabindex", "0", 3, "click", 4, "ngIf"], ["role", "radio", "tabindex", "0", 1, "sb-method", 3, "click"], ["name", "call-outline", "aria-hidden", "true"], ["type", "button", "aria-label", "About phone booking", 1, "sb-method__info", 3, "click"], ["name", "information-circle-outline", "aria-hidden", "true"], ["src", "./assets/seabird-new/pay-wallet.svg", "alt", "", "width", "20", "height", "20"], ["type", "button", "aria-label", "About wallet payment", 1, "sb-method__info", 3, "click"], ["role", "radiogroup", "aria-label", "Payment gateway", 1, "sb-pay-card", "sb-methods"], ["type", "button", "class", "sb-method", "role", "radio", 3, "click", 4, "ngIf"], ["src", "./assets/seabird-new/pay-bank.svg", "alt", "", "width", "20", "height", "20"], ["class", "sb-method__logo", "src", "./assets/icon/Razorpay_Secure_Payment-1.png", "alt", "Razorpay", 4, "ngIf"], ["class", "sb-method__title", 4, "ngIf"], ["src", "./assets/icon/Razorpay_Secure_Payment-1.png", "alt", "Razorpay", 1, "sb-method__logo"], [1, "sb-pay-footer__note"], [1, "sb-dialog-backdrop", 3, "click"], ["role", "dialog", "aria-modal", "true", "aria-labelledby", "sbConfirmTitle", 1, "sb-dialog", "sb-confirm", 3, "click"], [1, "sb-dialog__head", "sb-confirm__head"], ["type", "button", "aria-label", "Close", 1, "sb-icon-btn", "sb-dialog__close", 3, "click"], ["name", "close-outline", "aria-hidden", "true"], [1, "sb-confirm__icon"], ["src", "./assets/seabird-new/fav.png", "alt", "", "aria-hidden", "true", 1, "sb-confirm__logo"], ["id", "sbConfirmTitle", 1, "sb-confirm__title"], ["class", "sb-confirm__text", 4, "ngIf"], [1, "sb-confirm__actions"], [1, "sb-confirm__text"], [1, "sb-dialog-backdrop"], ["role", "dialog", "aria-modal", "true", 1, "sb-dialog", "sb-confirm"], ["name", "time-outline"], [1, "sb-confirm__title"], ["type", "button", 1, "sb-btn-primary", 3, "click", "disabled"], ["name", "checkmark"], ["name", "close-circle-outline"], ["name", "wallet-outline"], ["class", "sb-confirm__actions", 4, "ngIf"], ["type", "text", "placeholder", "Enter ID proof", "aria-label", "ID proof", 1, "sb-pfield__input", 3, "ngModelChange", "ngModel"], ["name", "shield-checkmark-outline"], ["type", "text", "name", "otp", "placeholder", "Enter OTP", "maxlength", "6", "aria-label", "OTP", 1, "sb-pfield__input", 3, "ngModelChange", "ngModel"], [1, "sb-pax-sheet-backdrop", 3, "click"], ["role", "dialog", "aria-label", "Wallet details", 1, "sb-pax-sheet", 3, "click"], ["type", "button", 1, "sb-pax-sheet__close", 3, "click"], ["class", "sb-wallet-balance", 4, "ngIf"], [1, "sb-wallet-balance"], [2, "margin", "0px"], ["name", "gift-outline"], ["role", "dialog", "aria-label", "How phone booking works", 1, "sb-pax-sheet", "sb-phone-confirm__details", 3, "click"], ["zoom", "", "pager", "false", 3, "options"], ["class", "slide-card sb-slide", 4, "ngFor", "ngForOf"], [1, "slide-card", "sb-slide"], ["alt", "Phone booking information", 3, "src"], [1, "bg-content"], [1, "card-2", "fixed-card", 2, "background", "var(--bookingDetailsBgColor) !important", 3, "click", "ngClass"], [2, "color", "var(--primaryText)"], ["size", "4", 1, "boardingTime"], [2, "font-weight", "500 !important"], ["size", "4", 1, "droppingTime"], [1, "center1", 2, "color", "var(--primaryText)"], ["size", "4", 1, "timeDuration"], ["style", " color:var(--primaryText);", 4, "ngIf"], ["style", "color: black !important; height: 70%; max-height: 70vh; overflow-y: auto;", 3, "ngClass", 4, "ngIf"], ["size", "6", 4, "ngIf"], ["size", "6", 1, "pos", "viewBottom", 2, "text-align", "right", 3, "click"], [1, "coupon-card"], [1, "coupon-header"], ["src", "assets/icon/promo_coupon_icon.svg", 1, "coupon-icon"], [1, "coupon-title"], [1, "coupon-label"], [1, "coupon-row"], [1, "native-input-wrapper"], ["type", "text", "placeholder", "e.g., SAVE200", 1, "native-input", 3, "ngModelChange", "ngModel", "disabled"], [1, "apply-btn", 3, "click"], ["class", "btn-text", 4, "ngIf"], ["class", "coupon-message", 3, "success", "error", 4, "ngIf"], [1, "or-divider"], ["style", "padding-bottom:0px;  margin-top:0px", "class", "card-1", 4, "ngIf"], ["class", "card-1 mr-tp-16", 4, "ngIf"], ["id", "", "class", "card-1 mr-tp-16", 4, "ngIf"], [1, "card-1", "mr-tp-16", 2, "margin-bottom", "16px"], [2, "color", "black !important", "height", "70%", "max-height", "70vh", "overflow-y", "auto", 3, "ngClass"], [1, "pd-10", 3, "ngClass"], [4, "ngIf", "ngIfElse"], [2, "font-size", "20px", "font-weight", "bolder", "color", "black"], [1, "fare-txt", "txt-c3"], [2, "font-size", "14px", "font-weight", "bolder", "color", "#3e3e52"], [1, "sPayment"], [1, "pay-amt-title"], ["class", "Contact-details pay-amt-value", 4, "ngIf"], [1, "Contact-details", "pay-amt-value"], [1, "Contact-details", 3, "ngStyle"], ["slot", "start", 2, "--color", "var(--iconsAndButtonsColor)", 3, "ngModelChange", "ionChange", "ngModel"], ["class", "cash_couponcoupon_radio", "mode", "md", 3, "ngModel", "ngModelChange", "ionChange", 4, "ngIf"], ["mode", "md", 1, "cash_couponcoupon_radio", 3, "ngModelChange", "ionChange", "ngModel"], ["lines", "none", "size", "7.2"], ["value", "special", "slot", "start"], ["lines", "none", "size", "4.8"], ["value", "normal", "slot", "start"], ["no-padding", ""], ["type", "text", "label", "Email/Phone Number", "labelPlacement", "floating", 3, "ngModelChange", "ngModelOptions", "ngModel"], ["size", "3", 2, "padding", "16px 0 0 0px", 3, "ngClass"], [1, "btn-text"], [1, "coupon-message"], [1, "card-1", 2, "padding-bottom", "0px", "margin-top", "0px"], ["name", "chevron-down-outline", 1, "selectIcon"], [1, "card-1", "mr-tp-16"], ["color", "red", "slot", "start", 3, "value"], ["color", "red", "slot", "start", "value", "1"], ["color", "red", "slot", "start", "value", "2", "checked", "true"], ["color", "red", "slot", "start", "value", "3"], ["src", "./assets/icon/Razorpay_Secure_Payment-1.png", "alt", "", 1, "razorpayImage"], ["id", "", 1, "card-1", "mr-tp-16"], [1, ".continue-default", "pay-txt-1"], [1, "center", "pay-txt-1", 2, "padding-bottom", "0px !important"], [1, "circle"], ["size", "4", 1, "dwn-txt", 3, "click"], ["size", "4", 1, "dwn-txt", 2, "text-align", "justify", 3, "click"], ["class", "ourbustheme", "style", "border-bottom: 1px solid #92949c", 4, "ngIf"], ["class", "ourbustheme", 4, "ngIf"], ["class", "ourbustheme ourbus-center-content", 4, "ngIf"], ["class", "whole center ourbustheme", 3, "click", 4, "ngIf"], ["class", "whole center ourbustheme", 4, "ngIf"], [1, "ourbustheme", 2, "border-bottom", "1px solid #92949c"], ["defaultHref", "passenger-details", 2, "color", "#000", 3, "click"], ["size", "8", 2, "display", "flex", "align-items", "center", "justify-content", "center"], [1, "ourbus_header_text"], [1, "ourbustheme"], ["style", "margin: 16px;", 4, "ngIf"], ["class", "ourbusCardSet", 4, "ngIf"], [1, "ourbusCardSet"], [2, "display", "flex", "align-items", "center"], [2, "--background-checked", "var(--sectionHeaderTextColor)", "--size", "18px", "--checkbox-background-checked", "var(--sectionHeaderTextColor)", 3, "ionChange", "ngModelChange", "ngModel"], [1, "ourbus_terms_text"], [1, "ourbus_terms_click", 2, "text-decoration", "underline", "color", "#0972EB", 3, "click"], [2, "margin-bottom", "16px"], [1, "ourbus_rowBg"], ["src", "././assets/icon/ourbus_tag.svg", 2, "width", "24px", "height", "24px"], [1, "ourbus_order_details"], [1, "ourbus_farebreakup_curr"], ["size", "6", 2, "text-align", "end"], ["style", "margin: 4px 8px;", 4, "ngIf"], [2, "border", "1px solid #D9D9D9", "margin-top", "8px"], [2, "padding", "8px"], [1, "ourbus_amount_payble"], [1, "ourbus_amount_paybl_amount"], ["style", "padding: 8px;", 4, "ngIf"], ["class", "ourbusCardSet", "style", "padding: 0px; margin: 10px 20px;", 4, "ngIf"], ["id", "", "class", "ourbusCardSet", 4, "ngIf"], [1, "divider-lines", 3, "ngStyle"], ["style", "position: fixed;bottom: 0;width: 100%;padding: 10px;background: white;", 4, "ngIf"], [2, "margin", "16px"], ["alt", "", 3, "src"], [2, "display", "flex", "justify-content", "space-between"], ["class", "Contact-details", 3, "click", 4, "ngIf"], ["name", "chevron-down-outline", "style", "font-size:18px;", 3, "click", 4, "ngIf"], ["name", "chevron-up-outline", "style", "font-size:18px;", 3, "click", 4, "ngIf"], ["mode", "md", "color", "red", 3, "ngModel", "ngModelChange", "ionChange", "ionCancel", "click", 4, "ngIf"], [1, "Contact-details", 3, "click"], ["name", "chevron-down-outline", 2, "font-size", "18px", 3, "click"], ["name", "chevron-up-outline", 2, "font-size", "18px", 3, "click"], ["mode", "md", "color", "red", 3, "ngModelChange", "ionChange", "ionCancel", "click", "ngModel"], ["size", "12", 2, "display", "flex", "align-items", "center"], [3, "value"], [2, "margin-left", "8px", "color", "#3e3e52", 3, "id"], ["mode", "md", 1, "ourbus_custom_input", 2, "margin", "8px 0px"], ["fill", "outline", "type", "text", "label", "Enter Card No.", "labelPlacement", "floating", 1, "txt-lbl", 3, "ngModelChange", "ngModel"], ["mode", "md", "fill", "outline", 2, "width", "48%", "--background", "var(--primaryText)", "color", "var(--iconsAndButtonsColor)", "--border-color", "var(--iconsAndButtonsColor)", 3, "click"], ["mode", "md", 2, "width", "48%", "--background", "var(--iconsAndButtonsColor)", "color", "var(--primaryText)", 3, "click"], ["fill", "outline", "mode", "md", 1, "ourbus_custom_input", 2, "margin", "8px 0px"], ["mode", "md", 1, "ourbus_custom_input", 2, "width", "100%", "margin", "8px 0px", 3, "ngClass"], ["fill", "outline", "required", "", "formControlName", "pnrnumber", "type", "number", "label", "PNR Number", "labelPlacement", "floating"], ["fill", "outline", "required", "", "formControlName", "mobileno", "type", "number", "label", "Mobile Number", "labelPlacement", "floating", 3, "readonly"], ["fill", "outline", "mode", "md", 1, "appliedBox", "ourbus_custom_input", 2, "margin", "8px 0px"], ["fill", "outline", "mode", "md", 1, "ourbus_custom_input", 2, "margin", "8px 0px", "--padding-start", "0px"], ["style", "margin: 12px 0px 10px 0px;", 4, "ngIf"], [2, "margin", "12px 0px 10px 0px"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input", 2, "--border-width", "0px", "--background", "#f8f8ff"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input", "new-label", 2, "--background", "#f8f8ff", "--border-width", "0px"], ["size", "8", 2, "padding-left", "10px", "padding-bottom", "0px"], ["mode", "md", "lines", "none", 1, "ourbus_custom_input", 2, "--padding-start", "0px"], ["style", "margin: auto 0px;", 4, "ngIf"], [2, "margin", "auto 0px"], ["ion-button", "", 1, "removeText_ourbus", 3, "click"], ["size", "11", 2, "padding-left", "10px", "padding-top", "0px"], [1, "ourbusCardSet", 2, "padding", "0px", "margin", "10px 20px"], [3, "ngModelChange", "ionChange", "ngModel"], [1, "ourbusCardSet", "ourbus-payment-card", 3, "ngStyle"], ["lines", "none", "fill", "outline", "mode", "md", 1, "ourbus_custom_input", 2, "margin", "4px 0px", "--border-color", "#ffffff !important"], ["slot", "end", "value", "1", 2, "--color-checked", "var(--iconsAndButtonsColor)"], ["class", "ourbusCardSet ourbus-payment-card", 3, "ngStyle", 4, "ngIf"], ["fill", "outline", "mode", "md", "class", "ourbus_custom_input", "style", "margin: 4px 0px;--border-color: #ffffff !important;", "lines", "none", 4, "ngIf"], ["fill", "outline", "mode", "md", "lines", "none", 1, "ourbus_custom_input", 2, "margin", "4px 0px", "--border-color", "#ffffff !important"], [1, "ourbus-div-payment"], ["name", "information-circle", 2, "z-index", "50", "padding", "2px 0px 0px 5px", "color", "#acacac", 3, "click"], ["slot", "end", "value", "2", "checked", "true", 2, "--color-checked", "var(--iconsAndButtonsColor)"], ["slot", "end", "value", "3", 2, "--color-checked", "var(--iconsAndButtonsColor)"], ["fill", "outline", "mode", "md", "class", "ourbus_custom_input", "style", "margin: 4px 0px;--border-color: #ffffff !important;", "lines", "none", "button", "", 3, "click", 4, "ngIf"], ["fill", "outline", "mode", "md", "lines", "none", "button", "", 1, "ourbus_custom_input", 2, "margin", "4px 0px", "--border-color", "#ffffff !important", 3, "click"], ["slot", "end", 2, "--color-checked", "var(--iconsAndButtonsColor)", 3, "value"], ["id", "", 1, "ourbusCardSet"], [2, "position", "fixed", "bottom", "0", "width", "100%", "padding", "10px", "background", "white"], ["mode", "md", "mode", "md", "expand", "full", 1, "routes-footer", "mr-tp-16", 2, "height", "55px", "border-radius", "6px", "overflow", "hidden", 3, "click", "disabled"], [1, "pay-txt-1", 2, "font-size", "18px", "font-weight", "bold"], [1, "pay-txt-1"], [1, "ourbustheme", "ourbus-center-content"], [1, "content-container"], ["src", "././assets/icon/transaction-failed-ourbus.svg", 2, "width", "105.62px", "height", "80px"], [1, "ourbus_transaction_failed"], ["mode", "md", "expand", "block", 1, "ourbus-tryagain-btn", 3, "click"], ["mode", "md", "expand", "block", 1, "ourbus-bcktohome-btn", 3, "click"], [1, "whole", "center", "ourbustheme", 3, "click"], [1, "seabird-legend-box", 2, "width", "350px !important"], ["size", "5", 1, "ourbus_dwn-txt", 3, "click"], ["size", "5", 1, "ourbus_brws-txt", 3, "click"], [1, "whole", "center", "ourbustheme"], [1, "seabird-legend-box"], ["fill", "outline", "placeholder", "Enter ID Proof", "type", "text", 3, "ngModelChange", "ngModel"], ["fill", "outline", "inputmode", "numeric", "type", "tel", "label", "Enter OTP", "labelPlacement", "floating", "name", "otp", "maxlength", "6", 3, "ngModelChange", "ionChange", "ngModel"], [1, "seabird-legend-box", 2, "position", "absolute", "bottom", "0", "width", "100% !important"], ["size", "6", 1, "ourbus-brws-txt"], ["size", "6", 1, "ourbus-dwn-txt", 3, "click"], ["class", "ourbus-container-m", 4, "ngIf"], [1, "ourbus-container-m"], ["src", "./assets/icon/rupee-indian.png", "alt", "", 1, "img"], ["src", "./assets/icon/calculator.png", "alt", "", 1, "img"], [1, "shyamoli_header", 2, "z-index", "0"], ["slot", "start", 3, "click"], [1, "shyamoli-bg-content"], ["id", "reviewBookingCardShyamoli", 1, "shyamoli-review-booking-card", 2, "overflow", "inherit", "margin", "0", "border", "1px solid #dfdfdf"], ["class", "journey-type-label", 4, "ngIf"], [1, "ion-padding", "review-booking-card-first-row_2", 2, "padding", "7px"], ["size", "10", 2, "align-content", "center"], ["src", "./assets/icon/Shyamoliwhite.svg", "alt", "Shyamoli", 1, "shyamoli-logo"], [1, "ion-padding-top", 2, "padding-bottom", "10px", "padding-top", "10px"], [1, "shyamoli-city-short-name"], [2, "color", "#000000", "font-size", "12px", "font-weight", "600"], [1, "shyamoli-service-time"], ["size", "4", 1, "ion-no-padding", 2, "display", "flex", "align-items", "center", "padding", "0"], [1, "location-bus_2"], ["src", "./assets/icon/shyamoli_arrow.svg", 2, "height", "18px", "width", "48px"], [2, "margin-top", "0px", "font-size", "12px", "font-weight", "600", "color", "#333333", "text-align", "center"], [2, "color", "#999999"], ["size", "12", 2, "padding-bottom", "12px", "padding-top", "0px"], [1, "show-details_2", 2, "font-weight", "bold", "color", "#5F5F5F", 3, "click"], ["name", "chevron-down-circle-outline", "class", "ion-margin-start", "style", "height: 18px;width: 18px;margin-left: 4px;", 4, "ngIf"], ["name", "chevron-up-circle-outline", "class", "ion-margin-start", "style", "height: 18px;width: 18px;margin-left: 4px;", 4, "ngIf"], ["style", "padding: 0px 12px;", 4, "ngIf"], [2, "margin-top", "0px", "margin-bottom", "10px"], ["class", "shyamoli-card-1", 4, "ngIf"], ["id", "", "class", "shyamoli-card-1", 4, "ngIf"], [1, "shyamoli-cancellation-block", 3, "click"], ["name", "chevron-forward-outline", 2, "height", "21px", "width", "20px"], [1, "shyamoli-card-1", 2, "text-align", "center", "font-size", "12px", "padding", "20px", "border", "none"], [1, "terms-click", 2, "color", "#FF4545", 3, "click"], ["class", "ion-padding shyamoli-footer-row", "style", "background: #fff; border-top: 1px solid #e0e0e0;", 4, "ngIf"], [1, "journey-type-label"], [1, "bustype", 2, "margin-top", "5px", "margin-bottom", "5px"], ["size", "1.3", 2, "align-content", "center"], ["src", "./assets/icon/shyamoliVector.svg"], ["size", "10.7", 2, "display", "flex", "justify-content", "center", "align-items", "start", "flex-direction", "column"], [2, "margin", "0px", "font-size", "14px", "color", "#333333", "font-weight", "600"], [2, "color", "#333333", "font-size", "10px"], ["size", "1.5"], ["size", "10.5", 2, "padding", "5px 0px 0px 0px"], [2, "line-height", "22px", "color", "#999999", "font-weight", "600"], ["size", "1.5", 1, ""], ["size", "10.5", 1, "", 2, "padding", "5px 0px 0px 0px"], ["name", "chevron-down-circle-outline", 1, "ion-margin-start", 2, "height", "18px", "width", "18px", "margin-left", "4px"], ["name", "chevron-up-circle-outline", 1, "ion-margin-start", 2, "height", "18px", "width", "18px", "margin-left", "4px"], [1, "shyamoli-passenger-block", 2, "margin", "16px 0px"], [2, "padding", "0px"], [1, "title"], [1, "header-row"], [1, "header-text-row"], ["class", "passenger-row", 4, "ngFor", "ngForOf"], [1, "passenger-row"], [1, "name"], [1, "seat", 2, "font-size", "15px"], [1, "shyamoli-review-booking-card", 2, "margin", "0px"], ["src", "./assets/icon/Shyamoliwhite.svg"], [1, "bustype", 2, "margin-bottom", "5px", "margin-bottom", "5px"], [2, "padding", "0px 12px"], [1, "shyamoli-passenger-block", 2, "margin", "12px 0px"], [1, "header-text-row", 2, "font-size", "15px"], [1, "shyamoli-passenger-block", 2, "margin", "8px 0px"], [1, "passenger-title"], [1, "shyamoli-card-1"], [1, "Contact-details", "title", 2, "margin-bottom", "0px"], [1, "pay-box", 2, "padding", "0px"], [2, "color", "#5F5F5F", 3, "click"], ["slot", "start", 2, "--color", "var(--iconsAndButtonsColor)", "--background-checked", "var(--iconsAndButtonsColor)", "--checkbox-background-checked", "var(--iconsAndButtonsColor)", "margin-right", "10px", 3, "ngModelChange", "ionChange", "ngModel"], ["class", "coupon-form", "style", "border: none;padding: 0px;", 3, "formGroup", "ngClass", 4, "ngIf"], [1, "text-success", 2, "text-align", "center", "align-content", "center"], ["name", "add", 1, "success-text", 2, "padding", "2px"], ["size", "7.2", 2, "padding", "0px"], [2, "font-size", "12px", "color", "#333333"], ["size", "4.8", 2, "padding", "0px"], [1, "coupon-form", 2, "border", "none", "padding", "0px", 3, "formGroup", "ngClass"], ["lines", "none", 2, "--padding-start", "0px", 3, "ngClass"], ["required", "", "formControlName", "couponCode", "type", "text", "placeholder", "Enter coupon code", 1, "email-input"], ["size", "8.5", 2, "padding-left", "0", "padding-right", "0px", "padding-bottom", "0px"], ["no-padding", "", "lines", "none", 2, "--padding-start", "0px"], ["type", "text", "placeholder", "Email/Phone number", 1, "email-input", 3, "ngModelChange", "ngModelOptions", "ngModel"], ["size", "3.5", 2, "align-content", "center", "padding-left", "0", "padding-bottom", "0px", "padding-right", "0px", 3, "ngClass"], ["mode", "md", "expand", "block", 1, "apply-btn-shyamoli", 2, "--background", "var(--iconsAndButtonsColor)", "--color", "var(--primaryText)", "margin-bottom", "0px", "font-weight", "600", 3, "click"], ["color", "danger", "name", "trash", 2, "font-size", "25px", 3, "click"], [1, "coupon-title-shyamoli"], ["type", "text", "placeholder", " e.g., SAVE200", 1, "coupon-txt-shymoli", "shyamoli-select", 3, "ngModelChange", "ngModel", "disabled"], [1, "apply-btn-shyamoli", 3, "click"], ["color", "red", "mode", "md", "cancelText", "Clear offer type", "interface", "action-sheet", "placeholder", "Select offer type", 1, "coupon-txt", "shyamoli-select", 2, "margin", "10px 0px", 3, "ngModelChange", "ionCancel", "ionChange", "click", "ngModel", "interfaceOptions"], ["col-12", "", 2, "padding-left", "0", "padding-right", "0px"], ["lines", "none", 2, "--padding-start", "0px", "--inner-padding-end", "0px"], ["type", "text", "placeholder", "Enter Card No.", 1, "email-input", 3, "ngModelChange", "ngModel"], [2, "color", "#5F5F5F"], ["lines", "none", 2, "--padding-start", "0px", "--inner-padding-end", "0px", 3, "ngClass"], ["required", "", "formControlName", "pnrnumber", "type", "text", "placeholder", "PNR Number", 1, "email-input"], ["size", "8.5", 2, "padding-left", "0px", "padding-right", "0px"], ["required", "", "formControlName", "mobileno", "type", "number", "placeholder", "Mobile Number", 1, "email-input", 3, "readonly"], ["mode", "md", "expand", "block", "color", "red", 1, "apply-btn-shyamoli", 2, "margin", "0px", "height", "49px", 3, "click"], ["size", "1", 2, "padding-left", "0px"], ["size", "11", 2, "padding-left", "5px"], ["lines", "none", 1, "offersItem-border", 2, "--padding-start", "0px"], [1, "shyamoli-offerDesign"], [1, "Contact-details", 2, "margin-bottom", "10px"], ["class", "select-coupon right", "style", "color:green", 4, "ngIf"], [1, "select-coupon", "right", 2, "color", "green"], ["lines", "none", 2, "padding", "0px"], ["class", "shyamoli-payment-item", "button", "", 3, "click", 4, "ngIf"], ["button", "", 1, "shyamoli-payment-item", 3, "click"], [1, "shyamoli-payment-label"], ["name", "information-circle-outline", 2, "z-index", "50", "height", "18px", "width", "23px", "vertical-align", "text-bottom", 3, "click"], [1, "chartered_wall", 2, "color", "#000000", "font-weight", "600"], [1, "Contact-details", 2, "margin-bottom", "5px"], ["style", "--padding-start: 0px;", "button", "", 3, "click", 4, "ngIf"], ["button", "", 2, "--padding-start", "0px", 3, "click"], ["id", "", 1, "shyamoli-card-1"], [1, "ion-padding", "shyamoli-footer-row", 2, "background", "#fff", "border-top", "1px solid #e0e0e0"], ["size", "5", 2, "display", "flex", "flex-direction", "column", "justify-content", "center"], ["style", "color: #000000; font-weight: 700; margin-bottom: 4px;    margin-top: 0px;font-size: 16px !important;", 4, "ngIf"], ["style", "color: #000000; font-weight: 700; margin-bottom: 4px;font-size: 16px !important;", 4, "ngIf"], ["id", "breakup-modal", 2, "margin-top", "4px", "color", "#000000", "cursor", "pointer", "font-size", "12px !important", "font-weight", "600 !important", "margin-bottom", "4px !important", 3, "click"], ["size", "7", 2, "display", "flex", "justify-content", "center", "align-items", "center"], [1, "shyamoli-pay-btn", 2, "--background", "var(--iconsAndButtonsColor)", "--color", "#fff", "font-weight", "700", "border-radius", "5px", "display", "contents", 3, "click"], [2, "color", "#000000", "font-weight", "700", "margin-bottom", "4px", "margin-top", "0px", "font-size", "16px !important"], [2, "color", "#000000", "font-weight", "700", "margin-bottom", "4px", "font-size", "16px !important"], [1, "legend-box", 2, "position", "absolute", "bottom", "0", "width", "100% !important", "padding", "7px 16px 20px 16px", "border-radius", "10px 10px 0px 0px"], [1, "hr-border", 2, "height", "auto"], ["size", "6", 1, "dwn-txt", 3, "click"]],
   template: function PaymentDetailsPage_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](0, PaymentDetailsPage_ng_container_0_Template, 47, 22, "ng-container", 4)(1, PaymentDetailsPage_ng_container_1_Template, 84, 53, "ng-container", 4)(2, PaymentDetailsPage_ng_container_2_Template, 46, 26, "ng-container", 4)(3, PaymentDetailsPage_ng_container_3_Template, 82, 45, "ng-container", 4)(4, PaymentDetailsPage_ng_container_4_Template, 9, 8, "ng-container", 4)(5, PaymentDetailsPage_ng_container_5_Template, 106, 43, "ng-container", 4);

@@ -1468,16 +1468,16 @@ function MyBookingsPage_ng_container_3_ion_content_7_div_2_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
   }
 }
-function MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container_1_button_31_Template(rf, ctx) {
+function MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container_1_button_34_Template(rf, ctx) {
   if (rf & 1) {
     const _r31 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "button", 158);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container_1_button_31_Template_button_click_0_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "button", 160);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container_1_button_34_Template_button_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r31);
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](5);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r0.trackYourBus());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](1, "img", 159);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](1, "img", 161);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](2, " Track bus");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
   }
@@ -1498,34 +1498,36 @@ function MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](4);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r0.detailsPage(booking_r30, false));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "h2", 153);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](9);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "p", 154);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "div", 153)(9, "div")(10, "h2", 154);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipe"](12, "titlecase");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipe"](13, "titlecase");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](14, "dl", 155)(15, "div")(16, "dt");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](17, "PNR");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](18, "dd");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](12, "p", 155);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipe"](14, "titlecase");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipe"](15, "titlecase");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](20, "div")(21, "dt");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](22, "Berths");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](16, "img", 156);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](23, "dd");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](17, "dl", 157)(18, "div")(19, "dt");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](20, "PNR");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](21, "dd");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](22);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](25, "div")(26, "dt");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](27, "Boarding");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](23, "div")(24, "dt");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](25, "Berths");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](28, "dd");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](29);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](26, "dd");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](28, "div")(29, "dt");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](30, "Boarding");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](31, "dd");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](32);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](30, "div", 156);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](31, MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container_1_button_31_Template, 3, 0, "button", 157);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](33, "div", 158);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](34, MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container_1_button_34_Template, 3, 0, "button", 159);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
@@ -1538,11 +1540,11 @@ function MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵclassProp"]("sb-status-pill--danger", (booking_r30.transactionStatus || "").toLowerCase().indexOf("cancel") > -1)("sb-status-pill--warning", (booking_r30.transactionStatus || "").toLowerCase().indexOf("booked") > -1 && booking_r30.is_e_phone_booking);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"]((booking_r30.transactionStatus || "").toLowerCase().indexOf("booked") > -1 && booking_r30.is_e_phone_booking ? "Confirm Booking" : (booking_r30.transactionStatus || "").toLowerCase().indexOf("booked") > -1 ? "CONFIRMEND" : booking_r30.transactionStatus);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate2"]("", booking_r30.origin, " \u2192 ", booking_r30.destination, "");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate5"]("", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](12, 17, booking_r30.weekDay), ", ", booking_r30.travelDay, " ", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](13, 19, booking_r30.month), " \u00B7 ", booking_r30.time, " - ", booking_r30.dropping_time, "");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate5"]("", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](14, 17, booking_r30.weekDay), ", ", booking_r30.travelDay, " ", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](15, 19, booking_r30.month), " \u00B7 ", booking_r30.time, " - ", booking_r30.dropping_time, "");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](booking_r30.pnrNumber);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](booking_r30.seatNumbers);
@@ -1554,7 +1556,7 @@ function MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container
 }
 function MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_div_2_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 160)(1, "p", 161);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 162)(1, "p", 163);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](2, "No upcoming trips");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
   }
@@ -1566,21 +1568,23 @@ function MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_div_2_Templa
 function MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container_3_article_3_Template(rf, ctx) {
   if (rf & 1) {
     const _r32 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "article", 164);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "article", 166);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container_3_article_3_Template_article_click_0_listener() {
       const recentBooking_r33 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r32).$implicit;
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](5);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r0.detailsPage(recentBooking_r33, false));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "span", 165);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](2, "img", 166);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "span", 167);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](2, "img", 168);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "span", 167)(4, "span", 168);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "span", 169)(4, "span", 170);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](6, "span", 169);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](6, "span", 171);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](7);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](8, "img", 156);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
     const recentBooking_r33 = ctx.$implicit;
@@ -1593,10 +1597,10 @@ function MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container
 function MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container_3_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "h3", 162);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "h3", 164);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](2, "Recently completed");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](3, MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container_3_article_3_Template, 8, 4, "article", 163);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](3, MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container_3_article_3_Template, 9, 4, "article", 165);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
@@ -1608,7 +1612,7 @@ function MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container
 function MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container_1_Template, 32, 21, "ng-container", 146)(2, MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_div_2_Template, 3, 2, "div", 147)(3, MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container_3_Template, 4, 1, "ng-container", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container_1_Template, 35, 21, "ng-container", 146)(2, MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_div_2_Template, 3, 2, "div", 147)(3, MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_ng_container_3_Template, 4, 1, "ng-container", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
@@ -1624,40 +1628,42 @@ function MyBookingsPage_ng_container_3_ion_content_7_ng_container_3_Template(rf,
 function MyBookingsPage_ng_container_3_ion_content_7_ng_container_4_article_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r34 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "article", 172);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "article", 174);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_3_ion_content_7_ng_container_4_article_1_Template_article_click_0_listener() {
       const booking_r35 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r34).$implicit;
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](4);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r0.detailsPage(booking_r35, false));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "div", 173)(2, "div")(3, "h2", 153);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "div", 153)(2, "div")(3, "h2", 154);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](5, "p", 154);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](5, "p", 155);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipe"](7, "titlecase");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipe"](8, "titlecase");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](9, "span", 151);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](10);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](11, "dl", 155)(12, "div")(13, "dt");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](14, "PNR");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](9, "span", 175)(10, "span", 151);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](11);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](15, "dd");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](12, "img", 156);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](17, "div")(18, "dt");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](19, "Berths");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](13, "dl", 157)(14, "div")(15, "dt");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](16, "PNR");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](20, "dd");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](17, "dd");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](18);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](22, "div")(23, "dt");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](24, "Boarding");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](19, "div")(20, "dt");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](21, "Berths");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](25, "dd");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](26);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](22, "dd");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](24, "div")(25, "dt");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](26, "Boarding");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](27, "dd");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](28);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()()();
   }
   if (rf & 2) {
@@ -1667,11 +1673,11 @@ function MyBookingsPage_ng_container_3_ion_content_7_ng_container_4_article_1_Te
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate2"]("", booking_r35.origin, " \u2192 ", booking_r35.destination, "");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate5"]("", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](7, 15, booking_r35.weekDay), ", ", booking_r35.travelDay, " ", _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipeBind1"](8, 17, booking_r35.month), " \u00B7 ", booking_r35.time, " - ", booking_r35.dropping_time, "");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵclassProp"]("sb-status-pill--danger", ctx_r0.segment === "cancel")("sb-status-pill--muted", ctx_r0.segment === "previous");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpureFunction0"](19, _c4).indexOf(booking_r35 == null ? null : booking_r35.transactionStatus == null ? null : booking_r35.transactionStatus.toLowerCase()) > -1 ? "Completed" : booking_r35.transactionStatus);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](booking_r35.pnrNumber);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](booking_r35.seatNumbers);
@@ -1681,7 +1687,7 @@ function MyBookingsPage_ng_container_3_ion_content_7_ng_container_4_article_1_Te
 }
 function MyBookingsPage_ng_container_3_ion_content_7_ng_container_4_div_2_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 160)(1, "p", 161);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 162)(1, "p", 163);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
   }
@@ -1694,7 +1700,7 @@ function MyBookingsPage_ng_container_3_ion_content_7_ng_container_4_div_2_Templa
 function MyBookingsPage_ng_container_3_ion_content_7_ng_container_4_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, MyBookingsPage_ng_container_3_ion_content_7_ng_container_4_article_1_Template, 27, 20, "article", 170)(2, MyBookingsPage_ng_container_3_ion_content_7_ng_container_4_div_2_Template, 3, 1, "div", 171);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, MyBookingsPage_ng_container_3_ion_content_7_ng_container_4_article_1_Template, 29, 20, "article", 172)(2, MyBookingsPage_ng_container_3_ion_content_7_ng_container_4_div_2_Template, 3, 1, "div", 173);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
@@ -1726,13 +1732,13 @@ function MyBookingsPage_ng_container_3_ion_content_7_Template(rf, ctx) {
 function MyBookingsPage_ng_container_3_ion_content_8_Template(rf, ctx) {
   if (rf & 1) {
     const _r36 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-content", 134)(1, "div", 174)(2, "h2", 175);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-content", 134)(1, "div", 176)(2, "h2", 177);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](3, "No trips to show");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](4, "p", 176);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](4, "p", 178);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](5, "Please log in to access your bookings. If you are not registered yet, sign up.");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](6, "button", 177);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](6, "button", 179);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_3_ion_content_8_Template_button_click_6_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r36);
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
@@ -1740,7 +1746,7 @@ function MyBookingsPage_ng_container_3_ion_content_8_Template(rf, ctx) {
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](7, "Login");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "button", 178);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "button", 180);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_3_ion_content_8_Template_button_click_8_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r36);
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
@@ -1773,7 +1779,7 @@ function MyBookingsPage_ng_container_3_Template(rf, ctx) {
 }
 function MyBookingsPage_ng_container_4_ion_toolbar_2_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-toolbar", 95)(1, "ion-title", 183);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-toolbar", 95)(1, "ion-title", 185);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](2, "My Bookings");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](3, "img", 10);
@@ -1787,7 +1793,7 @@ function MyBookingsPage_ng_container_4_ion_toolbar_2_Template(rf, ctx) {
 }
 function MyBookingsPage_ng_container_4_ion_toolbar_3_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-toolbar", 184)(1, "ion-title", 183);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-toolbar", 186)(1, "ion-title", 185);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](2, "My Bookings");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](3, "img", 10);
@@ -1802,24 +1808,24 @@ function MyBookingsPage_ng_container_4_ion_toolbar_3_Template(rf, ctx) {
 function MyBookingsPage_ng_container_4_ion_content_4_Template(rf, ctx) {
   if (rf & 1) {
     const _r37 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-content")(1, "div", 185)(2, "p", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-content")(1, "div", 187)(2, "p", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](3, " No bookings found ");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](4, "p", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](5, " Please log in to access your bookings. If you not registered yet click on sign up ");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](6, "ion-button", 186);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](6, "ion-button", 188);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_4_ion_content_4_Template_ion_button_click_6_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r37);
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r0.gotoLogin());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](7, "p", 187);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](7, "p", 189);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](8, "Login");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](9, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "p", 188);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "p", 190);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_4_ion_content_4_Template_p_click_10_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r37);
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
@@ -1832,17 +1838,17 @@ function MyBookingsPage_ng_container_4_ion_content_4_Template(rf, ctx) {
 function MyBookingsPage_ng_container_4_ion_content_5_div_17_ion_col_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r40 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-col", 200)(1, "div", 201);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-col", 202)(1, "div", 203);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_4_ion_content_5_div_17_ion_col_1_Template_div_click_1_listener() {
       const booking_r41 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r40).$implicit;
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](4);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r0.detailsPage(booking_r41, false));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](2, "p", 202);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](2, "p", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](4, "ion-icon", 203);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](5, "p", 204);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](4, "ion-icon", 205);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](5, "p", 206);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
   }
@@ -1858,7 +1864,7 @@ function MyBookingsPage_ng_container_4_ion_content_5_div_17_ion_col_1_Template(r
 function MyBookingsPage_ng_container_4_ion_content_5_div_17_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 82);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, MyBookingsPage_ng_container_4_ion_content_5_div_17_ion_col_1_Template, 7, 6, "ion-col", 198);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, MyBookingsPage_ng_container_4_ion_content_5_div_17_ion_col_1_Template, 7, 6, "ion-col", 200);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -1898,17 +1904,17 @@ function MyBookingsPage_ng_container_4_ion_content_5_ion_row_18_Template(rf, ctx
 function MyBookingsPage_ng_container_4_ion_content_5_ion_col_21_Template(rf, ctx) {
   if (rf & 1) {
     const _r42 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-col", 200)(1, "div", 201);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-col", 202)(1, "div", 203);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_4_ion_content_5_ion_col_21_Template_div_click_1_listener() {
       const booking_r43 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r42).$implicit;
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](3);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r0.detailsPage(booking_r43, true));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](2, "p", 202);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](2, "p", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](4, "ion-icon", 203);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](5, "p", 204);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](4, "ion-icon", 205);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](5, "p", 206);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
   }
@@ -1951,17 +1957,17 @@ function MyBookingsPage_ng_container_4_ion_content_5_ion_row_22_Template(rf, ctx
 function MyBookingsPage_ng_container_4_ion_content_5_ion_col_25_Template(rf, ctx) {
   if (rf & 1) {
     const _r44 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-col", 200)(1, "div", 201);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-col", 202)(1, "div", 203);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_4_ion_content_5_ion_col_25_Template_div_click_1_listener() {
       const booking_r45 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r44).$implicit;
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](3);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r0.detailsPage(booking_r45, false));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](2, "p", 202);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](2, "p", 204);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](4, "ion-icon", 203);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](5, "p", 204);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](4, "ion-icon", 205);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](5, "p", 206);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
   }
@@ -2004,14 +2010,14 @@ function MyBookingsPage_ng_container_4_ion_content_5_ion_row_26_Template(rf, ctx
 function MyBookingsPage_ng_container_4_ion_content_5_Template(rf, ctx) {
   if (rf & 1) {
     const _r38 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-content", 189)(1, "ion-toolbar", 190)(2, "ion-segment", 191);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-content", 191)(1, "ion-toolbar", 192)(2, "ion-segment", 193);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtwoWayListener"]("ngModelChange", function MyBookingsPage_ng_container_4_ion_content_5_Template_ion_segment_ngModelChange_2_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r38);
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtwoWayBindingSet"](ctx_r0.segment, $event) || (ctx_r0.segment = $event);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"]($event);
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "ion-segment-button", 192);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "ion-segment-button", 194);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_4_ion_content_5_Template_ion_segment_button_click_3_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r38);
       const swiperRef_r39 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵreference"](15);
@@ -2021,7 +2027,7 @@ function MyBookingsPage_ng_container_4_ion_content_5_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipe"](5, "uppercase");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](6, "ion-segment-button", 193);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](6, "ion-segment-button", 195);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_4_ion_content_5_Template_ion_segment_button_click_6_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r38);
       const swiperRef_r39 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵreference"](15);
@@ -2031,7 +2037,7 @@ function MyBookingsPage_ng_container_4_ion_content_5_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipe"](8, "uppercase");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](9, "ion-segment-button", 194);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](9, "ion-segment-button", 196);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_4_ion_content_5_Template_ion_segment_button_click_9_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r38);
       const swiperRef_r39 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵreference"](15);
@@ -2041,23 +2047,23 @@ function MyBookingsPage_ng_container_4_ion_content_5_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](10);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵpipe"](11, "uppercase");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](12, "div", 195, 1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](12, "div", 197, 1);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](14, "swiper-container", 76, 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("swiperslidechange", function MyBookingsPage_ng_container_4_ion_content_5_Template_swiper_container_swiperslidechange_14_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r38);
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r0.onSlideChanged());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](16, "swiper-slide", 196);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](16, "swiper-slide", 198);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](17, MyBookingsPage_ng_container_4_ion_content_5_div_17_Template, 2, 1, "div", 78)(18, MyBookingsPage_ng_container_4_ion_content_5_ion_row_18_Template, 4, 2, "ion-row", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](19, "swiper-slide", 197)(20, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](21, MyBookingsPage_ng_container_4_ion_content_5_ion_col_21_Template, 7, 5, "ion-col", 198);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](19, "swiper-slide", 199)(20, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](21, MyBookingsPage_ng_container_4_ion_content_5_ion_col_21_Template, 7, 5, "ion-col", 200);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](22, MyBookingsPage_ng_container_4_ion_content_5_ion_row_22_Template, 4, 2, "ion-row", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](23, "swiper-slide", 199)(24, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](25, MyBookingsPage_ng_container_4_ion_content_5_ion_col_25_Template, 7, 5, "ion-col", 198);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](23, "swiper-slide", 201)(24, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](25, MyBookingsPage_ng_container_4_ion_content_5_ion_col_25_Template, 7, 5, "ion-col", 200);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](26, MyBookingsPage_ng_container_4_ion_content_5_ion_row_26_Template, 4, 2, "ion-row", 5);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
@@ -2093,10 +2099,10 @@ function MyBookingsPage_ng_container_4_ion_content_5_Template(rf, ctx) {
 function MyBookingsPage_ng_container_4_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "ion-header", 179);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](2, MyBookingsPage_ng_container_4_ion_toolbar_2_Template, 4, 1, "ion-toolbar", 180)(3, MyBookingsPage_ng_container_4_ion_toolbar_3_Template, 4, 1, "ion-toolbar", 181);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "ion-header", 181);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](2, MyBookingsPage_ng_container_4_ion_toolbar_2_Template, 4, 1, "ion-toolbar", 182)(3, MyBookingsPage_ng_container_4_ion_toolbar_3_Template, 4, 1, "ion-toolbar", 183);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](4, MyBookingsPage_ng_container_4_ion_content_4_Template, 12, 0, "ion-content", 5)(5, MyBookingsPage_ng_container_4_ion_content_5_Template, 27, 18, "ion-content", 182);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](4, MyBookingsPage_ng_container_4_ion_content_4_Template, 12, 0, "ion-content", 5)(5, MyBookingsPage_ng_container_4_ion_content_5_Template, 27, 18, "ion-content", 184);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
@@ -2135,14 +2141,14 @@ function MyBookingsPage_ng_container_5_ion_content_7_Template(rf, ctx) {
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r0.gotoSignup());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "p", 211);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "p", 213);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](11, "Sign up");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
   }
 }
 function MyBookingsPage_ng_container_5_ion_content_8_div_12_div_1_p_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "p", 236);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "p", 238);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
   }
@@ -2155,41 +2161,41 @@ function MyBookingsPage_ng_container_5_ion_content_8_div_12_div_1_p_7_Template(r
 function MyBookingsPage_ng_container_5_ion_content_8_div_12_div_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r49 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 219);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 221);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_5_ion_content_8_div_12_div_1_Template_div_click_0_listener() {
       const booking_r50 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r49).$implicit;
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](4);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r0.detailsPage(booking_r50, false));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "span", 220);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "span", 222);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](2, "Confirmed");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "div", 221)(4, "div", 222)(5, "p", 223);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "div", 223)(4, "div", 224)(5, "p", 225);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](7, MyBookingsPage_ng_container_5_ion_content_8_div_12_div_1_p_7_Template, 2, 1, "p", 224);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "p", 225);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](7, MyBookingsPage_ng_container_5_ion_content_8_div_12_div_1_p_7_Template, 2, 1, "p", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "p", 227);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "div", 226)(11, "p", 227);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "div", 228)(11, "p", 229);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](12);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](13, "p", 228);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](13, "p", 230);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](14);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](15, "p", 229);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](15, "p", 231);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](16);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](17, "div", 230);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](18, "div", 231)(19, "div")(20, "p", 232);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](17, "div", 232);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](18, "div", 233)(19, "div")(20, "p", 234);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](21);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](22, "p", 233);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](22, "p", 235);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](23);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](24, "a", 234);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](24, "a", 236);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](25, "View Details ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](26, "img", 235);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](26, "img", 237);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -2215,7 +2221,7 @@ function MyBookingsPage_ng_container_5_ion_content_8_div_12_div_1_Template(rf, c
 function MyBookingsPage_ng_container_5_ion_content_8_div_12_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, MyBookingsPage_ng_container_5_ion_content_8_div_12_div_1_Template, 27, 9, "div", 218);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, MyBookingsPage_ng_container_5_ion_content_8_div_12_div_1_Template, 27, 9, "div", 220);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -2254,7 +2260,7 @@ function MyBookingsPage_ng_container_5_ion_content_8_ng_template_13_Template(rf,
 }
 function MyBookingsPage_ng_container_5_ion_content_8_div_16_div_1_p_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "p", 236);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "p", 238);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
   }
@@ -2267,41 +2273,41 @@ function MyBookingsPage_ng_container_5_ion_content_8_div_16_div_1_p_7_Template(r
 function MyBookingsPage_ng_container_5_ion_content_8_div_16_div_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r51 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 219);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 221);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_5_ion_content_8_div_16_div_1_Template_div_click_0_listener() {
       const booking_r52 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r51).$implicit;
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](4);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r0.detailsPage(booking_r52, true));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "div", 237);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "div", 239);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](2, "Trip Completed");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "div", 221)(4, "div", 222)(5, "p", 223);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "div", 223)(4, "div", 224)(5, "p", 225);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](7, MyBookingsPage_ng_container_5_ion_content_8_div_16_div_1_p_7_Template, 2, 1, "p", 224);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "p", 225);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](7, MyBookingsPage_ng_container_5_ion_content_8_div_16_div_1_p_7_Template, 2, 1, "p", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "p", 227);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "div", 226)(11, "p", 227);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "div", 228)(11, "p", 229);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](12);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](13, "p", 228);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](13, "p", 230);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](14);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](15, "p", 229);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](15, "p", 231);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](16);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](17, "div", 230);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](18, "div", 231)(19, "div")(20, "p", 232);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](17, "div", 232);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](18, "div", 233)(19, "div")(20, "p", 234);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](21);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](22, "p", 232);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](22, "p", 234);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](23);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](24, "a", 234);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](24, "a", 236);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](25, "View Details ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](26, "img", 235);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](26, "img", 237);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -2327,7 +2333,7 @@ function MyBookingsPage_ng_container_5_ion_content_8_div_16_div_1_Template(rf, c
 function MyBookingsPage_ng_container_5_ion_content_8_div_16_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, MyBookingsPage_ng_container_5_ion_content_8_div_16_div_1_Template, 27, 9, "div", 218);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, MyBookingsPage_ng_container_5_ion_content_8_div_16_div_1_Template, 27, 9, "div", 220);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -2366,7 +2372,7 @@ function MyBookingsPage_ng_container_5_ion_content_8_ng_template_17_Template(rf,
 }
 function MyBookingsPage_ng_container_5_ion_content_8_div_20_div_1_p_7_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "p", 236);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "p", 238);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
   }
@@ -2379,41 +2385,41 @@ function MyBookingsPage_ng_container_5_ion_content_8_div_20_div_1_p_7_Template(r
 function MyBookingsPage_ng_container_5_ion_content_8_div_20_div_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r53 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 219);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 221);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function MyBookingsPage_ng_container_5_ion_content_8_div_20_div_1_Template_div_click_0_listener() {
       const booking_r54 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r53).$implicit;
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](4);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r0.detailsPage(booking_r54, false));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "div", 238);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "div", 240);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](2, "Cancelled");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "div", 221)(4, "div", 222)(5, "p", 223);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "div", 223)(4, "div", 224)(5, "p", 225);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](7, MyBookingsPage_ng_container_5_ion_content_8_div_20_div_1_p_7_Template, 2, 1, "p", 224);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "p", 225);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](7, MyBookingsPage_ng_container_5_ion_content_8_div_20_div_1_p_7_Template, 2, 1, "p", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "p", 227);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](9);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "div", 226)(11, "p", 227);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "div", 228)(11, "p", 229);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](12);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](13, "p", 228);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](13, "p", 230);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](14);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](15, "p", 229);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](15, "p", 231);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](16);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](17, "div", 230);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](18, "div", 231)(19, "div")(20, "p", 232);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](17, "div", 232);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](18, "div", 233)(19, "div")(20, "p", 234);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](21);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](22, "p", 232);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](22, "p", 234);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](23);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](24, "a", 234);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](24, "a", 236);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](25, "View Details ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](26, "img", 239);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](26, "img", 241);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -2439,7 +2445,7 @@ function MyBookingsPage_ng_container_5_ion_content_8_div_20_div_1_Template(rf, c
 function MyBookingsPage_ng_container_5_ion_content_8_div_20_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, MyBookingsPage_ng_container_5_ion_content_8_div_20_div_1_Template, 27, 9, "div", 218);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, MyBookingsPage_ng_container_5_ion_content_8_div_20_div_1_Template, 27, 9, "div", 220);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -2479,7 +2485,7 @@ function MyBookingsPage_ng_container_5_ion_content_8_ng_template_21_Template(rf,
 function MyBookingsPage_ng_container_5_ion_content_8_Template(rf, ctx) {
   if (rf & 1) {
     const _r47 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-content", 212)(1, "ion-toolbar", 190)(2, "ion-segment", 213);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-content", 214)(1, "ion-toolbar", 192)(2, "ion-segment", 215);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtwoWayListener"]("ngModelChange", function MyBookingsPage_ng_container_5_ion_content_8_Template_ion_segment_ngModelChange_2_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r47);
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
@@ -2519,14 +2525,14 @@ function MyBookingsPage_ng_container_5_ion_content_8_Template(rf, ctx) {
       const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r0.onSlideChanged());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](11, "swiper-slide", 214);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](12, MyBookingsPage_ng_container_5_ion_content_8_div_12_Template, 2, 1, "div", 215)(13, MyBookingsPage_ng_container_5_ion_content_8_ng_template_13_Template, 3, 2, "ng-template", null, 2, _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplateRefExtractor"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](11, "swiper-slide", 216);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](12, MyBookingsPage_ng_container_5_ion_content_8_div_12_Template, 2, 1, "div", 217)(13, MyBookingsPage_ng_container_5_ion_content_8_ng_template_13_Template, 3, 2, "ng-template", null, 2, _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplateRefExtractor"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](15, "swiper-slide", 216);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](16, MyBookingsPage_ng_container_5_ion_content_8_div_16_Template, 2, 1, "div", 215)(17, MyBookingsPage_ng_container_5_ion_content_8_ng_template_17_Template, 3, 2, "ng-template", null, 3, _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplateRefExtractor"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](15, "swiper-slide", 218);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](16, MyBookingsPage_ng_container_5_ion_content_8_div_16_Template, 2, 1, "div", 217)(17, MyBookingsPage_ng_container_5_ion_content_8_ng_template_17_Template, 3, 2, "ng-template", null, 3, _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplateRefExtractor"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](19, "swiper-slide", 217);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](20, MyBookingsPage_ng_container_5_ion_content_8_div_20_Template, 2, 1, "div", 215)(21, MyBookingsPage_ng_container_5_ion_content_8_ng_template_21_Template, 3, 2, "ng-template", null, 4, _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplateRefExtractor"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](19, "swiper-slide", 219);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](20, MyBookingsPage_ng_container_5_ion_content_8_div_20_Template, 2, 1, "div", 217)(21, MyBookingsPage_ng_container_5_ion_content_8_ng_template_21_Template, 3, 2, "ng-template", null, 4, _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplateRefExtractor"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
   }
   if (rf & 2) {
@@ -2549,13 +2555,13 @@ function MyBookingsPage_ng_container_5_ion_content_8_Template(rf, ctx) {
 function MyBookingsPage_ng_container_5_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "ion-header", 205)(2, "ion-toolbar", 206)(3, "ion-buttons", 207);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](4, "ion-back-button", 208);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "ion-header", 207)(2, "ion-toolbar", 208)(3, "ion-buttons", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](4, "ion-back-button", 210);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](5, "ion-title", 209);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](5, "ion-title", 211);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](6, "My Bookings");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](7, MyBookingsPage_ng_container_5_ion_content_7_Template, 12, 0, "ion-content", 5)(8, MyBookingsPage_ng_container_5_ion_content_8_Template, 23, 8, "ion-content", 210);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](7, MyBookingsPage_ng_container_5_ion_content_7_Template, 12, 0, "ion-content", 5)(8, MyBookingsPage_ng_container_5_ion_content_8_Template, 23, 8, "ion-content", 212);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
@@ -3508,7 +3514,7 @@ _MyBookingsPage.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_8__[
   standalone: false,
   decls: 6,
   vars: 6,
-  consts: [["swiperRef", ""], ["mapCanvas", ""], ["noUpcoming", ""], ["noCompleted", ""], ["noCancelled", ""], [4, "ngIf"], ["style", "min-height: 170px;", 4, "ngIf"], ["style", "--background: white", 4, "ngIf"], ["style", "position: absolute;z-index: 9999;top: 120px; --background: transparent;", 4, "ngIf"], [3, "ngClass"], ["alt", "", 1, "icn-main", 3, "src"], [2, "min-height", "170px"], ["mode", "md", "color", "red", "scrollable", "", 3, "ngModelChange", "ngModel", "ngClass"], ["value", "future", 2, "color", "var(--textFieldPlaceholderColor)", 3, "click"], ["value", "previous", 2, "color", "var(--textFieldPlaceholderColor)", 3, "click"], [2, "--background", "white"], [1, "note-1"], [1, "hd-1"], [1, "txt-1"], ["mode", "md", "expand", "block", 1, "search-btn", 3, "click"], [1, "search-txt"], [1, "sign-up", 3, "click"], [2, "position", "absolute", "z-index", "9999", "top", "120px", "--background", "transparent"], [2, "padding-bottom", "120px", "height", "100%", 3, "ngSwitch"], ["class", "prevFuture", 4, "ngSwitchCase"], [1, "prevFuture"], ["style", "    margin: 12px;    --background: none;", 4, "ngFor", "ngForOf"], ["text-center", "", "class", "vertical-align-content", 4, "ngIf"], [2, "margin", "12px", "--background", "none"], [2, "margin", "0", "border", "1px solid #dfdfdf", "border-radius", "10px", 3, "click"], [2, "padding", "14px", "padding-bottom", "8px"], ["size", "2", 1, "date-col", "ion-no-padding"], [1, "ion-justify-content-center", 2, "color", "#FCAF17", "text-align", "center", "letter-spacing", "0.12px", "text-transform", "uppercase"], [1, "travel-day", "ion-justify-content-center", 3, "ngClass"], [1, "ion-justify-content-center"], [1, "date-month", 2, "font-size", "10px", "font-style", "normal", "color", "#5F5F5F"], ["size", "10", 1, "trip-data"], [1, "themeone-pnrno"], [1, "themeone-bookedon"], [1, "devider_set"], ["size", "12", 2, "padding", "0px"], ["style", "display:contents ;", "src", "./assets/icon/devider.svg", 4, "ngIf"], ["style", "display:contents ;", "src", "./assets/icon/network_devider.svg", 4, "ngIf"], [1, "trip-info"], ["size", "6.5", 1, "ion-text-start", 2, "padding", "14px", "padding-top", "4px"], ["src", "./assets/icon/cbustime.svg", "alt", "", "item-start", "", 1, "themeone_icon-img", 2, "height", "17px", "width", "20px", "margin-right", "4px"], ["style", "color: #333;\n                                font-size: 12px;\n                                font-weight: 600;\n                                line-height: 22px;\n                                letter-spacing: 0.12px;", 4, "ngIf"], ["style", "color: #3BAD69;\n                                font-size: 12px;\n                                font-weight: 600;\n                                line-height: 22px;\n                                letter-spacing: 0.12px;", 4, "ngIf"], ["size", "5.5", 1, "ion-text-end", 2, "padding", "14px", "padding-top", "4px", 3, "ngClass"], ["src", "./assets/icon/devider.svg", 2, "display", "contents"], ["src", "./assets/icon/network_devider.svg", 2, "display", "contents"], [2, "color", "#333", "font-size", "12px", "font-weight", "600", "line-height", "22px", "letter-spacing", "0.12px"], [2, "color", "#3BAD69", "font-size", "12px", "font-weight", "600", "line-height", "22px", "letter-spacing", "0.12px"], ["text-center", "", 1, "vertical-align-content"], [2, "text-align", "center"], ["size", "6", 1, "ion-text-start", 2, "padding", "14px", "padding-top", "4px"], ["src", "./assets/icon/cbustime.svg", "alt", "", "item-start", "", 1, "themeone_icon-img", 2, "height", "17px", "vertical-align", "sub", "width", "24px", "margin-right", "4px"], ["style", "color: #EE2E3B;\n                            font-size: 12px;\n                            font-weight: 600;\n                            line-height: 22px;\n                            letter-spacing: 0.12px;", 4, "ngIf"], ["style", "color: #3BAD69;\n                            font-size: 12px;\n                            font-weight: 600;\n                            line-height: 22px;\n                            letter-spacing: 0.12px;", 4, "ngIf"], ["size", "6", 1, "ion-text-end", 2, "padding", "14px", "padding-top", "4px", 3, "ngClass"], [2, "color", "#EE2E3B", "font-size", "12px", "font-weight", "600", "line-height", "22px", "letter-spacing", "0.12px"], [1, "ourbustheme", 3, "ngStyle"], ["mode", "md", 2, "padding", "8px"], ["size", "2", 2, "display", "flex"], [3, "click"], ["size", "7", 2, "display", "flex", "align-items", "center", "justify-content", "center"], [1, "editProfile"], ["class", "ourbustheme", 4, "ngIf"], ["style", "--background:#fff;", "class", "ourbustheme", 4, "ngIf"], [1, "ourbustheme"], [1, "ourbustheme", 2, "--background", "#fff"], [2, "margin", "16px"], ["mode", "md", "scrollable", "", 2, "padding", "0px", "background", "#EFEFEF", "border-radius", "8px", 3, "ngModelChange", "ngModel"], ["value", "future", 3, "click"], ["value", "previous", 3, "click"], ["value", "cancel", 3, "click"], [3, "swiperslidechange", "init"], ["id", "future"], ["style", "min-width: 100% !important", 4, "ngIf"], ["id", "previous"], ["style", "width:100%", 4, "ngIf"], ["id", "cancel"], [2, "min-width", "100% !important"], [2, "width", "100%"], ["class", "ourbusRowSet", 3, "click", 4, "ngFor", "ngForOf"], [1, "ourbusRowSet", 3, "click"], ["size", "2"], [1, "ourbus_ticket"], ["src", "././assets/icon/ourbus_ticketsave.svg", 1, "ourbusIcon"], ["size", "8", 1, "ourbus_plain_text"], [2, "font-weight", "normal"], [1, "aroowset"], ["name", "arrow-forward-outline", 1, "ourbusIcon"], ["class", "hd-1", 4, "ngIf"], [1, "seabirdtheme"], ["mode", "md", 1, "high-1"], [1, "headText"], ["class", "seabirdtheme", "style", "    --background: #F1F7FA;", 4, "ngIf"], [1, "seabirdtheme", 2, "--background", "#F1F7FA"], [1, "booking-list-present"], ["mode", "md", "color", "red", "scrollable", "", 3, "ngModelChange", "ngModel"], ["value", "future", 1, "upcomingBtn", 3, "click"], ["value", "previous", 1, "completeBtn", 3, "click"], ["value", "cancel", 1, "cancelBtn", 3, "click"], ["id", "future", 2, "background", "white"], ["id", "previous", 2, "background", "white"], ["id", "cancel", 2, "background", "white"], ["style", "    background: #E1F6F5;\n            border-radius: 10px;margin-bottom: 8px;margin-top: 8px;", 3, "click", 4, "ngFor", "ngForOf"], [2, "background", "#E1F6F5", "border-radius", "10px", "margin-bottom", "8px", "margin-top", "8px", 3, "click"], ["size", "2", 2, "display", "flex", "align-items", "center", "justify-content", "center"], [1, "busCircle"], ["src", "././assets/icon/bus.svg", 2, "width", "20px", "height", "20px"], ["size", "10", 1, "extraSpace"], [2, "font-weight", "bold"], [2, "color", "#00904B"], [2, "margin-left", "30%", "color", "black"], ["style", "    background: #F2F8FF;\n            border-radius: 10px;margin-bottom: 8px;margin-top: 8px;", 3, "click", 4, "ngFor", "ngForOf"], [2, "background", "#F2F8FF", "border-radius", "10px", "margin-bottom", "8px", "margin-top", "8px", 3, "click"], [2, "color", "#2B28CE"], ["style", "    background: #FFF0F2;\n            border-radius: 10px;margin-bottom: 8px;margin-top: 8px;", 3, "click", 4, "ngFor", "ngForOf"], [2, "background", "#FFF0F2", "border-radius", "10px", "margin-bottom", "8px", "margin-top", "8px", 3, "click"], [2, "color", "#D5000E"], [2, "margin-left", "28%", "color", "black"], ["mode", "md", "expand", "block", 1, "track-btn", 3, "click"], [1, "hd-1", 2, "text-align", "left"], [1, "txt-1", 2, "text-align", "left"], [1, "sb-page-header"], [1, "sb-toolbar"], [1, "sb-trips-appbar"], [1, "sb-trips-title"], ["class", "sb-trip-tabs", "role", "tablist", 4, "ngIf"], ["class", "sb-trips", 4, "ngIf"], ["role", "tablist", 1, "sb-trip-tabs"], ["type", "button", "role", "tab", 1, "sb-tab-btn", 3, "click"], [1, "sb-trips"], ["class", "sb-results-empty sb-results-error", "role", "alert", 4, "ngIf"], ["class", "sb-trip-card sb-trip-card--compact sb-trip-card--skeleton", "aria-hidden", "true", 4, "ngFor", "ngForOf"], ["aria-hidden", "true", 1, "sb-trip-card", "sb-trip-card--compact", "sb-trip-card--skeleton"], [1, "sb-skel-row"], [1, "sb-skel", "sb-skel--title", 3, "animated"], [1, "sb-skel", "sb-skel--pill", 3, "animated"], [1, "sb-skel", "sb-skel--line-short", 3, "animated"], [1, "sb-skel-row", "sb-skel-row--foot"], [1, "sb-skel", "sb-skel--foot", 3, "animated"], ["role", "alert", 1, "sb-results-empty", "sb-results-error"], ["name", "alert-circle-outline", "aria-hidden", "true"], [4, "ngFor", "ngForOf"], ["class", "sb-alert-parent", 3, "height", 4, "ngIf"], [1, "sb-trip-card"], [1, "sb-trip-card__strip"], [1, "sb-trip-card__departs"], [1, "sb-status-pill"], ["role", "button", "tabindex", "0", 1, "sb-trip-card__body", 3, "click"], [1, "sb-trip-card__route"], [1, "sb-trip-card__when"], [1, "sb-trip-meta"], [1, "sb-trip-card__actions"], ["type", "button", "class", "sb-btn-solid", "style", "display: flex; align-items: center; justify-content: center;", 3, "click", 4, "ngIf"], ["type", "button", 1, "sb-btn-solid", 2, "display", "flex", "align-items", "center", "justify-content", "center", 3, "click"], ["src", "./assets/seabird-new/bk-track-bus.svg", "alt", "", "aria-hidden", "true"], [1, "sb-alert-parent"], [1, "sb-trips-empty"], [1, "sb-overline", "sb-trips-section"], ["class", "sb-recent-trip", "role", "button", "tabindex", "0", 3, "click", 4, "ngFor", "ngForOf"], ["role", "button", "tabindex", "0", 1, "sb-recent-trip", 3, "click"], [1, "sb-recent-trip__tile"], ["src", "./assets/seabird-new/bus-from.svg", "alt", "", "width", "22", "height", "22"], [1, "sb-recent-trip__text"], [1, "sb-recent-trip__title"], [1, "sb-recent-trip__sub"], ["class", "sb-trip-card sb-trip-card--compact", "role", "button", "tabindex", "0", 3, "click", 4, "ngFor", "ngForOf"], ["class", "sb-alert-parent", 4, "ngIf"], ["role", "button", "tabindex", "0", 1, "sb-trip-card", "sb-trip-card--compact", 3, "click"], [1, "sb-trip-card__head"], [1, "sb-trips-login"], [1, "sb-trips-login__title"], [1, "sb-trips-login__text"], ["type", "button", 1, "sb-btn-primary", 3, "click"], ["type", "button", 1, "sb-trips-login__link", 3, "click"], ["translucent", "true"], ["mode", "md", "class", "high-1", 4, "ngIf"], ["mode", "md", 4, "ngIf"], ["class", "theme1", 4, "ngIf"], [1, "title-main"], ["mode", "md"], [1, "note-1", 2, "text-align", "left"], ["mode", "md", "expand", "block", 1, "login-button", 2, "height", "20px", "margin", "10px", 3, "click"], [1, "login-txt", 2, "font-size", "16px", "color", "#000", "font-weight", "bold"], [1, "sign-up", 2, "font-size", "16px", 3, "click"], [1, "theme1"], [1, "ion-toolbar1"], ["mode", "md", "color", "red", "scrollable", "", 2, "width", "100%", 3, "ngModelChange", "ngModel"], ["value", "future", 2, "color", "var(--textFieldPlaceholderColor)", "text-transform", "uppercase", 3, "click"], ["value", "previous", 2, "color", "var(--textFieldPlaceholderColor)", "text-transform", "uppercase", 3, "click"], ["value", "cancel", 2, "color", "var(--textFieldPlaceholderColor)", "text-transform", "uppercase", 3, "click"], [1, "map-canvas", 3, "hidden"], ["id", "future", 1, "seat-slide"], ["id", "previous", 1, "seat-slide"], ["size", "12", "size-md", "6", 4, "ngFor", "ngForOf"], ["id", "cancel", 1, "seat-slide"], ["size", "12", "size-md", "6"], [1, "card", "seat-card-bg", 3, "click"], [1, "org-dest"], ["name", "chevron-forward-outline", 1, "booking-details"], [1, "date"], ["translucent", "true", 2, "box-shadow", "none"], ["mode", "md", 1, "shyamoli-header"], ["slot", "start"], ["defaultHref", "/"], [1, "shyamoli-title"], ["class", "shyamoli-theme2", 4, "ngIf"], [1, "shyamoli-sign-up"], [1, "shyamoli-theme2"], ["mode", "md", "scrollable", "", 1, "no-border-segment", "shyamoli-segment", 2, "border-bottom", "1px solid #DFDFDF", "margin-bottom", "6px", 3, "ngModelChange", "ngModel"], ["id", "future", 1, "shyamoli-seat-slide"], [4, "ngIf", "ngIfElse"], ["id", "previous", 1, "shyamoli-seat-slide"], ["id", "cancel", 1, "shyamoli-seat-slide"], ["class", "booking-box", 3, "click", 4, "ngFor", "ngForOf"], [1, "booking-box", 3, "click"], [1, "status-tag", "confirmed"], [1, "booking-top"], [1, "booking-column"], [1, "route", 2, "margin", "0"], ["class", "bus-type", 4, "ngIf"], [1, "pnr"], [1, "date-section"], [1, "month"], [1, "day"], [1, "year"], [1, "divider-line"], [1, "bottom-row"], [1, "booked-on"], [1, "booked-on", "booked-time"], [1, "view-details"], ["src", "./assets/icon/shyamoli-viewdetailarrow.svg", "alt", "arrow"], [1, "bus-type"], [1, "status-tag", "completed"], [1, "status-tag", "cancelled"], ["src", "./assets/icon/shyamoli-viewdetailarrow.svg", "alt", "arrow", 1, "big-arrow"]],
+  consts: [["swiperRef", ""], ["mapCanvas", ""], ["noUpcoming", ""], ["noCompleted", ""], ["noCancelled", ""], [4, "ngIf"], ["style", "min-height: 170px;", 4, "ngIf"], ["style", "--background: white", 4, "ngIf"], ["style", "position: absolute;z-index: 9999;top: 120px; --background: transparent;", 4, "ngIf"], [3, "ngClass"], ["alt", "", 1, "icn-main", 3, "src"], [2, "min-height", "170px"], ["mode", "md", "color", "red", "scrollable", "", 3, "ngModelChange", "ngModel", "ngClass"], ["value", "future", 2, "color", "var(--textFieldPlaceholderColor)", 3, "click"], ["value", "previous", 2, "color", "var(--textFieldPlaceholderColor)", 3, "click"], [2, "--background", "white"], [1, "note-1"], [1, "hd-1"], [1, "txt-1"], ["mode", "md", "expand", "block", 1, "search-btn", 3, "click"], [1, "search-txt"], [1, "sign-up", 3, "click"], [2, "position", "absolute", "z-index", "9999", "top", "120px", "--background", "transparent"], [2, "padding-bottom", "120px", "height", "100%", 3, "ngSwitch"], ["class", "prevFuture", 4, "ngSwitchCase"], [1, "prevFuture"], ["style", "    margin: 12px;    --background: none;", 4, "ngFor", "ngForOf"], ["text-center", "", "class", "vertical-align-content", 4, "ngIf"], [2, "margin", "12px", "--background", "none"], [2, "margin", "0", "border", "1px solid #dfdfdf", "border-radius", "10px", 3, "click"], [2, "padding", "14px", "padding-bottom", "8px"], ["size", "2", 1, "date-col", "ion-no-padding"], [1, "ion-justify-content-center", 2, "color", "#FCAF17", "text-align", "center", "letter-spacing", "0.12px", "text-transform", "uppercase"], [1, "travel-day", "ion-justify-content-center", 3, "ngClass"], [1, "ion-justify-content-center"], [1, "date-month", 2, "font-size", "10px", "font-style", "normal", "color", "#5F5F5F"], ["size", "10", 1, "trip-data"], [1, "themeone-pnrno"], [1, "themeone-bookedon"], [1, "devider_set"], ["size", "12", 2, "padding", "0px"], ["style", "display:contents ;", "src", "./assets/icon/devider.svg", 4, "ngIf"], ["style", "display:contents ;", "src", "./assets/icon/network_devider.svg", 4, "ngIf"], [1, "trip-info"], ["size", "6.5", 1, "ion-text-start", 2, "padding", "14px", "padding-top", "4px"], ["src", "./assets/icon/cbustime.svg", "alt", "", "item-start", "", 1, "themeone_icon-img", 2, "height", "17px", "width", "20px", "margin-right", "4px"], ["style", "color: #333;\n                                font-size: 12px;\n                                font-weight: 600;\n                                line-height: 22px;\n                                letter-spacing: 0.12px;", 4, "ngIf"], ["style", "color: #3BAD69;\n                                font-size: 12px;\n                                font-weight: 600;\n                                line-height: 22px;\n                                letter-spacing: 0.12px;", 4, "ngIf"], ["size", "5.5", 1, "ion-text-end", 2, "padding", "14px", "padding-top", "4px", 3, "ngClass"], ["src", "./assets/icon/devider.svg", 2, "display", "contents"], ["src", "./assets/icon/network_devider.svg", 2, "display", "contents"], [2, "color", "#333", "font-size", "12px", "font-weight", "600", "line-height", "22px", "letter-spacing", "0.12px"], [2, "color", "#3BAD69", "font-size", "12px", "font-weight", "600", "line-height", "22px", "letter-spacing", "0.12px"], ["text-center", "", 1, "vertical-align-content"], [2, "text-align", "center"], ["size", "6", 1, "ion-text-start", 2, "padding", "14px", "padding-top", "4px"], ["src", "./assets/icon/cbustime.svg", "alt", "", "item-start", "", 1, "themeone_icon-img", 2, "height", "17px", "vertical-align", "sub", "width", "24px", "margin-right", "4px"], ["style", "color: #EE2E3B;\n                            font-size: 12px;\n                            font-weight: 600;\n                            line-height: 22px;\n                            letter-spacing: 0.12px;", 4, "ngIf"], ["style", "color: #3BAD69;\n                            font-size: 12px;\n                            font-weight: 600;\n                            line-height: 22px;\n                            letter-spacing: 0.12px;", 4, "ngIf"], ["size", "6", 1, "ion-text-end", 2, "padding", "14px", "padding-top", "4px", 3, "ngClass"], [2, "color", "#EE2E3B", "font-size", "12px", "font-weight", "600", "line-height", "22px", "letter-spacing", "0.12px"], [1, "ourbustheme", 3, "ngStyle"], ["mode", "md", 2, "padding", "8px"], ["size", "2", 2, "display", "flex"], [3, "click"], ["size", "7", 2, "display", "flex", "align-items", "center", "justify-content", "center"], [1, "editProfile"], ["class", "ourbustheme", 4, "ngIf"], ["style", "--background:#fff;", "class", "ourbustheme", 4, "ngIf"], [1, "ourbustheme"], [1, "ourbustheme", 2, "--background", "#fff"], [2, "margin", "16px"], ["mode", "md", "scrollable", "", 2, "padding", "0px", "background", "#EFEFEF", "border-radius", "8px", 3, "ngModelChange", "ngModel"], ["value", "future", 3, "click"], ["value", "previous", 3, "click"], ["value", "cancel", 3, "click"], [3, "swiperslidechange", "init"], ["id", "future"], ["style", "min-width: 100% !important", 4, "ngIf"], ["id", "previous"], ["style", "width:100%", 4, "ngIf"], ["id", "cancel"], [2, "min-width", "100% !important"], [2, "width", "100%"], ["class", "ourbusRowSet", 3, "click", 4, "ngFor", "ngForOf"], [1, "ourbusRowSet", 3, "click"], ["size", "2"], [1, "ourbus_ticket"], ["src", "././assets/icon/ourbus_ticketsave.svg", 1, "ourbusIcon"], ["size", "8", 1, "ourbus_plain_text"], [2, "font-weight", "normal"], [1, "aroowset"], ["name", "arrow-forward-outline", 1, "ourbusIcon"], ["class", "hd-1", 4, "ngIf"], [1, "seabirdtheme"], ["mode", "md", 1, "high-1"], [1, "headText"], ["class", "seabirdtheme", "style", "    --background: #F1F7FA;", 4, "ngIf"], [1, "seabirdtheme", 2, "--background", "#F1F7FA"], [1, "booking-list-present"], ["mode", "md", "color", "red", "scrollable", "", 3, "ngModelChange", "ngModel"], ["value", "future", 1, "upcomingBtn", 3, "click"], ["value", "previous", 1, "completeBtn", 3, "click"], ["value", "cancel", 1, "cancelBtn", 3, "click"], ["id", "future", 2, "background", "white"], ["id", "previous", 2, "background", "white"], ["id", "cancel", 2, "background", "white"], ["style", "    background: #E1F6F5;\n            border-radius: 10px;margin-bottom: 8px;margin-top: 8px;", 3, "click", 4, "ngFor", "ngForOf"], [2, "background", "#E1F6F5", "border-radius", "10px", "margin-bottom", "8px", "margin-top", "8px", 3, "click"], ["size", "2", 2, "display", "flex", "align-items", "center", "justify-content", "center"], [1, "busCircle"], ["src", "././assets/icon/bus.svg", 2, "width", "20px", "height", "20px"], ["size", "10", 1, "extraSpace"], [2, "font-weight", "bold"], [2, "color", "#00904B"], [2, "margin-left", "30%", "color", "black"], ["style", "    background: #F2F8FF;\n            border-radius: 10px;margin-bottom: 8px;margin-top: 8px;", 3, "click", 4, "ngFor", "ngForOf"], [2, "background", "#F2F8FF", "border-radius", "10px", "margin-bottom", "8px", "margin-top", "8px", 3, "click"], [2, "color", "#2B28CE"], ["style", "    background: #FFF0F2;\n            border-radius: 10px;margin-bottom: 8px;margin-top: 8px;", 3, "click", 4, "ngFor", "ngForOf"], [2, "background", "#FFF0F2", "border-radius", "10px", "margin-bottom", "8px", "margin-top", "8px", 3, "click"], [2, "color", "#D5000E"], [2, "margin-left", "28%", "color", "black"], ["mode", "md", "expand", "block", 1, "track-btn", 3, "click"], [1, "hd-1", 2, "text-align", "left"], [1, "txt-1", 2, "text-align", "left"], [1, "sb-page-header"], [1, "sb-toolbar"], [1, "sb-trips-appbar"], [1, "sb-trips-title"], ["class", "sb-trip-tabs", "role", "tablist", 4, "ngIf"], ["class", "sb-trips", 4, "ngIf"], ["role", "tablist", 1, "sb-trip-tabs"], ["type", "button", "role", "tab", 1, "sb-tab-btn", 3, "click"], [1, "sb-trips"], ["class", "sb-results-empty sb-results-error", "role", "alert", 4, "ngIf"], ["class", "sb-trip-card sb-trip-card--compact sb-trip-card--skeleton", "aria-hidden", "true", 4, "ngFor", "ngForOf"], ["aria-hidden", "true", 1, "sb-trip-card", "sb-trip-card--compact", "sb-trip-card--skeleton"], [1, "sb-skel-row"], [1, "sb-skel", "sb-skel--title", 3, "animated"], [1, "sb-skel", "sb-skel--pill", 3, "animated"], [1, "sb-skel", "sb-skel--line-short", 3, "animated"], [1, "sb-skel-row", "sb-skel-row--foot"], [1, "sb-skel", "sb-skel--foot", 3, "animated"], ["role", "alert", 1, "sb-results-empty", "sb-results-error"], ["name", "alert-circle-outline", "aria-hidden", "true"], [4, "ngFor", "ngForOf"], ["class", "sb-alert-parent", 3, "height", 4, "ngIf"], [1, "sb-trip-card"], [1, "sb-trip-card__strip"], [1, "sb-trip-card__departs"], [1, "sb-status-pill"], ["role", "button", "tabindex", "0", 1, "sb-trip-card__body", 3, "click"], [1, "sb-trip-card__head"], [1, "sb-trip-card__route"], [1, "sb-trip-card__when"], ["src", "./assets/seabird-new/back-arrow-navy.svg", "alt", "", "aria-hidden", "true", "width", "20", "height", "20", 1, "sb-trip-card__chevron"], [1, "sb-trip-meta"], [1, "sb-trip-card__actions"], ["type", "button", "class", "sb-btn-solid", "style", "display: flex; align-items: center; justify-content: center;", 3, "click", 4, "ngIf"], ["type", "button", 1, "sb-btn-solid", 2, "display", "flex", "align-items", "center", "justify-content", "center", 3, "click"], ["src", "./assets/seabird-new/bk-track-bus.svg", "alt", "", "aria-hidden", "true"], [1, "sb-alert-parent"], [1, "sb-trips-empty"], [1, "sb-overline", "sb-trips-section"], ["class", "sb-recent-trip", "role", "button", "tabindex", "0", 3, "click", 4, "ngFor", "ngForOf"], ["role", "button", "tabindex", "0", 1, "sb-recent-trip", 3, "click"], [1, "sb-recent-trip__tile"], ["src", "./assets/seabird-new/bus-from.svg", "alt", "", "width", "22", "height", "22"], [1, "sb-recent-trip__text"], [1, "sb-recent-trip__title"], [1, "sb-recent-trip__sub"], ["class", "sb-trip-card sb-trip-card--compact", "role", "button", "tabindex", "0", 3, "click", 4, "ngFor", "ngForOf"], ["class", "sb-alert-parent", 4, "ngIf"], ["role", "button", "tabindex", "0", 1, "sb-trip-card", "sb-trip-card--compact", 3, "click"], [1, "sb-trip-card__end"], [1, "sb-trips-login"], [1, "sb-trips-login__title"], [1, "sb-trips-login__text"], ["type", "button", 1, "sb-btn-primary", 3, "click"], ["type", "button", 1, "sb-trips-login__link", 3, "click"], ["translucent", "true"], ["mode", "md", "class", "high-1", 4, "ngIf"], ["mode", "md", 4, "ngIf"], ["class", "theme1", 4, "ngIf"], [1, "title-main"], ["mode", "md"], [1, "note-1", 2, "text-align", "left"], ["mode", "md", "expand", "block", 1, "login-button", 2, "height", "20px", "margin", "10px", 3, "click"], [1, "login-txt", 2, "font-size", "16px", "color", "#000", "font-weight", "bold"], [1, "sign-up", 2, "font-size", "16px", 3, "click"], [1, "theme1"], [1, "ion-toolbar1"], ["mode", "md", "color", "red", "scrollable", "", 2, "width", "100%", 3, "ngModelChange", "ngModel"], ["value", "future", 2, "color", "var(--textFieldPlaceholderColor)", "text-transform", "uppercase", 3, "click"], ["value", "previous", 2, "color", "var(--textFieldPlaceholderColor)", "text-transform", "uppercase", 3, "click"], ["value", "cancel", 2, "color", "var(--textFieldPlaceholderColor)", "text-transform", "uppercase", 3, "click"], [1, "map-canvas", 3, "hidden"], ["id", "future", 1, "seat-slide"], ["id", "previous", 1, "seat-slide"], ["size", "12", "size-md", "6", 4, "ngFor", "ngForOf"], ["id", "cancel", 1, "seat-slide"], ["size", "12", "size-md", "6"], [1, "card", "seat-card-bg", 3, "click"], [1, "org-dest"], ["name", "chevron-forward-outline", 1, "booking-details"], [1, "date"], ["translucent", "true", 2, "box-shadow", "none"], ["mode", "md", 1, "shyamoli-header"], ["slot", "start"], ["defaultHref", "/"], [1, "shyamoli-title"], ["class", "shyamoli-theme2", 4, "ngIf"], [1, "shyamoli-sign-up"], [1, "shyamoli-theme2"], ["mode", "md", "scrollable", "", 1, "no-border-segment", "shyamoli-segment", 2, "border-bottom", "1px solid #DFDFDF", "margin-bottom", "6px", 3, "ngModelChange", "ngModel"], ["id", "future", 1, "shyamoli-seat-slide"], [4, "ngIf", "ngIfElse"], ["id", "previous", 1, "shyamoli-seat-slide"], ["id", "cancel", 1, "shyamoli-seat-slide"], ["class", "booking-box", 3, "click", 4, "ngFor", "ngForOf"], [1, "booking-box", 3, "click"], [1, "status-tag", "confirmed"], [1, "booking-top"], [1, "booking-column"], [1, "route", 2, "margin", "0"], ["class", "bus-type", 4, "ngIf"], [1, "pnr"], [1, "date-section"], [1, "month"], [1, "day"], [1, "year"], [1, "divider-line"], [1, "bottom-row"], [1, "booked-on"], [1, "booked-on", "booked-time"], [1, "view-details"], ["src", "./assets/icon/shyamoli-viewdetailarrow.svg", "alt", "arrow"], [1, "bus-type"], [1, "status-tag", "completed"], [1, "status-tag", "cancelled"], ["src", "./assets/icon/shyamoli-viewdetailarrow.svg", "alt", "arrow", 1, "big-arrow"]],
   template: function MyBookingsPage_Template(rf, ctx) {
     if (rf & 1) {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](0, MyBookingsPage_ng_container_0_Template, 5, 4, "ng-container", 5)(1, MyBookingsPage_ng_container_1_Template, 12, 5, "ng-container", 5)(2, MyBookingsPage_ng_container_2_Template, 8, 3, "ng-container", 5)(3, MyBookingsPage_ng_container_3_Template, 9, 3, "ng-container", 5)(4, MyBookingsPage_ng_container_4_Template, 6, 4, "ng-container", 5)(5, MyBookingsPage_ng_container_5_Template, 9, 2, "ng-container", 5);

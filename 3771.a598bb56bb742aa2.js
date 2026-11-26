@@ -513,7 +513,7 @@ class SaveTravellersPage {
   onAgeInput(event) {
     const input = event.target;
     const value = input.value.replace(/\D/g, '').slice(0, 3);
-    this.travellerAge = value ? Math.min(120, Math.max(1, +value)) : '';
+    this.travellerAge = value ? Math.min(100, Math.max(1, +value)) : '';
     input.value = this.travellerAge;
   }
   saveTraveller() {
@@ -527,7 +527,7 @@ class SaveTravellersPage {
       this.util.showAlert('', 'Please enter the traveller name.');
       return;
     }
-    if (!Number.isInteger(age) || age < 1 || age > 120) {
+    if (!Number.isInteger(age) || age < 1 || age > 100) {
       this.util.showAlert('', 'Please enter a valid age.');
       return;
     }

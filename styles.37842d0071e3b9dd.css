@@ -294,7 +294,7 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
   /* 3:62 h17 */
   /* 3:63 h15 */
   /* 3:68-3:77: 20px pills, 6px gaps */
-  /* ASSUMPTION: urgency in Coral (brand rule: coral for urgency) */
+  /* Figma: ≤10 → "Only N berths left" in coral (urgency) */
   /* ======================================================================
      03 · Seat Selection (Figma 4:15), in seat-layout + the shared seat engine
      <app-grid-coach-using-table>. The engine is NOT modified: its existing
@@ -403,9 +403,9 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
   /* 36:222 h16 */
   /* 36:223: 16 inset */
   /* 36:225: 8px gaps */
-  /* ASSUMPTION */
+  /* 36:225 selected: navy fill, white text + icon (same as .sb-chip--selected) */
   /* 36:241: 4 equal tiles, 8px gap */
-  /* ASSUMPTION */
+  /* 36:241 selected: 2px Sea border (1px + inset, no layout shift), Sea tint, Sea text */
   /* 36:274 */
   /* 36:290: Reset 120 + 14 gap + primary */
   /* ======================================================================
@@ -804,6 +804,24 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
 [data-theme=seabirdThemeNew] .sb-chip-scroller::-webkit-scrollbar {
   display: none;
 }
+[data-theme=seabirdThemeNew] .sb-offers {
+  display: block;
+}
+[data-theme=seabirdThemeNew] .sb-offer-slide {
+  height: 140px;
+  border-radius: var(--sb-radius-card);
+  overflow: hidden;
+  background: var(--sb-surface);
+  border: 1px solid var(--sb-border);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+[data-theme=seabirdThemeNew] .sb-offer-slide__img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
 [data-theme=seabirdThemeNew] .sb-quick-actions {
   margin: 0 var(--sb-gutter);
   padding: 8px;
@@ -931,6 +949,13 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
   width: 20px;
   height: 20px;
   display: block;
+}
+[data-theme=seabirdThemeNew] .sb-account-time {
+  cursor: default;
+}
+[data-theme=seabirdThemeNew] .sb-account-time ion-icon {
+  font-size: 24px;
+  color: var(--sb-text);
 }
 [data-theme=seabirdThemeNew] .sb-appbar__text {
   display: flex;
@@ -1337,6 +1362,25 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
   justify-content: space-between;
   gap: 12px;
 }
+[data-theme=seabirdThemeNew] .sb-trip-card__head > div:first-child {
+  min-width: 0;
+}
+[data-theme=seabirdThemeNew] .sb-trip-card__end {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+[data-theme=seabirdThemeNew] .sb-trip-card__chevron {
+  flex: 0 0 auto;
+  width: 20px;
+  height: 20px;
+  display: block;
+  transform: rotate(180deg);
+}
+[data-theme=seabirdThemeNew] .sb-recent-trip .sb-trip-card__chevron {
+  margin-left: auto;
+}
 [data-theme=seabirdThemeNew] .sb-trip-card--compact .sb-trip-meta {
   margin-top: 13px;
 }
@@ -1475,6 +1519,20 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
 [data-theme=seabirdThemeNew] .sb-coupon__stub ion-icon {
   display: block;
   flex: 0 0 auto;
+}
+[data-theme=seabirdThemeNew] .sb-offers .sb-coupon:not(.sb-coupon--skeleton):nth-of-type(3n+1) .sb-coupon__stub {
+  background: var(--sb-color-coral);
+}
+[data-theme=seabirdThemeNew] .sb-offers .sb-coupon:not(.sb-coupon--skeleton):nth-of-type(3n+2) .sb-coupon__stub {
+  background: var(--sb-color-sea);
+}
+[data-theme=seabirdThemeNew] .sb-offers .sb-coupon:not(.sb-coupon--skeleton):nth-of-type(3n) .sb-coupon__stub {
+  background: var(--sb-color-navy);
+}
+[data-theme=seabirdThemeNew] .sb-coupon__icon {
+  width: 26px;
+  height: 26px;
+  display: block;
 }
 [data-theme=seabirdThemeNew] .sb-coupon__body { /* text at x78 (64 + 14), title y14, 15px bottom */
   flex: 1 1 auto;
@@ -2074,12 +2132,13 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
   border-top: 1px solid var(--sb-border);
 }
 [data-theme=seabirdThemeNew] .sb-bus-card__seats {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 12px;
   line-height: 15px;
-  color: var(--sb-color-coral);
+  color: var(--sb-text-muted);
 }
 [data-theme=seabirdThemeNew] .sb-bus-card__seats--low {
+  font-weight: 700;
   color: var(--sb-color-coral);
 }
 [data-theme=seabirdThemeNew] .sb-bus-card__seats--inline {
@@ -2826,7 +2885,7 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
 [data-theme=seabirdThemeNew] .sb-segment {
   flex: 1 1 auto;
   min-width: 0;
-  height: 58px;
+  height: 60px;
   padding: 3px;
   box-sizing: border-box;
   display: flex;
@@ -2837,7 +2896,7 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
 [data-theme=seabirdThemeNew] .sb-segment ion-radio {
   flex: 1 1 0;
   min-width: 0;
-  height: 52px;
+  height: 54px;
   margin: 0;
   border-radius: 8px;
   font-family: var(--sb-font);
@@ -3953,9 +4012,6 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
 [data-theme=seabirdThemeNew] .sb-sheet-body {
   padding: 4px var(--sb-gutter) 24px;
 }
-[data-theme=seabirdThemeNew] .sb-sheet-body .filter-icon {
-  color: var(--sb-accent);
-}
 [data-theme=seabirdThemeNew] .sb-sheet-label { /* 36:224: overline, h15, 10px to the controls */
   margin: 16px 0 10px;
   font-weight: 600;
@@ -3992,11 +4048,12 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
 }
 [data-theme=seabirdThemeNew] .sb-fchip ion-icon {
   font-size: 14px;
+  color: inherit;
 }
 [data-theme=seabirdThemeNew] .sb-fchip--on {
-  border-color: var(--sb-accent);
-  background: var(--sb-color-sea-tint);
-  color: var(--sb-accent);
+  border-color: var(--sb-color-navy);
+  background: var(--sb-color-navy);
+  color: var(--sb-on-brand);
 }
 [data-theme=seabirdThemeNew] .sb-slots {
   display: grid;
@@ -4020,7 +4077,7 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
 }
 [data-theme=seabirdThemeNew] .sb-slot ion-icon {
   font-size: 20px;
-  color: var(--sb-text-muted);
+  color: var(--sb-text);
 }
 [data-theme=seabirdThemeNew] .sb-slot__l1 {
   margin-top: 4px;
@@ -4038,6 +4095,7 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
 }
 [data-theme=seabirdThemeNew] .sb-slot--on {
   border-color: var(--sb-accent);
+  box-shadow: inset 0 0 0 1px var(--sb-accent);
   background: var(--sb-color-sea-tint);
   color: var(--sb-accent);
 }
@@ -5219,6 +5277,12 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
 [data-theme=seabirdThemeNew] .sb-confirm__icon {
   flex: 0 0 auto;
 }
+[data-theme=seabirdThemeNew] .sb-confirm__logo {
+  width: 24px;
+  height: 24px;
+  display: block;
+  object-fit: contain;
+}
 [data-theme=seabirdThemeNew] .sb-confirm__text {
   min-height: 0;
   overflow-y: auto;
@@ -6029,7 +6093,7 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
 [data-theme=seabirdThemeNew] .sb-saved-gender {
   flex: 1 1 auto;
   min-width: 0;
-  height: 58px;
+  height: 60px;
   padding: 3px;
   display: flex;
   gap: 0;
@@ -6568,7 +6632,7 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
     /* Navy artwork */
     /* Sea artwork */
   }
-  [data-theme=seabirdThemeNew] .sb-chip--selected {
+  [data-theme=seabirdThemeNew] .sb-chip--selected, [data-theme=seabirdThemeNew] .sb-fchip--on {
     background: var(--sb-color-sea);
     border-color: var(--sb-color-sea);
   }

@@ -5369,6 +5369,14 @@ function PassengerDetailsPage_ng_container_4_section_25_div_7_Template(rf, ctx) 
       return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.addExistingPass());
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](2, "+ Saved travellers");
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](3, "button", 484);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵlistener"]("click", function PassengerDetailsPage_ng_container_4_section_25_div_7_Template_button_click_3_listener() {
+      _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵrestoreView"](_r144);
+      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵnextContext"](3);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵresetView"](ctx_r1.goToSavedTravellers());
+    });
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](4, "+ Add new");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
   }
 }
@@ -5402,7 +5410,7 @@ function PassengerDetailsPage_ng_container_4_section_25_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](4, "span", 472);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](6, PassengerDetailsPage_ng_container_4_section_25_p_6_Template, 2, 0, "p", 473)(7, PassengerDetailsPage_ng_container_4_section_25_div_7_Template, 3, 0, "div", 474);
+    _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtemplate"](6, PassengerDetailsPage_ng_container_4_section_25_p_6_Template, 2, 0, "p", 473)(7, PassengerDetailsPage_ng_container_4_section_25_div_7_Template, 5, 0, "div", 474);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementStart"](8, "div", 468)(9, "span", 448);
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵtext"](10, "Full name");
     _angular_core__WEBPACK_IMPORTED_MODULE_14__["ɵɵelementEnd"]();
@@ -9721,6 +9729,9 @@ class PassengerDetailsPage {
         }
       }, err => {});
     }
+  }
+  goToSavedTravellers() {
+    this.navCtrl.navigateForward('save-travellers');
   }
 }
 _PassengerDetailsPage = PassengerDetailsPage;
