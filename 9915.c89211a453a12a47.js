@@ -1987,20 +1987,29 @@ function UpdateTicketPage_ng_container_4_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx_r1.updateShow);
   }
 }
+function UpdateTicketPage_ng_container_5_ion_icon_17_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](0, "ion-icon", 228);
+  }
+  if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("name", ctx_r1.optionsVisible ? "chevron-up-outline" : "chevron-down-outline");
+  }
+}
 function UpdateTicketPage_ng_container_5_div_18_ng_container_1_button_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r54 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "button", 230);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "button", 231);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function UpdateTicketPage_ng_container_5_div_18_ng_container_1_button_1_Template_button_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r54);
       const option_r55 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]().$implicit;
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](3);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r1.updateValue(option_r55));
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "span", 231);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](2, "img", 232);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "span", 232);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](2, "img", 233);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "span", 233);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "span", 234);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
   }
@@ -2015,7 +2024,7 @@ function UpdateTicketPage_ng_container_5_div_18_ng_container_1_button_1_Template
 function UpdateTicketPage_ng_container_5_div_18_ng_container_1_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, UpdateTicketPage_ng_container_5_div_18_ng_container_1_button_1_Template, 5, 2, "button", 229);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, UpdateTicketPage_ng_container_5_div_18_ng_container_1_button_1_Template, 5, 2, "button", 230);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
@@ -2027,7 +2036,7 @@ function UpdateTicketPage_ng_container_5_div_18_ng_container_1_Template(rf, ctx)
 }
 function UpdateTicketPage_ng_container_5_div_18_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 228);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 229);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, UpdateTicketPage_ng_container_5_div_18_ng_container_1_Template, 2, 1, "ng-container", 99);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
   }
@@ -2040,7 +2049,7 @@ function UpdateTicketPage_ng_container_5_div_18_Template(rf, ctx) {
 function UpdateTicketPage_ng_container_5_ng_container_19_div_17_button_1_Template(rf, ctx) {
   if (rf & 1) {
     const _r57 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "button", 247);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "button", 248);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function UpdateTicketPage_ng_container_5_ng_container_19_div_17_button_1_Template_button_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r57);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](4);
@@ -2052,7 +2061,7 @@ function UpdateTicketPage_ng_container_5_ng_container_19_div_17_button_1_Templat
 }
 function UpdateTicketPage_ng_container_5_ng_container_19_div_17_ng_container_2_span_1_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "span", 249);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "span", 250);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
   }
@@ -2065,7 +2074,7 @@ function UpdateTicketPage_ng_container_5_ng_container_19_div_17_ng_container_2_s
 function UpdateTicketPage_ng_container_5_ng_container_19_div_17_ng_container_2_ng_template_2_Template(rf, ctx) {
   if (rf & 1) {
     const _r58 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "button", 247);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "button", 248);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function UpdateTicketPage_ng_container_5_ng_container_19_div_17_ng_container_2_ng_template_2_Template_button_click_0_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r58);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](5);
@@ -2078,7 +2087,7 @@ function UpdateTicketPage_ng_container_5_ng_container_19_div_17_ng_container_2_n
 function UpdateTicketPage_ng_container_5_ng_container_19_div_17_ng_container_2_Template(rf, ctx) {
   if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, UpdateTicketPage_ng_container_5_ng_container_19_div_17_ng_container_2_span_1_Template, 2, 1, "span", 248)(2, UpdateTicketPage_ng_container_5_ng_container_19_div_17_ng_container_2_ng_template_2_Template, 2, 0, "ng-template", null, 2, _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplateRefExtractor"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, UpdateTicketPage_ng_container_5_ng_container_19_div_17_ng_container_2_span_1_Template, 2, 1, "span", 249)(2, UpdateTicketPage_ng_container_5_ng_container_19_div_17_ng_container_2_ng_template_2_Template, 2, 0, "ng-template", null, 2, _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplateRefExtractor"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
@@ -2090,8 +2099,8 @@ function UpdateTicketPage_ng_container_5_ng_container_19_div_17_ng_container_2_T
 }
 function UpdateTicketPage_ng_container_5_ng_container_19_div_17_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 245);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, UpdateTicketPage_ng_container_5_ng_container_19_div_17_button_1_Template, 2, 0, "button", 246)(2, UpdateTicketPage_ng_container_5_ng_container_19_div_17_ng_container_2_Template, 4, 2, "ng-container", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 246);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, UpdateTicketPage_ng_container_5_ng_container_19_div_17_button_1_Template, 2, 0, "button", 247)(2, UpdateTicketPage_ng_container_5_ng_container_19_div_17_ng_container_2_Template, 4, 2, "ng-container", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
   }
   if (rf & 2) {
@@ -2105,10 +2114,10 @@ function UpdateTicketPage_ng_container_5_ng_container_19_div_17_Template(rf, ctx
 function UpdateTicketPage_ng_container_5_ng_container_19_div_18_Template(rf, ctx) {
   if (rf & 1) {
     const _r60 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 235)(1, "span", 223);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "div", 236)(1, "span", 223);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](2, "OTP");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "ion-input", 250);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](3, "ion-input", 251);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("keyup", function UpdateTicketPage_ng_container_5_ng_container_19_div_18_Template_ion_input_keyup_3_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r60);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](3);
@@ -2131,7 +2140,7 @@ function UpdateTicketPage_ng_container_5_ng_container_19_div_18_Template(rf, ctx
 function UpdateTicketPage_ng_container_5_ng_container_19_button_19_Template(rf, ctx) {
   if (rf & 1) {
     const _r61 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "button", 251);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "button", 252);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function UpdateTicketPage_ng_container_5_ng_container_19_button_19_Template_button_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r61);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](3);
@@ -2149,7 +2158,7 @@ function UpdateTicketPage_ng_container_5_ng_container_19_button_19_Template(rf, 
 function UpdateTicketPage_ng_container_5_ng_container_19_button_20_Template(rf, ctx) {
   if (rf & 1) {
     const _r62 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "button", 252);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "button", 253);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function UpdateTicketPage_ng_container_5_ng_container_19_button_20_Template_button_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r62);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](3);
@@ -2169,23 +2178,23 @@ function UpdateTicketPage_ng_container_5_ng_container_19_Template(rf, ctx) {
   if (rf & 1) {
     const _r56 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "form", 234);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "form", 235);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("ngSubmit", function UpdateTicketPage_ng_container_5_ng_container_19_Template_form_ngSubmit_1_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r56);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r1.submitForm1());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](2, "div", 235)(3, "span", 223);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](2, "div", 236)(3, "span", 223);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](4, "PNR number");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](5, "ion-input", 236);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](5, "ion-input", 237);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](6, "div", 235)(7, "span", 223);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](6, "div", 236)(7, "span", 223);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](8, "Email / Phone number");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](9, "ion-input", 237);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](9, "ion-input", 238);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "div", 238);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "div", 239);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function UpdateTicketPage_ng_container_5_ng_container_19_Template_div_click_10_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r56);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
@@ -2195,13 +2204,13 @@ function UpdateTicketPage_ng_container_5_ng_container_19_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](12, "Journey date");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](13, "div", 224);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](14, "ion-input", 239);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](15, "span", 240);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](14, "ion-input", 240);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](15, "span", 241);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](16, "ion-icon", 115);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](17, UpdateTicketPage_ng_container_5_ng_container_19_div_17_Template, 3, 2, "div", 241)(18, UpdateTicketPage_ng_container_5_ng_container_19_div_18_Template, 4, 1, "div", 242);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](17, UpdateTicketPage_ng_container_5_ng_container_19_div_17_Template, 3, 2, "div", 242)(18, UpdateTicketPage_ng_container_5_ng_container_19_div_18_Template, 4, 1, "div", 243);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](19, UpdateTicketPage_ng_container_5_ng_container_19_button_19_Template, 2, 1, "button", 243)(20, UpdateTicketPage_ng_container_5_ng_container_19_button_20_Template, 2, 2, "button", 244);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](19, UpdateTicketPage_ng_container_5_ng_container_19_button_19_Template, 2, 1, "button", 244)(20, UpdateTicketPage_ng_container_5_ng_container_19_button_20_Template, 2, 2, "button", 245);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
@@ -2233,7 +2242,7 @@ function UpdateTicketPage_ng_container_5_ng_container_20_ion_select_6_ion_select
 }
 function UpdateTicketPage_ng_container_5_ng_container_20_ion_select_6_Template(rf, ctx) {
   if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-select", 260);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-select", 262);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](1, UpdateTicketPage_ng_container_5_ng_container_20_ion_select_6_ion_select_option_1_Template, 2, 2, "ion-select-option", 42);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
   }
@@ -2246,7 +2255,7 @@ function UpdateTicketPage_ng_container_5_ng_container_20_ion_select_6_Template(r
 function UpdateTicketPage_ng_container_5_ng_container_20_ion_input_7_Template(rf, ctx) {
   if (rf & 1) {
     const _r65 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-input", 261);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "ion-input", 263);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function UpdateTicketPage_ng_container_5_ng_container_20_ion_input_7_Template_ion_input_click_0_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r65);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](3);
@@ -2265,22 +2274,34 @@ function UpdateTicketPage_ng_container_5_ng_container_20_ion_input_7_Template(rf
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtwoWayProperty"]("ngModel", ctx_r1.selected_Country_code);
   }
 }
+function UpdateTicketPage_ng_container_5_ng_container_20_p_9_Template(rf, ctx) {
+  if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](0, "p", 264);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](1, "Invalid Mobile number");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
+  }
+}
 function UpdateTicketPage_ng_container_5_ng_container_20_Template(rf, ctx) {
   if (rf & 1) {
     const _r63 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerStart"](0);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "form", 234);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](1, "form", 235);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("ngSubmit", function UpdateTicketPage_ng_container_5_ng_container_20_Template_form_ngSubmit_1_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r63);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
-      return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r1.updateDetails());
+      return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r1.sbSubmitUpdateDetails());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](2, "div", 253)(3, "span", 223);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](2, "div", 254)(3, "span", 223);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](4, "Mobile number");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](5, "div", 224);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](6, UpdateTicketPage_ng_container_5_ng_container_20_ion_select_6_Template, 2, 1, "ion-select", 254)(7, UpdateTicketPage_ng_container_5_ng_container_20_ion_input_7_Template, 1, 1, "ion-input", 255);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "ion-input", 256);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](6, UpdateTicketPage_ng_container_5_ng_container_20_ion_select_6_Template, 2, 1, "ion-select", 255)(7, UpdateTicketPage_ng_container_5_ng_container_20_ion_input_7_Template, 1, 1, "ion-input", 256);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](8, "ion-input", 257);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("ionInput", function UpdateTicketPage_ng_container_5_ng_container_20_Template_ion_input_ionInput_8_listener($event) {
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r63);
+      const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
+      return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r1.sbOnMobileInput($event));
+    });
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtwoWayListener"]("ngModelChange", function UpdateTicketPage_ng_container_5_ng_container_20_Template_ion_input_ngModelChange_8_listener($event) {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r63);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
@@ -2288,22 +2309,23 @@ function UpdateTicketPage_ng_container_5_ng_container_20_Template(rf, ctx) {
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"]($event);
     });
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](9, "div", 238);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function UpdateTicketPage_ng_container_5_ng_container_20_Template_div_click_9_listener() {
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](9, UpdateTicketPage_ng_container_5_ng_container_20_p_9_Template, 2, 0, "p", 258);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "div", 239);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵlistener"]("click", function UpdateTicketPage_ng_container_5_ng_container_20_Template_div_click_10_listener() {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵrestoreView"](_r63);
       const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"](2);
       return _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵresetView"](ctx_r1.selectBoardingStage());
     });
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](10, "span", 223);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](11, "Boarding point");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](11, "span", 223);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](12, "Boarding point");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](12, "div", 224)(13, "span", 225);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](13, "div", 224)(14, "span", 225);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](15);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](15, "ion-input", 257)(16, "ion-icon", 258);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](16, "ion-input", 259)(17, "ion-icon", 260);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](17, "button", 259);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](18, "button", 261);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](19);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
@@ -2317,6 +2339,8 @@ function UpdateTicketPage_ng_container_5_ng_container_20_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx_r1.commonStorage.getItem("metaData").show_countries_isd_codes_selection);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtwoWayProperty"]("ngModel", ctx_r1.selected_mobilenum);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx_r1.updateDetailsForm.controls["mobile_number"].touched && ctx_r1.updateDetailsForm.controls["mobile_number"].invalid);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](ctx_r1.updateData.boardingStage.name + " " + ctx_r1.updateData.boardingStage.time);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"]();
@@ -2346,24 +2370,26 @@ function UpdateTicketPage_ng_container_5_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementStart"](14, "span", 224)(15, "span", 225);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtext"](16);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelement"](17, "ion-icon", 226);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](17, UpdateTicketPage_ng_container_5_ion_icon_17_Template, 1, 1, "ion-icon", 226);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](18, UpdateTicketPage_ng_container_5_div_18_Template, 2, 1, "div", 227);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](19, UpdateTicketPage_ng_container_5_ng_container_19_Template, 21, 5, "ng-container", 3)(20, UpdateTicketPage_ng_container_5_ng_container_20_Template, 19, 7, "ng-container", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](19, UpdateTicketPage_ng_container_5_ng_container_19_Template, 21, 5, "ng-container", 3)(20, UpdateTicketPage_ng_container_5_ng_container_20_Template, 20, 8, "ng-container", 3);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵelementContainerEnd"]();
   }
   if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵattribute"]("aria-expanded", ctx_r1.optionsVisible ? "true" : "false");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵclassProp"]("sb-select-row--locked", ctx_r1.updateShow == true);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("disabled", ctx_r1.updateShow == true);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵattribute"]("aria-expanded", ctx_r1.optionsVisible && ctx_r1.updateShow != true ? "true" : "false");
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"](5);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtextInterpolate"](ctx_r1.selected_name.label);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("name", ctx_r1.optionsVisible ? "chevron-up-outline" : "chevron-down-outline");
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx_r1.updateShow != true);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx_r1.optionsVisible);
+    _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx_r1.optionsVisible && ctx_r1.updateShow != true);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx_r1.updateShow == false);
     _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵadvance"]();
@@ -3447,6 +3473,47 @@ class UpdateTicketPage {
       this.updateDetailsForm.controls['mobile_number'].setValue(mob.substr(0, this.phoneNumCount));
     }
   }
+  sbOnMobileInput(ev) {
+    var _ref, _ref2, _ev$detail$value, _ev$detail;
+    const host = ev === null || ev === void 0 ? void 0 : ev.target;
+    const isIonInput = host && host.tagName === 'ION-INPUT';
+    const nativeInput = isIonInput ? host.querySelector('input') : host;
+    const raw = String((_ref = (_ref2 = (_ev$detail$value = ev === null || ev === void 0 || (_ev$detail = ev.detail) === null || _ev$detail === void 0 ? void 0 : _ev$detail.value) !== null && _ev$detail$value !== void 0 ? _ev$detail$value : host === null || host === void 0 ? void 0 : host.value) !== null && _ref2 !== void 0 ? _ref2 : nativeInput === null || nativeInput === void 0 ? void 0 : nativeInput.value) !== null && _ref !== void 0 ? _ref : '');
+    const maxPhoneCount = Number(this.phoneNumCount) > 0 ? Number(this.phoneNumCount) : 18;
+    let value = raw.replace(/[^0-9]/g, '');
+    if (value.length > maxPhoneCount) {
+      value = value.substring(0, maxPhoneCount);
+    }
+    if (value && Number(value) === 0) {
+      value = '';
+    }
+    if (nativeInput && nativeInput.value !== value) {
+      nativeInput.value = value;
+    }
+    if (isIonInput && host.value !== value) {
+      host.value = value;
+    }
+    this.updateDetailsForm.controls['mobile_number'].setValue(value);
+    this.selected_mobilenum = value;
+  }
+  sbSubmitUpdateDetails() {
+    var _control$value;
+    const control = this.updateDetailsForm.controls['mobile_number'];
+    const value = String((_control$value = control.value) !== null && _control$value !== void 0 ? _control$value : '').trim();
+    const phoneCount = Number(this.phoneNumCount);
+    const lengthOk = phoneCount > 0 ? value.length === phoneCount : value.length > 0 && value.length <= 18;
+    const isValidMobile = /^[0-9]+$/.test(value) && Number(value) !== 0 && lengthOk;
+    if (!isValidMobile) {
+      control.markAsTouched();
+      control.setErrors({
+        ...(control.errors || {}),
+        sbInvalidMobile: true
+      });
+      this.util.showToast('Invalid Mobile number');
+      return false;
+    }
+    return this.updateDetails();
+  }
   isValid() {
     if (this.updateForm.valid || this.fromMybooking) {
       return true;
@@ -3581,10 +3648,10 @@ _UpdateTicketPage.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_8_
   standalone: false,
   decls: 6,
   vars: 6,
-  consts: [["resendButton", ""], ["popoverDatetime", ""], ["sbResendButton", ""], [4, "ngIf"], ["class", "shyaoli-seat-layout-header", 4, "ngIf"], [3, "ngClass"], ["mode", "md", "slot", "start", 2, "position", "absolute"], [2, "text-align", "center", "font-weight", "700"], [1, "theme1", "themeone"], ["class", "center-div", 4, "ngIf"], [1, "center-div"], [1, "card-row"], [3, "ngSubmit", "formGroup"], [1, "box"], ["formControlName", "pnrNumber", 1, "themeone-input"], ["type", "email", "formControlName", "email", 1, "themeone-input"], ["tappable", "", 1, "box", 3, "click"], [2, "--padding-start", "8px"], ["src", "./assets/icon/Calendar copy.svg", "alt", "", "slot", "end"], [1, "txt-lbl"], ["ion-button", "", 1, "txt-main"], ["type", "text", "readonly", "", "formControlName", "displayDate", 1, "themeone-input", 2, "display", "none"], ["padding", ""], ["mode", "md", "expand", "block", "type", "submit", 3, "ngClass"], [1, "card-row", 2, "margin-top", "0px"], ["size", "12"], [1, "box", "themeone-input"], ["size", "3"], [1, "country-select-wrapper"], ["mode", "md", "interface", "popover", "interface", "popover", "formControlName", "country_code", "class", "custom-country-select", 4, "ngIf"], ["name", "caret-down-outline", "class", "select-icon", 4, "ngIf"], ["class", "txt-input", "formControlName", "country_code", "placeholder", "Code", 3, "ngModel", "click", "ngModelChange", 4, "ngIf"], ["size", "9"], ["formControlName", "mobile_number", "placeholder", "Enter mobile number", "type", "number", 1, "txt-input", 2, "--padding-bottom", "6px", 3, "ngModelChange", "ngModel"], [2, "font-size", "16px", "border", "none", 3, "click"], ["formControlName", "stage", "name", "text", 1, "txt-input"], ["name", "chevron-down-outline", "slot", "end", 2, "font-size", "18px"], [1, "ion-margin-top"], ["size", "12", 1, "ion-margin-top"], ["mode", "md", "expand", "block", "type", "submit", 1, "ticket", "ion-margin-top", 2, "margin", "0px"], ["type", "text", "readonly", "", 2, "display", "none"], ["mode", "md", "interface", "popover", "interface", "popover", "formControlName", "country_code", 1, "custom-country-select"], [3, "value", 4, "ngFor", "ngForOf"], [3, "value"], ["name", "caret-down-outline", 1, "select-icon"], ["formControlName", "country_code", "placeholder", "Code", 1, "txt-input", 3, "click", "ngModelChange", "ngModel"], ["name", "caret-down-outline", "style", "position: absolute;right: 10px;bottom: 10px;", 4, "ngIf"], ["name", "caret-down-outline", 2, "position", "absolute", "right", "10px", "bottom", "10px"], ["mode", "md", 1, "h50", "bg-cl"], ["slot", "start"], [1, "head", 2, "text-transform", "capitalize"], ["formControlName", "pnrNumber", "label", "PNR Number", "labelPlacement", "floating", 1, "txt-lbl", 2, "min-height", "44px", "margin-top", "20px"], ["type", "email", "formControlName", "email", "label", "Email/Phone Number", "labelPlacement", "floating", 1, "txt-lbl", 2, "min-height", "44px", "margin-top", "20px"], ["tappable", "", 3, "click"], ["src", "./assets/icon/Calendar.svg", "alt", "", "slot", "end", 2, "margin-bottom", "4px", "margin-top", "36px"], [1, "txt-lbl", 2, "margin-bottom", "4px", "margin-top", "36px"], ["type", "text", "readonly", "", "formControlName", "displayDate", 2, "display", "none"], ["padding", "", 4, "ngIf"], ["class", "getOtp", 3, "click", 4, "ngIf"], [1, "getOtp", 3, "click"], [1, "resendOtpDiv"], [4, "ngIf", "ngIfElse"], [1, "resendTimeText"], [1, "resendText", 3, "click"], ["type", "text", "label", "Enter Otp", "labelPlacement", "floating", "formControlName", "otp", "maxlength", "6", 1, "txt-lbl", 3, "keyup", "ngModelChange", "ngModel"], ["mode", "md", "expand", "block", "type", "submit", 1, "login-btn"], ["mode", "md", "expand", "block", 1, "login-btn", 3, "click", "disabled"], [1, "txt-input", 2, "margin-left", "24px"], ["size", "2.8", 1, "country-code"], ["mode", "md", "style", "--padding-top: 12px;", "interface", "popover", "formControlName", "country_code", 4, "ngIf"], ["class", "txt-input", "formControlName", "country_code", "placeholder", "Code", "style", "margin-bottom: -5px;", 3, "ngModel", "click", "ngModelChange", 4, "ngIf"], ["name", "chevron-down-outline", 1, "dropdown-arrow", 2, "height", "50%", "width", "24px"], ["size", "9", "size", "9", "offset", "0.2", 2, "border-bottom", "1px solid #a2a2a2"], [2, "font-size", "15px", "color", "#141313", "margin-bottom", "2px"], ["formControlName", "mobile_number", "placeholder", "Enter mobile number", "type", "number", 1, "txt-input", 3, "ngModelChange", "ngModel"], ["style", "font-size: 13px;\n          margin: 10px 0px 10px 22px;\n          color: var(--primary);", 4, "ngIf"], ["style", "padding: 5px;", 4, "ngIf"], [2, "font-size", "15px", "color", "#121212", "margin-bottom", "2px", "margin-left", "17px"], ["placeholder", "Select boarding stage", "formControlName", "stage", "name", "text", 1, "txt-lbl", 2, "margin", "7px 0", "font-size", "18px", 3, "click"], ["slot", "end", "mode", "md", "src", "././assets/icon/arrow-drop-down-big.svg", 1, "modify-dropDown"], ["mode", "md", "interface", "popover", "formControlName", "country_code", 2, "--padding-top", "12px"], ["slot", "icon", "name", "chevron-down-outline", "color", "black", 2, "font-size", "18px", "margin-left", "8px"], ["formControlName", "country_code", "placeholder", "Code", 1, "txt-input", 2, "margin-bottom", "-5px", 3, "click", "ngModelChange", "ngModel"], [2, "font-size", "13px", "margin", "10px 0px 10px 22px", "color", "var(--primary)"], [2, "padding", "5px"], ["type", "email", "label", "E-mail Address", "labelPlacement", "floating", "formControlName", "email", 1, "txt-lbl", 3, "ngModelChange", "ngModel"], ["label", "Select dropping stage", "labelPlacement", "floating", "formControlName", "staged", "name", "text", 1, "txt-lbl", 2, "margin", "7px 0", "font-size", "18px", 3, "click"], [1, "background-cl"], ["mode", "md", 1, "background-cl", 3, "click"], ["defaultHref", "/tabs/more"], [2, "font-weight", "bold"], [1, "seabirdTheme", 2, "--background", "#F1F7FA"], [1, "seabird_row", 3, "click"], ["size", "9", 1, "seabird_col"], ["size", "3", 1, "seabird_col", 2, "justify-content", "end"], [2, "font-size", "20px", 3, "name"], ["style", "box-shadow: 0px 0px 4px 0px #00000040; border: none;", "class", "seabird_row", 4, "ngIf"], [1, "seabird_row", 2, "box-shadow", "0px 0px 4px 0px #00000040", "border", "none"], [2, "width", "100%"], [4, "ngFor", "ngForOf"], ["class", "seabird_col_line", "size", "12", 3, "click", 4, "ngIf"], ["size", "12", 1, "seabird_col_line", 3, "click"], [2, "filter", "brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg)", 3, "src"], [1, "seabird_row", 2, "background", "white", "padding", "0px"], [1, "seabird_item", 3, "ngSubmit", "formGroup"], [1, "seabird_col_line1"], [1, "seabird_item", "seabird-border-bottom", 2, "border-top-left-radius", "15px", "border-top-right-radius", "15px"], ["formControlName", "pnrNumber", "label", "PNR Number", "labelPlacement", "floating", 1, "txt-lbl", 2, "margin-top", "0px !important"], [1, "seabird_item", "seabird-border-bottom"], ["type", "email", "formControlName", "email", "label", "Email/Phone number", "labelPlacement", "floating", 1, "txt-lbl", 2, "margin-top", "0px !important"], ["tappable", "", 1, "seabird_item", "seabird-clickable", 2, "border-radius", "10px", 3, "click"], ["size", "8", 1, "seabird_col_line1"], [1, "txt-lbl", 2, "margin-top", "0px !important"], ["type", "text", "readonly", "", "formControlName", "displayDate", 1, "seabird-input-hidden"], ["size", "4", 1, "seabird_col_line1", "seabird-select-date"], ["name", "calendar-outline"], ["style", "padding: 10px;", "padding", "", 4, "ngIf"], ["class", "get-otp-text", 3, "click", 4, "ngIf"], [1, "get-otp-text", 3, "click"], [1, "resend-otp-text"], [1, "resend-otp-disabled"], [1, "resend-otp-enabled", 3, "click"], ["label", "Enter OTP", "labelPlacement", "floating", "type", "text", "formControlName", "otp", "maxlength", "6", 1, "txt-lbl", 3, "keyup", "ngModelChange", "ngModel"], ["padding", "", 2, "padding", "10px"], ["mode", "md", "expand", "block", "type", "submit", 1, "seabird-login-btn", 3, "click"], ["mode", "md", "expand", "block", 1, "seabird-login-btn", 3, "click", "disabled"], [1, "seabird_row", 2, "background-color", "#ffff", "margin", "12px", "border-radius", "10px"], [2, "color", "transparent"], ["style", "--background:#ffff;border-bottom: 1px solid #626262;", "interface", "popover", "formControlName", "country_code", "class", "custom-select", 4, "ngIf"], ["class", "txt-input", "formControlName", "country_code", "placeholder", "Code", "style", "margin-left:13px", 3, "ngModel", "click", "ngModelChange", 4, "ngIf"], [2, "font-size", "15px", "color", "#444", "margin-bottom", "2px"], ["formControlName", "mobile_number", "placeholder", "Enter mobile number", "type", "number", 1, "txt-input", 2, "border-bottom", "1px solid #626262", 3, "ngModelChange", "ngModel"], [2, "margin-left", "16px"], ["lines", "none", 2, "font-size", "16px", "--background", "#fff", "border-bottom", "1px solid #626262", 3, "click"], ["formControlName", "stage", "name", "text", 1, "txt-input", 2, "display", "contents"], ["mode", "md", "shape", "round", "expand", "block", "type", "submit", 1, "seabird-login-btn", "ion-margin-top"], ["interface", "popover", "formControlName", "country_code", 1, "custom-select", 2, "--background", "#ffff", "border-bottom", "1px solid #626262"], ["formControlName", "country_code", "placeholder", "Code", 1, "txt-input", 2, "margin-left", "13px", 3, "click", "ngModelChange", "ngModel"], [1, "ourbustheme"], [1, "head", 2, "margin-left", "25%"], ["padding", "", 1, "ourbustheme"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input", "input-spacing"], ["fill", "outline", "formControlName", "pnrNumber", "label", "PNR Number", "labelPlacement", "floating", 1, "ourbus_custom_input1", "txt-lbl"], ["fill", "outline", "type", "email", "formControlName", "email", "labelPlacement", "floating", 1, "ourbus_custom_input1", "txt-lbl", 3, "label"], ["lines", "none", "mode", "md", "tappable", "", "id", "open-date-input-3", 1, "ourbus_custom_input"], ["fill", "outline", "label", "Journey Date", "labelPlacement", "floating", "type", "text", "formControlName", "displayDate", 1, "ourbus_inputText", "txt-lbl"], ["id", "dob", "trigger", "open-date-input-3", 1, "ourbus-Modal"], ["lines", "none", "mode", "md", "class", "ourbus_custom_input input-spacing", 4, "ngIf"], ["mode", "md", "color", "success", "show-default-buttons", "true", "done-text", "Ok", "presentation", "date", "showDefaultTitle", "true", 3, "ionChange", "max"], ["style", "    text-align: center;\n\n          color:var(--iconsAndButtonsColor);\n          font-size: 14px;\n\n          padding-top: 10px;\n            margin-bottom: 14px;", 3, "click", 4, "ngIf"], [2, "text-align", "center", "color", "var(--iconsAndButtonsColor)", "font-size", "14px", "padding-top", "10px", "margin-bottom", "14px", 3, "click"], [2, "text-align", "center", "color", "var(--iconsAndButtonsColor)", "font-size", "14px", "padding-top", "10px", "background", "transparent", "margin-bottom", "14px"], [2, "font-size", "14px", "font-weight", "700", "color", "#9B9B9B"], [2, "font-size", "14px", "font-weight", "700", "margin-bottom", "0", "color", "var(--iconsAndButtonsColor)", 3, "click"], ["fill", "outline", "label", "Enter OTP", "labelPlacement", "floating", "formControlName", "otp", "maxlength", "6", "inputmode", "numeric", "type", "tel", 1, "ourbus_custom_input1", "txt-lbl", 3, "ionChange", "keyup", "ngModelChange", "ngModel"], [1, "txt-input"], ["size", "0.5"], ["size", "8.5"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input"], ["fill", "outline", "type", "tel", "maxlength", "10", "label", "Mobile Number", "labelPlacement", "floating", "formControlName", "mobile_number", 1, "ourbus_custom_input1", "txt-input", "ourbus_labelSet", 3, "ionChange", "ngModelChange", "ngModel"], ["style", "font-size: 13px; margin: 10px 0px 10px 22px;color: var(--primary);", 4, "ngIf"], ["lines", "none", "mode", "md", "class", "ourbus_custom_input", 4, "ngIf"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input", 3, "click"], ["fill", "outline", "formControlName", "stage", "name", "text", "label", "Select boarding stage", "labelPlacement", "floating", 1, "txt-lbl", 2, "margin", "7px 0"], ["mode", "md", "expand", "block", "type", "submit", 1, "ourbus-login-btn"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input", "ourbus_item_outline"], [2, "margin", "2px 4px 0px 0px", "font-size", "20px"], [1, "ourbus_inputText", 2, "height", "58px", 3, "readonly"], ["lines", "none", "mode", "md", "class", "ourbus_custom_input ourbus_item_outline", 4, "ngIf"], ["formControlName", "country_code", "placeholder", "Code", 2, "height", "58px", 3, "click", "ngModel"], ["formControlName", "country_code", "placeholder", "Code", 2, "height", "58px", 3, "click", "ngModelChange", "ngModel"], ["fill", "outline", "type", "email", "formControlName", "email", "label", "E-mail Address", "labelPlacement", "floating", 1, "txt-lbl", 3, "ngModelChange", "ngModel"], ["fill", "outline", "label", "Select dropping stage", "labelPlacement", "floating", "formControlName", "staged", "name", "text", 1, "txt-lbl", 2, "margin", "7px 0", 3, "value"], [1, "shyaoli-seat-layout-header"], [2, "box-shadow", "none"], ["mode", "md", 1, "h50", "bg-cl", 2, "--border-width", "0px"], ["slot", "start", "mode", "md", 2, "position", "absolute"], [1, "head", 2, "text-align", "center", "font-size", "17px"], [1, "shyamoli-card", 3, "ngSubmit", "formGroup"], [1, "shyamoli-input-group"], [1, "shyamoli-input-label"], [1, "shyamoli-item"], ["formControlName", "pnrNumber", "placeholder", "PNR Number", 1, "shyamoli-input", 2, "height", "55px"], ["type", "email", "formControlName", "email", "placeholder", "Email/Phone Number", 1, "shyamoli-input", 2, "height", "55px"], [1, "subheading"], ["tappable", "", 1, "shyamoli-item", "shyamoli-date-item", 3, "click"], ["src", "./assets/icon/shyamoli-calendar.svg", "alt", "", "slot", "start", 1, "shyamoli-icon"], ["mode", "md", "type", "text", "readonly", "", "formControlName", "displayDate", 2, "height", "55px", "font-size", "14px"], ["class", "shyamoli-item", 4, "ngIf"], ["class", "shyamoli-otp-link", 3, "click", 4, "ngIf"], ["class", "resendOtpDiv", 4, "ngIf"], [1, "shyamoli-otp-link", 3, "click"], [1, "shyamoli-resend-timer"], [1, "shyamoli-resend-btn", 3, "click"], ["type", "text", "label", "Enter Otp", "labelPlacement", "floating", "formControlName", "otp", "maxlength", "6", 1, "shyamoli-input", 3, "keyup", "ngModelChange", "ngModel"], ["mode", "md", "expand", "block", 1, "login-btn", "shyamoli-button", 3, "click", "disabled"], ["mode", "md", "expand", "block", "type", "submit", 1, "shyamoli-button"], [1, "txt-input", "shyamoli-item-row"], ["size", "2.8", 1, "country-code", "shyamoli-item"], ["interface", "popover", "formControlName", "country_code", "class", "shyamoli-input", 4, "ngIf"], ["class", "shyamoli-input", "formControlName", "country_code", "placeholder", "Code", "style", "margin-left: 10px;", 3, "ngModel", "click", "ngModelChange", 4, "ngIf"], ["size", "9", "offset", "0.2", 1, "shyamoli-item"], ["formControlName", "mobile_number", "placeholder", "Enter mobile number", "type", "number", 1, "shyamoli-input", 2, "margin-left", "5px", 3, "ngModelChange", "ngModel"], ["class", "shyamoli-warning", 4, "ngIf"], [2, "padding", "5px 0px"], [1, "shyamoli-label"], [1, "shyamoli-item", "shyamoli-date-item"], ["placeholder", "Select boarding stage", "formControlName", "stage", 1, "shyamoli-input", 2, "height", "55px", 3, "click"], ["placeholder", "Select dropping stage", "formControlName", "staged", 1, "shyamoli-input", 2, "height", "55px", 3, "click"], ["interface", "popover", "formControlName", "country_code", 1, "shyamoli-input"], ["formControlName", "country_code", "placeholder", "Code", 1, "shyamoli-input", 2, "margin-left", "10px", 3, "click", "ngModelChange", "ngModel"], [1, "shyamoli-warning"], ["type", "email", "label", "E-mail Address", "labelPlacement", "floating", "formControlName", "email", 1, "shyamoli-input", 2, "height", "55px", 3, "ngModelChange", "ngModel"], [1, "sb-page-header"], [1, "sb-toolbar"], [1, "sb-results-appbar", "sb-pax-appbar"], ["text", "", "icon", "./assets/seabird-new/back-arrow-navy.svg", "defaultHref", "/tabs/more", 1, "sb-auth-back"], [1, "sb-appbar__text"], [1, "sb-appbar__title"], [1, "sb-pax"], [1, "sb-pax__form"], [1, "sb-pax-card"], ["type", "button", 1, "sb-pfield", "sb-select-row", 3, "click"], [1, "sb-pfield__label"], [1, "sb-pfield__row"], [1, "sb-select-row__value"], ["aria-hidden", "true", 1, "sb-select-row__chevron", 3, "name"], ["class", "sb-ut-options", 4, "ngIf"], [1, "sb-ut-options"], ["type", "button", "class", "sb-menu-row", 3, "click", 4, "ngIf"], ["type", "button", 1, "sb-menu-row", 3, "click"], [1, "sb-menu-row__icon"], ["alt", "", 3, "src"], [1, "sb-menu-row__title"], [1, "sb-pax-card", 3, "ngSubmit", "formGroup"], [1, "sb-pfield"], ["formControlName", "pnrNumber", "placeholder", "Enter PNR number", "aria-label", "PNR number", 1, "sb-pfield__input"], ["type", "email", "formControlName", "email", "placeholder", "Enter email or phone number", "aria-label", "Email or phone number", 1, "sb-pfield__input"], ["tappable", "", 1, "sb-pfield", "sb-auth__date", 3, "click"], ["type", "text", "readonly", "", "formControlName", "displayDate", "placeholder", "Select date", "aria-label", "Journey date", 1, "sb-pfield__input"], ["aria-hidden", "true", 1, "sb-auth__icon"], ["class", "sb-ut-otp", 4, "ngIf"], ["class", "sb-pfield", 4, "ngIf"], ["type", "button", "class", "sb-btn-solid sb-auth__btn", 3, "click", 4, "ngIf"], ["type", "button", "class", "sb-btn-solid sb-auth__btn", 3, "disabled", "click", 4, "ngIf"], [1, "sb-ut-otp"], ["type", "button", "class", "sb-auth__link-btn", 3, "click", 4, "ngIf"], ["type", "button", 1, "sb-auth__link-btn", 3, "click"], ["class", "sb-ut-otp__timer", 4, "ngIf", "ngIfElse"], [1, "sb-ut-otp__timer"], ["type", "text", "formControlName", "otp", "maxlength", "6", "placeholder", "Enter OTP", "aria-label", "OTP", 1, "sb-pfield__input", 3, "keyup", "ngModelChange", "ngModel"], ["type", "button", 1, "sb-btn-solid", "sb-auth__btn", 3, "click"], ["type", "button", 1, "sb-btn-solid", "sb-auth__btn", 3, "click", "disabled"], [1, "sb-pfield", "sb-pfield--phone"], ["class", "sb-pfield__code", "interface", "popover", "mode", "md", "formControlName", "country_code", "aria-label", "Country code", 4, "ngIf"], ["class", "sb-pfield__code", "formControlName", "country_code", "placeholder", "Code", "aria-label", "Country code", 3, "ngModel", "click", "ngModelChange", 4, "ngIf"], ["formControlName", "mobile_number", "placeholder", "Enter mobile number", "type", "number", "aria-label", "Mobile number", 1, "sb-pfield__input", 3, "ngModelChange", "ngModel"], ["formControlName", "stage", "name", "text", "aria-hidden", "true", 1, "sb-ut-hidden"], ["name", "chevron-down-outline", "aria-hidden", "true", 1, "sb-select-row__chevron"], ["type", "submit", 1, "sb-btn-solid", "sb-auth__btn"], ["interface", "popover", "mode", "md", "formControlName", "country_code", "aria-label", "Country code", 1, "sb-pfield__code"], ["formControlName", "country_code", "placeholder", "Code", "aria-label", "Country code", 1, "sb-pfield__code", 3, "click", "ngModelChange", "ngModel"]],
+  consts: [["resendButton", ""], ["popoverDatetime", ""], ["sbResendButton", ""], [4, "ngIf"], ["class", "shyaoli-seat-layout-header", 4, "ngIf"], [3, "ngClass"], ["mode", "md", "slot", "start", 2, "position", "absolute"], [2, "text-align", "center", "font-weight", "700"], [1, "theme1", "themeone"], ["class", "center-div", 4, "ngIf"], [1, "center-div"], [1, "card-row"], [3, "ngSubmit", "formGroup"], [1, "box"], ["formControlName", "pnrNumber", 1, "themeone-input"], ["type", "email", "formControlName", "email", 1, "themeone-input"], ["tappable", "", 1, "box", 3, "click"], [2, "--padding-start", "8px"], ["src", "./assets/icon/Calendar copy.svg", "alt", "", "slot", "end"], [1, "txt-lbl"], ["ion-button", "", 1, "txt-main"], ["type", "text", "readonly", "", "formControlName", "displayDate", 1, "themeone-input", 2, "display", "none"], ["padding", ""], ["mode", "md", "expand", "block", "type", "submit", 3, "ngClass"], [1, "card-row", 2, "margin-top", "0px"], ["size", "12"], [1, "box", "themeone-input"], ["size", "3"], [1, "country-select-wrapper"], ["mode", "md", "interface", "popover", "interface", "popover", "formControlName", "country_code", "class", "custom-country-select", 4, "ngIf"], ["name", "caret-down-outline", "class", "select-icon", 4, "ngIf"], ["class", "txt-input", "formControlName", "country_code", "placeholder", "Code", 3, "ngModel", "click", "ngModelChange", 4, "ngIf"], ["size", "9"], ["formControlName", "mobile_number", "placeholder", "Enter mobile number", "type", "number", 1, "txt-input", 2, "--padding-bottom", "6px", 3, "ngModelChange", "ngModel"], [2, "font-size", "16px", "border", "none", 3, "click"], ["formControlName", "stage", "name", "text", 1, "txt-input"], ["name", "chevron-down-outline", "slot", "end", 2, "font-size", "18px"], [1, "ion-margin-top"], ["size", "12", 1, "ion-margin-top"], ["mode", "md", "expand", "block", "type", "submit", 1, "ticket", "ion-margin-top", 2, "margin", "0px"], ["type", "text", "readonly", "", 2, "display", "none"], ["mode", "md", "interface", "popover", "interface", "popover", "formControlName", "country_code", 1, "custom-country-select"], [3, "value", 4, "ngFor", "ngForOf"], [3, "value"], ["name", "caret-down-outline", 1, "select-icon"], ["formControlName", "country_code", "placeholder", "Code", 1, "txt-input", 3, "click", "ngModelChange", "ngModel"], ["name", "caret-down-outline", "style", "position: absolute;right: 10px;bottom: 10px;", 4, "ngIf"], ["name", "caret-down-outline", 2, "position", "absolute", "right", "10px", "bottom", "10px"], ["mode", "md", 1, "h50", "bg-cl"], ["slot", "start"], [1, "head", 2, "text-transform", "capitalize"], ["formControlName", "pnrNumber", "label", "PNR Number", "labelPlacement", "floating", 1, "txt-lbl", 2, "min-height", "44px", "margin-top", "20px"], ["type", "email", "formControlName", "email", "label", "Email/Phone Number", "labelPlacement", "floating", 1, "txt-lbl", 2, "min-height", "44px", "margin-top", "20px"], ["tappable", "", 3, "click"], ["src", "./assets/icon/Calendar.svg", "alt", "", "slot", "end", 2, "margin-bottom", "4px", "margin-top", "36px"], [1, "txt-lbl", 2, "margin-bottom", "4px", "margin-top", "36px"], ["type", "text", "readonly", "", "formControlName", "displayDate", 2, "display", "none"], ["padding", "", 4, "ngIf"], ["class", "getOtp", 3, "click", 4, "ngIf"], [1, "getOtp", 3, "click"], [1, "resendOtpDiv"], [4, "ngIf", "ngIfElse"], [1, "resendTimeText"], [1, "resendText", 3, "click"], ["type", "text", "label", "Enter Otp", "labelPlacement", "floating", "formControlName", "otp", "maxlength", "6", 1, "txt-lbl", 3, "keyup", "ngModelChange", "ngModel"], ["mode", "md", "expand", "block", "type", "submit", 1, "login-btn"], ["mode", "md", "expand", "block", 1, "login-btn", 3, "click", "disabled"], [1, "txt-input", 2, "margin-left", "24px"], ["size", "2.8", 1, "country-code"], ["mode", "md", "style", "--padding-top: 12px;", "interface", "popover", "formControlName", "country_code", 4, "ngIf"], ["class", "txt-input", "formControlName", "country_code", "placeholder", "Code", "style", "margin-bottom: -5px;", 3, "ngModel", "click", "ngModelChange", 4, "ngIf"], ["name", "chevron-down-outline", 1, "dropdown-arrow", 2, "height", "50%", "width", "24px"], ["size", "9", "size", "9", "offset", "0.2", 2, "border-bottom", "1px solid #a2a2a2"], [2, "font-size", "15px", "color", "#141313", "margin-bottom", "2px"], ["formControlName", "mobile_number", "placeholder", "Enter mobile number", "type", "number", 1, "txt-input", 3, "ngModelChange", "ngModel"], ["style", "font-size: 13px;\n          margin: 10px 0px 10px 22px;\n          color: var(--primary);", 4, "ngIf"], ["style", "padding: 5px;", 4, "ngIf"], [2, "font-size", "15px", "color", "#121212", "margin-bottom", "2px", "margin-left", "17px"], ["placeholder", "Select boarding stage", "formControlName", "stage", "name", "text", 1, "txt-lbl", 2, "margin", "7px 0", "font-size", "18px", 3, "click"], ["slot", "end", "mode", "md", "src", "././assets/icon/arrow-drop-down-big.svg", 1, "modify-dropDown"], ["mode", "md", "interface", "popover", "formControlName", "country_code", 2, "--padding-top", "12px"], ["slot", "icon", "name", "chevron-down-outline", "color", "black", 2, "font-size", "18px", "margin-left", "8px"], ["formControlName", "country_code", "placeholder", "Code", 1, "txt-input", 2, "margin-bottom", "-5px", 3, "click", "ngModelChange", "ngModel"], [2, "font-size", "13px", "margin", "10px 0px 10px 22px", "color", "var(--primary)"], [2, "padding", "5px"], ["type", "email", "label", "E-mail Address", "labelPlacement", "floating", "formControlName", "email", 1, "txt-lbl", 3, "ngModelChange", "ngModel"], ["label", "Select dropping stage", "labelPlacement", "floating", "formControlName", "staged", "name", "text", 1, "txt-lbl", 2, "margin", "7px 0", "font-size", "18px", 3, "click"], [1, "background-cl"], ["mode", "md", 1, "background-cl", 3, "click"], ["defaultHref", "/tabs/more"], [2, "font-weight", "bold"], [1, "seabirdTheme", 2, "--background", "#F1F7FA"], [1, "seabird_row", 3, "click"], ["size", "9", 1, "seabird_col"], ["size", "3", 1, "seabird_col", 2, "justify-content", "end"], [2, "font-size", "20px", 3, "name"], ["style", "box-shadow: 0px 0px 4px 0px #00000040; border: none;", "class", "seabird_row", 4, "ngIf"], [1, "seabird_row", 2, "box-shadow", "0px 0px 4px 0px #00000040", "border", "none"], [2, "width", "100%"], [4, "ngFor", "ngForOf"], ["class", "seabird_col_line", "size", "12", 3, "click", 4, "ngIf"], ["size", "12", 1, "seabird_col_line", 3, "click"], [2, "filter", "brightness(0) saturate(100%) invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg)", 3, "src"], [1, "seabird_row", 2, "background", "white", "padding", "0px"], [1, "seabird_item", 3, "ngSubmit", "formGroup"], [1, "seabird_col_line1"], [1, "seabird_item", "seabird-border-bottom", 2, "border-top-left-radius", "15px", "border-top-right-radius", "15px"], ["formControlName", "pnrNumber", "label", "PNR Number", "labelPlacement", "floating", 1, "txt-lbl", 2, "margin-top", "0px !important"], [1, "seabird_item", "seabird-border-bottom"], ["type", "email", "formControlName", "email", "label", "Email/Phone number", "labelPlacement", "floating", 1, "txt-lbl", 2, "margin-top", "0px !important"], ["tappable", "", 1, "seabird_item", "seabird-clickable", 2, "border-radius", "10px", 3, "click"], ["size", "8", 1, "seabird_col_line1"], [1, "txt-lbl", 2, "margin-top", "0px !important"], ["type", "text", "readonly", "", "formControlName", "displayDate", 1, "seabird-input-hidden"], ["size", "4", 1, "seabird_col_line1", "seabird-select-date"], ["name", "calendar-outline"], ["style", "padding: 10px;", "padding", "", 4, "ngIf"], ["class", "get-otp-text", 3, "click", 4, "ngIf"], [1, "get-otp-text", 3, "click"], [1, "resend-otp-text"], [1, "resend-otp-disabled"], [1, "resend-otp-enabled", 3, "click"], ["label", "Enter OTP", "labelPlacement", "floating", "type", "text", "formControlName", "otp", "maxlength", "6", 1, "txt-lbl", 3, "keyup", "ngModelChange", "ngModel"], ["padding", "", 2, "padding", "10px"], ["mode", "md", "expand", "block", "type", "submit", 1, "seabird-login-btn", 3, "click"], ["mode", "md", "expand", "block", 1, "seabird-login-btn", 3, "click", "disabled"], [1, "seabird_row", 2, "background-color", "#ffff", "margin", "12px", "border-radius", "10px"], [2, "color", "transparent"], ["style", "--background:#ffff;border-bottom: 1px solid #626262;", "interface", "popover", "formControlName", "country_code", "class", "custom-select", 4, "ngIf"], ["class", "txt-input", "formControlName", "country_code", "placeholder", "Code", "style", "margin-left:13px", 3, "ngModel", "click", "ngModelChange", 4, "ngIf"], [2, "font-size", "15px", "color", "#444", "margin-bottom", "2px"], ["formControlName", "mobile_number", "placeholder", "Enter mobile number", "type", "number", 1, "txt-input", 2, "border-bottom", "1px solid #626262", 3, "ngModelChange", "ngModel"], [2, "margin-left", "16px"], ["lines", "none", 2, "font-size", "16px", "--background", "#fff", "border-bottom", "1px solid #626262", 3, "click"], ["formControlName", "stage", "name", "text", 1, "txt-input", 2, "display", "contents"], ["mode", "md", "shape", "round", "expand", "block", "type", "submit", 1, "seabird-login-btn", "ion-margin-top"], ["interface", "popover", "formControlName", "country_code", 1, "custom-select", 2, "--background", "#ffff", "border-bottom", "1px solid #626262"], ["formControlName", "country_code", "placeholder", "Code", 1, "txt-input", 2, "margin-left", "13px", 3, "click", "ngModelChange", "ngModel"], [1, "ourbustheme"], [1, "head", 2, "margin-left", "25%"], ["padding", "", 1, "ourbustheme"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input", "input-spacing"], ["fill", "outline", "formControlName", "pnrNumber", "label", "PNR Number", "labelPlacement", "floating", 1, "ourbus_custom_input1", "txt-lbl"], ["fill", "outline", "type", "email", "formControlName", "email", "labelPlacement", "floating", 1, "ourbus_custom_input1", "txt-lbl", 3, "label"], ["lines", "none", "mode", "md", "tappable", "", "id", "open-date-input-3", 1, "ourbus_custom_input"], ["fill", "outline", "label", "Journey Date", "labelPlacement", "floating", "type", "text", "formControlName", "displayDate", 1, "ourbus_inputText", "txt-lbl"], ["id", "dob", "trigger", "open-date-input-3", 1, "ourbus-Modal"], ["lines", "none", "mode", "md", "class", "ourbus_custom_input input-spacing", 4, "ngIf"], ["mode", "md", "color", "success", "show-default-buttons", "true", "done-text", "Ok", "presentation", "date", "showDefaultTitle", "true", 3, "ionChange", "max"], ["style", "    text-align: center;\n\n          color:var(--iconsAndButtonsColor);\n          font-size: 14px;\n\n          padding-top: 10px;\n            margin-bottom: 14px;", 3, "click", 4, "ngIf"], [2, "text-align", "center", "color", "var(--iconsAndButtonsColor)", "font-size", "14px", "padding-top", "10px", "margin-bottom", "14px", 3, "click"], [2, "text-align", "center", "color", "var(--iconsAndButtonsColor)", "font-size", "14px", "padding-top", "10px", "background", "transparent", "margin-bottom", "14px"], [2, "font-size", "14px", "font-weight", "700", "color", "#9B9B9B"], [2, "font-size", "14px", "font-weight", "700", "margin-bottom", "0", "color", "var(--iconsAndButtonsColor)", 3, "click"], ["fill", "outline", "label", "Enter OTP", "labelPlacement", "floating", "formControlName", "otp", "maxlength", "6", "inputmode", "numeric", "type", "tel", 1, "ourbus_custom_input1", "txt-lbl", 3, "ionChange", "keyup", "ngModelChange", "ngModel"], [1, "txt-input"], ["size", "0.5"], ["size", "8.5"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input"], ["fill", "outline", "type", "tel", "maxlength", "10", "label", "Mobile Number", "labelPlacement", "floating", "formControlName", "mobile_number", 1, "ourbus_custom_input1", "txt-input", "ourbus_labelSet", 3, "ionChange", "ngModelChange", "ngModel"], ["style", "font-size: 13px; margin: 10px 0px 10px 22px;color: var(--primary);", 4, "ngIf"], ["lines", "none", "mode", "md", "class", "ourbus_custom_input", 4, "ngIf"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input", 3, "click"], ["fill", "outline", "formControlName", "stage", "name", "text", "label", "Select boarding stage", "labelPlacement", "floating", 1, "txt-lbl", 2, "margin", "7px 0"], ["mode", "md", "expand", "block", "type", "submit", 1, "ourbus-login-btn"], ["lines", "none", "mode", "md", 1, "ourbus_custom_input", "ourbus_item_outline"], [2, "margin", "2px 4px 0px 0px", "font-size", "20px"], [1, "ourbus_inputText", 2, "height", "58px", 3, "readonly"], ["lines", "none", "mode", "md", "class", "ourbus_custom_input ourbus_item_outline", 4, "ngIf"], ["formControlName", "country_code", "placeholder", "Code", 2, "height", "58px", 3, "click", "ngModel"], ["formControlName", "country_code", "placeholder", "Code", 2, "height", "58px", 3, "click", "ngModelChange", "ngModel"], ["fill", "outline", "type", "email", "formControlName", "email", "label", "E-mail Address", "labelPlacement", "floating", 1, "txt-lbl", 3, "ngModelChange", "ngModel"], ["fill", "outline", "label", "Select dropping stage", "labelPlacement", "floating", "formControlName", "staged", "name", "text", 1, "txt-lbl", 2, "margin", "7px 0", 3, "value"], [1, "shyaoli-seat-layout-header"], [2, "box-shadow", "none"], ["mode", "md", 1, "h50", "bg-cl", 2, "--border-width", "0px"], ["slot", "start", "mode", "md", 2, "position", "absolute"], [1, "head", 2, "text-align", "center", "font-size", "17px"], [1, "shyamoli-card", 3, "ngSubmit", "formGroup"], [1, "shyamoli-input-group"], [1, "shyamoli-input-label"], [1, "shyamoli-item"], ["formControlName", "pnrNumber", "placeholder", "PNR Number", 1, "shyamoli-input", 2, "height", "55px"], ["type", "email", "formControlName", "email", "placeholder", "Email/Phone Number", 1, "shyamoli-input", 2, "height", "55px"], [1, "subheading"], ["tappable", "", 1, "shyamoli-item", "shyamoli-date-item", 3, "click"], ["src", "./assets/icon/shyamoli-calendar.svg", "alt", "", "slot", "start", 1, "shyamoli-icon"], ["mode", "md", "type", "text", "readonly", "", "formControlName", "displayDate", 2, "height", "55px", "font-size", "14px"], ["class", "shyamoli-item", 4, "ngIf"], ["class", "shyamoli-otp-link", 3, "click", 4, "ngIf"], ["class", "resendOtpDiv", 4, "ngIf"], [1, "shyamoli-otp-link", 3, "click"], [1, "shyamoli-resend-timer"], [1, "shyamoli-resend-btn", 3, "click"], ["type", "text", "label", "Enter Otp", "labelPlacement", "floating", "formControlName", "otp", "maxlength", "6", 1, "shyamoli-input", 3, "keyup", "ngModelChange", "ngModel"], ["mode", "md", "expand", "block", 1, "login-btn", "shyamoli-button", 3, "click", "disabled"], ["mode", "md", "expand", "block", "type", "submit", 1, "shyamoli-button"], [1, "txt-input", "shyamoli-item-row"], ["size", "2.8", 1, "country-code", "shyamoli-item"], ["interface", "popover", "formControlName", "country_code", "class", "shyamoli-input", 4, "ngIf"], ["class", "shyamoli-input", "formControlName", "country_code", "placeholder", "Code", "style", "margin-left: 10px;", 3, "ngModel", "click", "ngModelChange", 4, "ngIf"], ["size", "9", "offset", "0.2", 1, "shyamoli-item"], ["formControlName", "mobile_number", "placeholder", "Enter mobile number", "type", "number", 1, "shyamoli-input", 2, "margin-left", "5px", 3, "ngModelChange", "ngModel"], ["class", "shyamoli-warning", 4, "ngIf"], [2, "padding", "5px 0px"], [1, "shyamoli-label"], [1, "shyamoli-item", "shyamoli-date-item"], ["placeholder", "Select boarding stage", "formControlName", "stage", 1, "shyamoli-input", 2, "height", "55px", 3, "click"], ["placeholder", "Select dropping stage", "formControlName", "staged", 1, "shyamoli-input", 2, "height", "55px", 3, "click"], ["interface", "popover", "formControlName", "country_code", 1, "shyamoli-input"], ["formControlName", "country_code", "placeholder", "Code", 1, "shyamoli-input", 2, "margin-left", "10px", 3, "click", "ngModelChange", "ngModel"], [1, "shyamoli-warning"], ["type", "email", "label", "E-mail Address", "labelPlacement", "floating", "formControlName", "email", 1, "shyamoli-input", 2, "height", "55px", 3, "ngModelChange", "ngModel"], [1, "sb-page-header"], [1, "sb-toolbar"], [1, "sb-results-appbar", "sb-pax-appbar"], ["text", "", "icon", "./assets/seabird-new/back-arrow-navy.svg", "defaultHref", "/tabs/more", 1, "sb-auth-back"], [1, "sb-appbar__text"], [1, "sb-appbar__title"], [1, "sb-pax"], [1, "sb-pax__form"], [1, "sb-pax-card"], ["type", "button", 1, "sb-pfield", "sb-select-row", 3, "click", "disabled"], [1, "sb-pfield__label"], [1, "sb-pfield__row"], [1, "sb-select-row__value"], ["class", "sb-select-row__chevron", "aria-hidden", "true", 3, "name", 4, "ngIf"], ["class", "sb-ut-options", 4, "ngIf"], ["aria-hidden", "true", 1, "sb-select-row__chevron", 3, "name"], [1, "sb-ut-options"], ["type", "button", "class", "sb-menu-row", 3, "click", 4, "ngIf"], ["type", "button", 1, "sb-menu-row", 3, "click"], [1, "sb-menu-row__icon"], ["alt", "", 3, "src"], [1, "sb-menu-row__title"], [1, "sb-pax-card", 3, "ngSubmit", "formGroup"], [1, "sb-pfield"], ["formControlName", "pnrNumber", "placeholder", "Enter PNR number", "aria-label", "PNR number", 1, "sb-pfield__input"], ["type", "email", "formControlName", "email", "placeholder", "Enter email or phone number", "aria-label", "Email or phone number", 1, "sb-pfield__input"], ["tappable", "", 1, "sb-pfield", "sb-auth__date", 3, "click"], ["type", "text", "readonly", "", "formControlName", "displayDate", "placeholder", "Select date", "aria-label", "Journey date", 1, "sb-pfield__input"], ["aria-hidden", "true", 1, "sb-auth__icon"], ["class", "sb-ut-otp", 4, "ngIf"], ["class", "sb-pfield", 4, "ngIf"], ["type", "button", "class", "sb-btn-solid sb-auth__btn", 3, "click", 4, "ngIf"], ["type", "button", "class", "sb-btn-solid sb-auth__btn", 3, "disabled", "click", 4, "ngIf"], [1, "sb-ut-otp"], ["type", "button", "class", "sb-auth__link-btn", 3, "click", 4, "ngIf"], ["type", "button", 1, "sb-auth__link-btn", 3, "click"], ["class", "sb-ut-otp__timer", 4, "ngIf", "ngIfElse"], [1, "sb-ut-otp__timer"], ["type", "text", "formControlName", "otp", "maxlength", "6", "placeholder", "Enter OTP", "aria-label", "OTP", 1, "sb-pfield__input", 3, "keyup", "ngModelChange", "ngModel"], ["type", "button", 1, "sb-btn-solid", "sb-auth__btn", 3, "click"], ["type", "button", 1, "sb-btn-solid", "sb-auth__btn", 3, "click", "disabled"], [1, "sb-pfield", "sb-pfield--phone"], ["class", "sb-pfield__code", "interface", "popover", "mode", "md", "formControlName", "country_code", "aria-label", "Country code", 4, "ngIf"], ["class", "sb-pfield__code", "formControlName", "country_code", "placeholder", "Code", "aria-label", "Country code", 3, "ngModel", "click", "ngModelChange", 4, "ngIf"], ["formControlName", "mobile_number", "placeholder", "Enter mobile number", "type", "tel", "inputmode", "numeric", "aria-label", "Mobile number", 1, "sb-pfield__input", 3, "ionInput", "ngModelChange", "ngModel"], ["class", "sb-pax-warn", "role", "alert", 4, "ngIf"], ["formControlName", "stage", "name", "text", "aria-hidden", "true", 1, "sb-ut-hidden"], ["name", "chevron-down-outline", "aria-hidden", "true", 1, "sb-select-row__chevron"], ["type", "submit", 1, "sb-btn-solid", "sb-auth__btn"], ["interface", "popover", "mode", "md", "formControlName", "country_code", "aria-label", "Country code", 1, "sb-pfield__code"], ["formControlName", "country_code", "placeholder", "Code", "aria-label", "Country code", 1, "sb-pfield__code", 3, "click", "ngModelChange", "ngModel"], ["role", "alert", 1, "sb-pax-warn"]],
   template: function UpdateTicketPage_Template(rf, ctx) {
     if (rf & 1) {
-      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](0, UpdateTicketPage_ng_container_0_Template, 10, 4, "ng-container", 3)(1, UpdateTicketPage_ng_container_1_Template, 10, 3, "ng-container", 3)(2, UpdateTicketPage_ng_container_2_Template, 16, 5, "ng-container", 3)(3, UpdateTicketPage_ng_container_3_Template, 10, 3, "ng-container", 3)(4, UpdateTicketPage_ng_container_4_Template, 10, 3, "ng-container", 4)(5, UpdateTicketPage_ng_container_5_Template, 21, 6, "ng-container", 3);
+      _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵtemplate"](0, UpdateTicketPage_ng_container_0_Template, 10, 4, "ng-container", 3)(1, UpdateTicketPage_ng_container_1_Template, 10, 3, "ng-container", 3)(2, UpdateTicketPage_ng_container_2_Template, 16, 5, "ng-container", 3)(3, UpdateTicketPage_ng_container_3_Template, 10, 3, "ng-container", 3)(4, UpdateTicketPage_ng_container_4_Template, 10, 3, "ng-container", 4)(5, UpdateTicketPage_ng_container_5_Template, 21, 9, "ng-container", 3);
     }
     if (rf & 2) {
       _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵproperty"]("ngIf", ctx.metaData.msiteFolder == "cbustheme" || ctx.metaData.msiteFolder == "networktheme");

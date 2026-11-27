@@ -490,6 +490,7 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
   /* First-load skeleton (reuses .sb-skel from Search Results) */
   /* Feedback message (textarea in a Passenger Details field) */
   /* Modify Ticket: option selector + hidden stage control */
+  /* Update Ticket: option locked once mobile/boarding section is shown */
   /* as the seabirdTheme block: dark icons */
   /* Help & support */
   /* Refer and Earn */
@@ -4528,6 +4529,68 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
   width: 64px;
   height: 64px;
 }
+[data-theme=seabirdThemeNew] ion-bottom-drawer .sb-bd-hero--images::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 110px;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, transparent 100%);
+}
+[data-theme=seabirdThemeNew] ion-bottom-drawer .sb-bd-hero--images .sb-bd-hero__btn {
+  z-index: 2;
+}
+[data-theme=seabirdThemeNew] ion-bottom-drawer .sb-bd-hero__images {
+  position: absolute;
+  top: calc(96px + var(--ion-safe-area-top, 0px));
+  left: 0;
+  right: 0;
+  bottom: 14px;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 10px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  align-items: stretch;
+}
+[data-theme=seabirdThemeNew] ion-bottom-drawer .sb-bd-hero__images::-webkit-scrollbar {
+  display: none;
+}
+[data-theme=seabirdThemeNew] ion-bottom-drawer .sb-bd-hero__img-item {
+  flex: 0 0 78%;
+  scroll-snap-align: start;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+[data-theme=seabirdThemeNew] ion-bottom-drawer .sb-bd-hero__img-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+[data-theme=seabirdThemeNew] ion-bottom-drawer .sb-bd-hero__scroll-end {
+  flex: 0 0 6px;
+}
+[data-theme=seabirdThemeNew] ion-bottom-drawer .sb-bd-hero__count {
+  position: absolute;
+  bottom: 20px;
+  right: 16px;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+}
 [data-theme=seabirdThemeNew] ion-bottom-drawer .sb-bd-content {
   --background: var(--sb-bg);
   font-family: var(--sb-font);
@@ -5005,6 +5068,11 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
   flex: 0 0 auto;
   font-size: 18px;
   color: var(--sb-text-muted);
+}
+[data-theme=seabirdThemeNew] .sb-select-row--locked, [data-theme=seabirdThemeNew] .sb-select-row:disabled {
+  cursor: default;
+  opacity: 0.6;
+  pointer-events: none;
 }
 [data-theme=seabirdThemeNew] .sb-ut-options .sb-menu-row {
   min-height: 52px;
@@ -6422,7 +6490,47 @@ html{font-family:var(--ion-font-family)}@supports(-webkit-touch-callout: none){h
 [data-theme=seabirdThemeNew] .sb-saved-apply[disabled] {
   opacity: 0.45;
 }
+[data-theme=seabirdThemeNew] .sb-dialog-backdrop, [data-theme=seabirdThemeNew] .sb-pax-sheet-backdrop, [data-theme=seabirdThemeNew] .sb-bd-backdrop {
+  animation: sb-anim-fade-in 200ms ease-out backwards;
+}
+[data-theme=seabirdThemeNew] .sb-dialog {
+  animation: sb-anim-dialog-in 220ms ease-out backwards;
+}
+[data-theme=seabirdThemeNew] .sb-pax-sheet {
+  animation: sb-anim-sheet-up 250ms ease-out backwards;
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-theme=seabirdThemeNew] .sb-dialog-backdrop, [data-theme=seabirdThemeNew] .sb-pax-sheet-backdrop, [data-theme=seabirdThemeNew] .sb-bd-backdrop, [data-theme=seabirdThemeNew] .sb-dialog, [data-theme=seabirdThemeNew] .sb-pax-sheet {
+    animation: none;
+  }
+}
 
+@keyframes sb-anim-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes sb-anim-dialog-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes sb-anim-sheet-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
 @media (min-width: 600px) {
   [data-theme=seabirdThemeNew] .sb-saved-travellers__content {
     width: min(100%, 560px);

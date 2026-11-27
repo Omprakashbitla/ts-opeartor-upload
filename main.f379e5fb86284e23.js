@@ -15454,8 +15454,8 @@ class ApiFactory {
       return this.getUrl(this.prepareApi('api/contactus.json'));
     }
   }
-  getServiceDetails(resId, originId, destId, isRoundTrip, isBima, isBPDP, nearestOpts) {
-    let path = resId + ".json?origin_id=" + originId + "&destination_id=" + destId + "&is_round_trip=" + isRoundTrip;
+  getServiceDetails(resId, originId, destId, isRoundTrip, isBima, isBPDP, isBusImagesShow = false, nearestOpts) {
+    let path = resId + ".json?origin_id=" + originId + "&destination_id=" + destId + "&is_round_trip=" + isRoundTrip + "&is_bus_images_show=" + isBusImagesShow;
     if (isBPDP && this.commonStorage.getItem('selectedBoardingStage') && this.commonStorage.getItem('selectedDroppingStage')) {
       path = path + "&boarding_at=" + this.commonStorage.getItem('selectedBoardingStage').id + "&drop_off=" + this.commonStorage.getItem('selectedDroppingStage').id;
     }
@@ -16030,7 +16030,7 @@ class AppData {
     this.androidVersion = "26.2";
     this.IsVideoSplash = false; // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
     // this.BASE_URL = location.origin + '/';  // For making www folder or mobweb build change <base href="/"> to <base href="./"> otherwise keep it <base href="/"> in index.html page
-    this.BASE_URL = "https://sppl-mob.ticketsimply.co.in/";
+    this.BASE_URL = "https://jpsb-qa1.ticketsimply.co.in/";
   }
   baseUrl() {
     return this.BASE_URL;

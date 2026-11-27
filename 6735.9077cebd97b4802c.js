@@ -4587,7 +4587,7 @@ function BookingDetailsPage_ng_container_3_ng_container_1_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementStart"](14, "p", 327);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](15, BookingDetailsPage_ng_container_3_ng_container_1_ng_container_15_Template, 2, 0, "ng-container", 1)(16, BookingDetailsPage_ng_container_3_ng_container_1_ng_container_16_Template, 2, 0, "ng-container", 1);
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementContainerStart"](17);
-    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](18, "E-ticket sent to E-mail");
+    _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtext"](18, "E-ticket sent to WhatsApp & E-mail");
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementContainerEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵelementEnd"]()();
     _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplate"](19, BookingDetailsPage_ng_container_3_ng_container_1_div_19_Template, 3, 2, "div", 328)(20, BookingDetailsPage_ng_container_3_ng_container_1_ng_template_20_Template, 66, 32, "ng-template", null, 0, _angular_core__WEBPACK_IMPORTED_MODULE_5__["ɵɵtemplateRefExtractor"]);

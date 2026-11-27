@@ -2593,7 +2593,7 @@ function CancelConfirmationTicketPage_ng_container_5_Template(rf, ctx) {
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx_r2.sbSelectedCount > 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx_r2.sbSelectedCount > 0 && (ctx_r2.sbRefundOptions.length > 1 || ctx_r2.refundType == ""));
+    _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx_r2.sbSelectedCount > 0 && ctx_r2.sbRefundOptions.length > 0);
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵadvance"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵproperty"]("ngIf", ctx_r2.ticketDetails && ctx_r2.ticketDetails.ticket_status != "Cancelled");
   }
@@ -2819,7 +2819,7 @@ class CancelConfirmationTicketPage {
     if (this.ticketDetails.wallet_booking) {
       options.push({
         value: '3',
-        label: this.walletText
+        label: 'Wallet refund'
       });
     }
     if (!this.ticketDetails.wallet_booking && this.showCoupon) {
